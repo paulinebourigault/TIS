@@ -1,0 +1,25 @@
+{
+ "schema_version": 1,
+ "protocol": "configs/finqa_protocol_phi.json",
+ "master_seed": 20260919,
+ "replications": 300,
+ "alpha": 0.1,
+ "horizon": 3,
+ "budgets_per_group": [
+  400,
+  800
+ ],
+ "methods": [
+  "uniform",
+  "learned_occupancy",
+  "tis",
+  "tis_anchored",
+  "oracle_tail",
+  "complete_rollout"
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 8,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.25,
+ "workflow": "unitcheck"
+}

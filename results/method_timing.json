@@ -1,0 +1,95 @@
+{
+ "protocol": {
+  "version": 2,
+  "warmup": 2,
+  "reps": 10,
+  "alpha": 0.1,
+  "pipelines": "each method timed separately end to end per replication, including its own pilot sampling where the method uses one; learned occupancy uses the minimal forward-visitation solve without the CVaR adjoint or influence bundle",
+  "hardware": {
+   "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+   "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "python": "3.13.9",
+   "numpy": "2.4.4",
+   "blas_omp_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+   }
+  },
+  "note": "frozen-law replay computation only; query counts reported separately and never merged; not live model-call costs"
+ },
+ "cliffwalking_primary_b400": {
+  "uniform": {
+   "mean_s": 0.13446064249983464,
+   "sd_s": 0.0039322988311203
+  },
+  "learned_occupancy": {
+   "mean_s": 0.15090520559933793,
+   "sd_s": 0.010149396785125022
+  },
+  "tis": {
+   "mean_s": 0.4963301695006521,
+   "sd_s": 0.017438774619057507
+  },
+  "tis_anchored": {
+   "mean_s": 0.4860294090001844,
+   "sd_s": 0.04409417966799951
+  },
+  "complete_rollout": {
+   "mean_s": 0.03981421990029048,
+   "sd_s": 0.0038670576489762405
+  },
+  "scope": "single environment per replication"
+ },
+ "inventory_untied_v1_b1200": {
+  "uniform": {
+   "mean_s": 0.004742941199947381,
+   "sd_s": 0.0015318326728628652
+  },
+  "learned_occupancy": {
+   "mean_s": 0.006137882200346212,
+   "sd_s": 0.0014063105183368728
+  },
+  "tis": {
+   "mean_s": 0.009285704099966097,
+   "sd_s": 0.0011517974500123824
+  },
+  "tis_anchored": {
+   "mean_s": 0.009136290599781206,
+   "sd_s": 0.0007756466845824896
+  },
+  "complete_rollout": {
+   "mean_s": 0.00504027870047139,
+   "sd_s": 0.0007814732800432471
+  },
+  "scope": "single environment per replication"
+ },
+ "finqa_phi_ordinary_panel50_b200": {
+  "uniform": {
+   "mean_s": 0.8397962482955336,
+   "sd_s": 0.013966553463819672
+  },
+  "learned_occupancy": {
+   "mean_s": 1.03685868809589,
+   "sd_s": 0.01609359148878156
+  },
+  "tis": {
+   "mean_s": 2.512096528296752,
+   "sd_s": 0.13033133438167813
+  },
+  "tis_anchored": {
+   "mean_s": 2.5723346074984876,
+   "sd_s": 0.1062620453165928
+  },
+  "complete_rollout": {
+   "mean_s": 0.38497633149818283,
+   "sd_s": 0.009091623174440625
+  },
+  "scope": "panel total over all questions per replication",
+  "grid_atoms_min_max": [
+   11,
+   197
+  ],
+  "questions": 50
+ }
+}

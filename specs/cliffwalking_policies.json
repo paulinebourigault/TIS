@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "shape": [4, 12],
+  "state_numbering": "row-major: state = 12 * row + column",
+  "action_codes": {"up": 0, "right": 1, "down": 2, "left": 3},
+  "epsilon": 0.05,
+  "epsilon_convention": "preferred action has probability 1-epsilon+epsilon/4; each other action has epsilon/4",
+  "primary_preferred_actions": [
+    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+  ],
+  "safe_preferred_actions": [
+    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+  ],
+  "goal_override": {"state": 47, "action": 0, "probability": 1.0},
+  "notes": "Cliff states 37--46 are structurally unreachable as current states. The goal is an absorbing reward-1 padding kernel."
+}

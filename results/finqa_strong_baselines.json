@@ -1,0 +1,715 @@
+{
+ "definition": "ratio = mean panel MSE(method)/mean panel MSE(reference); z from paired per-replication squared-error differences over coupled replications; negative z favors the method",
+ "qwen|ordinary": {
+  "budgets": [
+   25,
+   50,
+   100,
+   200,
+   400,
+   800
+  ],
+  "extension_budgets": [
+   400,
+   800
+  ],
+  "cells": {
+   "25": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 18.96996080435292,
+     "paired_z": 4.372901466350542,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 36.32500853964753,
+     "paired_z": 4.456075636592845,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.838425214621129,
+     "paired_z": 4.756447909740905,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 3.520345261087312,
+     "paired_z": 6.177306726823744,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.0969124413899304,
+     "paired_z": -4.182756253957858,
+     "replications": 300
+    }
+   },
+   "50": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 21.98691711459856,
+     "paired_z": 5.4613495518093,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 29.389497319025903,
+     "paired_z": 5.511062781952977,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 2.1036568589342735,
+     "paired_z": 5.621797033418277,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.8119184373851724,
+     "paired_z": 6.082999749926015,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.09567766358374626,
+     "paired_z": -5.251055096443717,
+     "replications": 300
+    }
+   },
+   "100": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 18.160071283060013,
+     "paired_z": 7.786478024280439,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 25.567760721140267,
+     "paired_z": 7.920078583388497,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.4730112448146782,
+     "paired_z": 4.979492254876874,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.0738684589912353,
+     "paired_z": 6.102266231212361,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.0811126356199232,
+     "paired_z": -7.640774506929785,
+     "replications": 300
+    }
+   },
+   "200": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 19.287018658517166,
+     "paired_z": 8.585277446488204,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 25.099499848610904,
+     "paired_z": 8.679426851738688,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.7695081803908814,
+     "paired_z": 6.001444289409455,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.302780491489986,
+     "paired_z": 5.890266474759468,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.09174607085317797,
+     "paired_z": -8.246741893623652,
+     "replications": 300
+    }
+   },
+   "400": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 15.674282621004433,
+     "paired_z": 11.626496842902572,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 17.938890962731694,
+     "paired_z": 11.68801788691323,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.4123604100335787,
+     "paired_z": 3.3617781077826057,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.61641715976969,
+     "paired_z": 3.3953767279622107,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.09010686129526178,
+     "paired_z": -11.316623447949473,
+     "replications": 300
+    }
+   },
+   "800": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 14.987600764074989,
+     "paired_z": 9.058267656779005,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 19.095050446824764,
+     "paired_z": 9.253584409010514,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.659264095650313,
+     "paired_z": 5.180318421347153,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.113996236608673,
+     "paired_z": 5.386369833603868,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.11070912027677836,
+     "paired_z": -8.753074619576585,
+     "replications": 300
+    }
+   }
+  }
+ },
+ "phi|ordinary": {
+  "budgets": [
+   25,
+   50,
+   100,
+   200,
+   400,
+   800
+  ],
+  "extension_budgets": [
+   400,
+   800
+  ],
+  "cells": {
+   "25": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.1422051301987883,
+     "paired_z": 17.0457788856835,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 5.604238218516303,
+     "paired_z": 19.952081715430886,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.0984996385781034,
+     "paired_z": 3.6099881514633005,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.9592144377780596,
+     "paired_z": 14.598524031453499,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.3495951387835103,
+     "paired_z": -16.43785483316613,
+     "replications": 300
+    }
+   },
+   "50": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.383609067311986,
+     "paired_z": 20.925792180051193,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 4.897192172113161,
+     "paired_z": 22.784379300762815,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.0301206476410374,
+     "paired_z": 1.043154615878977,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.4909224652147677,
+     "paired_z": 8.894797996833958,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.30444434541588106,
+     "paired_z": -21.224863099501192,
+     "replications": 300
+    }
+   },
+   "100": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.907765787420781,
+     "paired_z": 16.636202587937508,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 4.625248003713507,
+     "paired_z": 17.389779018651293,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.9252580083906109,
+     "paired_z": -2.659139086589019,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.0951392660237227,
+     "paired_z": 1.900102419887879,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.23677417192428601,
+     "paired_z": -17.383455723751656,
+     "replications": 300
+    }
+   },
+   "200": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.7946449810236107,
+     "paired_z": 13.876848371172153,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 3.6235024199895096,
+     "paired_z": 13.495938839106955,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8753289136729174,
+     "paired_z": -4.954471820401863,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 0.8358506402685975,
+     "paired_z": -4.351482454492514,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.2306747846110221,
+     "paired_z": -14.648883387853935,
+     "replications": 300
+    }
+   },
+   "400": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 2.877080987680962,
+     "paired_z": 11.539952452843877,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 2.5612205419971716,
+     "paired_z": 10.74233023466252,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8641910934525437,
+     "paired_z": -4.8307285657869405,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 0.7693158413819019,
+     "paired_z": -5.201382893326114,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.30037079149068896,
+     "paired_z": -12.752510509127005,
+     "replications": 300
+    }
+   },
+   "800": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 2.0130307327194137,
+     "paired_z": 8.506185304784843,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 1.6685892186416706,
+     "paired_z": 6.718517662890232,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8199955117639587,
+     "paired_z": -6.845597564070028,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 0.6796894096174796,
+     "paired_z": -8.438416056858609,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.40734376203796074,
+     "paired_z": -10.296713622145106,
+     "replications": 300
+    }
+   }
+  }
+ },
+ "qwen|unitcheck": {
+  "budgets": [
+   25,
+   50,
+   100,
+   200,
+   400,
+   800
+  ],
+  "extension_budgets": [
+   400,
+   800
+  ],
+  "cells": {
+   "25": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 18.281974978904817,
+     "paired_z": 6.634882901078339,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 33.284893910133306,
+     "paired_z": 6.778856802107717,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.9697373796837365,
+     "paired_z": 8.144940833270411,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 3.5861825535396648,
+     "paired_z": 10.03901892212486,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.10774204548231657,
+     "paired_z": -6.282447950945355,
+     "replications": 300
+    }
+   },
+   "50": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 20.28954169196779,
+     "paired_z": 8.62424144231937,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 33.13461810724398,
+     "paired_z": 8.761333669954833,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.8954379374468202,
+     "paired_z": 7.573595017305656,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 3.0954179821688936,
+     "paired_z": 9.033468537619434,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.09341945551176174,
+     "paired_z": -8.308454740865809,
+     "replications": 300
+    }
+   },
+   "100": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 18.564402403390865,
+     "paired_z": 10.925287498091862,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 26.453737169442437,
+     "paired_z": 11.10540170521229,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.6020672316865534,
+     "paired_z": 8.152042618712617,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.282899527488767,
+     "paired_z": 9.540981534102535,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.08629780786231661,
+     "paired_z": -10.59710126973193,
+     "replications": 300
+    }
+   },
+   "200": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 16.37576109603364,
+     "paired_z": 12.540165320233742,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 22.981879045930423,
+     "paired_z": 12.74973445982007,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.6079596524290147,
+     "paired_z": 7.454218442998548,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.2566239227690326,
+     "paired_z": 8.611937625952697,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.09819144545400564,
+     "paired_z": -12.010834182763315,
+     "replications": 300
+    }
+   },
+   "400": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 17.36705732438131,
+     "paired_z": 13.323870916038254,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 20.160403704423096,
+     "paired_z": 13.419834084602957,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.4989448923768725,
+     "paired_z": 5.205515680759727,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.7400376814888716,
+     "paired_z": 5.3576011920905495,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.08630966457815106,
+     "paired_z": -13.080767919706087,
+     "replications": 300
+    }
+   },
+   "800": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 15.2307274458841,
+     "paired_z": 12.581162094827981,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 18.398640321795433,
+     "paired_z": 12.824096815829524,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.5639780651183408,
+     "paired_z": 6.240683800698664,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.8892774487318391,
+     "paired_z": 6.1637755488307215,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.10268571023119352,
+     "paired_z": -12.235154925993454,
+     "replications": 300
+    }
+   }
+  }
+ },
+ "phi|unitcheck": {
+  "budgets": [
+   25,
+   50,
+   100,
+   200,
+   400,
+   800
+  ],
+  "extension_budgets": [
+   400,
+   800
+  ],
+  "cells": {
+   "25": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 2.65168318678677,
+     "paired_z": 19.473889970098508,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 5.7676718451745534,
+     "paired_z": 25.544038712447144,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 1.0234640119999747,
+     "paired_z": 0.930247362297867,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 2.2261349304381755,
+     "paired_z": 17.565708058126464,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.38596768162194284,
+     "paired_z": -20.201739516635243,
+     "replications": 300
+    }
+   },
+   "50": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.247520314641711,
+     "paired_z": 17.34633856058302,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 5.501721057637189,
+     "paired_z": 20.41097475364016,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.9712561613058416,
+     "paired_z": -1.1527833176943991,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.6454340411434045,
+     "paired_z": 11.358036829300827,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.29907623885425866,
+     "paired_z": -17.96807713714397,
+     "replications": 300
+    }
+   },
+   "100": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 3.512699486732587,
+     "paired_z": 10.738070358032475,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 5.422033634405644,
+     "paired_z": 12.222885997177702,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.9741902570602066,
+     "paired_z": -0.8792956558982054,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.5037131300417539,
+     "paired_z": 9.971593871625329,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.2773337886544831,
+     "paired_z": -10.835250182941758,
+     "replications": 300
+    }
+   },
+   "200": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 2.7575369421734597,
+     "paired_z": 12.869000298449327,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 3.347739164523551,
+     "paired_z": 14.397010224556551,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8844638545429082,
+     "paired_z": -4.657491096501375,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 1.0737677672325086,
+     "paired_z": 1.766914831434344,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.32074415432700737,
+     "paired_z": -14.081862840840442,
+     "replications": 300
+    }
+   },
+   "400": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 2.380177290746581,
+     "paired_z": 9.841374239373884,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 2.5896022502005365,
+     "paired_z": 10.46367234507596,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8079197571012529,
+     "paired_z": -8.35316963463817,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 0.879006294659095,
+     "paired_z": -3.138890744587561,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.33943679752016953,
+     "paired_z": -11.631559796355816,
+     "replications": 300
+    }
+   },
+   "800": {
+    "tis_vs_learned_occupancy": {
+     "ratio": 1.7323989975885434,
+     "paired_z": 7.955922835848553,
+     "replications": 300
+    },
+    "tis_vs_complete_rollout": {
+     "ratio": 1.7637163727027498,
+     "paired_z": 7.9138181604780184,
+     "replications": 300
+    },
+    "tis_anchored_vs_learned_occupancy": {
+     "ratio": 0.8273780287992657,
+     "paired_z": -7.714782730810134,
+     "replications": 300
+    },
+    "tis_anchored_vs_complete_rollout": {
+     "ratio": 0.8423349227510788,
+     "paired_z": -4.317535519540238,
+     "replications": 300
+    },
+    "tis_anchored_vs_tis": {
+     "ratio": 0.4775909186919153,
+     "paired_z": -10.054686740443373,
+     "replications": 300
+    }
+   }
+  }
+ }
+}

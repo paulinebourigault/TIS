@@ -1,0 +1,38 @@
+{
+ "schema_version": 1,
+ "protocol": "configs/llm_study_protocol.json",
+ "master_seed": 20260725,
+ "replications": 300,
+ "horizons": [
+  2,
+  4,
+  6
+ ],
+ "alphas": [
+  0.1,
+  0.2
+ ],
+ "budgets_per_shared_group": [
+  50,
+  100,
+  200,
+  400
+ ],
+ "methods": [
+  "uniform",
+  "occupancy",
+  "mean_influence",
+  "answer_entropy",
+  "oracle_tail",
+  "tis",
+  "mc_ucb_frozen",
+  "adaptive_neyman",
+  "untied_tis"
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 8,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.25,
+ "output_directory": "results/llm_study_closed_scale2",
+ "closed_grid": true
+}

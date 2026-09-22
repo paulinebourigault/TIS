@@ -1,0 +1,62 @@
+{
+  "cell_cache_signature": "994e4c3a6f6e1ca7",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "7abc11e8a155037ec9ebe6be7d1466794f26a06119dd91f7d0b55eecc2715b1c",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 169690206,
+      "sha256": "ee89b5abf3eb13f359c9e394ea2a4f40aefdc7a0dd45ad2ed26bc2cadc1cc061"
+    },
+    "config.json": {
+      "bytes": 662,
+      "sha256": "5ef78bf4383220b51d212387cb9a5170236743fdfe70b3b3474dfbd52870979b"
+    },
+    "diagnostics.json": {
+      "bytes": 113893,
+      "sha256": "3579a79e85bc1de12a873c76bed4c3bb6a455a181dc176270802bbbf70ccbd32"
+    },
+    "paired_panel.csv": {
+      "bytes": 15654,
+      "sha256": "f72dba19064380b36205c6733125748cb86a731da042e9e0e673a8d43f445318"
+    },
+    "panel_replications.csv": {
+      "bytes": 3078836,
+      "sha256": "fad05143d64cbd2a3fa2e51b27cd467c5d9963d62b4a3f436a04470905c2aad7"
+    },
+    "panel_summary.csv": {
+      "bytes": 19047,
+      "sha256": "bb361169df3c67c3af5da61781a7cf643d115d35b2f7847190f5ca0a1a93417c"
+    },
+    "question_summary.csv": {
+      "bytes": 1208062,
+      "sha256": "5e642ac4c46d28a264f61a087a4c4fc25b35d86afe107e4cd6ab045b0e10f83a"
+    },
+    "raw.csv": {
+      "bytes": 700302371,
+      "sha256": "bc3004975686f3a7d161d3d14442cfc75b30f0d05367419f94ae997d4645dd38"
+    }
+  },
+  "kernel_artifact_sha256": "07e5799ce8bfb7a56536eb28ac5e76a47d52adebdb44075c118a3c9765acecb2",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "kernel_model_key": "scale_model_1",
+  "methods": [
+    "uniform",
+    "occupancy",
+    "mean_influence",
+    "answer_entropy",
+    "oracle_tail",
+    "tis",
+    "mc_ucb_frozen",
+    "adaptive_neyman",
+    "untied_tis"
+  ],
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "paper_eligible_closed_grid",
+  "runtime_seconds": 24374.895738363266,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 46
+}

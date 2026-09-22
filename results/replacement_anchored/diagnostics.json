@@ -1,0 +1,42 @@
+[
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 8.325071415813573e-17,
+    "environment": "controlled_untied_v1",
+    "group_mode": "untied_layer_state",
+    "groups": 21,
+    "margin": 0.010685396723788237,
+    "methods": [
+      "uniform",
+      "tis",
+      "learned_occupancy",
+      "tail_anchored",
+      "oracle_tail"
+    ],
+    "replications": 400,
+    "seed": 20260719,
+    "truth": 0.9086716125743334,
+    "uniform_to_oracle": 1.723323873348352,
+    "untied_factorization_max_abs_error": 6.938893903907228e-18
+  },
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 8.646819939680008e-17,
+    "environment": "inventory_untied_v1",
+    "group_mode": "untied_layer_state",
+    "groups": 41,
+    "margin": 0.0436201954684941,
+    "methods": [
+      "uniform",
+      "tis",
+      "learned_occupancy",
+      "tail_anchored",
+      "oracle_tail"
+    ],
+    "replications": 300,
+    "seed": 20260720,
+    "truth": 1.1512371171695401,
+    "uniform_to_oracle": 1.8235977736549083,
+    "untied_factorization_max_abs_error": 1.3877787807814457e-17
+  }
+]

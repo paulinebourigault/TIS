@@ -1,0 +1,74 @@
+{
+ "t=0": {
+  "cvar": 0.3,
+  "margin": 0.09,
+  "uniform_over_oracle": 1.0000000000000002,
+  "influence_shares": [
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1
+  ],
+  "means_max_dev_from_half": 0.0,
+  "variances_max_dev": 0.0,
+  "root_law_max_dev_from_t0": 0.0
+ },
+ "t=0.5": {
+  "cvar": 0.3,
+  "margin": 0.09000000000000001,
+  "uniform_over_oracle": 1.299712904958486,
+  "influence_shares": [
+   0.26423812421683274,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303,
+   0.08175131953146303
+  ],
+  "means_max_dev_from_half": 0.0,
+  "variances_max_dev": 3.469446951953614e-18,
+  "root_law_max_dev_from_t0": 5.551115123125783e-17
+ },
+ "t=1": {
+  "cvar": 0.3,
+  "margin": 0.09,
+  "uniform_over_oracle": 10.0,
+  "influence_shares": [
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "means_max_dev_from_half": 0.0,
+  "variances_max_dev": 6.938893903907228e-18,
+  "root_law_max_dev_from_t0": 5.551115123125783e-17
+ },
+ "checks": {
+  "t1_cvar_.3": true,
+  "t1_margin_.09": true,
+  "t1_influence_only_kernel0": true,
+  "ratio_t0_1": true,
+  "ratio_t05_1.300": true,
+  "ratio_t1_10": true,
+  "means_invariant": true,
+  "variances_invariant": true,
+  "root_law_invariant": true
+ },
+ "all_passed": true
+}

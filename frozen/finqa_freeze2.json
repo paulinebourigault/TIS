@@ -1,0 +1,37 @@
+{
+ "schema_version": 1,
+ "frozen_at": "2026-09-12T23:55:00Z",
+ "phase": "held-out",
+ "heldout_size": 50,
+ "generators": [
+  "qwen",
+  "phi"
+ ],
+ "workflows": [
+  "ordinary",
+  "unitcheck"
+ ],
+ "simulation": {
+  "replications": 300,
+  "master_seed": 20260919,
+  "budgets_per_group": [
+   25,
+   50,
+   100,
+   200
+  ]
+ },
+ "protocol_sha256": "f3bae3cf0e4874bff11cc498f37f8c2c38bad44de21bd3b5c35f0a0edffd5303",
+ "protocol_phi_sha256": "fdbe38cc3bc4ad0ad77bed00df2752de4a761b44a98ab05b6900c5a40314fea9",
+ "dev_panel_manifest_sha256": "35fe9b5d3e5a8aecd5c7d19fae5776d89e4e818e260d041688a89d808bc65ceb",
+ "dev_gate": {
+  "validity": "142/160 candidates parseable",
+  "informativeness": "screen enforced; all 20 admitted banks spread >= 0.28",
+  "margins": "Qwen 20/20 positive (min .0999); Phi 20/20 positive (min .0008)",
+  "headroom": "Qwen median uniform-to-oracle ~70x (realized: oracle .006-.013x uniform MSE at b100-200); Phi median 10-13x",
+  "workflow_separation": "Qwen: terminal laws coincide (max truth diff 5e-8) - evaluation resolves EQUIVALENCE (reachable review dynamics unchanged by template; differences confined to confidence, and a confidence-weighted estimand would separate only 1/20). Phi: truths differ on 13/20 questions (max .156; panel 1.7274 vs 1.7406) - genuine workflow difference.",
+  "replication_noise": "dev paired z (20q/100reps): anchored-vs-uniform ~2.0, anchored-vs-occupancy 2.9-3.2; projected at 50q/300reps: ~5.5 and ~8 - resolved at z>=3 without a 100-question panel",
+  "known_degeneracy": "at budgets 25-50 the near-deterministic kernels put uniform ahead of every concentration method (exploration floors dominate); reported as the budget-calibration boundary, budgets kept"
+ },
+ "note": "Recorded before any held-out artifact was generated. The held-out chain (sbatch_tis_finqa2.bash, queued as job 26692) reads heldout_size and generators from this record."
+}

@@ -1,0 +1,57 @@
+{
+  "cell_cache_signature": "1eb304bc1e865437",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "4c79dfea8d57c1568c66aebdd7c031c396af7867aac7f17b1bd6b02bcccdbdb9",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 1743464,
+      "sha256": "6a7e922827d472823c83597a627ec186fbb0b2ca06861632a94a1034ec86f26f"
+    },
+    "config.json": {
+      "bytes": 510,
+      "sha256": "78035e2b03e20a8a0180deb8410739b6d3ef22765a67a3454ba1222b4fb28ea0"
+    },
+    "diagnostics.json": {
+      "bytes": 19010,
+      "sha256": "af4891a524b16724f755463a129d4149a2dc5f526469e05f58dec5da1ed2142f"
+    },
+    "paired_panel.csv": {
+      "bytes": 245,
+      "sha256": "e7445b512f740c6c3c191d763920d4ec953036d24f00e2cfa42b9a67dd7a42d3"
+    },
+    "panel_replications.csv": {
+      "bytes": 42250,
+      "sha256": "14f8d4f85538c766e0c856f254dc817853b378af5661ed300d3fd8d5c5e66e82"
+    },
+    "panel_summary.csv": {
+      "bytes": 352,
+      "sha256": "58803046158b87614e041470e9f1d2942cb431be7c9b76f09e39a25a8c89fa89"
+    },
+    "question_summary.csv": {
+      "bytes": 16547,
+      "sha256": "35f704a785eb3c08c44a8d8c7003111059963e7b3c2d4c8cd3455a9837881667"
+    },
+    "raw.csv": {
+      "bytes": 9907309,
+      "sha256": "5fb348df854d5e7728c8fecba5d21e552aaed4dde7f1836fc2dba48477585e7d"
+    }
+  },
+  "kernel_artifact_sha256": "fa82f239268dff317af1841df8ed7bbc55c09f20384c6947d521b8b04dbff232",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "ibm-granite/granite-4.2-8b",
+  "kernel_model_key": "robustness_model_2",
+  "methods": [
+    "uniform",
+    "tis",
+    "learned_occupancy"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 3382.738270998001,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 12
+}

@@ -1,0 +1,1199 @@
+{
+ "declared": "tolerances are uniform's achieved RMSE at its largest (primary) and second-largest (sensitivity) measured budgets; chosen after the runs existed - retrospective benchmark analysis",
+ "tasks": {
+  "cliffwalking": {
+   "curves": {
+    "complete_rollout": {
+     "14900": {
+      "rmse": 0.17950306376815647,
+      "rmse_se": 0.006739457323430051
+     },
+     "29800": {
+      "rmse": 0.12750459770262523,
+      "rmse_se": 0.004021138233287275
+     },
+     "59600": {
+      "rmse": 0.08918489294523615,
+      "rmse_se": 0.0030112790711781605
+     },
+     "7450": {
+      "rmse": 0.25667601428184716,
+      "rmse_se": 0.008358665296063906
+     }
+    },
+    "learned_mean": {
+     "14900": {
+      "rmse": 0.10661531618054888,
+      "rmse_se": 0.00367208172946896
+     },
+     "29800": {
+      "rmse": 0.07313666060783519,
+      "rmse_se": 0.0025487590498417534
+     },
+     "59600": {
+      "rmse": 0.04803239746788759,
+      "rmse_se": 0.0015197845633218568
+     },
+     "7450": {
+      "rmse": 0.1655682935579812,
+      "rmse_se": 0.005768783276886928
+     }
+    },
+    "learned_occupancy": {
+     "14900": {
+      "rmse": 0.12619036937349795,
+      "rmse_se": 0.0047777015441539785
+     },
+     "29800": {
+      "rmse": 0.08031415775682256,
+      "rmse_se": 0.00297445252799205
+     },
+     "59600": {
+      "rmse": 0.056467498700667515,
+      "rmse_se": 0.0017436974115226825
+     },
+     "7450": {
+      "rmse": 0.18918681866215928,
+      "rmse_se": 0.006575861227622053
+     }
+    },
+    "mc_ucb_frozen": {
+     "14900": {
+      "rmse": 0.9169132667141126,
+      "rmse_se": 0.026286299681499946
+     },
+     "29800": {
+      "rmse": 0.5932578157096442,
+      "rmse_se": 0.018699216619136202
+     },
+     "59600": {
+      "rmse": 0.41390310042479267,
+      "rmse_se": 0.013456815826398879
+     },
+     "7450": {
+      "rmse": 1.3650737559811952,
+      "rmse_se": 0.04859962522868979
+     }
+    },
+    "mean_influence": {
+     "14900": {
+      "rmse": 0.09864351947045744,
+      "rmse_se": 0.003546930675206595
+     },
+     "29800": {
+      "rmse": 0.0661127360430555,
+      "rmse_se": 0.00213062359281503
+     },
+     "59600": {
+      "rmse": 0.0465136403377499,
+      "rmse_se": 0.001462298621091829
+     },
+     "7450": {
+      "rmse": 0.1385002188957636,
+      "rmse_se": 0.0045985595903478066
+     }
+    },
+    "occupancy": {
+     "14900": {
+      "rmse": 0.11168878197922288,
+      "rmse_se": 0.003974293677630835
+     },
+     "29800": {
+      "rmse": 0.07567881789304567,
+      "rmse_se": 0.002500215909199848
+     },
+     "59600": {
+      "rmse": 0.05235412313891613,
+      "rmse_se": 0.0015889056061452365
+     },
+     "7450": {
+      "rmse": 0.16207783587340238,
+      "rmse_se": 0.005336146379150182
+     }
+    },
+    "oracle_no_cov": {
+     "14900": {
+      "rmse": 0.08638312126339541,
+      "rmse_se": 0.0027907497894747732
+     },
+     "29800": {
+      "rmse": 0.05844567283637252,
+      "rmse_se": 0.0017505342463958991
+     },
+     "59600": {
+      "rmse": 0.04068402700389989,
+      "rmse_se": 0.001323668135225312
+     },
+     "7450": {
+      "rmse": 0.12728925382328812,
+      "rmse_se": 0.004406427128202671
+     }
+    },
+    "oracle_tail": {
+     "14900": {
+      "rmse": 0.0873567930468117,
+      "rmse_se": 0.0027319451957917556
+     },
+     "29800": {
+      "rmse": 0.05860331867555804,
+      "rmse_se": 0.0018076769937176995
+     },
+     "59600": {
+      "rmse": 0.04090891617222312,
+      "rmse_se": 0.001290058015046153
+     },
+     "7450": {
+      "rmse": 0.12762562529650756,
+      "rmse_se": 0.004395568322028004
+     }
+    },
+    "tail_anchored": {
+     "14900": {
+      "rmse": 0.1074772001361527,
+      "rmse_se": 0.003784282753941403
+     },
+     "29800": {
+      "rmse": 0.07322256069420832,
+      "rmse_se": 0.0024346610148024634
+     },
+     "59600": {
+      "rmse": 0.04671649617412358,
+      "rmse_se": 0.0013966535175695086
+     },
+     "7450": {
+      "rmse": 0.1686045557526017,
+      "rmse_se": 0.0064209940686380295
+     }
+    },
+    "tail_no_cov": {
+     "14900": {
+      "rmse": 0.1040250064745213,
+      "rmse_se": 0.0037240104952298127
+     },
+     "29800": {
+      "rmse": 0.06513057261771779,
+      "rmse_se": 0.002088689190301933
+     },
+     "59600": {
+      "rmse": 0.04330475255506306,
+      "rmse_se": 0.0014466455311308464
+     },
+     "7450": {
+      "rmse": 0.1731444786087148,
+      "rmse_se": 0.011189689051856968
+     }
+    },
+    "tis": {
+     "14900": {
+      "rmse": 0.10370619828129432,
+      "rmse_se": 0.0036951122825997413
+     },
+     "29800": {
+      "rmse": 0.06561513455682054,
+      "rmse_se": 0.002147688617831711
+     },
+     "59600": {
+      "rmse": 0.043408100099767,
+      "rmse_se": 0.0013618903706431843
+     },
+     "7450": {
+      "rmse": 0.1719312825311194,
+      "rmse_se": 0.01074176444233923
+     }
+    },
+    "uniform": {
+     "14900": {
+      "rmse": 0.9046656145069608,
+      "rmse_se": 0.02655372480363254
+     },
+     "29800": {
+      "rmse": 0.6030069245641526,
+      "rmse_se": 0.01895693370693976
+     },
+     "59600": {
+      "rmse": 0.4657006638589811,
+      "rmse_se": 0.014937616518171682
+     },
+     "7450": {
+      "rmse": 1.2973533824230332,
+      "rmse_se": 0.03984828499785531
+     }
+    }
+   },
+   "tolerance_primary": {
+    "crossings": {
+     "complete_rollout": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.25667601428184716,
+      "se_at_pass": 0.008358665296063906
+     },
+     "learned_mean": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1655682935579812,
+      "se_at_pass": 0.005768783276886928
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.18918681866215928,
+      "se_at_pass": 0.006575861227622053
+     },
+     "tail_anchored": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1686045557526017,
+      "se_at_pass": 0.0064209940686380295
+     },
+     "tis": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1719312825311194,
+      "se_at_pass": 0.01074176444233923
+     },
+     "uniform": {
+      "first_passing_budget": 59600.0,
+      "last_failing_budget": 29800.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.4657006638589811,
+      "se_at_pass": 0.014937616518171682
+     }
+    },
+    "definition_budget_total_queries": 59600.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.12762562529650756,
+      "se_at_pass": 0.004395568322028004
+     }
+    },
+    "value_rmse": 0.4657006638589811
+   },
+   "tolerance_sensitivity": {
+    "crossings": {
+     "complete_rollout": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.25667601428184716,
+      "se_at_pass": 0.008358665296063906
+     },
+     "learned_mean": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1655682935579812,
+      "se_at_pass": 0.005768783276886928
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.18918681866215928,
+      "se_at_pass": 0.006575861227622053
+     },
+     "tail_anchored": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1686045557526017,
+      "se_at_pass": 0.0064209940686380295
+     },
+     "tis": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.1719312825311194,
+      "se_at_pass": 0.01074176444233923
+     },
+     "uniform": {
+      "first_passing_budget": 29800.0,
+      "last_failing_budget": 14900.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.6030069245641526,
+      "se_at_pass": 0.01895693370693976
+     }
+    },
+    "definition_budget_total_queries": 29800.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 7450.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.12762562529650756,
+      "se_at_pass": 0.004395568322028004
+     }
+    },
+    "value_rmse": 0.6030069245641526
+   }
+  },
+  "controlled_untied": {
+   "curves": {
+    "complete_rollout": {
+     "100000": {
+      "rmse": 0.014619755288213894,
+      "rmse_se": 0.000515065780691533
+     },
+     "12500": {
+      "rmse": 0.0404208117269225,
+      "rmse_se": 0.0013487699541794974
+     },
+     "25000": {
+      "rmse": 0.03014691821411564,
+      "rmse_se": 0.001079764061545963
+     },
+     "50000": {
+      "rmse": 0.019290942221279476,
+      "rmse_se": 0.0006293313507005356
+     }
+    },
+    "learned_mean": {
+     "100000": {
+      "rmse": 0.009679327507723488,
+      "rmse_se": 0.00034037706134504314
+     },
+     "12500": {
+      "rmse": 0.028460175883697078,
+      "rmse_se": 0.0010070919401650523
+     },
+     "25000": {
+      "rmse": 0.020573755095287794,
+      "rmse_se": 0.0006530372328392597
+     },
+     "50000": {
+      "rmse": 0.013424963699636392,
+      "rmse_se": 0.00044314593982020586
+     }
+    },
+    "learned_occupancy": {
+     "100000": {
+      "rmse": 0.009721464066764598,
+      "rmse_se": 0.0003322634763792724
+     },
+     "12500": {
+      "rmse": 0.029258976181345986,
+      "rmse_se": 0.0010028731399757318
+     },
+     "25000": {
+      "rmse": 0.02087006682194537,
+      "rmse_se": 0.0006455082655450186
+     },
+     "50000": {
+      "rmse": 0.013140384921620566,
+      "rmse_se": 0.00043602783029764663
+     }
+    },
+    "local_only": {
+     "100000": {
+      "rmse": 0.014826952512806189,
+      "rmse_se": 0.0004898787391700396
+     },
+     "12500": {
+      "rmse": 0.03973682961633619,
+      "rmse_se": 0.001198117832199313
+     },
+     "25000": {
+      "rmse": 0.027863065032266876,
+      "rmse_se": 0.0009620353657913312
+     },
+     "50000": {
+      "rmse": 0.018322433477647712,
+      "rmse_se": 0.0006837264796847336
+     }
+    },
+    "oracle_tail": {
+     "100000": {
+      "rmse": 0.009111647039249758,
+      "rmse_se": 0.00031725396638037213
+     },
+     "12500": {
+      "rmse": 0.02524448894363528,
+      "rmse_se": 0.0008719015776969039
+     },
+     "25000": {
+      "rmse": 0.018498986713004394,
+      "rmse_se": 0.0005884443622814346
+     },
+     "50000": {
+      "rmse": 0.011885066158562428,
+      "rmse_se": 0.0004072468734906247
+     }
+    },
+    "reachability_only": {
+     "100000": {
+      "rmse": 0.009673866118141418,
+      "rmse_se": 0.0003180679570799755
+     },
+     "12500": {
+      "rmse": 0.026885976025566537,
+      "rmse_se": 0.0008487244614326717
+     },
+     "25000": {
+      "rmse": 0.019575631243926504,
+      "rmse_se": 0.0006184099595195832
+     },
+     "50000": {
+      "rmse": 0.013047570128585076,
+      "rmse_se": 0.00040987387373450965
+     }
+    },
+    "tail_anchored": {
+     "100000": {
+      "rmse": 0.009545226209704613,
+      "rmse_se": 0.0003382491545303697
+     },
+     "12500": {
+      "rmse": 0.028212026921261492,
+      "rmse_se": 0.00099502591582818
+     },
+     "25000": {
+      "rmse": 0.020575711504333547,
+      "rmse_se": 0.0006425100650498503
+     },
+     "50000": {
+      "rmse": 0.012930832423745146,
+      "rmse_se": 0.00044445253291140995
+     }
+    },
+    "tis": {
+     "100000": {
+      "rmse": 0.009597631522977572,
+      "rmse_se": 0.00034315338520091724
+     },
+     "12500": {
+      "rmse": 0.02839389840070211,
+      "rmse_se": 0.000972015279259945
+     },
+     "25000": {
+      "rmse": 0.02052203077822855,
+      "rmse_se": 0.0006550378413427144
+     },
+     "50000": {
+      "rmse": 0.013124548638068941,
+      "rmse_se": 0.0004550833475628991
+     }
+    },
+    "uniform": {
+     "100000": {
+      "rmse": 0.012241723290972143,
+      "rmse_se": 0.0004497833955573567
+     },
+     "12500": {
+      "rmse": 0.033229877785127,
+      "rmse_se": 0.0011252950490650033
+     },
+     "25000": {
+      "rmse": 0.023652782483896666,
+      "rmse_se": 0.0008255602480433081
+     },
+     "50000": {
+      "rmse": 0.016025465433858303,
+      "rmse_se": 0.0005215216726784659
+     }
+    }
+   },
+   "tolerance_primary": {
+    "crossings": {
+     "complete_rollout": {
+      "largest_budget": 100000.0,
+      "nonmonotone": false,
+      "result": "not reached by largest budget",
+      "rmse_at_largest": 0.014619755288213894,
+      "se": 0.000515065780691533
+     },
+     "learned_mean": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.009679327507723488,
+      "se_at_pass": 0.00034037706134504314
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.009721464066764598,
+      "se_at_pass": 0.0003322634763792724
+     },
+     "tail_anchored": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.009545226209704613,
+      "se_at_pass": 0.0003382491545303697
+     },
+     "tis": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.009597631522977572,
+      "se_at_pass": 0.00034315338520091724
+     },
+     "uniform": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.012241723290972143,
+      "se_at_pass": 0.0004497833955573567
+     }
+    },
+    "definition_budget_total_queries": 100000.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.011885066158562428,
+      "se_at_pass": 0.0004072468734906247
+     }
+    },
+    "value_rmse": 0.012241723290972143
+   },
+   "tolerance_sensitivity": {
+    "crossings": {
+     "complete_rollout": {
+      "first_passing_budget": 100000.0,
+      "last_failing_budget": 50000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.014619755288213894,
+      "se_at_pass": 0.000515065780691533
+     },
+     "learned_mean": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.013424963699636392,
+      "se_at_pass": 0.00044314593982020586
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.013140384921620566,
+      "se_at_pass": 0.00043602783029764663
+     },
+     "tail_anchored": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.012930832423745146,
+      "se_at_pass": 0.00044445253291140995
+     },
+     "tis": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.013124548638068941,
+      "se_at_pass": 0.0004550833475628991
+     },
+     "uniform": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.016025465433858303,
+      "se_at_pass": 0.0005215216726784659
+     }
+    },
+    "definition_budget_total_queries": 50000.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 50000.0,
+      "last_failing_budget": 25000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.011885066158562428,
+      "se_at_pass": 0.0004072468734906247
+     }
+    },
+    "value_rmse": 0.016025465433858303
+   }
+  },
+  "finqa_phi_ordinary": {
+   "curves": {
+    "complete_rollout": {
+     "182500": {
+      "rmse": 0.007601248520460152,
+      "rmse_se": 0.00010834259121319103
+     },
+     "365000": {
+      "rmse": 0.00545660735902386,
+      "rmse_se": 8.713594871984956e-05
+     },
+     "730000": {
+      "rmse": 0.003906324798047047,
+      "rmse_se": 5.7637780956949185e-05
+     },
+     "91250": {
+      "rmse": 0.010364492762881466,
+      "rmse_se": 0.00015386809024355063
+     }
+    },
+    "learned_occupancy": {
+     "182500": {
+      "rmse": 0.00914467794382154,
+      "rmse_se": 0.00014503526875597603
+     },
+     "365000": {
+      "rmse": 0.005936438232581825,
+      "rmse_se": 9.943262740313015e-05
+     },
+     "730000": {
+      "rmse": 0.0038172187925209367,
+      "rmse_se": 5.450063372640032e-05
+     },
+     "91250": {
+      "rmse": 0.01384168876319355,
+      "rmse_se": 0.00020969767889941402
+     }
+    },
+    "oracle_tail": {
+     "182500": {
+      "rmse": 0.005132979509085192,
+      "rmse_se": 7.94294052705447e-05
+     },
+     "365000": {
+      "rmse": 0.003659278649844925,
+      "rmse_se": 5.219049653528889e-05
+     },
+     "730000": {
+      "rmse": 0.00252624263536801,
+      "rmse_se": 3.767092682202747e-05
+     },
+     "91250": {
+      "rmse": 0.0075759044485389756,
+      "rmse_se": 0.00013353112933700394
+     }
+    },
+    "tis": {
+     "182500": {
+      "rmse": 0.016821259287381048,
+      "rmse_se": 0.0002901734634302523
+     },
+     "365000": {
+      "rmse": 0.011735192461298501,
+      "rmse_se": 0.0002604263444682046
+     },
+     "730000": {
+      "rmse": 0.007435884382055176,
+      "rmse_se": 0.00019477047715349722
+     },
+     "91250": {
+      "rmse": 0.024536145952813792,
+      "rmse_se": 0.0004939765357873524
+     }
+    },
+    "tis_anchored": {
+     "182500": {
+      "rmse": 0.009281378017963452,
+      "rmse_se": 0.00014863273847704722
+     },
+     "365000": {
+      "rmse": 0.005710279679960889,
+      "rmse_se": 9.75903202337243e-05
+     },
+     "730000": {
+      "rmse": 0.0035713522718650186,
+      "rmse_se": 4.765875366592092e-05
+     },
+     "91250": {
+      "rmse": 0.01450738173591069,
+      "rmse_se": 0.00021459974143542445
+     }
+    },
+    "uniform": {
+     "182500": {
+      "rmse": 0.014143082414165379,
+      "rmse_se": 0.0001935353632963313
+     },
+     "365000": {
+      "rmse": 0.010749325747370784,
+      "rmse_se": 0.00014140627980966373
+     },
+     "730000": {
+      "rmse": 0.007689569707158806,
+      "rmse_se": 0.00010076468036704937
+     },
+     "91250": {
+      "rmse": 0.019742630952690438,
+      "rmse_se": 0.00026752236016903285
+     }
+    }
+   },
+   "tolerance_primary": {
+    "crossings": {
+     "complete_rollout": {
+      "first_passing_budget": 182500.0,
+      "last_failing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.007601248520460152,
+      "se_at_pass": 0.00010834259121319103
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 365000.0,
+      "last_failing_budget": 182500.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.005936438232581825,
+      "se_at_pass": 9.943262740313015e-05
+     },
+     "tis": {
+      "first_passing_budget": 730000.0,
+      "last_failing_budget": 365000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.007435884382055176,
+      "se_at_pass": 0.00019477047715349722
+     },
+     "tis_anchored": {
+      "first_passing_budget": 365000.0,
+      "last_failing_budget": 182500.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.005710279679960889,
+      "se_at_pass": 9.75903202337243e-05
+     },
+     "uniform": {
+      "first_passing_budget": 730000.0,
+      "last_failing_budget": 365000.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.007689569707158806,
+      "se_at_pass": 0.00010076468036704937
+     }
+    },
+    "definition_budget_total_queries": 730000.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.0075759044485389756,
+      "se_at_pass": 0.00013353112933700394
+     }
+    },
+    "value_rmse": 0.007689569707158806
+   },
+   "tolerance_sensitivity": {
+    "crossings": {
+     "complete_rollout": {
+      "first_passing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.010364492762881466,
+      "se_at_pass": 0.00015386809024355063
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 182500.0,
+      "last_failing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.00914467794382154,
+      "se_at_pass": 0.00014503526875597603
+     },
+     "tis": {
+      "first_passing_budget": 730000.0,
+      "last_failing_budget": 365000.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.007435884382055176,
+      "se_at_pass": 0.00019477047715349722
+     },
+     "tis_anchored": {
+      "first_passing_budget": 182500.0,
+      "last_failing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.009281378017963452,
+      "se_at_pass": 0.00014863273847704722
+     },
+     "uniform": {
+      "first_passing_budget": 365000.0,
+      "last_failing_budget": 182500.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.010749325747370784,
+      "se_at_pass": 0.00014140627980966373
+     }
+    },
+    "definition_budget_total_queries": 365000.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 91250.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "below at smallest budget",
+      "rmse_at_pass": 0.0075759044485389756,
+      "se_at_pass": 0.00013353112933700394
+     }
+    },
+    "value_rmse": 0.010749325747370784
+   }
+  },
+  "inventory": {
+   "curves": {
+    "complete_rollout": {
+     "12300": {
+      "rmse": 0.04211543651072122,
+      "rmse_se": 0.0014763573147993712
+     },
+     "24600": {
+      "rmse": 0.02890843894956211,
+      "rmse_se": 0.00105495172622738
+     },
+     "49200": {
+      "rmse": 0.019780749501936392,
+      "rmse_se": 0.0007788964063467277
+     },
+     "6150": {
+      "rmse": 0.052862985190178256,
+      "rmse_se": 0.0018978960244238488
+     }
+    },
+    "learned_mean": {
+     "12300": {
+      "rmse": 0.023903694029955753,
+      "rmse_se": 0.0009286604872583064
+     },
+     "24600": {
+      "rmse": 0.0173641954031286,
+      "rmse_se": 0.0006477564975999788
+     },
+     "49200": {
+      "rmse": 0.012340969797353813,
+      "rmse_se": 0.0004321289924537822
+     },
+     "6150": {
+      "rmse": 0.036886301813852856,
+      "rmse_se": 0.0017363760968697169
+     }
+    },
+    "learned_occupancy": {
+     "12300": {
+      "rmse": 0.02517800375291909,
+      "rmse_se": 0.0009322007469981788
+     },
+     "24600": {
+      "rmse": 0.01763196957740632,
+      "rmse_se": 0.0007192400534892429
+     },
+     "49200": {
+      "rmse": 0.012708208226559927,
+      "rmse_se": 0.0004623608863296317
+     },
+     "6150": {
+      "rmse": 0.03895299972550341,
+      "rmse_se": 0.0017601179763194724
+     }
+    },
+    "local_only": {
+     "12300": {
+      "rmse": 0.032383229509720265,
+      "rmse_se": 0.0014677479920819972
+     },
+     "24600": {
+      "rmse": 0.023043409356082664,
+      "rmse_se": 0.0009436638864244909
+     },
+     "49200": {
+      "rmse": 0.01689186986294202,
+      "rmse_se": 0.0006529496384475462
+     },
+     "6150": {
+      "rmse": 0.04368181679441079,
+      "rmse_se": 0.001785507390194929
+     }
+    },
+    "oracle_tail": {
+     "12300": {
+      "rmse": 0.0181409038289601,
+      "rmse_se": 0.0007052720861296108
+     },
+     "24600": {
+      "rmse": 0.012251995080344334,
+      "rmse_se": 0.0004403549289377325
+     },
+     "49200": {
+      "rmse": 0.010006535069852255,
+      "rmse_se": 0.000410079443943329
+     },
+     "6150": {
+      "rmse": 0.027030428329212583,
+      "rmse_se": 0.0010718340861872468
+     }
+    },
+    "reachability_only": {
+     "12300": {
+      "rmse": 0.025669763001248597,
+      "rmse_se": 0.0009833046595809694
+     },
+     "24600": {
+      "rmse": 0.0172382099854978,
+      "rmse_se": 0.0006955614819328059
+     },
+     "49200": {
+      "rmse": 0.01328994214172608,
+      "rmse_se": 0.0005048993579780968
+     },
+     "6150": {
+      "rmse": 0.03303286420606787,
+      "rmse_se": 0.0014676749903782468
+     }
+    },
+    "tail_anchored": {
+     "12300": {
+      "rmse": 0.021362628892946007,
+      "rmse_se": 0.0008195685373292309
+     },
+     "24600": {
+      "rmse": 0.014726212924763263,
+      "rmse_se": 0.0005803085806433516
+     },
+     "49200": {
+      "rmse": 0.011714685994018863,
+      "rmse_se": 0.0004495888554482011
+     },
+     "6150": {
+      "rmse": 0.031814451571084146,
+      "rmse_se": 0.0014310066801626895
+     }
+    },
+    "tis": {
+     "12300": {
+      "rmse": 0.020351056479135633,
+      "rmse_se": 0.0008184677835638654
+     },
+     "24600": {
+      "rmse": 0.013201706013973212,
+      "rmse_se": 0.0005003827918213866
+     },
+     "49200": {
+      "rmse": 0.01074973417683529,
+      "rmse_se": 0.0004380930253200167
+     },
+     "6150": {
+      "rmse": 0.03173211288171764,
+      "rmse_se": 0.001358415223183283
+     }
+    },
+    "uniform": {
+     "12300": {
+      "rmse": 0.024149497596720186,
+      "rmse_se": 0.0010044896602644934
+     },
+     "24600": {
+      "rmse": 0.017412615634382202,
+      "rmse_se": 0.0006702547654257359
+     },
+     "49200": {
+      "rmse": 0.013263584771458739,
+      "rmse_se": 0.0004922326831982122
+     },
+     "6150": {
+      "rmse": 0.03510443164520522,
+      "rmse_se": 0.0014185722508719138
+     }
+    }
+   },
+   "tolerance_primary": {
+    "crossings": {
+     "complete_rollout": {
+      "largest_budget": 49200.0,
+      "nonmonotone": false,
+      "result": "not reached by largest budget",
+      "rmse_at_largest": 0.019780749501936392,
+      "se": 0.0007788964063467277
+     },
+     "learned_mean": {
+      "first_passing_budget": 49200.0,
+      "last_failing_budget": 24600.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.012340969797353813,
+      "se_at_pass": 0.0004321289924537822
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 49200.0,
+      "last_failing_budget": 24600.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.012708208226559927,
+      "se_at_pass": 0.0004623608863296317
+     },
+     "tail_anchored": {
+      "first_passing_budget": 49200.0,
+      "last_failing_budget": 24600.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.011714685994018863,
+      "se_at_pass": 0.0004495888554482011
+     },
+     "tis": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.013201706013973212,
+      "se_at_pass": 0.0005003827918213866
+     },
+     "uniform": {
+      "first_passing_budget": 49200.0,
+      "last_failing_budget": 24600.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.013263584771458739,
+      "se_at_pass": 0.0004922326831982122
+     }
+    },
+    "definition_budget_total_queries": 49200.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.012251995080344334,
+      "se_at_pass": 0.0004403549289377325
+     }
+    },
+    "value_rmse": 0.013263584771458739
+   },
+   "tolerance_sensitivity": {
+    "crossings": {
+     "complete_rollout": {
+      "largest_budget": 49200.0,
+      "nonmonotone": false,
+      "result": "not reached by largest budget",
+      "rmse_at_largest": 0.019780749501936392,
+      "se": 0.0007788964063467277
+     },
+     "learned_mean": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.0173641954031286,
+      "se_at_pass": 0.0006477564975999788
+     },
+     "learned_occupancy": {
+      "first_passing_budget": 49200.0,
+      "last_failing_budget": 24600.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.012708208226559927,
+      "se_at_pass": 0.0004623608863296317
+     },
+     "tail_anchored": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.014726212924763263,
+      "se_at_pass": 0.0005803085806433516
+     },
+     "tis": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": true,
+      "result": "bracket",
+      "rmse_at_pass": 0.013201706013973212,
+      "se_at_pass": 0.0005003827918213866
+     },
+     "uniform": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.017412615634382202,
+      "se_at_pass": 0.0006702547654257359
+     }
+    },
+    "definition_budget_total_queries": 24600.0,
+    "references": {
+     "oracle_tail": {
+      "first_passing_budget": 24600.0,
+      "last_failing_budget": 12300.0,
+      "nonmonotone": false,
+      "resolved": false,
+      "result": "bracket",
+      "rmse_at_pass": 0.012251995080344334,
+      "se_at_pass": 0.0004403549289377325
+     }
+    },
+    "value_rmse": 0.017412615634382202
+   }
+  }
+ },
+ "x_axis": "total charged conditional queries (pilots included); rollouts charge every sampled transition"
+}

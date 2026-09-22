@@ -1,0 +1,56 @@
+{
+  "cell_cache_signature": "027fad95efca5aa9",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "96e7716d138ad2c3383b02a0895cf29ad11b60f294a28d431a357ce159d640e1",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 1098854,
+      "sha256": "2293559c3469eb00b2156d381e4771a28acc1a0be877f25d52df89edc589e404"
+    },
+    "config.json": {
+      "bytes": 491,
+      "sha256": "19604a3bb1a4d91358e11e2b5af857f11116f23e486fb0d260efe652ed81a90c"
+    },
+    "diagnostics.json": {
+      "bytes": 18758,
+      "sha256": "d57f7164377606315897cc5bcf8400768a38c287b56a9d16a6473c41e8f66a33"
+    },
+    "paired_panel.csv": {
+      "bytes": 158,
+      "sha256": "0729efdab4183aa9d6c85f6ddf4ef4fcde8fc8c73b2552886f4c2d57274de809"
+    },
+    "panel_replications.csv": {
+      "bytes": 25081,
+      "sha256": "286f3b26650e3f2cb05a1aa217ff039f085945a388123c4680908d7ca2d475a4"
+    },
+    "panel_summary.csv": {
+      "bytes": 248,
+      "sha256": "90dca26ebef31c46028767ebb7639e74084fe25d16cec6eb414af247088b453d"
+    },
+    "question_summary.csv": {
+      "bytes": 9303,
+      "sha256": "8760809247bee277dbd46ec38944b1c537439f680b668cf072f88f385b38db9a"
+    },
+    "raw.csv": {
+      "bytes": 6062271,
+      "sha256": "a38aa805c017dae5afc95758928953376b0fea64b64573d2a036068bbe14633c"
+    }
+  },
+  "kernel_artifact_sha256": "a7529268c42b050fd9b7053712bf43d1963b9a0ae86b90675472169fafe23d1e",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-32B",
+  "kernel_model_key": "scale_model_2",
+  "methods": [
+    "uniform",
+    "tis"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 633.8353152275085,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 46
+}

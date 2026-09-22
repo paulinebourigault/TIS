@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source": "rounded constants reported in the accompanying manuscript",
+  "references": [
+    {"environment": "frozenlake_8x8", "alpha": 0.2, "groups": 50, "cvar": 0.3147769, "margin": 0.0629554, "uniform_to_oracle": 3.92589},
+    {"environment": "cliffwalking_primary", "alpha": 0.1, "groups": 149, "cvar": 11.8709354, "margin": 0.0139085, "uniform_to_oracle": 84.6973},
+    {"environment": "rainy_taxi", "alpha": 0.1, "groups": 37, "cvar": 9.0541409, "margin": 0.0121392, "uniform_to_oracle": 2.33938}
+  ],
+  "cliffwalking_policy_sensitivity": {
+    "alphas": [0.05, 0.1, 0.2],
+    "minimum_uniform_to_oracle": 77.5748,
+    "maximum_uniform_to_oracle": 116.3908
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "be6a5ba7c19e59cd",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "6fb26454adea4772dbf9cef1dc31dedd7c2b075e28b6b15d77e2ca0e50f0a4c5",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 157204472,
+      "sha256": "891169ac575f1624f4eac02a87ac98507d5995274b627e04f6be2f6dd5fcad1f"
+    },
+    "config.json": {
+      "bytes": 662,
+      "sha256": "ec33650388886c860d3093bb79b4a7b27460e81f3ee97d3e17eebc6fda81587c"
+    },
+    "diagnostics.json": {
+      "bytes": 112532,
+      "sha256": "627fb02f0e814bf9c4b319f1609d75ca385b929320f0bec3ca0a4b7801a04bfb"
+    },
+    "paired_panel.csv": {
+      "bytes": 15559,
+      "sha256": "79f53ca372b15640e133951bff855d2d05dfffb933a996dce60b7c2a20eebe98"
+    },
+    "panel_replications.csv": {
+      "bytes": 3055587,
+      "sha256": "3aca7756f7359c63aaca1db3d768b06d1b98c389fa6619bb49fac1035dbb3f07"
+    },
+    "panel_summary.csv": {
+      "bytes": 18948,
+      "sha256": "02329d888593b29d8e9c5a74774b59a8001b3953b3cdda3f421cd02de5387ee0"
+    },
+    "question_summary.csv": {
+      "bytes": 1122494,
+      "sha256": "0a2b5841ea5ae9b488d39de9067947aca3604aa23432827937afe05193ecb739"
+    },
+    "raw.csv": {
+      "bytes": 670611518,
+      "sha256": "62dc9f66f2ba2b1bcc6abe523536ddd6e4310c662da8a07e05b7e15b4b0207ee"
+    }
+  },
+  "kernel_artifact_sha256": "a7529268c42b050fd9b7053712bf43d1963b9a0ae86b90675472169fafe23d1e",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-32B",
+  "kernel_model_key": "scale_model_2",
+  "methods": [
+    "uniform",
+    "occupancy",
+    "mean_influence",
+    "answer_entropy",
+    "oracle_tail",
+    "tis",
+    "mc_ucb_frozen",
+    "adaptive_neyman",
+    "untied_tis"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "paper_eligible_closed_grid",
+  "runtime_seconds": 24066.614631652832,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 46
+}

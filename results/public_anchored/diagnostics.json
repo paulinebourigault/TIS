@@ -1,0 +1,62 @@
+[
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 0.7734912647508936,
+    "environment": "cliffwalking_primary",
+    "group_mode": "shared_state_action",
+    "groups": 149,
+    "margin": 0.013908469467912868,
+    "methods": [
+      "uniform",
+      "tis",
+      "learned_occupancy",
+      "tail_anchored",
+      "oracle_tail"
+    ],
+    "replications": 500,
+    "seed": 20260720,
+    "truth": 11.870935383221072,
+    "uniform_to_oracle": 84.69734705939845,
+    "untied_factorization_max_abs_error": 3.469446951953614e-18
+  },
+  {
+    "alpha": 0.2,
+    "covariance_score_relative_l2": 0.9166707402240574,
+    "environment": "frozenlake_8x8",
+    "group_mode": "shared_state_action",
+    "groups": 50,
+    "margin": 0.06295537996110837,
+    "methods": [
+      "uniform",
+      "tis",
+      "learned_occupancy",
+      "tail_anchored",
+      "oracle_tail"
+    ],
+    "replications": 300,
+    "seed": 20260721,
+    "truth": 0.3147768998055418,
+    "uniform_to_oracle": 3.9258891050942073,
+    "untied_factorization_max_abs_error": 3.469446951953614e-18
+  },
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 0.6687375951540966,
+    "environment": "rainy_taxi",
+    "group_mode": "shared_state_action",
+    "groups": 37,
+    "margin": 0.012139180061746621,
+    "methods": [
+      "uniform",
+      "tis",
+      "learned_occupancy",
+      "tail_anchored",
+      "oracle_tail"
+    ],
+    "replications": 300,
+    "seed": 20260722,
+    "truth": 9.054140852356056,
+    "uniform_to_oracle": 2.339377970806426,
+    "untied_factorization_max_abs_error": 3.469446951953614e-18
+  }
+]

@@ -1,0 +1,43 @@
+{
+ "schema_version": 3,
+ "master_seed": 20260719,
+ "replications": 300,
+ "methods": [
+  "uniform",
+  "tis",
+  "learned_occupancy",
+  "tail_anchored",
+  "oracle_tail"
+ ],
+ "environments": [
+  {
+   "name": "controlled_untied_v1",
+   "alpha": 0.1,
+   "seed": 20260719,
+   "replications": 400,
+   "total_budgets": [
+    12500,
+    25000,
+    50000,
+    100000
+   ]
+  },
+  {
+   "name": "inventory_untied_v1",
+   "alpha": 0.1,
+   "seed": 20260720,
+   "replications": 300,
+   "budgets_per_group": [
+    150,
+    300,
+    600,
+    1200
+   ]
+  }
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 1,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.25,
+ "output_directory": "results/replacement_anchored"
+}

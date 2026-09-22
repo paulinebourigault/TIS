@@ -1,0 +1,34 @@
+{
+  "alphas": [
+    0.1,
+    0.2
+  ],
+  "budgets_per_shared_group": [
+    50,
+    100,
+    200,
+    400
+  ],
+  "closed_grid": true,
+  "exploration_exponent": 0.25,
+  "horizons": [
+    2,
+    4,
+    6
+  ],
+  "master_seed": 20260725,
+  "methods": [
+    "uniform",
+    "oracle_tail",
+    "tis",
+    "learned_occupancy",
+    "tis_anchored"
+  ],
+  "minimum_main_per_group": 2,
+  "minimum_pilot_per_group": 8,
+  "output_directory": "results/llm_study_anchored_scale2",
+  "pilot_multiplier": 4.0,
+  "protocol": "configs/llm_study_protocol.json",
+  "replications": 300,
+  "schema_version": 1
+}

@@ -1,0 +1,1633 @@
+{
+  "banks": [
+    {
+      "candidates": [
+        {
+          "answer": 48.0,
+          "derivation": "The lowest stock price for Advance Auto Parts is $97.26 (January 3, 2009). The S&P 500 index had a value of $65.70 at the same date. The outperformance is 97.26 - 65.70 = 31.56. Percentage outperformance is (31.56 / 65.70) × 100 ≈ 48.0%.",
+          "is_percent": true,
+          "output_tokens": 116,
+          "raw_answer": 48.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 158.0,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). Then, find the corresponding S&P 500 index value at that time: $65.70 (January 3, 2009). Outperformance is (201.18 - 97.26) / 65.70 ≈ 103.92 / 65.70 ≈ 1.58, or 158%.",
+          "is_percent": true,
+          "output_tokens": 130,
+          "raw_answer": 158.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). Next, find the lowest value of the S&P 500 index: $65.70 (January 3, 2009). Outperformance is calculated as (201.18 - 97.26) / (104.81 - 82.15) → but since we are comparing to the lowest point, we compute the gain from the lowest point: Advance Auto Parts rose from $97.26 to $201.18, a gain of $103.92. The S&P",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 2,
+          "valid": false
+        },
+        {
+          "answer": 48.05,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). Next, find the corresponding market value (S&P 500 Index) at that time: $65.70 (January 3, 2009). Outperformance is $97.26 - $65.70 = $31.56; percentage outperformance is (31.56 / 65.70) ≈ 0.4805, or 48.05%.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 48.05,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 158.2,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). Then, find the lowest value of the S&P 500 index: $65.70 (January 3, 2009). Outperformance is (201.18 - 97.26) / 65.70 = 103.92 / 65.70 ≈ 1.582, or 158.2%.",
+          "is_percent": true,
+          "output_tokens": 134,
+          "raw_answer": 158.2,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 158.0,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). The S&P 500 index had a value of 65.70 at the same date, which is the lowest among the indices. Outperformance is calculated as (201.18 - 97.26) / 65.70 = 103.92 / 65.70 ≈ 1.58, or 158%.",
+          "is_percent": true,
+          "output_tokens": 129,
+          "raw_answer": 158.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 158.0,
+          "derivation": "First, identify the lowest stock price for Advance Auto Parts: $97.26 (January 3, 2009). The S&P 500 index had a value of $65.70 at that same date, which is the lowest among the indices. Outperformance is calculated as (201.18 - 97.26) / 65.70 ≈ 103.92 / 65.70 ≈ 1.58, or 158%.",
+          "is_percent": true,
+          "output_tokens": 130,
+          "raw_answer": 158.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 48.0,
+          "derivation": "The lowest stock price for Advance Auto Parts is $97.26 (January 3, 2009). The lowest S&P 500 index value is $65.70 (January 3, 2009). The outperformance is 97.26 - 65.70 = 31.56. Final percentage outperformance relative to the lowest market value: (31.56 / 65.70) × 100 ≈ 48.0%.",
+          "is_percent": true,
+          "output_tokens": 128,
+          "raw_answer": 48.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AAP/2011/page_28.pdf-3",
+      "panel_index": 0,
+      "prompt_tokens": 950,
+      "scan_rank": 30
+    },
+    {
+      "candidates": [
+        {
+          "answer": null,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010. The table shows lease payments: 2005–2009 are $781, $776, $769, $772, $772 respectively, and thereafter is $708. Since the annual rent is assumed to be approximately that of 2003, and no 2003 value is given, we infer that the 2003 value is not directly available. However, the lease payments from 2005 to 2009 are provi",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 0,
+          "valid": false
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the remaining total obligation for facility leases through fiscal 2010, assuming annual rent is approximately that of 2003. However, the table provides lease payments from 2005 to 2009 and \"thereafter,\" with no data for 2003. The only relevant data is that in 2008 and 2009, the annual lease payment is $772, and thereafter it drops to $708. Since the lease payments from 2005 o",
+          "is_percent": false,
+          "output_tokens": 202,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 772.0,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010. From the table, the lease amounts are given annually; however, no data for 2003 is provided. The closest available data is 2005 to 2009, with 2009 and thereafter at $772 and $708 respectively. Since the lease amount in 2009 is $772 and the remaining term through 2010 is only one year, the remaining obligation is appro",
+          "is_percent": false,
+          "output_tokens": 127,
+          "raw_answer": 772.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010. From the table, the lease amount in 2008 and 2009 is $772, and thereafter it drops to $708. Since the remaining terms through fiscal 2010 include 2008, 2009, and 2010, and 2010 is after 2009, the lease amount for 2010 would be $708 (as it's the \"thereafter\" rate). However, the data does not include 2003 rent. Since th",
+          "is_percent": true,
+          "output_tokens": 209,
+          "raw_answer": 0.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010. From the table, 2008 and 2009 have lease payments of $772 each, and \"thereafter\" is $708. Since fiscal 2010 is after 2009, we consider the 2008 and 2009 payments as part of the obligation through 2010. However, the question assumes the annual rent is approximately that of 2003, but 2003 data is not provided. The only ",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 4,
+          "valid": false
+        },
+        {
+          "answer": null,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010. The annual rent is assumed to be approximately that of 2003, but the table only provides lease payments from 2005 onward. No data for 2003 is given, so we cannot compute the rent for 2003. However, the lease payments from 2005 to 2009 are provided: $781, $776, $769, $772, $772. The total from 2005 to 2009 is 781 + 776",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 5,
+          "valid": false
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question refers to facility leases with remaining terms through fiscal 2010, and the annual rent is assumed to be approximately that of 2003. However, the table provides lease payments from 2005 onward and does not include 2003 data. Since no rent value for 2003 is available and the annual rent cannot be inferred, the obligation cannot be calculated with the given information.",
+          "is_percent": false,
+          "output_tokens": 96,
+          "raw_answer": 0.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the remaining total obligation for facility leases through fiscal 2010, assuming annual rent is approximately that of 2003. However, the provided data starts from 2005 and does not include 2003 rent figures or any explicit link between 2003 rent and future obligations. Without rent data for 2003 or a clear method to derive it, the obligation cannot be calculated from the give",
+          "is_percent": false,
+          "output_tokens": 104,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ABMD/2004/page_26.pdf-1",
+      "panel_index": 1,
+      "prompt_tokens": 537,
+      "scan_rank": 168
+    },
+    {
+      "candidates": [
+        {
+          "answer": 3.0,
+          "derivation": "The maximum premium on the dp&L preferred stock is the per-share redemption price plus cumulative dividends. The table shows that at December 31, 2015, dpl had $18 million of cumulative preferred stock outstanding, with redemption prices between $101 and $103 per share. Since the question asks for the maximum premium, we take the highest redemption price of $103. Assuming the cumulative dividend i",
+          "is_percent": true,
+          "output_tokens": 157,
+          "raw_answer": 3.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 3.0,
+          "derivation": "The maximum per-share redemption price for dp&l preferred stock is $103, as stated in the report. The total amount of preferred stock outstanding as of December 31, 2015, was $18 million. To find the maximum premium, we assume the premium is the difference between the redemption price and par value (assumed to be $100), so premium per share is $3. However, since the question asks for the maximum p",
+          "is_percent": true,
+          "output_tokens": 159,
+          "raw_answer": 3.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 103.0,
+          "derivation": "The maximum premium on the dp&L preferred stock is the redemption price plus cumulative dividends. The redemption price is between $101 and $103 per share, and the question asks for the maximum premium. Since no specific dividend amount is given, and the premium is defined by the redemption price, the maximum premium is $103.",
+          "is_percent": true,
+          "output_tokens": 81,
+          "raw_answer": 103.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 2.0,
+          "derivation": "The maximum per-share redemption price for dp&l preferred stock is $103, as stated in the report. The total value of dpl preferred stock as of December 31, 2015, is $18 million. To find the maximum premium, we assume the stock was issued at $101 and redeemed at $103, so the premium is $2 per share. The number of shares is $18 million / $101 ≈ 178,218 shares. Premium = 178,218 × $2 = $356.44 millio",
+          "is_percent": true,
+          "output_tokens": 175,
+          "raw_answer": 2.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 103.0,
+          "derivation": "The maximum premium on the dp&L preferred stock is the redemption price per share, which is between $101 and $103. Since the question asks for the maximum premium, we take the highest redemption price of $103.",
+          "is_percent": false,
+          "output_tokens": 60,
+          "raw_answer": 103.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The maximum redemption price for dp&l preferred stock is $103 per share, as stated in the report. The total outstanding preferred stock was $18 million. To find the maximum premium, we calculate the premium per share (103 - 101 = $2) and apply it to the total shares. However, since the total value is $18 million and redemption price is between $101 and $103, the maximum premium is $2 per share, an",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 5,
+          "valid": false
+        },
+        {
+          "answer": 3.0,
+          "derivation": "The maximum premium on the dp&L preferred stock is the redemption price plus cumulative dividends. The redemption price ranges between $101 and $103 per share, and the maximum is $103. Since no dividend amount is provided, and the question asks for the maximum premium, we assume the premium is the difference between the redemption price and par value. However, par value is not given. Given that th",
+          "is_percent": true,
+          "output_tokens": 131,
+          "raw_answer": 3.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 103.0,
+          "derivation": "The maximum premium on the dp&L preferred stock is the redemption price per share, which is given as $103 per share. Since the question asks for the maximum premium and the stock is redeemable at prices between $101 and $103 per share, the maximum premium is $103.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 103.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AES/2016/page_185.pdf-3",
+      "panel_index": 2,
+      "prompt_tokens": 832,
+      "scan_rank": 112
+    },
+    {
+      "candidates": [
+        {
+          "answer": 40.0,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. Both are in North America, and there are 2 warehouse locations listed. Total warehouse locations are 5 (Santa Clara, Austin, Rehovot, Singapore, Gloucester, Tainan — only Santa Clara and Austin are in North America). Thus, 2 out of 5 warehouse locations are in North America. Percentage is (2 / 5) * 100 = 40%.",
+          "is_percent": true,
+          "output_tokens": 110,
+          "raw_answer": 40.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both Santa Clara and Austin are warehouse locations (office, plant & warehouse), and both are in North America. The total warehouse square footage in North America is 1358000 + 164000 + 1676000 + 145000 = 3,783,000. Total warehouse square footage globally is 1358000 + 164000 + 381000 + 5400 + 408000 + 11000 + 315000 + 125000 + 320000 = 3,783,0",
+          "is_percent": true,
+          "output_tokens": 200,
+          "raw_answer": 100.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "Locations in North America: Santa Clara, CA and Austin, TX. Both have \"office, plant & warehouse\" and are in North America. Total warehouse locations: 2 (Santa Clara and Austin). The report does not specify separate warehouse counts, but only lists one ownership per location. Since only Santa Clara and Austin are in North America and both are listed as office, plant & warehouse, all warehouse loca",
+          "is_percent": true,
+          "output_tokens": 97,
+          "raw_answer": 100.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both locations are in North America, and both have \"office, plant & warehouse\" type with ownership specified. Total warehouse locations: 2 (Santa Clara and Austin). All warehouse locations are in North America.",
+          "is_percent": true,
+          "output_tokens": 64,
+          "raw_answer": 100.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 40.0,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both locations have \"office, plant & warehouse\" and are in the U.S., so both are in North America. There are 2 warehouse locations in North America out of a total of 5 locations (Santa Clara, Austin, Rehovot, Singapore, Gloucester, Tainan). Only Santa Clara and Austin are in North America. Thus, 2 out of 5 locations are in North America: (2/5)",
+          "is_percent": true,
+          "output_tokens": 121,
+          "raw_answer": 40.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "Locations in North America: Santa Clara, CA and Austin, TX. Both have \"office, plant & warehouse\" and are in North America. Total warehouse locations: 2 (Santa Clara and Austin). The excerpt lists only two warehouse locations in North America.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 100.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. These two locations are listed as \"office, plant & warehouse\" with \"leased\" or \"owned\" ownership. The total warehouse square footage in North America is 1358000 + 164000 + 1676000 + 145000 = 3,773,000. The total warehouse square footage globally is 1358000 + 164000 + 381000 + 5400 + 408000 + 11000 + 315000 + 125000 + 3",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 6,
+          "valid": false
+        },
+        {
+          "answer": 40.0,
+          "derivation": "Step 1: Identify warehouse locations in North America. North America includes Santa Clara, CA (USA) and Austin, TX (USA). Step 2: The table shows Santa Clara and Austin as office, plant & warehouse locations with \"leased\" ownership, both in North America. Step 3: Total warehouse locations: 5 (Santa Clara, Austin, Rehovot, Singapore, Gloucester, Tainan). Only Santa Clara and Austin are in North Ame",
+          "is_percent": true,
+          "output_tokens": 137,
+          "raw_answer": 40.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AMAT/2014/page_35.pdf-1",
+      "panel_index": 3,
+      "prompt_tokens": 482,
+      "scan_rank": 8
+    },
+    {
+      "candidates": [
+        {
+          "answer": 942.0,
+          "derivation": "For 2012, sales are $420.1 and operating income is $44.6. The sales to operating income ratio is 420.1 / 44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 94.2,
+          "derivation": "Sales in 2012 were $420.1, and operating income in 2012 was $44.6. The sales to operating income ratio is $420.1 / $44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 69,
+          "raw_answer": 94.2,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 942.0,
+          "derivation": "For 2012, sales are $420.1 and operating income is $44.6. The sales to operating income ratio is 420.1 / 44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 942.0,
+          "derivation": "For 2012, sales are $420.1 and operating income is $44.6. The sales to operating income ratio is 420.1 / 44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 942.0,
+          "derivation": "In 2012, sales were $420.1 and operating income was $44.6. The sales to operating income ratio is $420.1 / $44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 94.2,
+          "derivation": "Sales in 2012 were $420.1, and operating income in 2012 was $44.6. The sales to operating income ratio is 420.1 / 44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 69,
+          "raw_answer": 94.2,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 942.0,
+          "derivation": "For 2012, sales are $420.1 and operating income is $44.6. The sales to operating income ratio is 420.1 / 44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 942.0,
+          "derivation": "For 2012, sales are $420.1 and operating income is $44.6. The sales to operating income ratio is $420.1 / $44.6 ≈ 9.42.",
+          "is_percent": true,
+          "output_tokens": 62,
+          "raw_answer": 942.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "APD/2013/page_36.pdf-2",
+      "panel_index": 4,
+      "prompt_tokens": 550,
+      "scan_rank": 46
+    },
+    {
+      "candidates": [
+        {
+          "answer": 100.0,
+          "derivation": "The question asks for the portion of tax benefit that would affect the effective tax rate if recognized as of December 31, 2012. The effective tax rate is influenced by changes in income tax expense, including tax benefits from items like tax-deductible goodwill, which reduced goodwill during the period. From the data, the tax benefit from goodwill reduction is not directly stated, but the effecti",
+          "is_percent": true,
+          "output_tokens": 168,
+          "raw_answer": 100.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 39.0,
+          "derivation": "The tax benefit recognized in 2012 includes reductions from tax positions of prior years (-1), settlements (-29), and additions from current year tax positions (69), totaling -1 -29 +69 = 39 million. This benefit affects the effective tax rate because it changes the total tax expense. Since the total tax benefit is 39 million, and it is recognized in the current year, it directly impacts the effec",
+          "is_percent": true,
+          "output_tokens": 104,
+          "raw_answer": 39.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 55.0,
+          "derivation": "The tax benefit recognized in 2012 includes reductions from prior years and current year tax positions. The net change in tax positions from 2011 to 2012 is (69 + 4 - 1 - 29 + 12) = 55 million, which represents the additional tax benefit. This benefit, when recognized, would affect the effective tax rate as it reduces total tax expense.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": 55.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 85.0,
+          "derivation": "The tax benefit recognized in 2012 includes additions for tax positions of prior years ($4), additions for current year tax positions ($69), and positions assumed in acquisitions ($12), totaling $85 million. The effective tax rate is affected only by the tax benefits that reduce income tax expense, which is the net tax benefit recognized. Since the question asks for the portion of tax benefit that",
+          "is_percent": false,
+          "output_tokens": 161,
+          "raw_answer": 85.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 15.0,
+          "derivation": "The tax benefit recognized as of December 31, 2012, includes the reduction in valuation allowance and tax benefits from goodwill, which directly impact the effective tax rate. The key component is the $69 million in additions for tax positions related to current year and settlements of $29 million, net of reductions. These changes adjust the total deferred tax asset and thus affect the effective t",
+          "is_percent": true,
+          "output_tokens": 92,
+          "raw_answer": 15.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 18.0,
+          "derivation": "The tax benefit recognized as of December 31, 2012, includes reductions from tax positions of prior years and settlements, which affect the total tax expense. The net change in the tax benefit is (−1) + (−29) + 12 = −18 million, which reduces the tax expense and thus impacts the effective tax rate. This portion of the tax benefit directly affects the effective tax rate when recognized.",
+          "is_percent": false,
+          "output_tokens": 99,
+          "raw_answer": 18.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 51.0,
+          "derivation": "The tax benefit recognized as of December 31, 2012, is the reduction in valuation allowance and tax positions. The valuation allowance decreased from $95 million to $95 million, so no change in valuation allowance, and the net change in tax positions is (additions - reductions - settlements + acquisitions) = (69 - 1 - 29 + 12) = 51 million. This tax benefit is included in income tax expense and th",
+          "is_percent": true,
+          "output_tokens": 115,
+          "raw_answer": 51.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 12.0,
+          "derivation": "The tax benefit recognized in 2012 includes reductions from prior years and current year tax positions. The total tax benefit recognized is the sum of additions for tax positions of prior years, additions based on current year positions, and positions assumed in acquisitions, minus settlements and lapses. However, only the portion related to goodwill tax benefits (which reduces tax expense) affect",
+          "is_percent": false,
+          "output_tokens": 120,
+          "raw_answer": 12.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "BLK/2012/page_160.pdf-4",
+      "panel_index": 5,
+      "prompt_tokens": 816,
+      "scan_rank": 43
+    },
+    {
+      "candidates": [
+        {
+          "answer": null,
+          "derivation": "The interest from 2017 to 2025 is not directly provided in the report. However, the interest rates for each note are given: 6.25% for 2017, 5.00% for 2019, 4.25% for 2021, 3.375% for 2022, 3.50% for 2024, and 1.25% for 2025. The total long-term borrowings (carrying value) are $4,915 million. Since the question asks for the interest as a percentage of total long-term borrowings, we calculate the we",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 0,
+          "valid": false
+        },
+        {
+          "answer": 23.625,
+          "derivation": "The interest from 2017 to 2025 is the sum of the coupon rates on the long-term notes: 6.25% + 5.00% + 4.25% + 3.375% + 3.50% + 1.25% = 23.625%. The total long-term borrowings (carrying value) is $4,915 million. The percentage of interest relative to total borrowings is (23.625% × 4915) / 4915 = 23.625%.",
+          "is_percent": true,
+          "output_tokens": 151,
+          "raw_answer": 23.625,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The interest from 2017 to 2025 is calculated from the coupon rates of the bonds: 6.25% (2017), 5.00% (2019), 4.25% (2021), 3.375% (2022), 3.50% (2024), and 1.25% (2025). We compute the weighted average interest rate using the principal amounts: (700×6.25% + 1000×5.00% + 750×4.25% + 750×3.375% + 1000×3.50% + 738×1.25) / 4938 = (43.75 + 50 + 31.875 + 25.3125 + 35 + 9.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 2,
+          "valid": false
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the interest from 2017 to 2025 as a percentage of total long-term borrowings. However, the report does not explicitly provide the interest rates or interest expenses for each bond. The interest rates are listed in the table (e.g., 6.25% for 2017 notes), but without interest amounts or expenses, we cannot compute total interest paid. Therefore, the interest as a percentage of ",
+          "is_percent": true,
+          "output_tokens": 113,
+          "raw_answer": 0.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The interest from 2017 to 2025 is derived from the interest rates of the notes: 6.25% (2017), 5.00% (2019), 4.25% (2021), 3.375% (2022), 3.50% (2024), and 1.25% (2025). The total long-term borrowings (carrying value) is $4,915 million. We calculate the weighted average interest rate: (700×6.25% + 997×5.00% + 746×4.25% + 746×3.375% + 994×3.50% + 732×1.25) / 4915 ≈ (43.75 + 49.85 + 31.73",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 4,
+          "valid": false
+        },
+        {
+          "answer": 4.17,
+          "derivation": "The interest payments are implied by the coupon rates and the principal amounts of the notes. For each note, interest = principal × coupon rate. Total interest = (700 × 6.25%) + (1000 × 5.00%) + (750 × 4.25%) + (750 × 3.375%) + (1000 × 3.50%) + (738 × 1.25%) = 43.75 + 50 + 31.875 + 25.3125 + 35 + 9.225 = $205.16 million. Total long-term borrowings (carrying value) = $4,915 million. Percentage = (2",
+          "is_percent": true,
+          "output_tokens": 213,
+          "raw_answer": 4.17,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The interest from 2017 to 2025 is derived from the interest rates on the notes: 6.25% for 2017, 5.00% for 2019, 4.25% for 2021, 3.375% for 2022, 3.50% for 2024, and 1.25% for 2025. The total long-term borrowings (carrying value) are $4,915 million. We calculate the weighted average interest rate: (700×6.25% + 997×5.00% + 746×4.25% + 746×3.375% + 994×3.50% + 732×1.25%) / 4915 ≈ (43.75 + 49.85 +",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 6,
+          "valid": false
+        },
+        {
+          "answer": null,
+          "derivation": "The total long-term borrowings (carrying value) is $4,915 million. The interest expense is derived from the interest rates and principal amounts of each note. For each note, interest = principal × rate. 6.25% on $700 → $43.75; 5.00% on $1,000 → $50; 4.25% on $750 → $31.875; 3.375% on $750 → $25.3125; 3.50% on $1,000 → $35; 1.25% on $738 → $9.225. Total interest = 43.75 + 50 + 31.875 + 25.3125 + 35",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 7,
+          "valid": false
+        }
+      ],
+      "item_id": "BLK/2016/page_119.pdf-2",
+      "panel_index": 6,
+      "prompt_tokens": 926,
+      "scan_rank": 56
+    },
+    {
+      "candidates": [
+        {
+          "answer": 38.6,
+          "derivation": "The maximum exposure to loss from Vies is represented by total receivables and guarantees. In 2017, total exposure is $412 (receivables) + $259 (guarantees) = $671. The portion related to guarantees is $259 / $671 ≈ 0.386, or 38.6%.",
+          "is_percent": true,
+          "output_tokens": 96,
+          "raw_answer": 38.6,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 76.4,
+          "derivation": "Maximum exposure to loss from VIES refers to the total of guarantees, long-term receivables - finance, and receivables - finance, as these are the primary components of potential losses. In 2017, guarantees are $259 million, and the total maximum exposure is $259 (guarantees) + $38 (long-term receivables - finance) + $42 (receivables - finance) = $339 million. The portion from guarantees is 259 / ",
+          "is_percent": true,
+          "output_tokens": 142,
+          "raw_answer": 76.4,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 63.0,
+          "derivation": "Maximum exposure to loss from Vies is the total of receivables, finance, long-term receivables, investments, and guarantees. In 2017, total is $412 million, and guarantees are $259 million. The portion related to guarantees is 259 / 412 ≈ 0.6286, or 62.86%.",
+          "is_percent": true,
+          "output_tokens": 94,
+          "raw_answer": 63.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 38.6,
+          "derivation": "Maximum exposure to loss from VIES is the total of all receivables and guarantees, which is $412 (receivables) + $259 (guarantees) = $671. The portion related to guarantees is $259 / $671 ≈ 0.386, or 38.6%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 38.6,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 63.0,
+          "derivation": "Maximum exposure to loss from VIES is the total of all receivables and guarantees. In 2017, total receivables and guarantees are $34 + $42 + $38 + $39 + $259 = $412. Guarantees are $259, so the portion is 259 / 412 ≈ 0.6286, or 62.86%.",
+          "is_percent": true,
+          "output_tokens": 107,
+          "raw_answer": 63.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 38.6,
+          "derivation": "Maximum exposure to loss from VIES is the total of all receivables and guarantees, which is $412 (receivables) + $259 (guarantees) = $671. The portion related to guarantees is $259 / $671 ≈ 0.386, or 38.6%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 38.6,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 38.6,
+          "derivation": "Maximum exposure to loss from Vies is the total of all receivables and guarantees, which is $412 (receivables) + $259 (guarantees) = $671. The portion related to guarantees is $259 / $671 ≈ 0.386, or 38.6%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 38.6,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 63.0,
+          "derivation": "Maximum exposure to loss from VIES is the total of all receivables and guarantees. In 2017, total receivables and guarantees are $34 + $42 + $38 + $39 + $259 = $412. The portion related to guarantees is $259 / $412 ≈ 0.6286, or 62.86%.",
+          "is_percent": true,
+          "output_tokens": 100,
+          "raw_answer": 63.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "CAT/2017/page_85.pdf-4",
+      "panel_index": 7,
+      "prompt_tokens": 759,
+      "scan_rank": 40
+    },
+    {
+      "candidates": [
+        {
+          "answer": 87.5,
+          "derivation": "The cumulative return for Cadence Design Systems Inc. on 12/29/2018 is $311.13, and for the NASDAQ Composite it is $165.84. The difference is 311.13 - 165.84 = 145.29. The percentage difference relative to the NASDAQ Composite is (145.29 / 165.84) * 100 ≈ 87.5%.",
+          "is_percent": true,
+          "output_tokens": 124,
+          "raw_answer": 87.5,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 145.29,
+          "derivation": "The initial investment is $100 on 12/28/2013. For Cadence Design Systems Inc., the value on 12/29/2018 is $311.13, so the return is (311.13 - 100) / 100 = 211.13%. For the NASDAQ Composite, the value is $165.84, so the return is (165.84 - 100) / 100 = 65.84%. The difference is 211.13% - 65.84% = 145.29%.",
+          "is_percent": true,
+          "output_tokens": 170,
+          "raw_answer": 145.29,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 87.5,
+          "derivation": "The cumulative return for Cadence Design Systems Inc. on 12/29/2018 is $311.13, and for the Nasdaq Composite it is $165.84. The difference is 311.13 - 165.84 = 145.29. The percentage difference relative to the Nasdaq Composite is (145.29 / 165.84) × 100 ≈ 87.5%.",
+          "is_percent": true,
+          "output_tokens": 124,
+          "raw_answer": 87.5,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 88.7,
+          "derivation": "Starting value for both is $100 on 12/28/2013. Cadence's return on 12/29/2018 is $311.13, and the Nasdaq composite return is $165.84. The percentage difference is (311.13 - 165.84) / 165.84 = 147.29 / 165.84 ≈ 0.887, or 88.7%.",
+          "is_percent": true,
+          "output_tokens": 133,
+          "raw_answer": 88.7,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 87.5,
+          "derivation": "The cumulative return for Cadence Design Systems Inc. on 12/29/2018 is $311.13, and for the NASDAQ Composite it is $165.84. The difference is 311.13 - 165.84 = 145.29. The percentage difference relative to the NASDAQ Composite is (145.29 / 165.84) × 100 ≈ 87.5%.",
+          "is_percent": true,
+          "output_tokens": 124,
+          "raw_answer": 87.5,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 87.6,
+          "derivation": "The cumulative return for Cadence Design Systems Inc. on 12/29/2018 is $311.13, and for the NASDAQ Composite it is $165.84. The difference is 311.13 - 165.84 = 145.29. The percentage difference relative to the NASDAQ Composite is 145.29 / 165.84 ≈ 0.876, or 87.6%.",
+          "is_percent": true,
+          "output_tokens": 126,
+          "raw_answer": 87.6,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 145.29,
+          "derivation": "The cumulative return for Cadence Design Systems Inc. on 12/29/2018 is $311.13, starting from $100 on 12/28/2013, so the percentage return is (311.13 - 100) / 100 = 211.13%. For the Nasdaq Composite, it is (165.84 - 100) / 100 = 65.84%. The difference is 211.13% - 65.84% = 145.29%.",
+          "is_percent": true,
+          "output_tokens": 157,
+          "raw_answer": 145.29,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 145.29,
+          "derivation": "Starting value for both is $100 on 12/28/2013. Cadence return is $311.13, Nasdaq return is $165.84. Difference in return is 311.13 - 165.84 = 145.29; percentage difference is (145.29 / 100) = 145.29%.",
+          "is_percent": true,
+          "output_tokens": 112,
+          "raw_answer": 145.29,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "CDNS/2018/page_31.pdf-2",
+      "panel_index": 8,
+      "prompt_tokens": 901,
+      "scan_rank": 140
+    },
+    {
+      "candidates": [
+        {
+          "answer": 133.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. Since the 2014 investment income (loss) net was $296 million, and the $443 million gain from Clearwire was not in 2014, we subtract the $443 million gain from 2013's $576 million to find the underlying investment income (loss) in 2013 before the gain. That value is $576 - $443 ",
+          "is_percent": false,
+          "output_tokens": 178,
+          "raw_answer": 133.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 296.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. This gain was included in the 2013 value, so to find the investment income (loss) in 2014 without the Clearwire gain, we adjust the 2014 value by removing the impact of that gain. Since the gain was realized in 2013 and not in 2014, the 2014 investment income (loss) net of $296",
+          "is_percent": false,
+          "output_tokens": 175,
+          "raw_answer": 296.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. This gain is part of the 2013 figure, so to find the investment income (loss) in 2014 without the Clearwire gain, we subtract the $443 million gain from the 2014 investment income (loss) net of $296 million. However, the gain in 2013 is not directly subtracted from 2014; instea",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 2,
+          "valid": false
+        },
+        {
+          "answer": 296.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. This gain was included in the 2013 value, so to find the investment income (loss) in 2014 without that gain, we subtract the $443 million gain from the 2014 investment income (loss) net of $296 million. However, the gain in 2013 affected 2014 only indirectly through the reporti",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": 296.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 296.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, which included a $443 million gain from the sale of Clearwire. This gain is not present in 2014's investment income (loss) net, which was $296 million. Therefore, to find investment income (loss) in 2014 without the Clearwire gain, we subtract the $443 million gain from 2013's value and adjust for the change in 2014. Since the gain in 2013 is",
+          "is_percent": false,
+          "output_tokens": 167,
+          "raw_answer": 296.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 296.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, which included a $443 million gain from the sale of Clearwire. This gain was not in 2014; the 2014 investment income (loss) net was $296 million, which was unaffected by the Clearwire gain. Therefore, the investment income (loss) in 2014 without the Clearwire gain would still be $296 million.",
+          "is_percent": false,
+          "output_tokens": 112,
+          "raw_answer": 296.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. Since the 2014 investment income (loss) net was $296 million, and this included the effect of Clearwire’s sale in 2013, we subtract the $443 million gain from the 2014 value to find the base investment income (loss) without that gain. However, the $443 million gain occurred in ",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 6,
+          "valid": false
+        },
+        {
+          "answer": 296.0,
+          "derivation": "In 2013, investment income (loss) net was $576 million, and the gain from the sale of Clearwire in 2013 was $443 million. This gain was included in the 2013 figure, so to find investment income (loss) net in 2014 without that gain, we subtract the $443 million gain from the 2014 investment income (loss) net of $296 million. However, the $443 million gain was realized in 2013 and not in 2014, so it",
+          "is_percent": false,
+          "output_tokens": 185,
+          "raw_answer": 296.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "CMCSA/2015/page_64.pdf-2",
+      "panel_index": 9,
+      "prompt_tokens": 941,
+      "scan_rank": 49
+    },
+    {
+      "candidates": [
+        {
+          "answer": 16.0,
+          "derivation": "The total amortization amount for intangibles in the five-year period is $45 + $45 + $45 + $45 + $44 = $224 million. In 2014, the amortization expense was $36 million. The percentage of 2014 amortization relative to the total is $36 / $224 ≈ 0.1607, or 16.07%.",
+          "is_percent": true,
+          "output_tokens": 108,
+          "raw_answer": 16.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "The amortization amount for intangibles in 2014 was $36 million. The total amortization amount from the table is the sum of amortization for 2015 to 2019: 45 + 45 + 45 + 45 + 44 = $224 million. However, the question asks for the percentage of the total amortization amount that was from intangibles in 2014, which is only $36 million. Since the total amortization amount is not defined for 2014 in th",
+          "is_percent": true,
+          "output_tokens": 215,
+          "raw_answer": 100.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 16.07,
+          "derivation": "The total amortization amount for the next five years is 45 + 45 + 45 + 45 + 44 = $224 million. In 2014, the amortization expense was $36 million, as stated in the report. The percentage of 2014 amortization from intangibles is 36 / 224 ≈ 0.1607, i.e. 16.07%.",
+          "is_percent": true,
+          "output_tokens": 115,
+          "raw_answer": 16.07,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "The total amortization amount for intangibles in 2014 is $36 million (as stated in the report). The total amortization amount for the next five years is $45 million in 2015–2017 and $44 million in 2018–2019, but the question specifically asks about 2014. Since the only amortization expense mentioned for 2014 is $36 million, and no other amortization is attributed to 2014, the percentage of total a",
+          "is_percent": true,
+          "output_tokens": 147,
+          "raw_answer": 100.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the percentage of the total amortization amount from intangibles in 2014. The report states that amortization expense for intangibles was $36 million in 2014. However, no total amortization amount is provided for the entire company in 2014. The table shows future amortization amounts (from 2015 to 2019), which do not include 2014. Since only the intangible amortization for 20",
+          "is_percent": false,
+          "output_tokens": 145,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 16.0,
+          "derivation": "The total amortization amount for intangibles in the five-year period is $45 + $45 + $45 + $45 + $44 = $224 million. The amortization expense for intangibles in 2014 is given as $36 million. The percentage of 2014 amortization relative to total amortization is 36 / 224 ≈ 0.1607, or 16.07%.",
+          "is_percent": true,
+          "output_tokens": 114,
+          "raw_answer": 16.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 16.07,
+          "derivation": "The total amortization amount for the next five years is $45 + $45 + $45 + $45 + $44 = $224 million. In 2014, amortization expense was $36 million. The percentage of 2014 amortization relative to the total is 36 / 224 ≈ 0.1607, or 16.07%.",
+          "is_percent": true,
+          "output_tokens": 106,
+          "raw_answer": 16.07,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "The total amortization amount for intangibles in 2014 is $36 million (as stated in the report). The total amortization amount for the next five years (from 2015 to 2019) is $45 + $45 + $45 + $45 + $44 = $224 million. However, the question asks specifically for the percentage of the total amortization amount from intangibles in 2014. Since only $36 million was amortized in 2014, and no other amorti",
+          "is_percent": true,
+          "output_tokens": 196,
+          "raw_answer": 100.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "DVN/2014/page_85.pdf-2",
+      "panel_index": 10,
+      "prompt_tokens": 609,
+      "scan_rank": 94
+    },
+    {
+      "candidates": [
+        {
+          "answer": 167.0,
+          "derivation": "The report states that other sinking fund requirements are approximately $30.2 million annually and that these may be satisfied by cash or by certification of property additions at the rate of 167% of such requirements. Since the question asks for the percentage of annual other sinking fund requirements relative to the annual long-term debt maturities and cash sinking fund requirements, and the te",
+          "is_percent": true,
+          "output_tokens": 102,
+          "raw_answer": 167.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The report states that other sinking fund requirements are approximately $30.2 million annually and that these may be satisfied by cash or by certification of property additions at the rate of 167% of such requirements. This 167% refers to the rate at which property additions can satisfy the requirement, not the percentage of debt maturities. However, the question asks for the percentage of annual",
+          "is_percent": true,
+          "output_tokens": 165,
+          "raw_answer": 167.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The table provides long-term debt maturities for years 2003 to 2007, but the question asks for the annual other sinking fund requirements as a percentage of the annual long-term debt maturities and cash sinking fund requirements in 2007. From the report, it states that other sinking fund requirements are approximately $30.2 million annually and are satisfied by cash or certification of property ad",
+          "is_percent": true,
+          "output_tokens": 170,
+          "raw_answer": 167.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The report states that other sinking fund requirements are approximately $30.2 million annually and that these may be satisfied by cash or by certification of property additions at the rate of 167% of such requirements. This 167% refers to the rate at which property additions can satisfy the requirements, not the percentage of debt maturities. However, the question asks for the percentage of annua",
+          "is_percent": true,
+          "output_tokens": 173,
+          "raw_answer": 167.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 6.35,
+          "derivation": "The table provides long-term debt maturities for years 2003 to 2007, but the question refers to 2007. In 2007, the debt maturity is $475,288. The text states that other sinking fund requirements are approximately $30.2 million annually, regardless of year. The percentage is calculated as (30.2 / 475.288) × 100 ≈ 6.35%.",
+          "is_percent": true,
+          "output_tokens": 120,
+          "raw_answer": 6.35,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The question asks for the percentage of annual other sinking fund requirements relative to annual long-term debt maturities and cash sinking fund requirements in 2007. However, the report states that other sinking fund requirements are approximately $30.2 million annually, and this amount is mentioned as a fixed value, not tied directly to the debt maturities or cash sinking fund requirements in 2",
+          "is_percent": true,
+          "output_tokens": 157,
+          "raw_answer": 167.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The report states that other sinking fund requirements are approximately $30.2 million annually, and this amount is expressed as 167% of such requirements. Since the question asks for the percentage of annual long-term debt maturities and cash sinking fund requirements in 2007, and the only percentage provided in context is 167%, this is the relevant figure.",
+          "is_percent": true,
+          "output_tokens": 89,
+          "raw_answer": 167.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 167.0,
+          "derivation": "The report states that other sinking fund requirements are approximately $30.2 million annually, and this amount is mentioned as being satisfied by cash or by certification of property additions at the rate of 167% of such requirements. The annual long-term debt maturities and cash sinking fund requirements for 2007 are not directly provided in the table or text. However, the text explicitly state",
+          "is_percent": true,
+          "output_tokens": 130,
+          "raw_answer": 167.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ETR/2002/page_86.pdf-3",
+      "panel_index": 11,
+      "prompt_tokens": 759,
+      "scan_rank": 119
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.0,
+          "derivation": "Change in net revenue from reserve equalization: 14.3 - 14.3 = 0 (since it's the same in 2015 and 2016). Change in purchased power capacity: 12.4 - 12.4 = 0. Change in transmission revenue: 7.0 - 7.0 = 0. Total impact = 0 + 0 + 0 = 0.",
+          "is_percent": false,
+          "output_tokens": 107,
+          "raw_answer": 0.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 (2015) to 14.3 (2016), so no change. Purchased power capacity changed from 12.4 to 12.4, so no change. Transmission revenue changed from 7.0 to 7.0, so no change. Therefore, the total impact is 0.",
+          "is_percent": false,
+          "output_tokens": 93,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 - 14.3 = 0 (since it's not specified as a change, we assume 2016 value is 14.3, 2015 is 14.3). Purchased power capacity changed from 12.4 to 12.4 (no change). Transmission revenue changed from 7.0 to 7.0 (no change). Thus, total impact is 0 + 0 + 0 = 0.",
+          "is_percent": false,
+          "output_tokens": 123,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 - 14.3 = 0 (since it's not explicitly given as a change, but the 2015 value is 14.3 and 2016 is not stated, we infer from context that the variance is the change). However, the text says \"the reserve equalization variance is primarily due to a reduction,\" implying a decrease in expense, so the change is negative. But since the 2016 value ",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 3,
+          "valid": false
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 - 14.3 = 0 (since it's not specified that it changed, and the 2015 value is given). The purchased power capacity changed from 12.4 to 12.4 (no change). Transmission revenue changed from 7.0 to 7.0 (no change). Therefore, the total impact is 0.",
+          "is_percent": false,
+          "output_tokens": 99,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 67.4,
+          "derivation": "Change in net revenue from reserve equalization: 14.3 - (-14.3) = 28.6 million (since it was 14.3 in 2015 and reduced to 0 in 2016). Change in purchased power capacity: 12.4 - (-12.4) = 24.8 million (from 12.4 in 2015 to 0 in 2016). Change in transmission revenue: 7.0 - (-7.0) = 14.0 million (from 7.0 in 2015 to 0 in 2016). Total impact = 28.6 + 24.8 + 14.0 = 67.4 million.",
+          "is_percent": false,
+          "output_tokens": 189,
+          "raw_answer": 67.4,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 - 14.3 = 0 (since it's not stated as a change, assume same as 2015). Purchased power capacity changed by 12.4 - 12.4 = 0. Transmission revenue changed by 7.0 - 7.0 = 0. Thus, the total impact is 0 + 0 + 0 = 0.",
+          "is_percent": false,
+          "output_tokens": 106,
+          "raw_answer": 0.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The change in net revenue from reserve equalization is 14.3 - 14.3 = 0 (since it's not specified as a change, we assume the 2016 value is 14.3 and 2015 is 14.3). Purchased power capacity changed from 12.4 to 12.4 (no change). Transmission revenue changed from 7.0 to 7.0 (no change). Thus, the total impact is 0 + 0 + 0 = 0.",
+          "is_percent": false,
+          "output_tokens": 125,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ETR/2016/page_418.pdf-1",
+      "panel_index": 12,
+      "prompt_tokens": 730,
+      "scan_rank": 61
+    },
+    {
+      "candidates": [
+        {
+          "answer": null,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth of additions from 2003 to 2004 is (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth of deductions is (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0967 or 9.67%. Ratio of growths is 1.35% / 9.67% ≈ 0.1396.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 0,
+          "valid": false
+        },
+        {
+          "answer": null,
+          "derivation": "In 2003, additions = $82,551,000 and deductions = $1,390,000. In 2004, additions = $83,656,000 and deductions = $1,524,400. Growth of additions from 2003 to 2004 = (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth of deductions = (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0967 or 9.67%. Ratio of growths = 1.35% / 9.67% ≈ 0.1396.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 1,
+          "valid": false
+        },
+        {
+          "answer": 14.0,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth in deductions: (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0974 or 9.74%. Ratio of growths: 1.35% / 9.74% ≈ 0.1386, or 13.86%.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": 14.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions from 2003 to 2004 is (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 (1.35%). Growth in deductions is (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.097 (9.7%). The ratio of growth in additions to growth in deductions is 1.35 / 9.7 ≈ 0.139.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 3,
+          "valid": false
+        },
+        {
+          "answer": 14.0,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth in deductions: (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0974 or 9.74%. Ratio of growths: 1.35 / 9.74 ≈ 0.1386, or 13.86%.",
+          "is_percent": true,
+          "output_tokens": 220,
+          "raw_answer": 14.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 1.36,
+          "derivation": "Additions in 2003: $82,551,000; additions in 2004: $83,656,000. Growth of additions = (83,656,000 - 82,551,000) / 82,551,000 ≈ 1.35%. Deductions in 2003: $1,390,000; deductions in 2004: $15,244,000. Growth of deductions = (15,244,000 - 1,390,000) / 1,390,000 ≈ 99.6%. Ratio of growths = 1.35% / 99.6% ≈ 0.0136, or 1.36%.",
+          "is_percent": true,
+          "output_tokens": 220,
+          "raw_answer": 1.36,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 822.0,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: $83,656,000 - $82,551,000 = $1,105,000; growth in deductions: $1,524,400 - $1,390,000 = $134,400. Ratio of growths: $1,105,000 / $134,400 ≈ 8.22.",
+          "is_percent": false,
+          "output_tokens": 183,
+          "raw_answer": 822.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 14.0,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth in deductions: (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0967 or 9.67%. Ratio of growths: 1.35% / 9.67% ≈ 0.1396, or 13.96%.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": 14.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "FRT/2005/page_117.pdf-1",
+      "panel_index": 13,
+      "prompt_tokens": 512,
+      "scan_rank": 17
+    },
+    {
+      "candidates": [
+        {
+          "answer": 5.44,
+          "derivation": "The estimated purchase price is $220,600. The net tangible assets acquired are $12,000, which are typically paid in cash. Assuming all tangible assets are paid in cash and no other cash payments are mentioned, the portion paid in cash is $12,000 / $220,600 ≈ 0.0544, or 5.44%.",
+          "is_percent": true,
+          "output_tokens": 101,
+          "raw_answer": 5.44,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 5.44,
+          "derivation": "The total estimated purchase price is $220,600. The net tangible assets acquired are $12,000, and these are typically considered cash or cash equivalents paid in the acquisition. Assuming only tangible assets are directly paid in cash, the portion paid in cash is $12,000 / $220,600 ≈ 0.0544, or 5.44%.",
+          "is_percent": true,
+          "output_tokens": 103,
+          "raw_answer": 5.44,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 4.26,
+          "derivation": "The estimated purchase price of R2 is $220,600. The net tangible assets acquired are $12,000, and other intangible assets (in-process R&D, developed technology, customer relationships, trade name, order backlog, deferred income taxes, goodwill) total $102,000 + $39,500 + $15,700 + $3,300 + $800 + $4,400 + $145,500 = $211,200. The cash paid is the total purchase price minus the total intangible ass",
+          "is_percent": true,
+          "output_tokens": 214,
+          "raw_answer": 4.26,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "The estimated purchase price of R2 is $220,600. The net tangible assets acquired are $12,000, and the total intangible assets (in-process R&D, developed technology, customer relationships, trade name, order backlog, deferred income taxes, and goodwill) total $102,000 + $39,500 + $15,700 + $3,300 + $800 + $4,400 + $145,500 = $211,200. The sum of tangible and intangible assets is $12,000 + $211,200 ",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 3,
+          "valid": false
+        },
+        {
+          "answer": 5.44,
+          "derivation": "The total estimated purchase price is $220,600. The net tangible assets acquired are $12,000, which are typically paid in cash. Assuming only tangible assets are paid in cash, the portion paid in cash is 12,000 / 220,600 ≈ 0.0544, or 5.44%.",
+          "is_percent": true,
+          "output_tokens": 95,
+          "raw_answer": 5.44,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 5.44,
+          "derivation": "The total estimated purchase price is $220,600. The net tangible assets acquired are $12,000, and these are typically considered cash or non-cash assets paid at acquisition. Assuming the rest of the purchase price is attributed to intangible assets and goodwill, and given that no specific cash amount is stated, we infer that the cash paid is only the net tangible assets, unless otherwise specified",
+          "is_percent": true,
+          "output_tokens": 139,
+          "raw_answer": 5.44,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 5.44,
+          "derivation": "The total estimated purchase price is $220,600. The net tangible assets acquired are $12,000, which are likely paid in cash. Assuming only tangible assets are paid in cash, the portion paid in cash is 12,000 / 220,600 ≈ 0.0544, or 5.44%.",
+          "is_percent": true,
+          "output_tokens": 95,
+          "raw_answer": 5.44,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 5.44,
+          "derivation": "The total estimated purchase price is $220,600. The net tangible assets acquired are $12,000, which are typically paid in cash. Assuming all tangible assets are paid in cash and no other cash payments are mentioned, the portion paid in cash is $12,000 / $220,600 ≈ 0.0544, or 5.44%.",
+          "is_percent": true,
+          "output_tokens": 102,
+          "raw_answer": 5.44,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "HOLX/2007/page_128.pdf-2",
+      "panel_index": 14,
+      "prompt_tokens": 612,
+      "scan_rank": 75
+    },
+    {
+      "candidates": [
+        {
+          "answer": 112.5,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (derivative receivables) / (derivative payables) = 72629 / 64553 ≈ 1.125.",
+          "is_percent": true,
+          "output_tokens": 65,
+          "raw_answer": 112.5,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 112.5,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (72,629 / 64,553) ≈ 1.125.",
+          "is_percent": true,
+          "output_tokens": 53,
+          "raw_answer": 112.5,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 112.5,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (trading assets derivative receivables) / (trading liabilities derivative payables) = 72629 / 64553 ≈ 1.125.",
+          "is_percent": true,
+          "output_tokens": 69,
+          "raw_answer": 112.5,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 112.5,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (trading assets derivative receivables) / (trading liabilities derivative payables) = 72,629 / 64,553 ≈ 1.125.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 112.5,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 8076.0,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (trading assets derivative receivables) minus (trading liabilities derivative payables). In 2013, this is 72,629 - 64,553 = 8,076.",
+          "is_percent": true,
+          "output_tokens": 77,
+          "raw_answer": 8076.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 8076.0,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (derivative receivables - derivative payables). In 2013, derivative receivables were $72,629 million and derivative payables were $64,553 million. The difference is 72,629 - 64,553 = 8,076.",
+          "is_percent": true,
+          "output_tokens": 98,
+          "raw_answer": 8076.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 8076.0,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (trading assets derivative receivables) - (trading liabilities derivative payables) = 72,629 - 64,553 = 8,076. Final answer is 8,076.",
+          "is_percent": false,
+          "output_tokens": 78,
+          "raw_answer": 8076.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 8076.0,
+          "derivation": "Net trading assets derivative receivables to trading liabilities derivative payables is calculated as (trading assets derivative receivables) - (trading liabilities derivative payables) = 72,629 - 64,553 = 8,076.",
+          "is_percent": false,
+          "output_tokens": 68,
+          "raw_answer": 8076.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "JPM/2013/page_209.pdf-1",
+      "panel_index": 15,
+      "prompt_tokens": 758,
+      "scan_rank": 135
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.0,
+          "derivation": "The question appears incomplete — it asks for \"what percentage of net goodwill at December 31, 2011 is comprised of,\" but does not specify what component or category. Without clarification, the query cannot be fully answered.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 0.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question appears to be asking for the percentage of net goodwill at December 31, 2011 that is comprised of a specific category, but the question is incomplete. Without specifying which category or component, the percentage cannot be determined.",
+          "is_percent": true,
+          "output_tokens": 58,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question appears to be incomplete. It asks for a percentage of net goodwill at December 31, 2011, but does not specify what portion (e.g., cabinets, plumbing, etc.) or what basis (e.g., relative to total) is required. Without clarification, the percentage cannot be determined.",
+          "is_percent": true,
+          "output_tokens": 74,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "The question appears to be asking for the percentage of net goodwill at December 31, 2011 that is comprised of a specific component, but the question is incomplete. Without specifying which component (e.g., cabinets, plumbing, etc.), it cannot be determined. Assuming the intent is to find the percentage of total net goodwill at December 31, 2011 relative to itself, it would be 100%.",
+          "is_percent": true,
+          "output_tokens": 101,
+          "raw_answer": 100.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question appears incomplete. It asks for a percentage of net goodwill at December 31, 2011, but does not specify what portion (e.g., cabinets, plumbing, etc.) or what it is comparing to. Without clarification, the percentage cannot be determined.",
+          "is_percent": true,
+          "output_tokens": 65,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question appears to be incomplete. It asks for \"what percentage of net goodwill at December 31, 2011 is comprised of\" but does not specify what component or category. Without a clear subcategory or item to calculate the percentage of, the question cannot be solved.",
+          "is_percent": true,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "The question appears to be asking for the percentage of net goodwill at December 31, 2011, that is comprised of a specific component, but the question is incomplete. Without specifying which component (e.g., cabinets, plumbing, etc.), it is impossible to determine the exact percentage. Assuming the question intends to find the percentage of total net goodwill at December 31, 2011, relative to itse",
+          "is_percent": true,
+          "output_tokens": 107,
+          "raw_answer": 100.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question is incomplete. It asks for a percentage of net goodwill at December 31, 2011, but does not specify what portion (e.g., cabinets, plumbing, etc.) or what component to calculate. Without a clear subset or category, the percentage cannot be determined.",
+          "is_percent": true,
+          "output_tokens": 68,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "MAS/2012/page_70.pdf-2",
+      "panel_index": 16,
+      "prompt_tokens": 691,
+      "scan_rank": 72
+    },
+    {
+      "candidates": [
+        {
+          "answer": -111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is 33.87 - 145.29 = -111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": -111.42,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is $145.29 - $33.87 = $111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": 111.42,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is $145.29 - $33.87 = $111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": 111.42,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": -111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is 33.87 - 145.29 = -111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": -111.42,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": -111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is 33.87 - 145.29 = -111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": -111.42,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is $145.29 - $33.87 = $111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": 111.42,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": -111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is 33.87 - 145.29 = -111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": -111.42,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": -111.42,
+          "derivation": "The high price of WTI crude oil on July 3, 2008, was $145.29, and the low price on December 19, 2008, was $33.87. The change is 33.87 - 145.29 = -111.42.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": -111.42,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "MRO/2008/page_69.pdf-2",
+      "panel_index": 17,
+      "prompt_tokens": 638,
+      "scan_rank": 158
+    },
+    {
+      "candidates": [
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares at end of 2014 - shares at end of 2013 = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 49,
+          "raw_answer": 6.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 35.0,
+          "derivation": "Shares outstanding at beginning of period: 1945 in 2014 and 1974 in 2013. Net change = (1951 - 1945) - (1945 - 1974) = 6 - (-29) = 35.",
+          "is_percent": true,
+          "output_tokens": 81,
+          "raw_answer": 35.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of period (2014) - shares outstanding at end of period (2013) = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 6.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of 2014 - shares outstanding at end of 2013 = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 51,
+          "raw_answer": 6.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of period (2014) - shares outstanding at end of period (2013) = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 6.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of period (2014) - shares outstanding at end of period (2013) = 1951 - 1945 = 6.",
+          "is_percent": true,
+          "output_tokens": 55,
+          "raw_answer": 6.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of 2014 - shares outstanding at end of 2013 = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 51,
+          "raw_answer": 6.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 6.0,
+          "derivation": "Net change in shares outstanding = shares outstanding at end of 2014 - shares outstanding at end of 2013 = 1951 - 1945 = 6 million.",
+          "is_percent": false,
+          "output_tokens": 51,
+          "raw_answer": 6.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "MS/2014/page_267.pdf-1",
+      "panel_index": 18,
+      "prompt_tokens": 610,
+      "scan_rank": 169
+    },
+    {
+      "candidates": [
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. Change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 112,
+          "raw_answer": -8.49,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 9.28,
+          "derivation": "The value of interest retained by UPRI increased from $431 million in 2007 to $471 million in 2008. The increase is $471 - $431 = $40 million. The percentage change is (40 / 431) × 100 ≈ 9.28%.",
+          "is_percent": true,
+          "output_tokens": 89,
+          "raw_answer": 9.28,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is (-40 / 471) × 100 ≈ -8.49%.",
+          "is_percent": true,
+          "output_tokens": 112,
+          "raw_answer": -8.49,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 9.3,
+          "derivation": "The value of interest retained by UPRI increased from $431 million in 2007 to $471 million in 2008. The increase is $471 - $431 = $40 million. The percentage change is (40 / 431) × 100 ≈ 9.3%.",
+          "is_percent": true,
+          "output_tokens": 87,
+          "raw_answer": 9.3,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the percent of the value of the interest retained by UPRI from 2007 to 2008, but the provided data does not include information about interest retained by UPRI. The values $431 million and $471 million are likely related to receivables or similar metrics, not interest retained. Without clear data on interest retained, the question cannot be answered as posed.",
+          "is_percent": true,
+          "output_tokens": 95,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": -8.5,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.085, or -8.5%.",
+          "is_percent": true,
+          "output_tokens": 111,
+          "raw_answer": -8.5,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. Change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 112,
+          "raw_answer": -8.49,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 116,
+          "raw_answer": -8.49,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "UNP/2008/page_79.pdf-1",
+      "panel_index": 19,
+      "prompt_tokens": 787,
+      "scan_rank": 1
+    }
+  ],
+  "content_sha256": "6bc8d7e23732e416e461b59353fe1f6841bacf80870985170ca0aba28dc006ba",
+  "generation_cost": {
+    "input_tokens": 1027184,
+    "output_tokens": 118325,
+    "wall_seconds": 1714.258140830323
+  },
+  "generator": {
+    "device_map": "auto",
+    "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+    "inference_library": "transformers==4.55.4",
+    "mode": "non-thinking only",
+    "precision": "bfloat16",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "tokenizer_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+    "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "torch": "torch==2.7.1"
+  },
+  "max_new_tokens": 220,
+  "panel_file_sha256": "afd6a595b42349280f17e70f306bdf6605c294090e91de9002f468e9513bf5fe",
+  "protocol_sha256": "f3bae3cf0e4874bff11cc498f37f8c2c38bad44de21bd3b5c35f0a0edffd5303",
+  "schema_version": 2,
+  "screen": {
+    "min_spread": 0.25,
+    "selection_seed": 20260912
+  },
+  "seed_base": 20260914,
+  "seed_rule": "GENERATION_SEED_BASE + 1000*scan_rank + slot",
+  "temperature": 0.8,
+  "top_p": 0.95
+}

@@ -1,0 +1,5 @@
+{
+ "master_seed": 20260922,
+ "accounting": "one environment sample per trajectory step; floor(total/H) trajectories; policy sampling free",
+ "independent_streams": true
+}

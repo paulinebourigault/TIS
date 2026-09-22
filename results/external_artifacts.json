@@ -1,0 +1,29 @@
+{
+ "note": "Files below exceed repository size limits and are preserved on the execution host; every reported number reproduces from the committed artifacts alone.",
+ "external_files_sha256": {
+  "public_anchored/allocations.csv": {
+   "bytes": 509387448,
+   "sha256": "0f12aec128f4f23dbbc0b3869a8eec89469beaa9086f04d89599303d6b7e1e1a"
+  },
+  "replacement_anchored/allocations.csv": {
+   "bytes": 108731277,
+   "sha256": "b2fe1e60aa06ba37ee89ea7fef68f6bccdbc04f891a1fa4d0945715d4f676f73"
+  },
+  "finqa_heldout_ordinary/raw.csv": {
+   "bytes": 33615793,
+   "sha256": "b58efd6238684ac0c80082a938142969ab15c747ae563de2ec42ee8c8aa964cd"
+  },
+  "finqa_heldout_ordinary_phi/raw.csv": {
+   "bytes": 38416680,
+   "sha256": "9883a451a13db5af1f1002e5de1b7aa47088d620ed7c5ccc505e03c2132419b1"
+  },
+  "finqa_heldout_unitcheck/raw.csv": {
+   "bytes": 31757080,
+   "sha256": "49d74db392753dcf60161e7f7462db9cb887874fae800b479eaeac7577ecdf8c"
+  },
+  "finqa_heldout_unitcheck_phi/raw.csv": {
+   "bytes": 38023855,
+   "sha256": "6ec9b9f9564be01afd6285ae03194d85f7fa26af049ae184bb3a48d3a737b512"
+  }
+ }
+}

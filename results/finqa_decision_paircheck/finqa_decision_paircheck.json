@@ -1,0 +1,504 @@
+{
+ "protocol": {
+  "permutations": 500,
+  "seed": 20260927,
+  "tie_rule": "ties select ordinary",
+  "note": "identical-index pairing reproduces the committed paired common-random-number evaluation; permutation pairing estimates independent-stream selection rates from the same marginal estimate distributions"
+ },
+ "qwen": {
+  "truth_ordinary": 1.873035086905514,
+  "truth_unitcheck": 1.872624959209258,
+  "gap": 0.00041012769625581313,
+  "better": "ordinary",
+  "cells": {
+   "complete_rollout|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.13194666666666666,
+    "wrong_rate_independent_sd": 0.013523585868751638,
+    "wrong_rate_independent_p5_p95": [
+     0.11,
+     0.15333333333333332
+    ]
+   },
+   "learned_occupancy|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.20414666666666667,
+    "wrong_rate_independent_sd": 0.014767727365545661,
+    "wrong_rate_independent_p5_p95": [
+     0.18,
+     0.22683333333333316
+    ]
+   },
+   "oracle_tail|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.04752,
+    "wrong_rate_independent_sd": 0.008972150682228766,
+    "wrong_rate_independent_p5_p95": [
+     0.03333333333333333,
+     0.06333333333333334
+    ]
+   },
+   "tis|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.02,
+    "wrong_rate_independent_mean": 0.12034,
+    "wrong_rate_independent_sd": 0.006656301227061778,
+    "wrong_rate_independent_p5_p95": [
+     0.10666666666666667,
+     0.13
+    ]
+   },
+   "tis_anchored|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.006666666666666667,
+    "wrong_rate_independent_mean": 0.24984,
+    "wrong_rate_independent_sd": 0.01572903488489213,
+    "wrong_rate_independent_p5_p95": [
+     0.22333333333333333,
+     0.2733333333333333
+    ]
+   },
+   "uniform|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.17158666666666664,
+    "wrong_rate_independent_sd": 0.009099651188256631,
+    "wrong_rate_independent_p5_p95": [
+     0.15666666666666668,
+     0.18666666666666668
+    ]
+   },
+   "complete_rollout|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.062066666666666666,
+    "wrong_rate_independent_sd": 0.010538601626805,
+    "wrong_rate_independent_p5_p95": [
+     0.043333333333333335,
+     0.08
+    ]
+   },
+   "learned_occupancy|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.09290000000000001,
+    "wrong_rate_independent_sd": 0.011553319028893344,
+    "wrong_rate_independent_p5_p95": [
+     0.07333333333333333,
+     0.11333333333333333
+    ]
+   },
+   "oracle_tail|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.011579999999999998,
+    "wrong_rate_independent_sd": 0.005377451955584987,
+    "wrong_rate_independent_p5_p95": [
+     0.0033333333333333335,
+     0.02
+    ]
+   },
+   "tis|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0033333333333333335,
+    "wrong_rate_independent_mean": 0.25999333333333335,
+    "wrong_rate_independent_sd": 0.013735580686597873,
+    "wrong_rate_independent_p5_p95": [
+     0.23666666666666666,
+     0.2833333333333333
+    ]
+   },
+   "tis_anchored|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.16546666666666665,
+    "wrong_rate_independent_sd": 0.01446069004045885,
+    "wrong_rate_independent_p5_p95": [
+     0.1431666666666667,
+     0.19
+    ]
+   },
+   "uniform|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.2858866666666667,
+    "wrong_rate_independent_sd": 0.014391558115823086,
+    "wrong_rate_independent_p5_p95": [
+     0.2633333333333333,
+     0.31
+    ]
+   },
+   "complete_rollout|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.01612,
+    "wrong_rate_independent_sd": 0.006373919807105737,
+    "wrong_rate_independent_p5_p95": [
+     0.006666666666666667,
+     0.02666666666666667
+    ]
+   },
+   "learned_occupancy|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.03220666666666666,
+    "wrong_rate_independent_sd": 0.008610782777946895,
+    "wrong_rate_independent_p5_p95": [
+     0.02,
+     0.04666666666666667
+    ]
+   },
+   "oracle_tail|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.0016466666666666667,
+    "wrong_rate_independent_sd": 0.0021674604167562783,
+    "wrong_rate_independent_p5_p95": [
+     0.0,
+     0.006666666666666667
+    ]
+   },
+   "tis|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0033333333333333335,
+    "wrong_rate_independent_mean": 0.31375333333333333,
+    "wrong_rate_independent_sd": 0.01572493888577881,
+    "wrong_rate_independent_p5_p95": [
+     0.2866666666666667,
+     0.34
+    ]
+   },
+   "tis_anchored|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.08142666666666666,
+    "wrong_rate_independent_sd": 0.012021660848151759,
+    "wrong_rate_independent_p5_p95": [
+     0.06,
+     0.1
+    ]
+   },
+   "uniform|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.32552,
+    "wrong_rate_independent_sd": 0.015513788122521454,
+    "wrong_rate_independent_p5_p95": [
+     0.3,
+     0.35
+    ]
+   },
+   "complete_rollout|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.0007,
+    "wrong_rate_independent_sd": 0.0014843501877416212,
+    "wrong_rate_independent_p5_p95": [
+     0.0,
+     0.0033333333333333335
+    ]
+   },
+   "learned_occupancy|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.0037333333333333333,
+    "wrong_rate_independent_sd": 0.0029948370923190753,
+    "wrong_rate_independent_p5_p95": [
+     0.0,
+     0.01
+    ]
+   },
+   "oracle_tail|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.0,
+    "wrong_rate_independent_sd": 0.0,
+    "wrong_rate_independent_p5_p95": [
+     0.0,
+     0.0
+    ]
+   },
+   "tis|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.01,
+    "wrong_rate_independent_mean": 0.26125333333333334,
+    "wrong_rate_independent_sd": 0.013916210757375275,
+    "wrong_rate_independent_p5_p95": [
+     0.23666666666666666,
+     0.2833333333333333
+    ]
+   },
+   "tis_anchored|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.017339999999999998,
+    "wrong_rate_independent_sd": 0.006010823015192951,
+    "wrong_rate_independent_p5_p95": [
+     0.006666666666666667,
+     0.02666666666666667
+    ]
+   },
+   "uniform|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.0,
+    "wrong_rate_independent_mean": 0.27286,
+    "wrong_rate_independent_sd": 0.014139709115071243,
+    "wrong_rate_independent_p5_p95": [
+     0.24983333333333335,
+     0.2966666666666667
+    ]
+   }
+  }
+ },
+ "phi": {
+  "truth_ordinary": 1.7676386801226602,
+  "truth_unitcheck": 1.7669658793056633,
+  "gap": 0.0006728008169969435,
+  "better": "ordinary",
+  "cells": {
+   "complete_rollout|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.38333333333333336,
+    "wrong_rate_independent_mean": 0.39318,
+    "wrong_rate_independent_sd": 0.01649540734852748,
+    "wrong_rate_independent_p5_p95": [
+     0.36666666666666664,
+     0.42
+    ]
+   },
+   "learned_occupancy|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.36333333333333334,
+    "wrong_rate_independent_mean": 0.39146,
+    "wrong_rate_independent_sd": 0.01595409106150373,
+    "wrong_rate_independent_p5_p95": [
+     0.36666666666666664,
+     0.42
+    ]
+   },
+   "oracle_tail|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.36333333333333334,
+    "wrong_rate_independent_mean": 0.37865999999999994,
+    "wrong_rate_independent_sd": 0.01654814100829909,
+    "wrong_rate_independent_p5_p95": [
+     0.3531666666666667,
+     0.4066666666666667
+    ]
+   },
+   "tis|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.5,
+    "wrong_rate_independent_mean": 0.48516666666666663,
+    "wrong_rate_independent_sd": 0.01676573761255866,
+    "wrong_rate_independent_p5_p95": [
+     0.45666666666666667,
+     0.51
+    ]
+   },
+   "tis_anchored|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.42333333333333334,
+    "wrong_rate_independent_mean": 0.42674666666666666,
+    "wrong_rate_independent_sd": 0.017272046216193434,
+    "wrong_rate_independent_p5_p95": [
+     0.39666666666666667,
+     0.45666666666666667
+    ]
+   },
+   "uniform|b25": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.4533333333333333,
+    "wrong_rate_independent_mean": 0.4903933333333333,
+    "wrong_rate_independent_sd": 0.016110311945105343,
+    "wrong_rate_independent_p5_p95": [
+     0.4666666666666667,
+     0.5166666666666667
+    ]
+   },
+   "complete_rollout|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.27,
+    "wrong_rate_independent_mean": 0.33586,
+    "wrong_rate_independent_sd": 0.01612114430487204,
+    "wrong_rate_independent_p5_p95": [
+     0.30666666666666664,
+     0.3601666666666665
+    ]
+   },
+   "learned_occupancy|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.34,
+    "wrong_rate_independent_mean": 0.3279066666666667,
+    "wrong_rate_independent_sd": 0.01611637150280386,
+    "wrong_rate_independent_p5_p95": [
+     0.3,
+     0.35349999999999987
+    ]
+   },
+   "oracle_tail|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.24333333333333335,
+    "wrong_rate_independent_mean": 0.28778666666666664,
+    "wrong_rate_independent_sd": 0.015960003448835476,
+    "wrong_rate_independent_p5_p95": [
+     0.26,
+     0.31333333333333335
+    ]
+   },
+   "tis|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.47333333333333333,
+    "wrong_rate_independent_mean": 0.45164666666666664,
+    "wrong_rate_independent_sd": 0.017160345094911166,
+    "wrong_rate_independent_p5_p95": [
+     0.42333333333333334,
+     0.48
+    ]
+   },
+   "tis_anchored|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.3333333333333333,
+    "wrong_rate_independent_mean": 0.3343333333333333,
+    "wrong_rate_independent_sd": 0.016206060097348426,
+    "wrong_rate_independent_p5_p95": [
+     0.30666666666666664,
+     0.36
+    ]
+   },
+   "uniform|b50": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.4533333333333333,
+    "wrong_rate_independent_mean": 0.4459866666666667,
+    "wrong_rate_independent_sd": 0.0165770415854749,
+    "wrong_rate_independent_p5_p95": [
+     0.41983333333333334,
+     0.47333333333333333
+    ]
+   },
+   "complete_rollout|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.21666666666666667,
+    "wrong_rate_independent_mean": 0.26952,
+    "wrong_rate_independent_sd": 0.01557738456287317,
+    "wrong_rate_independent_p5_p95": [
+     0.24333333333333335,
+     0.2966666666666667
+    ]
+   },
+   "learned_occupancy|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.2833333333333333,
+    "wrong_rate_independent_mean": 0.28002,
+    "wrong_rate_independent_sd": 0.015469338158704752,
+    "wrong_rate_independent_p5_p95": [
+     0.25666666666666665,
+     0.30666666666666664
+    ]
+   },
+   "oracle_tail|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.16333333333333333,
+    "wrong_rate_independent_mean": 0.19960666666666668,
+    "wrong_rate_independent_sd": 0.01432053303630836,
+    "wrong_rate_independent_p5_p95": [
+     0.17333333333333334,
+     0.22333333333333333
+    ]
+   },
+   "tis|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.39666666666666667,
+    "wrong_rate_independent_mean": 0.42016666666666663,
+    "wrong_rate_independent_sd": 0.016324305986223846,
+    "wrong_rate_independent_p5_p95": [
+     0.3933333333333333,
+     0.44666666666666666
+    ]
+   },
+   "tis_anchored|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.24666666666666667,
+    "wrong_rate_independent_mean": 0.2752466666666667,
+    "wrong_rate_independent_sd": 0.015974443796204146,
+    "wrong_rate_independent_p5_p95": [
+     0.24666666666666667,
+     0.3
+    ]
+   },
+   "uniform|b100": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.38666666666666666,
+    "wrong_rate_independent_mean": 0.3965866666666667,
+    "wrong_rate_independent_sd": 0.01657336073055624,
+    "wrong_rate_independent_p5_p95": [
+     0.37,
+     0.4234999999999999
+    ]
+   },
+   "complete_rollout|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.16,
+    "wrong_rate_independent_mean": 0.1956,
+    "wrong_rate_independent_sd": 0.015050423672696978,
+    "wrong_rate_independent_p5_p95": [
+     0.17333333333333334,
+     0.22
+    ]
+   },
+   "learned_occupancy|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.14333333333333334,
+    "wrong_rate_independent_mean": 0.21066,
+    "wrong_rate_independent_sd": 0.015309032179268064,
+    "wrong_rate_independent_p5_p95": [
+     0.18666666666666668,
+     0.23666666666666666
+    ]
+   },
+   "oracle_tail|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.07333333333333333,
+    "wrong_rate_independent_mean": 0.11808666666666667,
+    "wrong_rate_independent_sd": 0.012808875443840776,
+    "wrong_rate_independent_p5_p95": [
+     0.1,
+     0.13683333333333317
+    ]
+   },
+   "tis|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.33,
+    "wrong_rate_independent_mean": 0.3263666666666667,
+    "wrong_rate_independent_sd": 0.015729107082706206,
+    "wrong_rate_independent_p5_p95": [
+     0.3,
+     0.35333333333333333
+    ]
+   },
+   "tis_anchored|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.17,
+    "wrong_rate_independent_mean": 0.21007333333333333,
+    "wrong_rate_independent_sd": 0.014252516409517397,
+    "wrong_rate_independent_p5_p95": [
+     0.19,
+     0.23333333333333334
+    ]
+   },
+   "uniform|b200": {
+    "replications": 300,
+    "wrong_rate_identical_index": 0.2833333333333333,
+    "wrong_rate_independent_mean": 0.31860666666666665,
+    "wrong_rate_independent_sd": 0.015524409924241265,
+    "wrong_rate_independent_p5_p95": [
+     0.29333333333333333,
+     0.3433333333333333
+    ]
+   }
+  }
+ }
+}

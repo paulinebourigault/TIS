@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "d0ad87af70675faf",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "8c2d0e355e9e6fb431750fb37589d713aebcbf81e83561cc1fa688b78b8ccceb",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 153286533,
+      "sha256": "727fb6b0582cb835e0072968ccb026856df36ea4ba9bdfedad91756283dabc42"
+    },
+    "config.json": {
+      "bytes": 662,
+      "sha256": "c417fa1abe6db25af90ca1b7229b24dd93b8fb6183b02795ca24aaa53bbf2a5e"
+    },
+    "diagnostics.json": {
+      "bytes": 111786,
+      "sha256": "4df7da31ec49367efbeee7d3969ff528151b7ff8aa378065ce170458b16daf72"
+    },
+    "paired_panel.csv": {
+      "bytes": 15602,
+      "sha256": "5bb3c5cf7d24ba424f67e887a86a31f121601f585c72db4a4ccf7780f2351ee8"
+    },
+    "panel_replications.csv": {
+      "bytes": 3062353,
+      "sha256": "4cb4c43d2c3eb5c775a8a3789066ce57686c931cc622fd8160d0000b9567c6a7"
+    },
+    "panel_summary.csv": {
+      "bytes": 18923,
+      "sha256": "5af6c419e3f1b3c017423c79337f011d72f66ce29d51d850524be51ff95f627a"
+    },
+    "question_summary.csv": {
+      "bytes": 1073493,
+      "sha256": "fac802c1162be60c35d2a974cbd75a9540eded4ed1dd8ada2cf4c000f83f90f8"
+    },
+    "raw.csv": {
+      "bytes": 644618872,
+      "sha256": "bc599cbf113d8b6978e504fdad625c36fcae3e91ec6a2d390d1f3d38450822eb"
+    }
+  },
+  "kernel_artifact_sha256": "cf11af6bf56de22c8a24503a3fc7376698fe776abab38bd2d5a9ad64855ffc89",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "zai-org/GLM-4-32B-0414",
+  "kernel_model_key": "scale_model_3",
+  "methods": [
+    "uniform",
+    "occupancy",
+    "mean_influence",
+    "answer_entropy",
+    "oracle_tail",
+    "tis",
+    "mc_ucb_frozen",
+    "adaptive_neyman",
+    "untied_tis"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "paper_eligible_closed_grid",
+  "runtime_seconds": 24044.869005203247,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 46
+}

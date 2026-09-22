@@ -1,0 +1,51 @@
+{
+ "audits": {
+  "phi": {
+   "passed": true,
+   "smallest_p": 0.0019578502387716918
+  },
+  "qwen": {
+   "passed": true,
+   "smallest_p": 0.00696739596071005
+  }
+ },
+ "decision": {
+  "GATE": "PASS",
+  "audits_pass": {
+   "phi": true,
+   "qwen": true
+  },
+  "candidate_mobility_pass": {
+   "phi": true,
+   "qwen": false
+  },
+  "margins_pass": {
+   "phi": true,
+   "qwen": true
+  },
+  "severity_gap_pass": {
+   "phi": true,
+   "qwen": false
+  }
+ },
+ "generators": {
+  "phi": {
+   "margins_positive": true,
+   "max_TV": 0.4531509187505186,
+   "median_TV": 0.20762612495100424,
+   "panel_value_ordinary": 1.7273500135561441,
+   "panel_value_skeptical": 1.7178218824245939,
+   "questions_with_TV_ge_0.10": 18,
+   "signed_gap_ord_minus_skep": 0.009528131131550266
+  },
+  "qwen": {
+   "margins_positive": true,
+   "max_TV": 0.8536455053059739,
+   "median_TV": 0.003048243810447629,
+   "panel_value_ordinary": 1.8066910236373246,
+   "panel_value_skeptical": 1.8051692409085707,
+   "questions_with_TV_ge_0.10": 5,
+   "signed_gap_ord_minus_skep": 0.0015217827287539176
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+  "cell_cache_signature": "6489d56d665d57a8",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "a004a2059d0704e33a4d0c37e5d95ec12fb31fb0169077e5bdb95bba9c2f403f",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 179890786,
+      "sha256": "1608469b46ab468b19ad0c7cabd2d1ac958e8195c55caf295f34d66f65a85ecf"
+    },
+    "config.json": {
+      "bytes": 728,
+      "sha256": "46ec2ba646393433e42cb54a201a2536728306a15de179874c30b9313cd712fa"
+    },
+    "diagnostics.json": {
+      "bytes": 113569,
+      "sha256": "806969e317110e05291c48b3ceb6ebc2d11340ad5989c6098661681b0392fb1c"
+    },
+    "paired_panel.csv": {
+      "bytes": 19581,
+      "sha256": "097fc26d4a88b2368c1e83358d6e77ee68458b3fa4ef1fbeea553143f56a335a"
+    },
+    "panel_replications.csv": {
+      "bytes": 3819186,
+      "sha256": "2b3101defc1b6e6691551c12dd3a07958e8cce23898bae3c20ebcad5e7482f4f"
+    },
+    "panel_summary.csv": {
+      "bytes": 23551,
+      "sha256": "20c2a0b77d597e7f9c856bd1f1206da78f8def9e2743aae3a1074ae4070089f2"
+    },
+    "question_summary.csv": {
+      "bytes": 1507012,
+      "sha256": "2a072af543c49368179972b8d19568c0859fe6226081529ddcc803109625b82b"
+    },
+    "raw.csv": {
+      "bytes": 866791713,
+      "sha256": "f8590453b22eead4e4946aac06deccc7326b48cff795c232bfbf051ff2346420"
+    }
+  },
+  "kernel_artifact_sha256": "27a310302ca40ef1ca55f15b94189fa0a35d752d76eaecfb01fdf400040188eb",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "kernel_model_key": "model",
+  "methods": [
+    "uniform",
+    "occupancy",
+    "mean_influence",
+    "answer_entropy",
+    "oracle_tail",
+    "tis",
+    "untied_tis",
+    "learned_mean",
+    "learned_occupancy",
+    "tis_no_cov",
+    "oracle_no_cov"
+  ],
+  "policy": "cautious",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 79128.17759180069,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 12
+}
