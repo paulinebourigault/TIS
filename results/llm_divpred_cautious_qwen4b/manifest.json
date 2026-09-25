@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "2fdde552253a4f8c",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "c207ed0415b24f8e272c8b666b40740877f71561b1c0efac34816de877a8a043",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 16169170,
+      "sha256": "de2d191812009b114457667744445e9b10f7cbe93bf2bfc5bca012c99a3ca284"
+    },
+    "config.json": {
+      "bytes": 670,
+      "sha256": "7b4e824d4190dafdd641b0b0c680c6d2ea9252feee194f1bff9e8a5de0a92e7e"
+    },
+    "diagnostics.json": {
+      "bytes": 18968,
+      "sha256": "7e00030c0b99772e199fa0249a7fb264fddac6e5ce62a2ccb239d81323f0f1d1"
+    },
+    "paired_panel.csv": {
+      "bytes": 2094,
+      "sha256": "dd9987301468a560aefa2983895778dfe6a70798cc461e45224613203e9a5882"
+    },
+    "panel_replications.csv": {
+      "bytes": 401802,
+      "sha256": "bdeadfb793a769803fb9e52bfe863516b944bda5dffa0e31c9c09abbc66ca35c"
+    },
+    "panel_summary.csv": {
+      "bytes": 2533,
+      "sha256": "ddeadc6c0da2605d31ffc183b758ff381f7fa0c93278d2b5455aa4dbae526f55"
+    },
+    "question_summary.csv": {
+      "bytes": 155989,
+      "sha256": "3351e17427f60a2d2c25b28b4cb67eeea3cbfd2234fca47ced1ea84c221ff56f"
+    },
+    "raw.csv": {
+      "bytes": 88399764,
+      "sha256": "564dd79c37c78d867fe7e43c3cc9104ee1e92ba173bae3c60b55dc9b74e291ca"
+    }
+  },
+  "kernel_artifact_sha256": "27a310302ca40ef1ca55f15b94189fa0a35d752d76eaecfb01fdf400040188eb",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "kernel_model_key": "model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "cautious",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 4513.845727920532,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 6
+}

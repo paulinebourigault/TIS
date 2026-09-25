@@ -1,0 +1,31 @@
+{
+ "schema_version": 1,
+ "protocol": "configs/finqa_protocol_phi.json",
+ "master_seed": 20260919,
+ "replications": 300,
+ "alpha": 0.1,
+ "horizon": 3,
+ "budgets_per_group": [
+  100,
+  200,
+  400,
+  800
+ ],
+ "methods": [
+  "uniform",
+  "learned_occupancy",
+  "learned_mean",
+  "tis",
+  "tis_anchored",
+  "occ_plus_uniform",
+  "occ_plus_mean",
+  "oracle_tail",
+  "complete_rollout"
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 8,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.25,
+ "workflow": "unitcheck",
+ "output_directory": "results/finqa_heldout_unitcheck_phi_mix"
+}

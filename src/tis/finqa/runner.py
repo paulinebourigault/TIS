@@ -1,8 +1,10 @@
 """Monte Carlo evaluation runner for the FinQA terminal-risk study.
 
-Methods: uniform, learned occupancy, plain TIS, anchored TIS (fixed
-mu = 1/2), oracle tail (population diagnostic), and the complete-rollout
-empirical CVaR at matched query cost. One workflow's kernel artifact per
+Methods: uniform, learned occupancy, learned mean, plain TIS, anchored
+TIS (fixed mu = 1/2), the two mixture controls (0.5u + 0.5w_occ and
+0.5w_mean + 0.5w_occ, no second floor after mixing), oracle tail
+(population diagnostic), and the complete-rollout empirical CVaR at
+matched query cost. One workflow's kernel artifact per
 run; the decision analysis joins the two workflows afterwards. Seeds,
 coupling, pilot rule, floor, and rounding follow the primary study.
 """
@@ -29,16 +31,24 @@ from ..llm_study.runner import (
 from ..model import counts_from_streams, coupled_streams, model_from_counts, sample_counts
 from . import HORIZON, STATES
 from .models import finqa_question_model
+from .toolfault import toolfault_question_model
 
 METHODS = (
     "uniform",
     "learned_occupancy",
+    "learned_mean",
     "tis",
     "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
     "oracle_tail",
     "complete_rollout",
 )
-LEARNED = {"learned_occupancy", "tis", "tis_anchored"}
+LEARNED = {"learned_occupancy", "learned_mean", "tis", "tis_anchored",
+           "occ_plus_uniform", "occ_plus_mean"}
+# Mixture controls: equal-weight blends of component weight vectors that
+# already carry the exploration floor; no second floor after mixing.
+MIXTURES = {"occ_plus_uniform", "occ_plus_mean"}
 
 
 def run_finqa_study(
@@ -79,7 +89,11 @@ def run_finqa_study(
     for question in questions:
         qindex = int(question["panel_index"])
         bank = banks[qindex]
-        model = finqa_question_model(question, bank, horizon)
+        if "tool_fault_probability" in config:
+            model = toolfault_question_model(
+                question, bank, horizon, float(config["tool_fault_probability"]))
+        else:
+            model = finqa_question_model(question, bank, horizon)
         truth = compute_influences(model, alpha)
         groups = model.group_count
         diagnostics.append(
@@ -117,16 +131,26 @@ def run_finqa_study(
                 scores = {
                     "uniform": np.ones(groups),
                     "learned_occupancy": occupancy_scores,
+                    "learned_mean": pilot.mean_scales,
                     "tis": pilot.tail_scales,
                     "tis_anchored": _anchored_score(pilot.tail_scales, occupancy_scores),
                     "oracle_tail": truth.tail_scales,
                 }
-                fixed = [meth for meth in methods if meth in scores]
+                fixed = [meth for meth in methods
+                         if meth in scores or meth in MIXTURES]
                 counts_by = {}
                 for meth in fixed:
                     if meth == "uniform":
                         weights = np.full(groups, 1.0 / groups)
                         budget_for = total
+                    elif meth in MIXTURES:
+                        w_occ = regularized_weights(occupancy_scores, exploration)
+                        if meth == "occ_plus_uniform":
+                            other = np.full(groups, 1.0 / groups)
+                        else:
+                            other = regularized_weights(pilot.mean_scales, exploration)
+                        weights = 0.5 * other + 0.5 * w_occ
+                        budget_for = main_total
                     else:
                         weights = regularized_weights(scores[meth], exploration)
                         budget_for = main_total if meth in LEARNED else total

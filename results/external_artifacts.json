@@ -24,6 +24,38 @@
   "finqa_heldout_unitcheck_phi/raw.csv": {
    "bytes": 38023855,
    "sha256": "6ec9b9f9564be01afd6285ae03194d85f7fa26af049ae184bb3a48d3a737b512"
+  },
+  "llm_longh_glm32b_h8/allocation_summary.csv": {
+   "bytes": 17073730,
+   "sha256": "7d7ce1af567333b1077e8031e76d8c40b4435ad861c98c965b98b80b8e66eac5"
+  },
+  "llm_longh_glm32b_h8/raw.csv": {
+   "bytes": 83783581,
+   "sha256": "6c81251cf06eac44a6cc0f56c6e97e1431d96268054874102ddda203034b34e2"
+  },
+  "llm_longh_phi_h10/allocation_summary.csv": {
+   "bytes": 17294926,
+   "sha256": "58d6c1c48d35d5b4cf54915b825f2d1a6f80583b4332bff1b6a15244517289de"
+  },
+  "llm_longh_phi_h10/raw.csv": {
+   "bytes": 87129060,
+   "sha256": "74f2f091b371c28739ce98dff42c576d32e2d0db76ab2c1693e8c5f2adb2ccfb"
+  },
+  "llm_longh_phi_h8/allocation_summary.csv": {
+   "bytes": 17121916,
+   "sha256": "28b2c505f35df15ea2d020f552e25ed53687614bfac24401ca54af33269fefe9"
+  },
+  "llm_longh_phi_h8/raw.csv": {
+   "bytes": 86575898,
+   "sha256": "b9293330b610951b8df4f3ebaadc611148fb05f70f1f2f3e501b4a7f28057ff1"
+  },
+  "llm_longh_qwen4b_h8/allocation_summary.csv": {
+   "bytes": 16014449,
+   "sha256": "fab2e1a076c805f0765256c9460e8e4973f7b9fef2a74fce7ffdc9aa93f934b4"
+  },
+  "llm_longh_qwen4b_h8/raw.csv": {
+   "bytes": 88778841,
+   "sha256": "6f5cf0e75001c1915b3a4414724b20e3f7577eea4fc382f39d059e3209b02cd2"
   }
  }
 }

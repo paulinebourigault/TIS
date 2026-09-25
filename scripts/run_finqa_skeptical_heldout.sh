@@ -4,17 +4,16 @@
 # passes (the caller checks; this script also refuses without the marker).
 # Reuses the frozen held-out panel and banks; ~35 minutes on one H100.
 set -eo pipefail
-cd "$HOME/tis"
-export PATH="$HOME/.local/bin:$PATH"
-export HF_HOME="$HOME/tis/.hf"
+cd "$(dirname "$0")/.."
+export HF_HOME="${HF_HOME:-.hf}"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export HF_HUB_DISABLE_XET=1
-PY="$HOME/tis/.llm-venv/bin/python"
+PY="${TIS_LLM_PYTHON:-.llm-venv/bin/python}"
 if [ ! -f frozen/finqa_skeptical_gate_pass.json ]; then
   echo "[abort] gate-pass marker frozen/finqa_skeptical_gate_pass.json absent"
   exit 1
 fi
-echo "[start $(date -Iseconds)] host=$(hostname)"
+echo "[start $(date -Iseconds)]"
 for proto in "configs/finqa_protocol.json:" "configs/finqa_protocol_phi.json:_phi"; do
   cfg="${proto%%:*}"; suffix="${proto##*:}"
   if [ ! -f "frozen/finqa_kernels_heldout2${suffix}_skeptical.json" ]; then

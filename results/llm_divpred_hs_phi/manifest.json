@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "b40a2a96b1698b9d",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "3e8f47d86261074eebe140362cedb258e665c52295988e27a31300391bac157c",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 17226986,
+      "sha256": "c6d883a7f7061059a082747259ebe6bf850ef434daac281a40b9639b66542f29"
+    },
+    "config.json": {
+      "bytes": 669,
+      "sha256": "8ddfe5a04e1ec27dd030a102e2288ddb91b43f7b8be28f3acc787e0a544a31a6"
+    },
+    "diagnostics.json": {
+      "bytes": 18819,
+      "sha256": "c92bc2cf3aa8f99ff5e950d61aa34fb734ae0b7334ef21e47228d8c13262a654"
+    },
+    "paired_panel.csv": {
+      "bytes": 2085,
+      "sha256": "5af43bef5e87c7e17eb38e4d907ef75c8540e54fc7fa76597164c1dd0bceab19"
+    },
+    "panel_replications.csv": {
+      "bytes": 397127,
+      "sha256": "9cf09f4c051abbb0fd514e669a50a07841abbcd2c995cda28869e50632205166"
+    },
+    "panel_summary.csv": {
+      "bytes": 2519,
+      "sha256": "f27db5998457f97e391a3d158ab33e546fa2c0c03c65d53c26aa236228f07502"
+    },
+    "question_summary.csv": {
+      "bytes": 153494,
+      "sha256": "a27a103b9d9035dca7dd38a8a884c099cb0f826f5f4b885fad4d24b73c7220d2"
+    },
+    "raw.csv": {
+      "bytes": 86388288,
+      "sha256": "2b4d6ba7a17011f8357ba39e11c940686c215d30b4f96520f68841d2945ec0d0"
+    }
+  },
+  "kernel_artifact_sha256": "f727a6cfb98978e017a94316fe05fc8530aa9422525b145e41cbe57c6f43ef6c",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "microsoft/Phi-4-mini-instruct",
+  "kernel_model_key": "robustness_model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 2437.5136861801147,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 14
+}

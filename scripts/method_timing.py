@@ -11,6 +11,10 @@ Times each method's own pipeline separately, end to end per replication:
   estimation;
 - anchored TIS: pilot sampling + full influence solve + occupancy and
   anchor scores + allocation + estimation;
+- learned mean: pilot sampling + full influence solve (mean scales) +
+  allocation + estimation;
+- occupancy-mean blend: as learned mean, plus occupancy scores, averaging
+  the two floored designs;
 - complete rollout: trajectory simulation + empirical CVaR at matched
   total transition budget.
 
@@ -90,7 +94,8 @@ def run_pipeline(model, budget, method, rep):
     m_pilot = pilot_size(total, groups, 4.0, 8, 2)
     main_total = total - groups * m_pilot
     stage = {"uniform": 0, "learned_occupancy": 1, "tis": 2,
-             "tis_anchored": 3, "complete_rollout": 4}[method]
+             "tis_anchored": 3, "complete_rollout": 4,
+             "learned_mean": 5, "occ_plus_mean": 6}[method]
     t0 = time.perf_counter()
     if method == "uniform":
         counts = integer_allocation(total, np.full(groups, 1.0 / groups), 2)
@@ -111,17 +116,26 @@ def run_pipeline(model, budget, method, rep):
             pilot = compute_influences(empirical_model, ALPHA)
             if method == "tis":
                 score = np.asarray(pilot.tail_scales)
+            elif method == "learned_mean":
+                score = np.asarray(pilot.mean_scales)
+            elif method == "occ_plus_mean":
+                occ = _occupancy_scores(model, pilot.occupancy)
+                score = None
+                weights = (0.5 * regularized_weights(np.asarray(pilot.mean_scales), exploration)
+                           + 0.5 * regularized_weights(occ, exploration))
             else:
                 occ = _occupancy_scores(model, pilot.occupancy)
                 score = _anchored_score(np.asarray(pilot.tail_scales), occ)
-        weights = regularized_weights(score, exploration)
+        if score is not None:
+            weights = regularized_weights(score, exploration)
         counts = integer_allocation(main_total, weights, 2)
         estimate(model, counts,
                  _rng(20260923, model.horizon, 0, total, stage, rep, 1))
     return time.perf_counter() - t0
 
 
-METHODS = ("uniform", "learned_occupancy", "tis", "tis_anchored", "complete_rollout")
+METHODS = ("uniform", "learned_occupancy", "learned_mean", "tis", "tis_anchored",
+           "occ_plus_mean", "complete_rollout")
 
 
 def time_setting(name, models, budget):
@@ -147,7 +161,7 @@ def time_setting(name, models, budget):
 
 def main() -> None:
     out = {"protocol": {
-        "version": 2, "warmup": WARMUP, "reps": REPS, "alpha": ALPHA,
+        "version": 3, "warmup": WARMUP, "reps": REPS, "alpha": ALPHA,
         "pipelines": "each method timed separately end to end per "
                      "replication, including its own pilot sampling where "
                      "the method uses one; learned occupancy uses the "

@@ -15,7 +15,7 @@ With ``--closed`` the script reads the closed-grid rerun directories
 and writes ``llm_paper_numbers_closed.json`` / ``llm_paper_tables_closed.tex``.
 
 Per-replication ``raw.csv`` files are needed only for the realized design
-constants; when absent (they are not committed to GitHub because of size),
+constants; when absent (they are omitted from the repository because of size),
 that diagnostic is skipped and everything else is produced.
 """
 from __future__ import annotations
@@ -123,8 +123,8 @@ def summarize_generator(label: str, directory: str, audit_file: str, floor_dir: 
     alloc = defaultdict(lambda: defaultdict(float))
     counts = defaultdict(int)
     allocation_path = base / "allocation_summary.csv"
-    # allocation_summary.csv exceeds GitHub size limits and lives on the cluster;
-    # the mechanism table is produced only where it is present.
+    # allocation_summary.csv is omitted for size; the mechanism table is
+    # produced only where it is present.
     with (allocation_path if allocation_path.exists() else Path("/dev/null")).open(newline="", encoding="utf-8") as stream:
         for r in csv.DictReader(stream):
             if not at_400(r, "0.1", "4") or r["method"] not in ("tis", "oracle_tail"):
@@ -233,7 +233,7 @@ def table_alpha(d: dict) -> str:
 
 def table_mechanism(d: dict) -> str:
     if any(d[m]["mechanism"] is None for m, *_ in GENERATORS if m in d):
-        return "% allocation_summary.csv not available here; run on the cluster copy"
+        return "% allocation_summary.csv omitted for size; rerun the configuration to produce it"
     return "\n".join(
         f"{name} & {g} & " + " & ".join("%.1f/%.1f" % (d[m]["mechanism"][key]["tis"], d[m]["mechanism"][key]["oracle"]) for m, *_ in GENERATORS) + r"\\"
         for key, name, g in BUCKETS

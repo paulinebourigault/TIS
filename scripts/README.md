@@ -24,11 +24,21 @@ artifacts, and states its protocol in its module docstring. Grouped by role.
 | `finqa_token_cost.py` | Prompt-token replay of allocations (accounting, not live cost) | token report |
 | `cost_to_accuracy.py` | Single-benchmark RMSE crossing brackets | `results/cost_to_accuracy.json` |
 | `cost_multi_target.py` | Censor-preserving multi-target relative query cost with empirical bootstraps | `results/cost_multi_target.json` |
-| `method_timing.py` | Per-method pipeline replay timing, single pinned CPU thread | `results/method_timing.json` |
+| `method_timing.py` | Per-method pipeline replay timing (seven methods), single pinned CPU thread | `results/method_timing.json` |
 | `robustness_panels.py` | Perturbed-instance ratios and pilot-sensitivity grid | `results/robustness_panels/` |
 | `floor_diagnostic.py`, `floor_holdout_validation.py` | Exploration-floor sensitivity and retrospective split analysis | JSONs under `results/` |
 | `grid_representation_check.py` | Categorical-grid exactness checks | report |
-| `make_source_manifest.py` | Source-hash manifest for a run directory | `manifest.json` entries |
+| `inventory_family.py` | Inventory disruption family: construction and verification gate (`gate`), then simulation (`simulate`) | `results/inventory_family/` |
+| `inventory_family_analysis.py` | Family-level paired contrasts and RMSE-tolerance crossings | `results/inventory_family/analysis.json` |
+| `finqa_mixture_analysis.py` | FinQA blending controls (occupancy+uniform, occupancy+mean) | `results/finqa_mixture_controls.json` |
+| `llm_mixture_analysis.py` | MMLU-Pro blending controls; argument `llm_confident_mix`, `llm_brier_mix`, or `llm_divpred` | `results/<prefix>_analysis.json` |
+| `divergence_statistics.py` | Population tail--mean divergence for every language-model setting | `results/divergence_statistics.json` |
+| `run_finqa_toolfault.py` | Calculator-fault workflow: smoke check, calibration and generation audit (GPU), simulation (CPU) | `frozen/finqa_*toolfault*`, `results/finqa_toolfault_*` |
+| `merge_budget_shards.py` | Concatenates per-budget unit-check calculator-fault runs | `results/finqa_toolfault_unitcheck_*/` |
+| `finqa_toolfault_analysis.py` | Calculator-fault contrasts and population diagnostics (`TF_WORKFLOW=unitcheck` for the unit-check workflow) | `results/finqa_toolfault_*analysis.json` |
+| `long_horizon_analysis.py` | Longer review loops: contrasts and scoring of the declared predictions | `results/long_horizon_analysis.json` |
+| `pilot_divergence_analysis.py` | Pilot-estimated divergence and the declared selection rule | `results/pilot_divergence_analysis.json` |
+| `make_source_manifest.py` | SHA-256 hashes of the tracked source files | `SOURCE_MANIFEST.json` |
 
 ## Figures
 
@@ -38,10 +48,11 @@ artifacts, and states its protocol in its module docstring. Grouped by role.
 | `make_finqa_figure.py` | FinQA held-out figure (estimation panels and workflow choice) |
 | `mechanism_analysis.py --figure-only` | Mechanism figure |
 
-## Run launchers (host-specific)
+## Run launchers
 
 `reproduce_*.sh` wrap the `tis` CLI for the tabular suites.
 `run_finqa_*.sh`, `run_finqa_unit_aware.py`, `run_llm_*.sh`, and
-`run_anchored.sh` launch the simulation campaigns from frozen kernels
-(CPU only). None of these are needed to reproduce a reported number from
-the committed artifacts.
+`run_anchored.sh` record how the kernel calibrations (GPU:
+`run_llm_h100.sh`, `run_finqa_skeptical_heldout.sh`) and the simulation
+campaigns (CPU, from frozen kernels) were launched. None of these are needed
+to reproduce a reported number from the committed artifacts.

@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "592eec19bee26c82",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "810c82062ab258d2e64e9453bdcee282250d16c1122a2d4e699c4274683df1a1",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 17051969,
+      "sha256": "812192848b9d343b9f121b250c0ae6fb9f7265248e68c59c76448b65ceb803e1"
+    },
+    "config.json": {
+      "bytes": 639,
+      "sha256": "897b4275a486334b199900be07df10054a3bc127222c71c0417cff210a3aeea0"
+    },
+    "diagnostics.json": {
+      "bytes": 18632,
+      "sha256": "72df25b0cb9b9aab1126f65f43a758d2863d153e76e88d943a9c8e8efb8050ef"
+    },
+    "paired_panel.csv": {
+      "bytes": 2061,
+      "sha256": "2cce2f2382d2da96587f549fd64eb6ad668e0828852ee22ecd93f291a56fe3eb"
+    },
+    "panel_replications.csv": {
+      "bytes": 395525,
+      "sha256": "d3bc10e3c39a6b2d8b23d53551517e35ae02a52515656cb6f414d190b84f94e2"
+    },
+    "panel_summary.csv": {
+      "bytes": 2513,
+      "sha256": "ce4716f3d8897ba64a377c6727e950385d49d1d53d4c2956e6e67deafd9726e8"
+    },
+    "question_summary.csv": {
+      "bytes": 131870,
+      "sha256": "18e63afe39a7e84ecf75148b89a011299c5eeaec9bda85a5055d9ed43554b3a8"
+    },
+    "raw.csv": {
+      "bytes": 80638786,
+      "sha256": "76baa017b5ea205059360d1903535347b0388bbf9e4aa395c3841fda5eafd9e5"
+    }
+  },
+  "kernel_artifact_sha256": "cf11af6bf56de22c8a24503a3fc7376698fe776abab38bd2d5a9ad64855ffc89",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "zai-org/GLM-4-32B-0414",
+  "kernel_model_key": "scale_model_3",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 747.4934294223785,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 31
+}

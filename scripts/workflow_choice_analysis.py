@@ -11,8 +11,8 @@ pairs and the full six-way choice, the frequency of selecting a workflow
 below the population best and the mean regret max_j C_j - C_{selected}.
 
 Population values come from each run's diagnostics.json; per-replication
-estimates are streamed from raw.csv (available where the runs executed;
-raw files are not committed to GitHub). Ties in the population values are
+estimates are streamed from raw.csv (omitted for size; rerun the
+configuration to regenerate it). Ties in the population values are
 handled by treating any argmax as correct. All pairs are reported.
 
 Reads the closed-grid directories by default (``--original`` switches to

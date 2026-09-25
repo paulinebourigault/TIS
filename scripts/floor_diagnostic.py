@@ -7,7 +7,8 @@ scale of the largest estimated-influence group (across replications, which
 a practitioner estimates from one pilot by split-halves), and the share of
 the estimated scale sum held by that group. Reports pooled AUCs for ranking
 questions on which learned TIS has higher MSE than uniform. Requires the
-cluster-side allocation_summary.csv files; writes
+per-run allocation_summary.csv files (omitted from the repository for
+size); writes
 results/llm_floor_diagnostic.json.
 """
 from __future__ import annotations

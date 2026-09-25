@@ -1,9 +1,10 @@
-"""Write SOURCE_MANIFEST.json: SHA-256 hashes of every tracked source file
-(src/configs/tests/specs), for release integrity checks."""
+"""Write SOURCE_MANIFEST.json: SHA-256 hashes of every git-tracked source file
+(results and frozen artifacts excluded), for release integrity checks."""
 from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 
@@ -33,13 +34,16 @@ def digest(path: Path) -> str:
     return value.hexdigest()
 
 
+tracked = subprocess.run(["git", "ls-files", "-z"], cwd=ROOT, check=True,
+                         capture_output=True).stdout.decode().split("\0")
 files = sorted(
-    path
-    for path in ROOT.rglob("*")
-    if path.is_file()
-    and path != OUTPUT
-    and path.suffix not in EXCLUDED_SUFFIXES
-    and not any(part in EXCLUDED_PARTS or part.endswith(".egg-info") for part in path.parts)
+    ROOT / name
+    for name in tracked
+    if name
+    and (ROOT / name).is_file()
+    and (ROOT / name) != OUTPUT
+    and Path(name).suffix not in EXCLUDED_SUFFIXES
+    and not any(part in EXCLUDED_PARTS or part.endswith(".egg-info") for part in Path(name).parts)
 )
 manifest = {
     "algorithm": "sha256",

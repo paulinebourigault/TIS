@@ -49,4 +49,9 @@ results/llm_study_confident_anchored/raw.csv
 results/llm_study_confident_anchored/allocation_summary.csv
 results/finqa_*/raw.csv
 build/finqa_source_dev.json
-paper_draft/
+results/llm_longh_*/raw.csv
+results/llm_longh_*/allocation_summary.csv
+results/llm_divpred_*/raw.csv
+results/llm_divpred_*/allocation_summary.csv
+results/llm_*_mix_*/raw.csv
+results/llm_*_mix_*/allocation_summary.csv

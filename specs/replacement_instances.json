@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "predeclared replacements; not reconstructions of the lost numerical instances",
+  "status": "predeclared instances",
   "anti_tuning_rule": "Each instance is generated once from the rules below. No seed, coefficient, threshold, horizon, or query set may be changed in response to CVaR, margin, allocation ratio, or MSE results. Any future change requires a new instance name and version.",
   "controlled_untied_v1": {
     "horizon": 5,

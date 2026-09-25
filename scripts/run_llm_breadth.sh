@@ -2,8 +2,7 @@
 # Breadth simulations (CPU only, closed grid): high-stakes panel for three
 # generators and the cautious review policy for the primary generator,
 # each with a lambda=.40 floor cell that includes learned occupancy.
-# Requires the GPU-produced kernel artifacts in frozen/ (sbatch scripts
-# sbatch_tis_llm_hs1..3.bash and sbatch_tis_llm_pol1.bash).
+# Requires the calibrated kernel artifacts in frozen/.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 

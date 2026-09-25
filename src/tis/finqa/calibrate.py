@@ -82,6 +82,10 @@ def calibrate_kernels(
     output_path: Path,
     workflow: str,
     local_files_only: bool = False,
+    render=render_messages,
+    states: int = STATES,
+    study: str = "finqa_terminal_risk",
+    action_of=action_for_state,
 ) -> dict[str, object]:
     import torch
     import transformers
@@ -119,8 +123,8 @@ def calibrate_kernels(
     for item in panel:
         bank = banks[int(item["panel_index"])]
         kernels = []
-        for state in range(STATES):
-            messages = render_messages(item, bank, state, workflow)
+        for state in range(states):
+            messages = render(item, bank, state, workflow)
             law, input_tokens = _restricted_joint(
                 model, tokenizer, messages, candidate_ids, confidence_ids, temperature
             )
@@ -128,7 +132,7 @@ def calibrate_kernels(
             kernels.append(
                 {
                     "state_index": state,
-                    "action": action_for_state(state),
+                    "action": action_of(state),
                     "input_tokens": input_tokens,
                     "probabilities": law.tolist(),
                 }
@@ -144,7 +148,7 @@ def calibrate_kernels(
     artifact: dict[str, object] = {
         "schema_version": 1,
         "evidence_status": "paper_eligible",
-        "study": "finqa_terminal_risk",
+        "study": study,
         "workflow": workflow,
         "protocol_sha256": file_sha256(protocol_path),
         "panel_file_sha256": file_sha256(panel_path),
@@ -158,8 +162,8 @@ def calibrate_kernels(
         "software": {"torch": torch.__version__, "transformers": transformers.__version__},
         "calibration_cost": {
             "wall_seconds": time.perf_counter() - started,
-            "prompt_kernels": len(panel) * STATES,
-            "model_forward_calls": 2 * len(panel) * STATES,
+            "prompt_kernels": len(panel) * states,
+            "model_forward_calls": 2 * len(panel) * states,
             "input_tokens_across_unique_prompts": total_input,
         },
         "questions": questions,
@@ -196,6 +200,7 @@ def audit_generations(
     samples: int = 2048,
     batch_size: int = 128,
     local_files_only: bool = False,
+    render=render_messages,
 ) -> dict[str, object]:
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -237,7 +242,7 @@ def audit_generations(
         bank = banks[int(question["panel_index"])]
         laws = {int(k["state_index"]): np.asarray(k["probabilities"]) for k in question["kernels"]}
         for state in state_indices:
-            messages = render_messages(item, bank, state, workflow)
+            messages = render(item, bank, state, workflow)
             encoded = tokenizer.apply_chat_template(
                 messages, tokenize=True, add_generation_prompt=True,
                 return_tensors="pt", return_dict=True,

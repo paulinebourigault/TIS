@@ -44,7 +44,12 @@ SHARED_LEARNED = {
     "learned_occupancy",
     "tis_no_cov",
     "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
 }
+# Mixture controls: equal-weight blends of component weight vectors that
+# already carry the exploration floor; no second floor after mixing.
+MIXTURES = {"occ_plus_uniform", "occ_plus_mean"}
 
 
 def _rng(
@@ -393,11 +398,21 @@ def _question_cell(
                     method for method in methods
                     if method in {"uniform", "occupancy", "mean_influence", "answer_entropy", "oracle_tail", "tis", "tis_anchored"}
                     or method in LLM_EXTENSION_METHODS
+                    or method in MIXTURES
                 ]
                 for method in fixed_methods:
                     if method == "uniform":
                         weights = np.full(shared.group_count, 1.0 / shared.group_count)
                         main_budget = total_budget
+                    elif method in MIXTURES:
+                        w_occ = regularized_weights(scores["learned_occupancy"], exploration)
+                        if method == "occ_plus_uniform":
+                            other = np.full(shared.group_count, 1.0 / shared.group_count)
+                        else:
+                            other = regularized_weights(scores["learned_mean"], exploration)
+                        weights = 0.5 * other + 0.5 * w_occ
+                        scores[method] = weights
+                        main_budget = shared_main
                     else:
                         weights = regularized_weights(scores[method], exploration)
                         main_budget = shared_main if method in SHARED_LEARNED else total_budget
@@ -668,7 +683,8 @@ def run_llm_study(
     methods = tuple(str(method) for method in config.get("methods", LLM_METHODS))
     if (
         set(methods)
-        - (set(LLM_METHODS) | set(LLM_EXTENSION_METHODS) | {"complete_rollout", "tis_anchored"})
+        - (set(LLM_METHODS) | set(LLM_EXTENSION_METHODS) | MIXTURES
+           | {"complete_rollout", "tis_anchored"})
         or len(methods) != len(set(methods))
     ):
         raise ValueError("Invalid LLM method panel")
