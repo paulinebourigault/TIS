@@ -1,0 +1,81 @@
+{
+ "schema_version": 1,
+ "study": "finqa_terminal_risk",
+ "role": "post-hoc application study, declared 2026-09-12; development panel fixes the protocol before held-out evaluation",
+ "source": {
+  "repo": "czyssrs/FinQA",
+  "commit": "0f16e2867befa6840783e58be38c9efb9229d742",
+  "split": "dev"
+ },
+ "generator": {
+  "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "tokenizer_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "mode": "non-thinking only",
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1"
+ },
+ "decoder": {
+  "temperature": 0.7,
+  "candidate_labels": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "confidence_labels": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ]
+ },
+ "workflows": [
+  "ordinary",
+  "unitcheck"
+ ],
+ "horizon": 3,
+ "alpha": 0.1,
+ "severity_loss": {
+  "tolerance_relative": 0.005,
+  "scale": "absolute gold answer",
+  "convention_invariance": "error = min over rescalings {y, y/100, 100y}",
+  "invalid_candidate_utility": 0.0
+ },
+ "panels": {
+  "development": {
+   "size": 20,
+   "selection_seed": 20260912
+  },
+  "heldout": {
+   "size": 50,
+   "selection_seed": 20260913,
+   "exclusion": "every item scanned during development panel construction"
+  }
+ },
+ "panel_screen": {
+  "min_spread": 0.25,
+  "rule": "scan eligible items in the seeded SHA-256 rank order; generate the frozen 8-candidate bank (torch seed = candidate_generation_base + 1000*scan_rank + slot); admit the question when max-min severity-utility spread >= min_spread; stop at the panel quota",
+  "rationale": "the v1 development gate (frozen/finqa_banks_dev.json) found 16/20 constant-utility banks (all candidates correct, or all giving the same wrong answer), leaving the terminal-severity CVaR constant and the question uninformative; the identical screen applies to development and held-out panels, so the study population is questions whose frozen candidate pool materially disagrees in outcome severity",
+  "revision": "protocol v2, recorded 2026-09-12 during the development phase; no held-out artifact existed; gold answers are used only after generation, to score the frozen bank"
+ },
+ "seeds": {
+  "calibration": 20260916,
+  "audit": 20260917,
+  "simulation": 20260918,
+  "candidate_generation_base": 20260914
+ },
+ "status": "development phase, protocol v2 (screened panels); freeze before held-out collection"
+}

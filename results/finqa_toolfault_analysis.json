@@ -1,0 +1,1046 @@
+{
+ "qwen|p0.01": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.058251929718708455,
+   "faulted_share_mean_influence_median": 0.061854439885117796,
+   "faulted_share_occupancy_median": 0.006666666666666667,
+   "uniform_to_oracle_median": 106.71194266506203,
+   "min_margin": 0.09322497393488564,
+   "zero_tail_questions": 2
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 1.123557434588471,
+     "tis_anchored": 0.049709700124678124,
+     "learned_occupancy": 0.03236380087422134,
+     "learned_mean": 1.0139084413874615,
+     "occ_plus_uniform": 0.052638053298162124,
+     "occ_plus_mean": 0.04646224386199191,
+     "complete_rollout": 0.020459336450783752,
+     "oracle_tail": 0.007542308269466342
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 34.71648583412882,
+      "z": 12.056613566242655
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.1081448666616904,
+      "z": 3.367680917524692
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 21.344965556081842,
+      "z": 11.86124287858795
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 24.182160420960397,
+      "z": 11.933240807303196
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 54.916611655087664,
+      "z": 12.15804608155505
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.5359660726460986,
+      "z": 7.747184181245888
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.04902779984418902,
+      "z": -11.114982813619362
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.9443681331280113,
+      "z": -3.621752931341576
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0698945206420125,
+      "z": 3.6080910013954655
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 2.4296829100131374,
+      "z": 10.161991088672977
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 0.9529816941313627,
+     "tis_anchored": 0.0453673001324679,
+     "learned_occupancy": 0.029270976561497297,
+     "learned_mean": 0.7566000560173024,
+     "occ_plus_uniform": 0.04927943023353688,
+     "occ_plus_mean": 0.03311224611902657,
+     "complete_rollout": 0.02123957172941373,
+     "oracle_tail": 0.007676785114681163
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 32.55722241207708,
+      "z": 12.951094442803594
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.2595580538915125,
+      "z": 1.4600265752904242
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 19.338326145719428,
+      "z": 12.667063805547588
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 28.780339778393092,
+      "z": 12.899716447988146
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 44.86821609550729,
+      "z": 13.049206794132791
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.5499072959575773,
+      "z": 7.010177707226647
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.059962062878079425,
+      "z": -5.027235071477469
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.9206133252245557,
+      "z": -5.508817369641827
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.3701063941536564,
+      "z": 7.366424003487303
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 2.1359799863403444,
+      "z": 8.772368456069751
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.9209071696975579,
+     "tis_anchored": 0.04155270746448765,
+     "learned_occupancy": 0.031875237050102714,
+     "learned_mean": 0.6238699359383582,
+     "occ_plus_uniform": 0.049660504915554196,
+     "occ_plus_mean": 0.031968827149065224,
+     "complete_rollout": 0.022871220141947805,
+     "oracle_tail": 0.008734233528995062
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 28.890990465421194,
+      "z": 15.948504192658552
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.476120448587458,
+      "z": 7.485306385583774
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 18.544055709129935,
+      "z": 15.641956275481075
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 28.8064108640434,
+      "z": 16.06736877342828
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 40.26489028491025,
+      "z": 16.170755155029617
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.3036046570939541,
+      "z": 4.473991210788128
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.06660476017647578,
+      "z": -11.817048176808056
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.8367355010817239,
+      "z": -6.656975469651721
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.2997882991057013,
+      "z": 6.50042308631504
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.8168120111911463,
+      "z": 7.40131598096212
+     }
+    }
+   }
+  }
+ },
+ "qwen|p0.03": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.1500847565590488,
+   "faulted_share_mean_influence_median": 0.16175556414058756,
+   "faulted_share_occupancy_median": 0.02,
+   "uniform_to_oracle_median": 99.99897492854797,
+   "min_margin": 0.08677659101144496,
+   "zero_tail_questions": 2
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 1.0705217801241738,
+     "tis_anchored": 0.050400756442871106,
+     "learned_occupancy": 0.043986630958998865,
+     "learned_mean": 0.9424540742811949,
+     "occ_plus_uniform": 0.055660661964551085,
+     "occ_plus_mean": 0.046318224382623015,
+     "complete_rollout": 0.022673768008308323,
+     "oracle_tail": 0.008276895454774879
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 24.337435188478885,
+      "z": 11.984283024823634
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.1358874764700395,
+      "z": 4.110035487498055
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 19.23300482495093,
+      "z": 11.828905369769863
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 23.112323375802728,
+      "z": 11.936756252463763
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 47.21411014401768,
+      "z": 12.194094427302371
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.1458198853613277,
+      "z": 2.2113786998569416
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.05347820951520796,
+      "z": -10.780060104165917
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.9055004856925725,
+      "z": -4.598882400502258
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0881409448368171,
+      "z": 4.462247883006149
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 2.222866372470725,
+      "z": 10.231782046277232
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 0.9183463129124726,
+     "tis_anchored": 0.04606390664968354,
+     "learned_occupancy": 0.035121748010121974,
+     "learned_mean": 0.5443449565398432,
+     "occ_plus_uniform": 0.05234597441297258,
+     "occ_plus_mean": 0.031316214641916876,
+     "complete_rollout": 0.022280716076306887,
+     "oracle_tail": 0.007996947651311597
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 26.147511583074056,
+      "z": 13.333748806521376
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.6870668165091274,
+      "z": 5.17730831244707
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 17.54378103017764,
+      "z": 13.04847737952656
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 29.32494630699275,
+      "z": 13.382891443329934
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 41.21709148697576,
+      "z": 13.502080529376334
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.3115493749459186,
+      "z": 4.355427151392279
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.08462263881802294,
+      "z": -8.258559192660641
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.8799894770564783,
+      "z": -8.096651532176297
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.4709283090692202,
+      "z": 8.356934604199392
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 2.067433851404241,
+      "z": 8.975740895516264
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.8468129826608654,
+     "tis_anchored": 0.04078185851610205,
+     "learned_occupancy": 0.03235171909513205,
+     "learned_mean": 0.5433538646483074,
+     "occ_plus_uniform": 0.0520554767716277,
+     "occ_plus_mean": 0.03155751499123515,
+     "complete_rollout": 0.025322103322398974,
+     "oracle_tail": 0.009094255190673903
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 26.175208191279236,
+      "z": 15.915863126147341
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.5584926099844267,
+      "z": 9.016243297032599
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 16.26750987942948,
+      "z": 15.537550779099963
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 26.833956440995465,
+      "z": 15.998583148447286
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 33.44165260994756,
+      "z": 16.067044751559894
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.2605777886541576,
+      "z": 3.8602903637339674
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.07505579911996875,
+      "z": -10.383951044205737
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.7834306982724587,
+      "z": -8.44918490378387
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.2923025950373115,
+      "z": 7.210833855420434
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.6105241336736809,
+      "z": 6.242254095643219
+     }
+    }
+   }
+  }
+ },
+ "qwen|p0.1": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.38014588696295315,
+   "faulted_share_mean_influence_median": 0.4171838324784902,
+   "faulted_share_occupancy_median": 0.06666666666666667,
+   "uniform_to_oracle_median": 86.1102331851366,
+   "min_margin": 0.0564259464157857,
+   "zero_tail_questions": 2
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 0.8297030058667131,
+     "tis_anchored": 0.04629370583302719,
+     "learned_occupancy": 0.0379910905521367,
+     "learned_mean": 0.6241809588908499,
+     "occ_plus_uniform": 0.06204982377073096,
+     "occ_plus_mean": 0.04043424435091179,
+     "complete_rollout": 0.02456671348345259,
+     "oracle_tail": 0.009473524945653983
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 21.839410077688566,
+      "z": 11.759493584451993
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.3292667679915606,
+      "z": 5.576848012004919
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 13.371561036698477,
+      "z": 11.362340138931463
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 20.51980985884316,
+      "z": 11.718550908022971
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 33.77346369206351,
+      "z": 11.943514317657717
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.2185411147778578,
+      "z": 2.390603761483482
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.0741671228088881,
+      "z": -9.543906324273761
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.746073123496348,
+      "z": -8.513695656081211
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.1449133420489723,
+      "z": 7.224780728877909
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.8844077725011634,
+      "z": 7.819391371582904
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 0.683464562206525,
+     "tis_anchored": 0.040916295093299346,
+     "learned_occupancy": 0.03060517064803073,
+     "learned_mean": 0.426515874686731,
+     "occ_plus_uniform": 0.05710109381549121,
+     "occ_plus_mean": 0.02431658658905193,
+     "complete_rollout": 0.027625332038759602,
+     "oracle_tail": 0.00927804044409948
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 22.331669705965258,
+      "z": 10.73622836533164
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.602436398665158,
+      "z": 2.304271359254689
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 11.969377756842634,
+      "z": 10.283436335885472
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 28.106928565140045,
+      "z": 10.852988991401476
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 24.740501263390897,
+      "z": 10.802953045668472
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.3369079219929814,
+      "z": 5.406596785375188
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.0959314706008345,
+      "z": -3.3679034798166616
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.716558867077236,
+      "z": -8.305146389565097
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.6826496162796598,
+      "z": 10.040782457942475
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.4811150517898541,
+      "z": 5.224455139614264
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.6478798781772881,
+     "tis_anchored": 0.03429927401090124,
+     "learned_occupancy": 0.03145668950337519,
+     "learned_mean": 0.3105923693656948,
+     "occ_plus_uniform": 0.05674838524552228,
+     "occ_plus_mean": 0.023868388479764368,
+     "complete_rollout": 0.031676811900310596,
+     "oracle_tail": 0.010372685086432616
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 20.595933278604317,
+      "z": 11.704798016720325
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.0859491155575283,
+      "z": 10.054894045638436
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 11.416710367603084,
+      "z": 11.193970949335936
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 27.14384671284201,
+      "z": 11.85179753849163
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 20.452811988031396,
+      "z": 11.72190163735556
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 1.0903650241778002,
+      "z": 1.56259057086093
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.11043179869791621,
+      "z": -6.2449444173340645
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.6044096913507794,
+      "z": -10.495508814058486
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.4370167487419683,
+      "z": 7.826679533172079
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.0827880696720282,
+      "z": 1.123174059032458
+     }
+    }
+   }
+  }
+ },
+ "phi|p0.01": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.009878829018380074,
+   "faulted_share_mean_influence_median": 0.00910003990097697,
+   "faulted_share_occupancy_median": 0.006666666666666667,
+   "uniform_to_oracle_median": 30.12684891755095,
+   "min_margin": 0.0050236409968367896,
+   "zero_tail_questions": 12
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 1.0920818096967664,
+     "tis_anchored": 0.13533119902393909,
+     "learned_occupancy": 0.15133993957001773,
+     "learned_mean": 0.560807951821753,
+     "occ_plus_uniform": 0.13521769418968874,
+     "occ_plus_mean": 0.13418569173888234,
+     "complete_rollout": 0.07081317805461708,
+     "oracle_tail": 0.10943423359503275
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 7.216084615862506,
+      "z": 16.41307105992296
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.9473365278598493,
+      "z": 10.963641639849081
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 8.076471176654962,
+      "z": 16.50101595049472
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 8.138586130493666,
+      "z": 16.801200136595337
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 15.422013807295315,
+      "z": 17.578348288117244
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8942199885135268,
+      "z": -3.9948967564818054
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.24131469353157942,
+      "z": -11.408672702268111
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 1.0008394229389175,
+      "z": 0.009697821427875952
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.008536731973524,
+      "z": 0.5145224153242691
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.911101898569787,
+      "z": 5.34219311745187
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 1.0786577331516563,
+     "tis_anchored": 0.09565645449393582,
+     "learned_occupancy": 0.11185432879328991,
+     "learned_mean": 0.44788053205160844,
+     "occ_plus_uniform": 0.12848609024199598,
+     "occ_plus_mean": 0.09458063997374033,
+     "complete_rollout": 0.06809769510317024,
+     "oracle_tail": 0.07788888642794045
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 9.64341518820472,
+      "z": 12.112628546374824
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.408360390684194,
+      "z": 8.823945727993959
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 8.395132353393805,
+      "z": 11.887662050696242
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 11.404635594040581,
+      "z": 12.305745994813204
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 15.839856716405079,
+      "z": 12.683638137418823
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.855187774365995,
+      "z": -4.430603626978363
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.213575825802836,
+      "z": -14.163364104851865
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.744488794964284,
+      "z": -9.236976225500296
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0113745743367162,
+      "z": 0.5794161483952173
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.4046944518314923,
+      "z": 6.946487526440567
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.8999893919171468,
+     "tis_anchored": 0.08145301966053282,
+     "learned_occupancy": 0.09291355417297543,
+     "learned_mean": 0.3849756218746232,
+     "occ_plus_uniform": 0.12268313112786827,
+     "occ_plus_mean": 0.07691648208286783,
+     "complete_rollout": 0.06979606735893898,
+     "oracle_tail": 0.0453422302909869
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 9.686308955974855,
+      "z": 9.613783425481287
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.3377828121549227,
+      "z": 6.216091462858479
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 7.335885411818515,
+      "z": 9.239023621750764
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 11.700865244298633,
+      "z": 9.803621383082225
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 12.894557329265954,
+      "z": 9.853983236684359
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8766537927167575,
+      "z": -4.436454485311292
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.21157968201700833,
+      "z": -10.64862412498064
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.6639300685571615,
+      "z": -9.882369395813289
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0589800450412883,
+      "z": 2.880601457253198
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.1670144571562442,
+      "z": 3.421996868807613
+     }
+    }
+   }
+  }
+ },
+ "phi|p0.03": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.029610964246191196,
+   "faulted_share_mean_influence_median": 0.02714974734357975,
+   "faulted_share_occupancy_median": 0.02,
+   "uniform_to_oracle_median": 29.436794969201863,
+   "min_margin": 0.0051464855707238355,
+   "zero_tail_questions": 12
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 0.9876468906971929,
+     "tis_anchored": 0.14365917406208567,
+     "learned_occupancy": 0.15932858858391916,
+     "learned_mean": 0.5347525708220564,
+     "occ_plus_uniform": 0.13442564078280173,
+     "occ_plus_mean": 0.14339499027985905,
+     "complete_rollout": 0.06898691094384657,
+     "oracle_tail": 0.09872550472973007
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 6.198805245657431,
+      "z": 15.951731108362457
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 1.846923127791453,
+      "z": 9.149705754594077
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 7.347161486051487,
+      "z": 16.09151856160312
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 6.887596901186273,
+      "z": 16.356318581407827
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 14.316438831434416,
+      "z": 17.354867922339942
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.9016534655763907,
+      "z": -3.7554986937024504
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.26864606530314283,
+      "z": -12.04301302390253
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 1.0686887800981586,
+      "z": 0.9856288472731237
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.001842350152617,
+      "z": 0.09941809202901761
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 2.0824120415975758,
+      "z": 7.643008477100533
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 1.0648634718551515,
+     "tis_anchored": 0.09814751830084859,
+     "learned_occupancy": 0.11464736434687953,
+     "learned_mean": 0.41074792759517786,
+     "occ_plus_uniform": 0.12900395226876893,
+     "occ_plus_mean": 0.09698975693741269,
+     "complete_rollout": 0.0749331475608217,
+     "oracle_tail": 0.0665255292336605
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 9.288163560684028,
+      "z": 11.472397001700196
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.5924987086110205,
+      "z": 8.453579592451296
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 8.254502696449158,
+      "z": 11.266603401018976
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 10.979133317576062,
+      "z": 11.686591748221494
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 14.210846688254003,
+      "z": 11.945939314813403
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8560817674263435,
+      "z": -4.643880165007639
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.23894829823117245,
+      "z": -11.110075912786959
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.7608101656945088,
+      "z": -7.985803371086217
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0119369446835813,
+      "z": 0.709475357104416
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.3098010893134344,
+      "z": 5.857667308551306
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.7699175669908087,
+     "tis_anchored": 0.08547124726386184,
+     "learned_occupancy": 0.09996815611725898,
+     "learned_mean": 0.28173553432700216,
+     "occ_plus_uniform": 0.12581730363952734,
+     "occ_plus_mean": 0.08043776048600289,
+     "complete_rollout": 0.07865870484688897,
+     "oracle_tail": 0.047246393691871315
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 7.701628167350847,
+      "z": 7.921759636561567
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.7327669859961223,
+      "z": 5.78257876970342
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 6.119329732233492,
+      "z": 7.623665160230088
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 9.571593768138081,
+      "z": 8.137002877986095
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 9.788078363220848,
+      "z": 8.15854358088539
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8549847329744402,
+      "z": -5.559528503373994
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.3033740400124958,
+      "z": -10.704010868806128
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.6793282385763177,
+      "z": -10.578741953370933
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0625761675542276,
+      "z": 3.3118766167305136
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.0866088811179084,
+      "z": 1.8382529826910021
+     }
+    }
+   }
+  }
+ },
+ "phi|p0.1": {
+  "population": {
+   "faulted_share_tail_influence_median": 0.09840754079473807,
+   "faulted_share_mean_influence_median": 0.09003067608146507,
+   "faulted_share_occupancy_median": 0.06666666666666667,
+   "uniform_to_oracle_median": 24.746994946944458,
+   "min_margin": 0.004325698612262466,
+   "zero_tail_questions": 12
+  },
+  "budgets": {
+   "100": {
+    "ratio_to_uniform": {
+     "tis": 1.0228343070335362,
+     "tis_anchored": 0.14144516767477994,
+     "learned_occupancy": 0.15994686201469818,
+     "learned_mean": 0.4917879200444021,
+     "occ_plus_uniform": 0.13943512406719427,
+     "occ_plus_mean": 0.1408681226235772,
+     "complete_rollout": 0.07224081866230654,
+     "oracle_tail": 0.08864303362466605
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 6.394838224081843,
+      "z": 15.473221448537915
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.0798280424236273,
+      "z": 11.01937498290296
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 7.335557047596048,
+      "z": 15.852996049210946
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 7.260935178122006,
+      "z": 15.965784409746563
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 14.158675468710126,
+      "z": 17.041249079519893
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8843259936026875,
+      "z": -3.842697758002012
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.28761415624444225,
+      "z": -13.46090991826108
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 1.0144156188839264,
+      "z": 0.2607989729821132
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.004096349411461,
+      "z": 0.248397310470102
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.9579673970193046,
+      "z": 8.574862978357743
+     }
+    }
+   },
+   "200": {
+    "ratio_to_uniform": {
+     "tis": 1.0515859251326771,
+     "tis_anchored": 0.11581392403073336,
+     "learned_occupancy": 0.12682401982518263,
+     "learned_mean": 0.36925533274335537,
+     "occ_plus_uniform": 0.1336897125574127,
+     "occ_plus_mean": 0.1115462207409042,
+     "complete_rollout": 0.08202228273063124,
+     "oracle_tail": 0.07228230551817715
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 8.291693691638297,
+      "z": 11.70336124610381
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.847855756936526,
+      "z": 9.183029120946708
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 7.86587019312407,
+      "z": 11.57104302248852
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 9.427355926071806,
+      "z": 11.88479862894327
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 12.82073468481952,
+      "z": 12.266714833642496
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.9131860367647561,
+      "z": -2.4395309618602417
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.3136418455227236,
+      "z": -10.936597838797496
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.866288974785531,
+      "z": -4.337775478667222
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.038259505893454,
+      "z": 2.2195027979091746
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.4119812345515546,
+      "z": 7.075881373267326
+     }
+    }
+   },
+   "400": {
+    "ratio_to_uniform": {
+     "tis": 0.7370971500403172,
+     "tis_anchored": 0.09268493483263654,
+     "learned_occupancy": 0.10649982495023351,
+     "learned_mean": 0.2671678457535539,
+     "occ_plus_uniform": 0.1343526045459889,
+     "occ_plus_mean": 0.09081124732835483,
+     "complete_rollout": 0.08444333614884086,
+     "oracle_tail": 0.05238375537520934
+    },
+    "paired": {
+     "tis_vs_learned_occupancy": {
+      "ratio": 6.921111376330962,
+      "z": 8.65862531141997
+     },
+     "tis_vs_learned_mean": {
+      "ratio": 2.758929121733625,
+      "z": 6.506831689939842
+     },
+     "tis_vs_occ_plus_uniform": {
+      "ratio": 5.486288505765504,
+      "z": 8.28977869646482
+     },
+     "tis_vs_occ_plus_mean": {
+      "ratio": 8.116804599931605,
+      "z": 8.87328909524368
+     },
+     "tis_vs_complete_rollout": {
+      "ratio": 8.728896602818969,
+      "z": 8.952470391851115
+     },
+     "tis_anchored_vs_learned_occupancy": {
+      "ratio": 0.8702825086890749,
+      "z": -4.608225527385269
+     },
+     "tis_anchored_vs_learned_mean": {
+      "ratio": 0.3469165032611475,
+      "z": -10.128651296678214
+     },
+     "tis_anchored_vs_occ_plus_uniform": {
+      "ratio": 0.6898633275167396,
+      "z": -10.929022944256555
+     },
+     "tis_anchored_vs_occ_plus_mean": {
+      "ratio": 1.0206327691712773,
+      "z": 1.1238038524372411
+     },
+     "tis_anchored_vs_complete_rollout": {
+      "ratio": 1.097599160095581,
+      "z": 1.970002710405862
+     }
+    }
+   }
+  }
+ }
+}

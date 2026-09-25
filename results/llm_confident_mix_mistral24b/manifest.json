@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "4c12d40e9342dafb",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "91c663c3b5307d0e8365d6b64263221aa14037b3a525df93743081d1f4235cf1",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 23553593,
+      "sha256": "9a1430b48a282515d2336260b9479277032a04d1da2e5fe619286d97306983b4"
+    },
+    "config.json": {
+      "bytes": 688,
+      "sha256": "4c1f641342015aa15cba853030feca2934238e10c62024c131441aec4048797e"
+    },
+    "diagnostics.json": {
+      "bytes": 19009,
+      "sha256": "ff17a80ce63d0c113dfd845a3021a9aa5a0d842b5a4016c7b88ade29eef57c58"
+    },
+    "paired_panel.csv": {
+      "bytes": 2753,
+      "sha256": "671a5735a6a5a81a58d958d656afe24ac3e7983ba192a147f03d041951db64bd"
+    },
+    "panel_replications.csv": {
+      "bytes": 534537,
+      "sha256": "25955787b489651b514a5e84875f6dbe6c5ab9c47c10fcc946377796ad576e7b"
+    },
+    "panel_summary.csv": {
+      "bytes": 3335,
+      "sha256": "e1a4b4ef47d77b74786593e95484c0f4ca6acb73a1a9b2d1ac81d5a8e00b2f52"
+    },
+    "question_summary.csv": {
+      "bytes": 205945,
+      "sha256": "fbc9d28644852ef7753d973135873163579c2ad0ce4230fb531e76979f63844a"
+    },
+    "raw.csv": {
+      "bytes": 117384818,
+      "sha256": "1accc676b257f24773a3e7b5c9175e4e04323f7daf33e149aa676ad187fb5b9f"
+    }
+  },
+  "kernel_artifact_sha256": "07e5799ce8bfb7a56536eb28ac5e76a47d52adebdb44075c118a3c9765acecb2",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "kernel_model_key": "scale_model_1",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 1020.0688862800598,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 31
+}

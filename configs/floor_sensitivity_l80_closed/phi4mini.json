@@ -1,0 +1,25 @@
+{
+ "schema_version": 1,
+ "protocol": "configs/llm_study_protocol.json",
+ "master_seed": 20260725,
+ "replications": 300,
+ "horizons": [
+  6
+ ],
+ "alphas": [
+  0.1
+ ],
+ "budgets_per_shared_group": [
+  400
+ ],
+ "methods": [
+  "uniform",
+  "tis"
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 8,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.02125,
+ "output_directory": "results/llm_floor_sensitivity_closed_l80/phi4mini",
+ "closed_grid": true
+}

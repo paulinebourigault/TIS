@@ -1,0 +1,1609 @@
+{
+  "banks": [
+    {
+      "candidates": [
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. Percentage due after 2009 is (708 / 4578) * 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 72,
+          "raw_answer": 15.46,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. Percentage due after 2009 is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 72,
+          "raw_answer": 15.46,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. The percentage is (708 / 4578) * 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 66,
+          "raw_answer": 15.46,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. Percentage due after 2009 is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 72,
+          "raw_answer": 15.46,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. The percentage due after 2009 is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 73,
+          "raw_answer": 15.46,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. The percentage is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 66,
+          "raw_answer": 15.46,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. The percentage is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 66,
+          "raw_answer": 15.46,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 15.46,
+          "derivation": "Total future minimum lease payments are $4,578. Payments after 2009 are $708. The percentage due after 2009 is (708 / 4578) × 100 ≈ 15.46%.",
+          "is_percent": true,
+          "output_tokens": 73,
+          "raw_answer": 15.46,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ABMD/2004/page_26.pdf-3",
+      "panel_index": 0,
+      "prompt_tokens": 517
+    },
+    {
+      "candidates": [
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change = 369 - 373 = -4; percentage change = -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": -1.07,
+          "derivation": "Unrecognized tax benefits at December 31, 2015, were $373 million, and at December 31, 2016, they were $369 million. Change is 369 - 373 = -4; percentage change is -4 / 373 ≈ -0.0107, i.e. -1.07%.",
+          "is_percent": true,
+          "output_tokens": 99,
+          "raw_answer": -1.07,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AES/2016/page_191.pdf-2",
+      "panel_index": 1,
+      "prompt_tokens": 827
+    },
+    {
+      "candidates": [
+        {
+          "answer": 100.0,
+          "derivation": "Locations in North America: Santa Clara, CA and Austin, TX. Both have \"office, plant & warehouse\" type and are in North America. Total warehouse locations: Santa Clara (1358000 + 164000 = 1,522,000 sq ft), Austin (1676000 + 145000 = 1,821,000 sq ft). Total warehouse sq ft: 1,522,000 + 1,821,000 = 3,343,000. Other locations (Rehovot, Singapore, Gloucester, Tainan) are outside North America. Since o",
+          "is_percent": true,
+          "output_tokens": 198,
+          "raw_answer": 100.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 100.0,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both locations are in North America, and both are listed as \"office, plant & warehouse\" types. The total warehouse locations are 2 (Santa Clara and Austin), and both are in North America, so 100% are in North America.",
+          "is_percent": true,
+          "output_tokens": 74,
+          "raw_answer": 100.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 40.0,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both locations have \"office, plant & warehouse\" type and are in the U.S., so both are in North America. There are 2 warehouse locations in North America out of a total of 5 (Santa Clara, Austin, Rehovot, Singapore, Gloucester, Tainan — only Santa Clara and Austin are in North America). Percentage = 2 / 5 = 0.4 = 40%.",
+          "is_percent": true,
+          "output_tokens": 109,
+          "raw_answer": 40.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 68.1,
+          "derivation": "North America includes Santa Clara, CA and Austin, TX. Both locations have \"office, plant & warehouse\" type and are in North America. The total warehouse square footage in North America is 1358000 + 1676000 = 3,034,000. The total warehouse square footage worldwide is 1358000 + 1676000 + 381000 + 408000 + 315000 + 320000 = 4,457,000. Percentage in North America: (3,034,000 / 4,457,000) ≈ 0.681, or ",
+          "is_percent": true,
+          "output_tokens": 189,
+          "raw_answer": 68.1,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 40.0,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. Both Santa Clara and Austin are in North America, so two out of the five locations (Santa Clara, Austin, Rehovot, Singapore, Gloucester) are in North America. Warehouse locations: Santa Clara (CA) and Austin (TX) = 2; total warehouse locations = 5; percentage = (2 / 5) × 100 = 40%.",
+          "is_percent": true,
+          "output_tokens": 106,
+          "raw_answer": 40.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 68.1,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. Santa Clara and Austin together account for 1358000 + 1676000 = 3,034,000 square feet of warehouse space. The total warehouse space across all locations is 1358000 + 1676000 + 381000 + 408000 + 315000 + 320000 = 4,458,000 square feet. The percentage in North America is (3,034,000 / 4,458,000) * 100 ≈ 68.1%.",
+          "is_percent": true,
+          "output_tokens": 181,
+          "raw_answer": 68.1,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 67.0,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. Both are in North America, so 2 out of 3 warehouse locations (Santa Clara, Austin, and Rehovot is not in North America) are in North America. The total warehouse locations are 3 (Santa Clara, Austin, and Rehovot is not counted as North America), so 2 are in North America. Percentage is (2/3) * 100 ≈ 66.7%.",
+          "is_percent": true,
+          "output_tokens": 116,
+          "raw_answer": 67.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 40.0,
+          "derivation": "The warehouse locations in North America are in Santa Clara, CA and Austin, TX. Both are in North America, so 2 out of the 5 locations are in North America. Percentage = 2 / 5 = 0.4, i.e. 40%.",
+          "is_percent": true,
+          "output_tokens": 66,
+          "raw_answer": 40.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AMAT/2014/page_35.pdf-1",
+      "panel_index": 2,
+      "prompt_tokens": 482
+    },
+    {
+      "candidates": [
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008 was $226 million, in 2009 it was $209 million, and in 2010 it was $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": false,
+          "output_tokens": 93,
+          "raw_answer": 219.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008 was $226 million, in 2009 it was $209 million, and in 2010 it was $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": false,
+          "output_tokens": 93,
+          "raw_answer": 219.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008: $226 million, in 2009: $209 million, in 2010: $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": 219.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008 was $226 million, in 2009 it was $209 million, and in 2010 it was $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": false,
+          "output_tokens": 93,
+          "raw_answer": 219.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008: $226 million, in 2009: $209 million, in 2010: $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": false,
+          "output_tokens": 90,
+          "raw_answer": 219.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008 was $226 million, in 2009 it was $209 million, and in 2010 it was $221 million. The average is (226 + 209 + 221) / 3 = 656 / 3 = 218.67 million.",
+          "is_percent": false,
+          "output_tokens": 95,
+          "raw_answer": 219.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008: $226 million, in 2009: $209 million, in 2010: $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67 million.",
+          "is_percent": false,
+          "output_tokens": 91,
+          "raw_answer": 219.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 219.0,
+          "derivation": "Total stock-based compensation expense in 2008: $226 million, in 2009: $209 million, in 2010: $221 million. Average = (226 + 209 + 221) / 3 = 656 / 3 = 218.67.",
+          "is_percent": true,
+          "output_tokens": 91,
+          "raw_answer": 219.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "AON/2010/page_115.pdf-1",
+      "panel_index": 3,
+      "prompt_tokens": 639
+    },
+    {
+      "candidates": [
+        {
+          "answer": 68.306,
+          "derivation": "1.7 million restricted stock units (RSUs) were converted to BHGE RSUs. Each RSU had a fair value of $40.18. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 74,
+          "raw_answer": 68.306,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 68.31,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 66,
+          "raw_answer": 68.31,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 68.306,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 67,
+          "raw_answer": 68.306,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 68.31,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 66,
+          "raw_answer": 68.31,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 68.306,
+          "derivation": "1.7 million restricted stock units (RSUs) were converted to BHGE RSUs. Each RSU had a fair value of $40.18. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 74,
+          "raw_answer": 68.306,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 68.306,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 67,
+          "raw_answer": 68.306,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 68.31,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 66,
+          "raw_answer": 68.31,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 68.31,
+          "derivation": "The conversion of 1.7 million restricted stock units (RSUs) occurred at a fair value of $40.18 per share. Total value = 1.7 million × $40.18 = $68.306 million.",
+          "is_percent": false,
+          "output_tokens": 66,
+          "raw_answer": 68.31,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "BKR/2017/page_103.pdf-4",
+      "panel_index": 4,
+      "prompt_tokens": 718
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not include data for 2018 or information about \"maximum exposure to loss from vies,\" which is not defined or mentioned in the excerpt. Therefore, the portion of maximum exposure related to guarantees in 2018 cannot be determined from the given information.",
+          "is_percent": true,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not include data for 2018 or information about \"maximum exposure to loss from Vies,\" which appears to be unrelated or misstated. Therefore, the portion of maximum exposure related to guarantees in 2018 cannot be determined from the given data.",
+          "is_percent": true,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not contain data for 2018 or information about \"maximum exposure to loss from VIES,\" which appears to be unrelated or incorrect. Therefore, the portion of maximum exposure related to guarantees cannot be determined from the given information.",
+          "is_percent": true,
+          "output_tokens": 59,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not contain any information about \"maximum exposure to loss from vies\" or data for 2018. Therefore, the portion of maximum exposure related to guarantees cannot be determined from the given information.",
+          "is_percent": true,
+          "output_tokens": 53,
+          "raw_answer": 0.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not contain any information about \"maximum exposure to loss from vies\" or data for 2018. Therefore, the portion of maximum exposure related to guarantees cannot be determined from the given text.",
+          "is_percent": true,
+          "output_tokens": 53,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not include data for 2018 or information about \"maximum exposure to loss from VIES,\" which appears to be unrelated or misstated. Therefore, the portion of maximum exposure related to guarantees in 2018 cannot be determined from the given information.",
+          "is_percent": true,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not contain data for 2018 or information about \"maximum exposure to loss from vies\" (which appears to be a typo or misreference, likely meant to be \"vies\" as in \"value added tax\" or a specific financial exposure). The data on guarantees is only available for 2017 and 2016, and there is no indication of how guarantees relate to maximum exposure or a portion of such exposure",
+          "is_percent": true,
+          "output_tokens": 116,
+          "raw_answer": 0.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report provided does not include data for 2018 or information about \"maximum exposure to loss from Vies,\" which is not defined or mentioned in the text. Therefore, the portion of maximum exposure related to guarantees in 2018 cannot be determined from the given information.",
+          "is_percent": true,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "CAT/2017/page_85.pdf-3",
+      "panel_index": 5,
+      "prompt_tokens": 759
+    },
+    {
+      "candidates": [
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue during 2003 is calculated as 2003 net revenue minus 2002 net revenue: $973.7 - $922.9 = $50.8 million.",
+          "is_percent": false,
+          "output_tokens": 62,
+          "raw_answer": 50.8,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue from 2002 to 2003 is calculated as 2003 net revenue minus 2002 net revenue: 973.7 - 922.9 = 50.8 million.",
+          "is_percent": false,
+          "output_tokens": 68,
+          "raw_answer": 50.8,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue from 2002 to 2003 is calculated as 2003 net revenue minus 2002 net revenue: 973.7 - 922.9 = 50.8.",
+          "is_percent": false,
+          "output_tokens": 67,
+          "raw_answer": 50.8,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue from 2002 to 2003 is calculated as 2003 net revenue minus 2002 net revenue: $973.7 - $922.9 = $50.8 million.",
+          "is_percent": false,
+          "output_tokens": 68,
+          "raw_answer": 50.8,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue from 2002 to 2003 is calculated as 2003 net revenue minus 2002 net revenue: 973.7 - 922.9 = 50.8.",
+          "is_percent": false,
+          "output_tokens": 67,
+          "raw_answer": 50.8,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "Net revenue in 2003 is $973.7 million, and in 2002 it is $922.9 million. The change is 973.7 - 922.9 = 50.8 million.",
+          "is_percent": false,
+          "output_tokens": 68,
+          "raw_answer": 50.8,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue from 2002 to 2003 is calculated as 2003 net revenue minus 2002 net revenue: $973.7 - $922.9 = $50.8 million.",
+          "is_percent": false,
+          "output_tokens": 68,
+          "raw_answer": 50.8,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 50.8,
+          "derivation": "The net change in net revenue during 2003 is calculated as 2003 net revenue minus 2002 net revenue: 973.7 - 922.9 = 50.8.",
+          "is_percent": false,
+          "output_tokens": 61,
+          "raw_answer": 50.8,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ETR/2004/page_213.pdf-3",
+      "panel_index": 6,
+      "prompt_tokens": 830
+    },
+    {
+      "candidates": [
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas are $2 million, and payments for Entergy Louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas are $2 million, and payments for Entergy Louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas are $2 million, and payments for Entergy Louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas is $2 million, and payments for Entergy Louisiana is $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas are $2 million, and payments for Entergy Louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas are $2 million, and payments for Entergy Louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for Entergy Arkansas is $2 million, and payments for Entergy Louisiana is $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 57,
+          "raw_answer": 33.33,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 33.33,
+          "derivation": "Payments for entergy arkansas are $2 million, and payments for entergy louisiana are $6 million. The percentage is calculated as (2 / 6) * 100 = 33.33%.",
+          "is_percent": true,
+          "output_tokens": 59,
+          "raw_answer": 33.33,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "ETR/2017/page_114.pdf-2",
+      "panel_index": 7,
+      "prompt_tokens": 637
+    },
+    {
+      "candidates": [
+        {
+          "answer": 40.8,
+          "derivation": "The 1250 million revolving credit agreement due June 2021 has a balance of $615.0 million in 2017. Total debt in 2017 is $1507.6 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 96,
+          "raw_answer": 40.8,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "The revolving credit agreement in 2017 is $615.0 million. Total debt in 2017 is $1,507.6 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 82,
+          "raw_answer": 40.78,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 40.77,
+          "derivation": "The revolving credit agreement in 2017 is $615.0 million. Total debt in 2017 is $1,507.6 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.77%.",
+          "is_percent": true,
+          "output_tokens": 82,
+          "raw_answer": 40.77,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "The revolving credit agreement in 2017 is $615.0 million. Total debt in 2017 is $1,507.6 million. The percentage is (615.0 / 1507.6) × 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 82,
+          "raw_answer": 40.78,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "The 1250 million revolving credit agreement due June 2021 has a balance of $615.0 million in 2017. Total debt in 2017 is $1,507.6 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 98,
+          "raw_answer": 40.78,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "The 1250 million revolving credit agreement due June 2021 is valued at $615.0 million in 2017. Total debt in 2017 is $1507.6 million. The percent is (615.0 / 1507.6) × 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 96,
+          "raw_answer": 40.78,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "Total debt in 2017 is $1,507.6 million. The revolving credit agreement is $615.0 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 40.78,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 40.78,
+          "derivation": "Total debt in 2017 is $1,507.6 million. The revolving credit agreement is $615.0 million. The percentage is (615.0 / 1507.6) * 100 ≈ 40.78%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 40.78,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "FBHS/2017/page_76.pdf-1",
+      "panel_index": 8,
+      "prompt_tokens": 653
+    },
+    {
+      "candidates": [
+        {
+          "answer": null,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions from 2003 to 2004 is (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth in deductions is (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0974 or 9.74%. The ratio of growth in additions to growth in deductions is 1.35 / 9.74 ≈ 0.1386",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 0,
+          "valid": false
+        },
+        {
+          "answer": 14.0,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 (1.35%). Growth in deductions: (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0974 (9.74%). Ratio of growths: 1.35% / 9.74% ≈ 0.1386, or 13.86%.",
+          "is_percent": true,
+          "output_tokens": 220,
+          "raw_answer": 14.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "In 2003, additions = $82,551,000; deductions = $1,390,000. In 2004, additions = $83,656,000; deductions = $1,524,400. Growth of additions from 2003 to 2004 = (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth of deductions = (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0971 or 9.71%. Ratio of growths = 1.35% / 9.71% ≈ 0.139.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 2,
+          "valid": false
+        },
+        {
+          "answer": null,
+          "derivation": "Additions in 2003: $82,551,000; additions in 2004: $83,656,000 → growth in additions = (83,656,000 - 82,551,000) / 82,551,000 ≈ 1.35%. Deductions in 2003: $1,390,000; deductions in 2004: $15,244,000 → growth in deductions = (15,244,000 - 1,390,000) / 1,390,000 ≈ 99.6%. Growth of additions compared to deductions = 1.35% / 99.6% ≈ 0.0135, or 1.35%.",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 3,
+          "valid": false
+        },
+        {
+          "answer": null,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth of additions from 2003 to 2004 is (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth of deductions is (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0967 or 9.67%. The ratio of growths is 1.35% / 9.67% ≈ 0.1396, or",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 4,
+          "valid": false
+        },
+        {
+          "answer": 13.86,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions: (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 (1.35%). Growth in deductions: (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0974 (9.74%). Ratio of growths: 1.35% / 9.74% ≈ 0.1386.",
+          "is_percent": true,
+          "output_tokens": 215,
+          "raw_answer": 13.86,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": null,
+          "derivation": "In 2003, additions were $82,551,000 and deductions were $1,390,000. In 2004, additions were $83,656,000 and deductions were $1,524,400. Growth in additions from 2003 to 2004 is (83,656,000 - 82,551,000) / 82,551,000 ≈ 0.0135 or 1.35%. Growth in deductions is (1,524,400 - 1,390,000) / 1,390,000 ≈ 0.0967 or 9.67%. Ratio of growths is 1.35% / 9.67% ≈ 0.1396, or 1",
+          "is_percent": false,
+          "output_tokens": 220,
+          "raw_answer": null,
+          "slot": 6,
+          "valid": false
+        },
+        {
+          "answer": 1.36,
+          "derivation": "Additions in 2003: $82,551,000; additions in 2004: $83,656,000. Growth of additions = (83,656,000 - 82,551,000) / 82,551,000 ≈ 1.35%. Deductions in 2003: $1,390,000; deductions in 2004: $15,244,000. Growth of deductions = (15,244,000 - 1,390,000) / 1,390,000 ≈ 99.6%. Ratio of growths = 1.35% / 99.6% ≈ 0.0136, or 1.36%.",
+          "is_percent": true,
+          "output_tokens": 220,
+          "raw_answer": 1.36,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "FRT/2005/page_117.pdf-1",
+      "panel_index": 9,
+      "prompt_tokens": 512
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 59,
+          "raw_answer": 0.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. No such figure is included in the given table or described in the text.",
+          "is_percent": false,
+          "output_tokens": 62,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide any data on the sensitivity to a one basis point increase in credit spreads on derivatives or hedges. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 44,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 58,
+          "raw_answer": 0.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide any data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) for 2017 or 2016. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 59,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 59,
+          "raw_answer": 0.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the change in sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. However, the provided report and table do not contain any data on credit spread sensitivity or related metrics. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 76,
+          "raw_answer": 0.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide any data on the estimated sensitivity to a one basis point increase in credit spreads on derivatives (including hedges) between 2017 and 2016. Therefore, the change cannot be determined from the given information.",
+          "is_percent": false,
+          "output_tokens": 59,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "GS/2017/page_106.pdf-4",
+      "panel_index": 10,
+      "prompt_tokens": 596
+    },
+    {
+      "candidates": [
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300. Goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300. Goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300. Goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300. Goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300, and the goodwill amount is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 73,
+          "raw_answer": 18.53,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300. Goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 18.53,
+          "derivation": "The total purchase price is $31,300, and goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 71,
+          "raw_answer": 18.53,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 19.0,
+          "derivation": "The total purchase price is $31,300, and the amount allocated to goodwill is $5,800. The portion dedicated to goodwill is 5800 / 31300 ≈ 0.1853, or 18.53%.",
+          "is_percent": true,
+          "output_tokens": 72,
+          "raw_answer": 19.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "HOLX/2008/page_142.pdf-1",
+      "panel_index": 11,
+      "prompt_tokens": 598
+    },
+    {
+      "candidates": [
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.267, which rounds to 4.27.",
+          "is_percent": false,
+          "output_tokens": 147,
+          "raw_answer": 4.27,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 4.27,
+          "derivation": "The liability for the 2007 program as of December 31, 2008, is $1.2 million. The liability for the 2003 program as of December 31, 2008, is $5.7 million. The liability for the 2001 program as of December 31, 2008, is $5.9 million. The average is (1.2 + 5.7 + 5.9) / 3 = 12.8 / 3 = 4.2667.",
+          "is_percent": true,
+          "output_tokens": 140,
+          "raw_answer": 4.27,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "IPG/2008/page_62.pdf-1",
+      "panel_index": 12,
+      "prompt_tokens": 724
+    },
+    {
+      "candidates": [
+        {
+          "answer": 26.37,
+          "derivation": "Tier 2 capital in 2008 is $48,616 million. Total capital in 2008 is $184,720 million. The percentage is (48,616 / 184,720) × 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 85,
+          "raw_answer": 26.37,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "Tier 2 capital in 2008 is $48,616 million. Total capital in 2008 is $184,720 million. The percentage is (48,616 / 184,720) * 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 85,
+          "raw_answer": 26.37,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 26.4,
+          "derivation": "First, find the percentage of Tier 2 capital relative to total capital in 2008: Tier 2 capital is $48,616 million, total capital is $184,720 million. Divide 48,616 by 184,720 to get the proportion: 48,616 / 184,720 ≈ 0.2637. Convert to percentage: 0.2637 × 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 132,
+          "raw_answer": 26.4,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "Tier 2 capital in 2008 is $48,616 million. Total capital in 2008 is $184,720 million. The percentage is (48,616 / 184,720) × 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 85,
+          "raw_answer": 26.37,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "Tier 2 capital in 2008 is $48,616 million. Total capital in 2008 is $184,720 million. The percentage is (48,616 / 184,720) * 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 85,
+          "raw_answer": 26.37,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "First, find the ratio of tier 2 capital to total capital in 2008: 48616 / 184720 ≈ 0.2637.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 26.37,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "Tier 2 capital in 2008 is $48,616 million. Total capital in 2008 is $184,720 million. The percentage is (48,616 / 184,720) * 100 ≈ 26.37%.",
+          "is_percent": true,
+          "output_tokens": 85,
+          "raw_answer": 26.37,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 26.37,
+          "derivation": "First, find the ratio of Tier 2 capital to total capital in 2008: 48616 / 184720 ≈ 0.2637.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 26.37,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "JPM/2008/page_85.pdf-5",
+      "panel_index": 13,
+      "prompt_tokens": 744
+    },
+    {
+      "candidates": [
+        {
+          "answer": 24.03,
+          "derivation": "Finished products in 2018 are $988.1 million, and total inventories in 2018 are $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 84,
+          "raw_answer": 24.03,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "Finished products in 2018 are $988.1 million, and total inventories in 2018 are $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 84,
+          "raw_answer": 24.03,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "In 2018, finished products were $988.1 million and total inventories were $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 78,
+          "raw_answer": 24.03,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "In 2018, finished products were $988.1 million and total inventories were $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 78,
+          "raw_answer": 24.03,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "In 2018, finished products were $988.1 million and total inventories were $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) × 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 78,
+          "raw_answer": 24.03,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "In 2018, finished products were $988.1 million and total inventories were $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 78,
+          "raw_answer": 24.03,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "In 2018, finished products were $988.1 million and total inventories were $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 78,
+          "raw_answer": 24.03,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 24.03,
+          "derivation": "Finished products in 2018 are $988.1 million, and total inventories in 2018 are $4,111.8 million. The percentage is calculated as (988.1 / 4111.8) * 100 ≈ 24.03%.",
+          "is_percent": true,
+          "output_tokens": 84,
+          "raw_answer": 24.03,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "LLY/2018/page_63.pdf-3",
+      "panel_index": 14,
+      "prompt_tokens": 586
+    },
+    {
+      "candidates": [
+        {
+          "answer": 26.18,
+          "derivation": "Future minimum lease commitments for operating leases with a remaining term of more than one year are $1.1 billion in total. The amount due in 2007 is $288 million. The percentage due in 2007 is (288 / 1100) * 100 ≈ 26.18%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 26.18,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 25.16,
+          "derivation": "Future minimum lease commitments: $288 million in 2007, $254 million in 2008, $211 million in 2009, $153 million in 2010, $118 million in 2011, and $121 million in later years. Total commitments = 288 + 254 + 211 + 153 + 118 + 121 = $1,145 million. Percentage due in 2007 = 288 / 1145 ≈ 0.2516, i.e. 25.16%.",
+          "is_percent": true,
+          "output_tokens": 167,
+          "raw_answer": 25.16,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 25.16,
+          "derivation": "Future minimum lease commitments: $288 million in 2007, $254 million in 2008, $211 million in 2009, $153 million in 2010, $118 million in 2011, and $121 million in later years. Total commitments = 288 + 254 + 211 + 153 + 118 + 121 = $1,145 million. Percentage due in 2007 = 288 / 1145 ≈ 0.2516, i.e. 25.16%.",
+          "is_percent": true,
+          "output_tokens": 167,
+          "raw_answer": 25.16,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 25.16,
+          "derivation": "Future minimum lease commitments: $288 million in 2007, $254 million in 2008, $211 million in 2009, $153 million in 2010, $118 million in 2011, and $121 million in later years. Total commitments = 288 + 254 + 211 + 153 + 118 + 121 = $1,145 million. Percentage due in 2007 = 288 / 1145 ≈ 0.2516, or 25.16%.",
+          "is_percent": true,
+          "output_tokens": 165,
+          "raw_answer": 25.16,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 25.16,
+          "derivation": "Future minimum lease commitments after December 31, 2006: $288 million in 2007, $254 million in 2008, $211 million in 2009, $153 million in 2010, $118 million in 2011, and $121 million in later years. Total commitments = 288 + 254 + 211 + 153 + 118 + 121 = $1,145 million. Percentage due in 2007 = 288 / 1145 ≈ 0.2516, i.e. 25.16%.",
+          "is_percent": true,
+          "output_tokens": 178,
+          "raw_answer": 25.16,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 26.18,
+          "derivation": "Future minimum lease commitments for operating leases: $1.1 billion total. Amount due in 2007: $288 million. Percentage due in 2007: (288 / 1100) * 100 ≈ 26.18%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 26.18,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 26.18,
+          "derivation": "Future minimum lease commitments for operating leases with more than one year remaining: $1.1 billion total. Commitment due in 2007: $288 million. Percentage due in 2007: (288 / 1100) * 100 ≈ 26.18%.",
+          "is_percent": true,
+          "output_tokens": 83,
+          "raw_answer": 26.18,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 25.16,
+          "derivation": "Future minimum lease commitments: $288 million in 2007, $254 million in 2008, $211 million in 2009, $153 million in 2010, $118 million in 2011, and $121 million in later years. Total commitments = 288 + 254 + 211 + 153 + 118 + 121 = $1,145 million. Percentage due in 2007 = 288 / 1145 ≈ 0.2516, i.e. 25.16%.",
+          "is_percent": true,
+          "output_tokens": 167,
+          "raw_answer": 25.16,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "LMT/2006/page_90.pdf-1",
+      "panel_index": 15,
+      "prompt_tokens": 770
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given information.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 0.0,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given information.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 0.0,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Only total net sales for the company are given in the table. Without segment-specific data, the average net sales for space systems cannot be calculated.",
+          "is_percent": false,
+          "output_tokens": 67,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales data for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given information.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 0.0,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given information.",
+          "is_percent": false,
+          "output_tokens": 55,
+          "raw_answer": 0.0,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given information.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 0.0,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given data.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 0.0,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The report does not provide specific net sales figures for the space systems business segment for any year from 2013 to 2015. Therefore, the average net sales for space systems cannot be calculated from the given data.",
+          "is_percent": true,
+          "output_tokens": 56,
+          "raw_answer": 0.0,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "LMT/2015/page_56.pdf-4",
+      "panel_index": 16,
+      "prompt_tokens": 1036
+    },
+    {
+      "candidates": [
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is calculated as 3122 / 408547 ≈ 0.00766, or 0.766%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 0.77,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand, and total operating income was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) * 100 ≈ 0.765%, or 0.77% when rounded.",
+          "is_percent": true,
+          "output_tokens": 91,
+          "raw_answer": 0.77,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is (3,122 / 408,547) × 100 ≈ 0.765%, or 0.77% when rounded.",
+          "is_percent": true,
+          "output_tokens": 94,
+          "raw_answer": 0.77,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) * 100 ≈ 0.765%, or 0.77% when rounded.",
+          "is_percent": true,
+          "output_tokens": 96,
+          "raw_answer": 0.77,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 7.65,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand, and total operating income was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) × 100 ≈ 0.765, or 7.65%.",
+          "is_percent": true,
+          "output_tokens": 88,
+          "raw_answer": 7.65,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 0.76,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) * 100 ≈ 0.76%, or 0.76%.",
+          "is_percent": true,
+          "output_tokens": 92,
+          "raw_answer": 0.76,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) × 100 ≈ 0.765%, or 0.77% when rounded.",
+          "is_percent": true,
+          "output_tokens": 96,
+          "raw_answer": 0.77,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 0.77,
+          "derivation": "In 2015, EMEA operating income was $3,122 thousand. Total operating income in 2015 was $408,547 thousand. The percentage is calculated as (3,122 / 408,547) * 100 ≈ 0.765%, or 0.77%.",
+          "is_percent": true,
+          "output_tokens": 93,
+          "raw_answer": 0.77,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "UAA/2016/page_52.pdf-3",
+      "panel_index": 17,
+      "prompt_tokens": 1103
+    },
+    {
+      "candidates": [
+        {
+          "answer": 7.07,
+          "derivation": "The amount due in 2009 is $542 million. The total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) * 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 7.07,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The amount due in 2009 is $542 million. The total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) × 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 7.07,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The amount due in 2009 is $542 million. Total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) * 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 75,
+          "raw_answer": 7.07,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The debt maturity due in 2009 is $542 million. The total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) × 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 77,
+          "raw_answer": 7.07,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The amount due in 2009 is $542 million. Total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) × 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 75,
+          "raw_answer": 7.07,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The amount due in 2009 is $542 million. Total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) * 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 75,
+          "raw_answer": 7.07,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The debt maturity due in 2009 is $542 million. The total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) * 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 77,
+          "raw_answer": 7.07,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": 7.07,
+          "derivation": "The debt due in 2009 is $542 million. The total debt maturities are $7,680 million. The percentage due in 2009 is (542 / 7680) × 100 ≈ 7.07%.",
+          "is_percent": true,
+          "output_tokens": 76,
+          "raw_answer": 7.07,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "UNP/2007/page_65.pdf-1",
+      "panel_index": 18,
+      "prompt_tokens": 725
+    },
+    {
+      "candidates": [
+        {
+          "answer": -8.5,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. Change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.085, i.e. -8.5%.",
+          "is_percent": true,
+          "output_tokens": 111,
+          "raw_answer": -8.5,
+          "slot": 0,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 115,
+          "raw_answer": -8.49,
+          "slot": 1,
+          "valid": true
+        },
+        {
+          "answer": 0.0,
+          "derivation": "The question asks for the percent of the value of the interest retained by UPRI from 2007 to 2008, but the provided data does not include information about interest retained by UPRI. The values mentioned ($431 million and $471 million) are not clearly tied to interest retained. Therefore, the data is insufficient to compute the requested percentage.",
+          "is_percent": false,
+          "output_tokens": 86,
+          "raw_answer": 0.0,
+          "slot": 2,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 116,
+          "raw_answer": -8.49,
+          "slot": 3,
+          "valid": true
+        },
+        {
+          "answer": -8.5,
+          "derivation": "The question asks for the percent change in the value of interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is (-40 / 471) ≈ -0.085, or -8.5%.",
+          "is_percent": true,
+          "output_tokens": 113,
+          "raw_answer": -8.5,
+          "slot": 4,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 114,
+          "raw_answer": -8.49,
+          "slot": 5,
+          "valid": true
+        },
+        {
+          "answer": -8.5,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40; percentage change is -40 / 471 ≈ -0.085, or -8.5%.",
+          "is_percent": true,
+          "output_tokens": 111,
+          "raw_answer": -8.5,
+          "slot": 6,
+          "valid": true
+        },
+        {
+          "answer": -8.49,
+          "derivation": "The question asks for the percent change in the value of the interest retained by UPRI from 2007 to 2008. The value in 2007 was $471 million and in 2008 was $431 million. The change is 431 - 471 = -40 million. The percentage change is (-40 / 471) ≈ -0.0849, or -8.49%.",
+          "is_percent": true,
+          "output_tokens": 117,
+          "raw_answer": -8.49,
+          "slot": 7,
+          "valid": true
+        }
+      ],
+      "item_id": "UNP/2008/page_79.pdf-1",
+      "panel_index": 19,
+      "prompt_tokens": 787
+    }
+  ],
+  "content_sha256": "286674f0b231d28184d5a20f5cd7c3397787483f7633c2bdbec4dd0c924e8b1a",
+  "generation_cost": {
+    "input_tokens": 113944,
+    "output_tokens": 14911,
+    "wall_seconds": 5453.5248347483575
+  },
+  "generator": {
+    "device_map": "auto",
+    "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+    "inference_library": "transformers==4.55.4",
+    "mode": "non-thinking only",
+    "precision": "bfloat16",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "tokenizer_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+    "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "torch": "torch==2.7.1"
+  },
+  "max_new_tokens": 220,
+  "panel_file_sha256": "0e6931a21554015f1759fc0f38b39ebbc210f650082fc3e73de0439d357c6be7",
+  "protocol_sha256": "5c94c383a99a5dc5aa046c15b2c6ba5bbd3e2df9acf6dbd379bc3ddaa3f0afca",
+  "schema_version": 1,
+  "seed_base": 20260914,
+  "seed_rule": "GENERATION_SEED_BASE + 1000*panel_index + slot",
+  "temperature": 0.8,
+  "top_p": 0.95
+}

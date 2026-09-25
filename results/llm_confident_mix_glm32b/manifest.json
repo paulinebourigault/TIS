@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "61f573df58756b17",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "05e584710b0b395bc52ef1d74abcd58ff6a4a0e9839beb8a27a9c46fdf30fba3",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 22408515,
+      "sha256": "77c5f76c884dc39f5718f5f518d12f7588fc3893ca890043cbd75c4839787a1c"
+    },
+    "config.json": {
+      "bytes": 684,
+      "sha256": "c8cfa54cdf1d2b58177042147c7607225eefe68f05706332421b329b63399b6e"
+    },
+    "diagnostics.json": {
+      "bytes": 18409,
+      "sha256": "765077b7684d5b6eecc315c0466c366e6502f892e1fc45ed2bdcb38f1d186331"
+    },
+    "paired_panel.csv": {
+      "bytes": 2709,
+      "sha256": "f6e1156de87de7e332541d420e9d3d4616ad28dd49bfd62dbfa15ddf2716bab6"
+    },
+    "panel_replications.csv": {
+      "bytes": 528552,
+      "sha256": "f6ea1f24432e88bf462ec204e4ce2872389869ce1be4b1e42ce759b5c7a3bbc5"
+    },
+    "panel_summary.csv": {
+      "bytes": 3309,
+      "sha256": "eb6c0d7b444fa09cdd7033ed1571abc1a0178c061277edfea65bb26e2a747e6d"
+    },
+    "question_summary.csv": {
+      "bytes": 174797,
+      "sha256": "cf23dc3d8b6a7d2c59b40a193fd5efd65541ebf07d678d5058bd523761ffb2df"
+    },
+    "raw.csv": {
+      "bytes": 103301251,
+      "sha256": "d5ac5050dee5525fb17c536038d40d93529144e63e3350bf1bcff2cf2cf0f6e4"
+    }
+  },
+  "kernel_artifact_sha256": "cf11af6bf56de22c8a24503a3fc7376698fe776abab38bd2d5a9ad64855ffc89",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "zai-org/GLM-4-32B-0414",
+  "kernel_model_key": "scale_model_3",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 998.1987528800964,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 31
+}

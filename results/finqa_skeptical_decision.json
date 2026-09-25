@@ -1,0 +1,294 @@
+{
+ "better_workflow": "ordinary",
+ "paired_vs_uniform": [
+  {
+   "budget": 25,
+   "method": "tis_anchored",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 3,
+   "z": 1.7320508075688774
+  },
+  {
+   "budget": 25,
+   "method": "learned_occupancy",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 3,
+   "z": 1.7320508075688774
+  },
+  {
+   "budget": 25,
+   "method": "complete_rollout",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 3,
+   "z": 1.7320508075688774
+  },
+  {
+   "budget": 25,
+   "method": "tis",
+   "method_only_wrong": 19,
+   "uniform_only_wrong": 3,
+   "z": -3.4112114616897666
+  },
+  {
+   "budget": 50,
+   "method": "tis_anchored",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 50,
+   "method": "learned_occupancy",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 50,
+   "method": "complete_rollout",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 50,
+   "method": "tis",
+   "method_only_wrong": 1,
+   "uniform_only_wrong": 0,
+   "z": -1.0
+  },
+  {
+   "budget": 100,
+   "method": "tis_anchored",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 100,
+   "method": "learned_occupancy",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 100,
+   "method": "complete_rollout",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 100,
+   "method": "tis",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 200,
+   "method": "tis_anchored",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 200,
+   "method": "learned_occupancy",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 200,
+   "method": "complete_rollout",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  },
+  {
+   "budget": 200,
+   "method": "tis",
+   "method_only_wrong": 0,
+   "uniform_only_wrong": 0,
+   "z": 0.0
+  }
+ ],
+ "population_values": {
+  "ordinary": 1.7676386801226602,
+  "skeptical": 1.7572420375334312
+ },
+ "questions": 50,
+ "rows": [
+  {
+   "budget": 25,
+   "mean_regret": 0.0001039664258922901,
+   "method": "uniform",
+   "n": 300,
+   "wrong_rate": 0.01
+  },
+  {
+   "budget": 25,
+   "mean_regret": 0.0006584540306511707,
+   "method": "tis",
+   "n": 300,
+   "wrong_rate": 0.06333333333333334
+  },
+  {
+   "budget": 25,
+   "mean_regret": 0.0,
+   "method": "learned_occupancy",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 25,
+   "mean_regret": 0.0,
+   "method": "tis_anchored",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 25,
+   "mean_regret": 0.0,
+   "method": "oracle_tail",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 25,
+   "mean_regret": 0.0,
+   "method": "complete_rollout",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 50,
+   "mean_regret": 0.0,
+   "method": "uniform",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 50,
+   "mean_regret": 3.4655475297430035e-05,
+   "method": "tis",
+   "n": 300,
+   "wrong_rate": 0.0033333333333333335
+  },
+  {
+   "budget": 50,
+   "mean_regret": 0.0,
+   "method": "learned_occupancy",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 50,
+   "mean_regret": 0.0,
+   "method": "tis_anchored",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 50,
+   "mean_regret": 0.0,
+   "method": "oracle_tail",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 50,
+   "mean_regret": 0.0,
+   "method": "complete_rollout",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "uniform",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "tis",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "learned_occupancy",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "tis_anchored",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "oracle_tail",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 100,
+   "mean_regret": 0.0,
+   "method": "complete_rollout",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "uniform",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "tis",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "learned_occupancy",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "tis_anchored",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "oracle_tail",
+   "n": 300,
+   "wrong_rate": 0.0
+  },
+  {
+   "budget": 200,
+   "mean_regret": 0.0,
+   "method": "complete_rollout",
+   "n": 300,
+   "wrong_rate": 0.0
+  }
+ ],
+ "selection_rule": "deploy the workflow with the larger panel-mean estimate (equal-weight mean of per-question CVaR estimates), ties to ordinary",
+ "signed_gap_ordinary_minus_skeptical": 0.01039664258922901
+}

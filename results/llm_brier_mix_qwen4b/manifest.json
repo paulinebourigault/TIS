@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "39f84b7cc3a71400",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "6c16a3848f73300f89ab39110255845a6d7ab90f43fce5dc2be4c4914ad393c3",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 16237187,
+      "sha256": "d9053dcc7f5c6df7c363b4ccd54c1a78481e8c34bad9a86d9ad1e86d6533ffe4"
+    },
+    "config.json": {
+      "bytes": 639,
+      "sha256": "2901a0d62fd7a46bddb31e51a1bcbc0381c171c1ea55871c46ad18b34fe1b61c"
+    },
+    "diagnostics.json": {
+      "bytes": 18968,
+      "sha256": "144db419ef974a7421cc29fa1bcfba1e31f2b5802916940bcb7baf2a9801762c"
+    },
+    "paired_panel.csv": {
+      "bytes": 2087,
+      "sha256": "72b25d85f26e5d85bd08de60df0b1c8bd289d7888d9096e037fe2b897fc392c7"
+    },
+    "panel_replications.csv": {
+      "bytes": 400968,
+      "sha256": "afa2e1b347484f7b5e2eb3f2c4099789bdf352f430a35777494954287dad38c5"
+    },
+    "panel_summary.csv": {
+      "bytes": 2525,
+      "sha256": "9423a836316ef026608f97e2c3f04dd863685a62e3c1261b13a3b40100ba924b"
+    },
+    "question_summary.csv": {
+      "bytes": 155876,
+      "sha256": "c857fc768cf0024ea22b41619adad175b8bc1e753f858155ab9fc7524b3ebf29"
+    },
+    "raw.csv": {
+      "bytes": 88315515,
+      "sha256": "d885a629d7029dc9ed614794d969358b0fa839c6b4853dc64cac8bcb698d7a5e"
+    }
+  },
+  "kernel_artifact_sha256": "8de9dfbb19fca4bef12c74db0b700f7091ff032da69b755e5c6f25a893a3f28c",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "kernel_model_key": "model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 743.8037106990814,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 31
+}

@@ -1,0 +1,185 @@
+{
+ "design": {
+  "grid": {
+   "2": {
+    "atoms_closed": 121,
+    "atoms_original": 106,
+    "min_gap_closed": 0.005555555555555536,
+    "min_gap_original": 0.005555555555555536
+   },
+   "4": {
+    "atoms_closed": 617,
+    "atoms_original": 552,
+    "min_gap_closed": 0.005555555555555536,
+    "min_gap_original": 0.005555555555555536
+   },
+   "6": {
+    "atoms_closed": 983,
+    "atoms_original": 883,
+    "min_gap_closed": 0.005555555555555536,
+    "min_gap_original": 0.005555555555555536
+   }
+  },
+  "pilot_schedule": {
+   "100": {
+    "pilot_fraction": 0.2,
+    "pilot_per_group": 20
+   },
+   "200": {
+    "pilot_fraction": 0.155,
+    "pilot_per_group": 31
+   },
+   "400": {
+    "pilot_fraction": 0.1225,
+    "pilot_per_group": 49
+   },
+   "50": {
+    "pilot_fraction": 0.26,
+    "pilot_per_group": 13
+   }
+  },
+  "questions": 50,
+  "replications": 300,
+  "shared_groups_per_question": 91
+ },
+ "generators": {
+  "GLM-4-32B": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 3407.524640796706
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1441244,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 2156.5326557848603
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 0,
+     "runtime_seconds": 31068.264656066895,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  },
+  "Granite-4.2-8B": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 971.263678573072
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1521183,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 668.8953450247645
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 0,
+     "runtime_seconds": 30988.141755580902,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  },
+  "Mistral-24B": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 2065.3588802795857
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1499895,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 1429.1574710048735
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 116,
+     "runtime_seconds": 10404.47285246849,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  },
+  "Phi-4-mini": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 450.0146842096001
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1414804,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 330.77690486982465
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 0,
+     "runtime_seconds": 31888.28893995285,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  },
+  "Qwen3-32B": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 3621.203267507255
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1549625,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 2356.0750269703567
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 0,
+     "runtime_seconds": 31042.567619085312,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  },
+  "Qwen3-4B": {
+   "audit": {
+    "audited_cells": 1350,
+    "samples_per_prompt": 4096,
+    "wall_seconds": 598.0751967001706
+   },
+   "calibration": {
+    "input_tokens_across_unique_prompts": 1531425,
+    "model_forward_calls": 9100,
+    "output_positions": 9100,
+    "prompt_kernels": 4550,
+    "restricted_output_positions_per_prompt": 2,
+    "wall_seconds": 467.1864992491901
+   },
+   "simulation": {
+    "panel_original": {
+     "cells_from_cache": 0,
+     "runtime_seconds": 31633.032240629196,
+     "status": "paper_eligible_complete",
+     "worker_processes": 16
+    }
+   }
+  }
+ }
+}

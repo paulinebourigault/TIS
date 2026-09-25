@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "status": "realized deterministic checks recorded only after the v1 rules were frozen; these values were not optimization targets",
+  "references": [
+    {"environment": "controlled_untied_v1", "alpha": 0.1, "groups": 21, "cvar": 0.9086716125743333, "margin": 0.010685396723788224, "uniform_to_oracle": 1.7233238733483527},
+    {"environment": "inventory_untied_v1", "alpha": 0.1, "groups": 41, "cvar": 1.1512371171695401, "margin": 0.04362019546849408, "uniform_to_oracle": 1.8235977736549085}
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 5.650474154524254e-17,
+    "environment": "controlled_untied_v1",
+    "group_mode": "untied_layer_state",
+    "groups": 21,
+    "margin": 0.010685396723788237,
+    "methods": [
+      "uniform",
+      "reachability_only",
+      "local_only",
+      "oracle_tail",
+      "tis"
+    ],
+    "replications": 400,
+    "seed": 20260719,
+    "truth": 0.9086716125743334,
+    "uniform_to_oracle": 1.7233238733483527,
+    "untied_factorization_max_abs_error": 1.3877787807814457e-17
+  },
+  {
+    "alpha": 0.1,
+    "covariance_score_relative_l2": 5.662736469105686e-17,
+    "environment": "inventory_untied_v1",
+    "group_mode": "untied_layer_state",
+    "groups": 41,
+    "margin": 0.043620195468494105,
+    "methods": [
+      "uniform",
+      "reachability_only",
+      "local_only",
+      "oracle_tail",
+      "tis"
+    ],
+    "replications": 300,
+    "seed": 20260720,
+    "truth": 1.1512371171695404,
+    "uniform_to_oracle": 1.8235977736549085,
+    "untied_factorization_max_abs_error": 1.3877787807814457e-17
+  }
+]

@@ -1,0 +1,28 @@
+{
+ "schema_version": 1,
+ "declared": "2026-09-23, before any simulation of this family ran; the population verification gate runs first and no case is filtered by any outcome",
+ "family": "18 cases: base disruption probabilities x disruption losses x two frozen policies, around the v1 seasonal inventory instance",
+ "conventions": {
+  "capacity_disruption": "p_capacity = p_base + 0.02 when post-order stock equals capacity (the v1 additive convention, 0.06 -> 0.08)",
+  "disruption_loss": "a disruption removes `loss` remaining units (floored at zero); the reward rule, including the one-category disruption penalty, is the v1 rule unchanged",
+  "policies": "seasonal = v1 base-stock targets; plus_one = the same targets plus one unit, capped at capacity",
+  "reward_and_grid": "v1 profit function, quantization to {0, 0.5, 1}, horizon 8, grid step 0.5, unchanged across the family"
+ },
+ "base_disruption_probabilities": [0.01, 0.04, 0.12],
+ "disruption_losses": [1, 2, 3],
+ "policies": ["seasonal", "plus_one"],
+ "alpha": 0.1,
+ "budgets_per_block": [150, 600, 1200],
+ "replications": 300,
+ "master_seed": 20260928,
+ "pilot": {
+  "multiplier": 4.0,
+  "minimum_pilot_per_group": 1,
+  "minimum_main_per_group": 2,
+  "exploration_exponent": 0.25
+ },
+ "methods": ["uniform", "learned_occupancy", "learned_mean", "tis", "tis_anchored",
+             "occ_plus_uniform", "occ_plus_mean", "oracle_tail", "complete_rollout"],
+ "primary_analysis": "tail-profit estimation error per case, and charged queries needed to reach the fixed absolute RMSE tolerances declared here: 0.02, 0.01, and 0.005 on the return scale, evaluated on the tested budget grid without extrapolation; separate prespecified comparisons of TIS and anchored TIS against occupancy, mean influence, rollouts, and both mixture controls",
+ "reporting": "every case is reported, including cases favoring the baselines and cases with near-zero margins; no configuration is selected or dropped using method outcomes"
+}

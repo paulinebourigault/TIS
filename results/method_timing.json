@@ -1,0 +1,119 @@
+{
+ "protocol": {
+  "version": 3,
+  "warmup": 2,
+  "reps": 10,
+  "alpha": 0.1,
+  "pipelines": "each method timed separately end to end per replication, including its own pilot sampling where the method uses one; learned occupancy uses the minimal forward-visitation solve without the CVaR adjoint or influence bundle",
+  "hardware": {
+   "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+   "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "python": "3.12.12",
+   "numpy": "2.3.5",
+   "blas_omp_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+   }
+  },
+  "note": "frozen-law replay computation only; query counts reported separately and never merged; not live model-call costs"
+ },
+ "cliffwalking_primary_b400": {
+  "uniform": {
+   "mean_s": 0.10961749460002465,
+   "sd_s": 0.004198050496530764
+  },
+  "learned_occupancy": {
+   "mean_s": 0.12176109959982569,
+   "sd_s": 0.0061220703499042396
+  },
+  "learned_mean": {
+   "mean_s": 0.3936452128000383,
+   "sd_s": 0.012456025577868913
+  },
+  "tis": {
+   "mean_s": 0.3936777985001754,
+   "sd_s": 0.00926166174533919
+  },
+  "tis_anchored": {
+   "mean_s": 0.39619887040025786,
+   "sd_s": 0.01084100418326697
+  },
+  "occ_plus_mean": {
+   "mean_s": 0.38980747670029814,
+   "sd_s": 0.00469124943619735
+  },
+  "complete_rollout": {
+   "mean_s": 0.031666984800358476,
+   "sd_s": 0.0011598104029552016
+  },
+  "scope": "single environment per replication"
+ },
+ "inventory_untied_v1_b1200": {
+  "uniform": {
+   "mean_s": 0.005004686000211223,
+   "sd_s": 0.00041298244656944933
+  },
+  "learned_occupancy": {
+   "mean_s": 0.006508940500134485,
+   "sd_s": 0.0005047726546962534
+  },
+  "learned_mean": {
+   "mean_s": 0.010679354299827536,
+   "sd_s": 0.00046240213609158786
+  },
+  "tis": {
+   "mean_s": 0.010852854499898968,
+   "sd_s": 0.0005065671522737021
+  },
+  "tis_anchored": {
+   "mean_s": 0.010760638000101607,
+   "sd_s": 0.0006021259934250831
+  },
+  "occ_plus_mean": {
+   "mean_s": 0.011157739600275818,
+   "sd_s": 0.0009290384470070874
+  },
+  "complete_rollout": {
+   "mean_s": 0.0052195525000570345,
+   "sd_s": 0.0002560017455300683
+  },
+  "scope": "single environment per replication"
+ },
+ "finqa_phi_ordinary_panel50_b200": {
+  "uniform": {
+   "mean_s": 0.6578465585993399,
+   "sd_s": 0.011231343578688888
+  },
+  "learned_occupancy": {
+   "mean_s": 0.8228498395992574,
+   "sd_s": 0.02387299014489524
+  },
+  "learned_mean": {
+   "mean_s": 2.0311710522018984,
+   "sd_s": 0.04381971266933825
+  },
+  "tis": {
+   "mean_s": 2.0149802362975606,
+   "sd_s": 0.023616069780128503
+  },
+  "tis_anchored": {
+   "mean_s": 2.0390115915990465,
+   "sd_s": 0.03022107735582465
+  },
+  "occ_plus_mean": {
+   "mean_s": 2.0397966459981034,
+   "sd_s": 0.03784204366713549
+  },
+  "complete_rollout": {
+   "mean_s": 0.29809095460059326,
+   "sd_s": 0.006406594902762126
+  },
+  "scope": "panel total over all questions per replication",
+  "grid_atoms_min_max": [
+   11,
+   197
+  ],
+  "questions": 50
+ }
+}

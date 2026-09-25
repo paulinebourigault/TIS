@@ -1,0 +1,16 @@
+{
+ "schema_version": 1,
+ "declared": "2026-09-15, committed before any calibration of the skeptical workflow existed",
+ "question": "Does a non-deferential review policy, which recomputes the answer before reading the prior selection and switches whenever its recomputation disagrees, differ consequentially in terminal severity from the ordinary deferential review, and does evaluation quality then decide the choice between them?",
+ "phase": "development only; the held-out follow-up runs only on a gate pass",
+ "comparison": "ordinary versus skeptical, both generators (Qwen3-4B and Phi-4-mini), on the frozen development panel and candidate banks; the frozen severity metric is primary and the unit-aware variant is the declared sensitivity",
+ "gate": {
+  "candidate_mobility": "exact terminal candidate-marginal total-variation distance between the two workflows at least .10 on at least 10 of the 20 development questions (chain composition of the exact kernels; no simulation)",
+  "severity_gap": "absolute development panel-value difference at least 5e-3 on the return scale (about one percent of terminal utility) for at least one generator",
+  "margins": "positive categorical margin on every development question for both workflows",
+  "audits": "provenance and direct-generation audits pass for every new calibration",
+  "reporting": "all outcomes reported regardless of direction; a failed gate is a documented null and no held-out artifact is generated"
+ },
+ "heldout_plan_on_pass": "calibrate the skeptical workflow on the frozen held-out panel for the passing generator(s), run its audits, simulate at 300 replications with the committed configuration, reuse the committed ordinary-workflow runs as the comparison arm, and report estimation accuracy and workflow-selection error at matched budgets under the frozen metric with the unit-aware sensitivity",
+ "budget": "development: two calibrations plus audits on the existing frozen dev panel and banks (about 40 GPU-minutes); held-out on pass: two calibrations plus audits (about 35 GPU-minutes) and CPU simulations"
+}

@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "5c25faea51de889e",
+  "cells_from_cache": 50,
+  "closed_grid": true,
+  "configuration_sha256": "43c5fc7f5e6b3258f77ef1005d114ffd14f5eb42b82bebecf404497dbbdc3cd6",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 17294926,
+      "sha256": "58d6c1c48d35d5b4cf54915b825f2d1a6f80583b4332bff1b6a15244517289de"
+    },
+    "config.json": {
+      "bytes": 669,
+      "sha256": "2c05ecb097899be075117ed5ff612ab27d36d04abc77c2241c7fb503d2e94a26"
+    },
+    "diagnostics.json": {
+      "bytes": 19050,
+      "sha256": "bef907c580c5e4b603a7c8ca4f54a9a6815e18230569a4c72d5c43c5fe5ff102"
+    },
+    "paired_panel.csv": {
+      "bytes": 2085,
+      "sha256": "d462544e3b30d53306e1b52e599bf26165d84244a20ec894bb1e467b485bd66e"
+    },
+    "panel_replications.csv": {
+      "bytes": 401024,
+      "sha256": "dabe65b55052573db0bb91c4dc9276735ac42979b018af89aca5715346af4a6b"
+    },
+    "panel_summary.csv": {
+      "bytes": 2517,
+      "sha256": "661e2bf7fad739ad881a07acf7d0ff8def9dc391961a96af05bf362cd3a025be"
+    },
+    "question_summary.csv": {
+      "bytes": 154898,
+      "sha256": "fceefc73030c22df99368afc7cc510f8571640ad849742065137b38670e1d9ea"
+    },
+    "raw.csv": {
+      "bytes": 87129060,
+      "sha256": "74f2f091b371c28739ce98dff42c576d32e2d0db76ab2c1693e8c5f2adb2ccfb"
+    }
+  },
+  "kernel_artifact_sha256": "c9485d3adbfbf49984daad46b66047d9612a9cf2be3b516b5d99bf634629c4ee",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "microsoft/Phi-4-mini-instruct",
+  "kernel_model_key": "robustness_model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 12.196420669555664,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 1
+}

@@ -1,0 +1,27 @@
+{
+ "schema_version": 1,
+ "declared": "2026-09-19, frozen before any simulation of this construction ran",
+ "question": "Can visitation and mean-return information remain unchanged while the allocation appropriate for CVaR changes substantially, and does a learned pilot capture the available gain after paying for itself?",
+ "construction": {
+  "type": "one-step fixed stochastic policy, uniform over G independently queryable action kernels; a transparent special case of the paper's model (no multi-step reuse; CliffWalking supplies the sequential test)",
+  "G": 10,
+  "alpha": 0.1,
+  "law_A": {"outcomes": {"0.0": 0.1, "0.5555555555555556": 0.9}, "mean": 0.5, "variance": 0.027777777777777776},
+  "law_B": {"outcomes": {"0.3333333333333333": 0.5, "0.6666666666666666": 0.5}, "mean": 0.5, "variance": 0.027777777777777776},
+  "mixing": "Pbar = [A + (G-1)B]/G; kernel g gets (1-t)*Pbar + t*endpoint_g, where the separated endpoint gives kernel 0 law A and kernels 1..9 law B",
+  "t_values": [0.0, 0.5, 1.0],
+  "analytical_checks": "at every t: visitation, all kernel means and variances, and the root return law are unchanged; uniform/oracle leading-variance ratios approximately 1, 1.300, 10 at t = 0, .5, 1; separated endpoint: quantile 1/3, CVaR .3, margin .09; these must be reproduced by the engine before simulation results are read"
+ },
+ "grid": "exact attainable outcome values (union over kernels) - representation error zero",
+ "methods": ["uniform", "learned_occupancy", "learned_mean", "tis", "tis_anchored", "oracle_tail", "complete_rollout"],
+ "references_labeled": ["oracle_tail"],
+ "budgets_per_kernel": [25, 50, 100, 200, 400],
+ "replications": 1000,
+ "pilot": {"multiplier": 4.0, "minimum_pilot_per_group": 8, "minimum_main_per_group": 2, "exploration_exponent": 0.25, "charged": true},
+ "master_seed": 20260921,
+ "rollout_accounting": "one rollout = one environment sample (the known action policy is sampled for free); rollout visits are charged per drawn kernel outcome at matched total sampling cost",
+ "support_rule": "learned laws use the full declared support of all outcome values; no method is told which kernel is exceptional",
+ "outputs": ["absolute MSE per method/budget/t", "MSE relative to learned occupancy", "pilot underallocation of the influential kernel", "uncertainty on primary method differences (paired where streams shared)", "realized allocation or variance ratios for failure accounting"],
+ "primary_comparison": "t in {0, .5, 1} at all declared budgets; the t=0 equal-influence control must remain visible in every display",
+ "completion_criterion": "a short separation proposition with a checked proof, one compact learning figure including the t=0 control, and a clear account of budgets where learning helps or hurts"
+}

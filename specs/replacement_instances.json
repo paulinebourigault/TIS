@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "predeclared instances",
+  "anti_tuning_rule": "Each instance is generated once from the rules below. No seed, coefficient, threshold, horizon, or query set may be changed in response to CVaR, margin, allocation ratio, or MSE results. Any future change requires a new instance name and version.",
+  "controlled_untied_v1": {
+    "horizon": 5,
+    "states": [0, 1, 2, 3, 4],
+    "initial_state": 0,
+    "group_mode": "untied_layer_state",
+    "reward_support": [0.0, 0.5, 1.0],
+    "grid": "0, 0.5, ..., 5",
+    "parameter_seed": 314159,
+    "generator": "numpy.random.default_rng (PCG64), with NumPy pinned by requirements-lock.txt",
+    "draw_order": "h=1,...,5; state=0,...,4; reward Dirichlet then transition Dirichlet",
+    "reward_concentration": "[0.80+0.10h, 1.05+0.08s, 0.90+0.06(h+s)]",
+    "transition_concentration_for_successor_j": "0.75+0.04h+0.03((s+j) mod 5)",
+    "joint_law": "independent product of the drawn reward and successor probability vectors",
+    "query_groups": "(5,0), plus every (h,s) for h=1,...,4 and s=0,...,4; 21 total"
+  },
+  "inventory_untied_v1": {
+    "horizon": 8,
+    "states": [0, 1, 2, 3, 4, 5, 6],
+    "initial_state": 0,
+    "group_mode": "untied_layer_state",
+    "capacity": 6,
+    "base_stock_by_chronological_period": [4, 4, 5, 5, 5, 4, 4, 5],
+    "poisson_mean_by_chronological_period": [1.2, 1.6, 2.1, 2.6, 2.4, 1.9, 1.5, 1.1],
+    "demand_censoring": "values 0,...,5 retain Poisson mass and value 6 receives P(D>=6)",
+    "event_order": "order to base stock subject to capacity, observe demand, then observe disruption",
+    "disruption": "probability 0.08 at post-order stock 6 and 0.06 otherwise; removes one remaining unit and lowers reward one category",
+    "profit": "4*sales - 1.5*order - 0.5*ending_before_disruption - 2*lost",
+    "quantization": "profit<=2 gives 0; 2<profit<8 gives 0.5; profit>=8 gives 1; disruption subtracts 0.5 with floor 0",
+    "grid": "0, 0.5, ..., 8",
+    "query_groups": "all positive-probability reachable (h,s) from root (8,0); derived mechanically, never selected by result quality"
+  }
+}

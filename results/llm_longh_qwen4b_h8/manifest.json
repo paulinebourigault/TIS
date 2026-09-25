@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "ef4cb9c1d0ac3b68",
+  "cells_from_cache": 50,
+  "closed_grid": true,
+  "configuration_sha256": "0c325139274d560fec577d033121e6ebef44978055304f2e221c2a65634cc70e",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 16014449,
+      "sha256": "fab2e1a076c805f0765256c9460e8e4973f7b9fef2a74fce7ffdc9aa93f934b4"
+    },
+    "config.json": {
+      "bytes": 670,
+      "sha256": "0bddd325036e623f112d987db71f63e07bcc513fcc83e6a34631b79c793a2457"
+    },
+    "diagnostics.json": {
+      "bytes": 19005,
+      "sha256": "da179b373fc5b96d86443448ee5bd9e2c53350379746b2065f2cf00aa1734831"
+    },
+    "paired_panel.csv": {
+      "bytes": 2087,
+      "sha256": "8456fb9454dc8241976543f37953547f9d0b8b589975d5d8313ac6a1020ba2c1"
+    },
+    "panel_replications.csv": {
+      "bytes": 400052,
+      "sha256": "2b0824cb48306eee9b47ec34e8e5cabc05b47f46114dfd8f6cede39a1a24edd3"
+    },
+    "panel_summary.csv": {
+      "bytes": 2529,
+      "sha256": "3b0668b7497c82263657f0793b2e6c6d8a1720868b31fbdcd8e4d40c8bc24eee"
+    },
+    "question_summary.csv": {
+      "bytes": 155493,
+      "sha256": "f4425b03c2bc816f5464bb4fbd82842fe1a54a4e2c15a90743b33a36dabbce1f"
+    },
+    "raw.csv": {
+      "bytes": 88778841,
+      "sha256": "6f5cf0e75001c1915b3a4414724b20e3f7577eea4fc382f39d059e3209b02cd2"
+    }
+  },
+  "kernel_artifact_sha256": "8de9dfbb19fca4bef12c74db0b700f7091ff032da69b755e5c6f25a893a3f28c",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "kernel_model_key": "model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 16.0720956325531,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 1
+}

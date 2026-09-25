@@ -1,0 +1,19 @@
+{
+  "banks_sha256": "7b624050fc03a7bf4483fb1a04bbccbb06866cf90fe5b2fcfe1b436d13cf775d",
+  "configuration_sha256": "33285ca89e4dfc38f24fea665453df996e7e72e7ab445403a049bad031065efa",
+  "kernel_artifact_sha256": "0bddbf94219ee783e0c76493dca1426b1be8665258ec15d6545e5c2e6aa4961b",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "tis",
+    "tis_anchored",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "questions": 50,
+  "replications": 300,
+  "runtime_seconds": 17474.539300203323,
+  "schema_version": 1,
+  "study": "finqa_terminal_risk",
+  "workflow": "unitcheck"
+}

@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "c50f9e0ab6925bbb",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "fbffe8f92cd1c615088b0bd5469c8585bde1958142eb3a2eea34484420e0058e",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 17444401,
+      "sha256": "089213c4e9c3070fb8e030f059e122246cbab70cb80f4d553a9d637bb1dc84c6"
+    },
+    "config.json": {
+      "bytes": 643,
+      "sha256": "fa5635c4c7c28bf5060c3cce71051b1ffebf5a56f5657c2ae7920cbc0b33e1c8"
+    },
+    "diagnostics.json": {
+      "bytes": 18730,
+      "sha256": "0539a27aa92df517caa18c85b7547294cc29f4be685acdd626f830459c1b196f"
+    },
+    "paired_panel.csv": {
+      "bytes": 2060,
+      "sha256": "d94afda6f4cc383315e1b18c4df9a8f6085d57fe7fb44a686171087d232d29c9"
+    },
+    "panel_replications.csv": {
+      "bytes": 395384,
+      "sha256": "c4b7b18db0660cafb42ba795cbb708e0b72cfadd45c06773d79b52c270bf86ea"
+    },
+    "panel_summary.csv": {
+      "bytes": 2501,
+      "sha256": "21597a9a8f2437f19d3385452cafd855d63cca9cb06568e6d0d99d5355c536f6"
+    },
+    "question_summary.csv": {
+      "bytes": 145071,
+      "sha256": "4af1d5fb875dc13b81e178e8547fce85b634170c1f7dbf9649cb400009414657"
+    },
+    "raw.csv": {
+      "bytes": 84474089,
+      "sha256": "8a09895a5ad05713856503c991d93d6a4c1a4d908fe94a894c183e12690d66c4"
+    }
+  },
+  "kernel_artifact_sha256": "f802a6df019f6defd106c5f57ad3084d3f9702fc7637f4d983b3ce55f2476c8c",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-32B",
+  "kernel_model_key": "scale_model_2",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 798.7930688858032,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 31
+}

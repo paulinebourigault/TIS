@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "eeb9cfe17270fa71",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "6da880e5411cd531735388ce03e18f9a11d2e7967f553328535ebdd09e6c37a1",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 22034047,
+      "sha256": "283e83cea879f160d121cd1b9bec82dfd1eb49646251aab9d4a457b6d2678286"
+    },
+    "config.json": {
+      "bytes": 685,
+      "sha256": "e2d1e15b16d0663cb32ae9d21cd8d776f236c1072e1630f57b7ec9ad047d5b69"
+    },
+    "diagnostics.json": {
+      "bytes": 19018,
+      "sha256": "c2c82f93f732e9b93cbc2723e0a5bcf910bbf7f8de8a4df0dee4c541080184a9"
+    },
+    "paired_panel.csv": {
+      "bytes": 2781,
+      "sha256": "2d535728234192d589e3f50e0bcf5deb3bdf83809a839d4c55fd4af3099b8ffe"
+    },
+    "panel_replications.csv": {
+      "bytes": 537186,
+      "sha256": "17c6a70a5c58683d9b7891b2925a0653608536e543d8d8f3965c3643b7ca939e"
+    },
+    "panel_summary.csv": {
+      "bytes": 3351,
+      "sha256": "900b7fcb0232cde9bbfb10c88748b1f488648250d0ad9b37164b29ab012e1972"
+    },
+    "question_summary.csv": {
+      "bytes": 209013,
+      "sha256": "dbcf6d98de2f008f23099b272fb65d73410d1d01f685d0be477e7cc63a4ae6bb"
+    },
+    "raw.csv": {
+      "bytes": 119412263,
+      "sha256": "965a7aa34aa41fd377d4b684a371dc845296f70091a6e346c072453321383eac"
+    }
+  },
+  "kernel_artifact_sha256": "fa82f239268dff317af1841df8ed7bbc55c09f20384c6947d521b8b04dbff232",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "ibm-granite/granite-4.2-8b",
+  "kernel_model_key": "robustness_model_2",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 966.8929250240326,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 31
+}

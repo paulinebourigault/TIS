@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tis"
+version = "0.3.1"
+description = "Tail-Influence Sampling for CVaR policy evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy==2.3.5", "matplotlib==3.10.8"]
+
+[project.scripts]
+tis = "tis.cli:main"
+tis-llm-study = "tis.llm_study.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

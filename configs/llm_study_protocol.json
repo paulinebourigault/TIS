@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "status": "prespecified before model calibration or allocation outcomes",
+ "panel": {
+  "dataset": "TIGER-Lab/MMLU-Pro",
+  "source_revision": "5b0b058f4c747aa50a47f6efe0dd4550e05d6094",
+  "split": "test",
+  "size": 50,
+  "selection_rule": "seeded SHA-256 rank within subject, then output ordered by subject and item_id",
+  "subject_counts": {
+   "biology": 4,
+   "business": 4,
+   "chemistry": 4,
+   "computer science": 4,
+   "economics": 4,
+   "engineering": 4,
+   "health": 4,
+   "history": 4,
+   "law": 3,
+   "math": 3,
+   "other": 3,
+   "philosophy": 3,
+   "physics": 3,
+   "psychology": 3
+  }
+ },
+ "model": {
+  "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "tokenizer_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "mode": "non-thinking only",
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1"
+ },
+ "robustness_model": {
+  "role": "prespecified different-family robustness checkpoint, declared before any calibration or allocation outcome was observed",
+  "identifier": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "tokenizer_identifier": "microsoft/Phi-4-mini-instruct",
+  "tokenizer_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "mode": "instruct, no extended-thinking mode",
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1",
+  "label_check": "all answer labels A-J and confidence labels 1-9 verified to encode to single distinct tokens at the pinned tokenizer revision",
+  "shared_with_primary": "panel, prompts, policy, decoder constraints, temperature, seeds, budgets, methods"
+ },
+ "robustness_model_2": {
+  "role": "second prespecified robustness checkpoint from a third model family and a 2026 release, declared before any calibration or allocation outcome was observed",
+  "identifier": "ibm-granite/granite-4.2-8b",
+  "revision": "41a8a2d41c54ef4a71741b3e62604f4caaec9295",
+  "tokenizer_identifier": "ibm-granite/granite-4.2-8b",
+  "tokenizer_revision": "41a8a2d41c54ef4a71741b3e62604f4caaec9295",
+  "mode": "instruct with built-in thinking disabled through the frozen chat-template arguments",
+  "chat_template_kwargs": {
+   "enable_thinking": false
+  },
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1",
+  "label_check": "all answer labels A-J and confidence labels 1-9 verified to encode to single distinct tokens at the pinned tokenizer revision",
+  "shared_with_primary": "panel, prompts, policy, decoder constraints, temperature, seeds, budgets, methods"
+ },
+ "decoder": {
+  "temperature": 0.7,
+  "top_k": null,
+  "top_p": null,
+  "answer_labels": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J"
+  ],
+  "confidence_labels": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "confidence_values": [
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9
+  ],
+  "law": "restricted answer softmax times answer-conditional restricted confidence softmax",
+  "token_requirement": "every answer and confidence label must encode to one distinct token; otherwise abort"
+ },
+ "scale_model_1": {
+  "role": "post-hoc scale replication at 24B from a fourth model family, added 2026-08-28 after the primary and first robustness results were observed; not part of the prespecified confirmatory protocol",
+  "identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "revision": "9527884be6e5616bdd54de542f9ae13384489724",
+  "tokenizer_identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "tokenizer_revision": "9527884be6e5616bdd54de542f9ae13384489724",
+  "mode": "instruct, no extended-thinking mode",
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1",
+  "label_check": "all answer labels A-J and confidence labels 1-9 verified to encode to single distinct tokens at the pinned tokenizer revision",
+  "shared_with_primary": "panel, prompts, policy, decoder constraints, temperature, seeds, budgets, methods"
+ },
+ "scale_model_2": {
+  "role": "post-hoc scale replication at 32B within the primary model family (isolates scale), added 2026-08-28 after the primary and first robustness results were observed; not part of the prespecified confirmatory protocol",
+  "identifier": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "tokenizer_identifier": "Qwen/Qwen3-32B",
+  "tokenizer_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "mode": "hybrid-thinking checkpoint with thinking disabled through the frozen chat-template arguments",
+  "chat_template_kwargs": {
+   "enable_thinking": false
+  },
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1",
+  "label_check": "all answer labels A-J and confidence labels 1-9 verified to encode to single distinct tokens at the pinned tokenizer revision",
+  "shared_with_primary": "panel, prompts, policy, decoder constraints, temperature, seeds, budgets, methods"
+ },
+ "scale_model_3": {
+  "role": "post-hoc scale replication at 32B from a fifth model family, added 2026-08-28 after the primary and first robustness results were observed; not part of the prespecified confirmatory protocol",
+  "identifier": "zai-org/GLM-4-32B-0414",
+  "revision": "077b5c2f5c43bd3239fd605a0600229e8facbd4a",
+  "tokenizer_identifier": "zai-org/GLM-4-32B-0414",
+  "tokenizer_revision": "077b5c2f5c43bd3239fd605a0600229e8facbd4a",
+  "mode": "instruct, no extended-thinking mode",
+  "precision": "bfloat16",
+  "device_map": "auto",
+  "inference_library": "transformers==4.55.4",
+  "torch": "torch==2.7.1",
+  "label_check": "all answer labels A-J and confidence labels 1-9 verified to encode to single distinct tokens at the pinned tokenizer revision",
+  "shared_with_primary": "panel, prompts, policy, decoder constraints, temperature, seeds, budgets, methods"
+ },
+ "prompts": {
+  "system": "You are a careful multiple-choice reasoner. Follow the requested review mode. Your visible response must contain only the two requested label tokens.",
+  "prior_template": "Previous output: answer {answer}; confidence label {confidence} (meaning {confidence_decimal}).",
+  "solve_template": "{item}\n\nSolve the item from scratch. Return exactly two label tokens with no separator: first one answer label from {answer_labels}, then one confidence label from {confidence_labels}. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "reconsider_template": "{item}\n\n{prior}\nReconsider the previous output carefully for a possible error. Return exactly two label tokens with no separator: first one answer label from {answer_labels}, then one confidence label from {confidence_labels}. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "challenge_template": "{item}\n\n{prior}\nChallenge the previous answer with the strongest plausible objection, then reassess it. Return exactly two label tokens with no separator: first one answer label from {answer_labels}, then one confidence label from {confidence_labels}. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "verify_template": "{item}\n\n{prior}\nIndependently verify the previous answer and confidence before reassessing them. Return exactly two label tokens with no separator: first one answer label from {answer_labels}, then one confidence label from {confidence_labels}. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9."
+ },
+ "workflow": {
+  "actions": [
+   "solve",
+   "reconsider",
+   "challenge",
+   "verify"
+  ],
+  "root_action": "solve",
+  "low_confidence_action": "reconsider for confidence 0.1 through 0.3",
+  "middle_confidence_action": "challenge for confidence 0.4 through 0.6",
+  "high_confidence_action": "verify for confidence 0.7 through 0.9",
+  "primary_horizon": 4,
+  "horizon_ablations": [
+   2,
+   6
+  ],
+  "primary_alpha": 0.1,
+  "alpha_sensitivity": 0.2
+ },
+ "seeds": {
+  "panel_selection": 20260723,
+  "calibration": 20260724,
+  "simulation": 20260725
+ },
+ "panel_highstakes": {
+  "role": "post-hoc breadth panel, declared 2026-09-08 after the primary results were recorded",
+  "dataset": "TIGER-Lab/MMLU-Pro",
+  "source_revision": "5b0b058f4c747aa50a47f6efe0dd4550e05d6094",
+  "split": "test",
+  "size": 50,
+  "selection_rule": "seeded SHA-256 rank within subject after excluding every primary-panel item_id, then output ordered by subject and item_id",
+  "selection_seed": 20260908,
+  "subject_counts": {
+   "health": 15,
+   "law": 15,
+   "business": 10,
+   "economics": 10
+  },
+  "rationale": "high-stakes subjects where a confidently wrong answer is the deployment risk; items disjoint from the primary panel"
+ },
+ "policy_cautious": {
+  "role": "post-hoc review-policy variant, declared 2026-09-08 after the primary results were recorded",
+  "actions": [
+   "solve",
+   "reconsider",
+   "challenge",
+   "verify"
+  ],
+  "root_action": "solve",
+  "low_confidence_action": "reconsider for confidence 0.1 through 0.4",
+  "middle_confidence_action": "challenge for confidence 0.5 through 0.7",
+  "high_confidence_action": "verify for confidence 0.8 and 0.9",
+  "rationale": "tightens both escalation thresholds by one confidence band relative to the primary workflow; prompt templates, labels, decoder, and panel machinery are unchanged"
+ }
+}

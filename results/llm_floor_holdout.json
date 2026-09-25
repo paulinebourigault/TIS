@@ -1,0 +1,176 @@
+{
+ "cell": {
+  "alpha": 0.1,
+  "budget_per_shared_group": 400,
+  "horizon": 6
+ },
+ "fold_seed": 20260907,
+ "folds": 5,
+ "generators": {
+  "glm32b": {
+   "cv_fold_choices": {
+    "0": 0.4,
+    "1": 0.4,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4
+   },
+   "cv_held_out_ratio": 0.5423756980251588,
+   "cv_held_out_ratio_jackknife_se": 0.17354727122141947,
+   "full_data_ratio_by_lambda": {
+    "0.072": 1.783104773750951,
+    "0.15": 1.1986618578452208,
+    "0.25": 0.8036263796777464,
+    "0.4": 0.5423756980251588
+   },
+   "hindsight_best_lambda": 0.4,
+   "hindsight_best_ratio": 0.5423756980251588,
+   "identifier": "zai-org/GLM-4-32B-0414",
+   "original_ratio": 1.783104773750951
+  },
+  "granite8b": {
+   "cv_fold_choices": {
+    "0": 0.25,
+    "1": 0.25,
+    "2": 0.25,
+    "3": 0.25,
+    "4": 0.15
+   },
+   "cv_held_out_ratio": 0.08089601783814113,
+   "cv_held_out_ratio_jackknife_se": 0.0072529474281697506,
+   "full_data_ratio_by_lambda": {
+    "0.072": 0.0896941706531333,
+    "0.15": 0.0781366162888327,
+    "0.25": 0.07774555104635972,
+    "0.4": 0.08368109843966431
+   },
+   "hindsight_best_lambda": 0.25,
+   "hindsight_best_ratio": 0.07774555104635972,
+   "identifier": "ibm-granite/granite-4.2-8b",
+   "original_ratio": 0.0896941706531333
+  },
+  "mistral24b": {
+   "cv_fold_choices": {
+    "0": 0.4,
+    "1": 0.4,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4
+   },
+   "cv_held_out_ratio": 0.17045632696677918,
+   "cv_held_out_ratio_jackknife_se": 0.043308109476945265,
+   "full_data_ratio_by_lambda": {
+    "0.072": 0.20884642915445575,
+    "0.15": 0.20034226719443612,
+    "0.25": 0.18756029648879194,
+    "0.4": 0.17045632696677923
+   },
+   "hindsight_best_lambda": 0.4,
+   "hindsight_best_ratio": 0.17045632696677923,
+   "identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+   "original_ratio": 0.20884642915445575
+  },
+  "phi4mini": {
+   "cv_fold_choices": {
+    "0": 0.4,
+    "1": 0.4,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4
+   },
+   "cv_held_out_ratio": 0.12004446448011984,
+   "cv_held_out_ratio_jackknife_se": 0.02736358926062254,
+   "full_data_ratio_by_lambda": {
+    "0.072": 0.3472048002164868,
+    "0.15": 0.2267687022081674,
+    "0.25": 0.15740595625787598,
+    "0.4": 0.12004446448011984
+   },
+   "hindsight_best_lambda": 0.4,
+   "hindsight_best_ratio": 0.12004446448011984,
+   "identifier": "microsoft/Phi-4-mini-instruct",
+   "original_ratio": 0.3472048002164868
+  },
+  "qwen32b": {
+   "cv_fold_choices": {
+    "0": 0.4,
+    "1": 0.4,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4
+   },
+   "cv_held_out_ratio": 0.18796132449112715,
+   "cv_held_out_ratio_jackknife_se": 0.05100552657262252,
+   "full_data_ratio_by_lambda": {
+    "0.072": 0.49222888203441895,
+    "0.15": 0.3406267277129012,
+    "0.25": 0.2583818481793722,
+    "0.4": 0.18796132449112715
+   },
+   "hindsight_best_lambda": 0.4,
+   "hindsight_best_ratio": 0.18796132449112715,
+   "identifier": "Qwen/Qwen3-32B",
+   "original_ratio": 0.49222888203441895
+  },
+  "qwen4b": {
+   "cv_fold_choices": {
+    "0": 0.4,
+    "1": 0.4,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4
+   },
+   "cv_held_out_ratio": 0.3326708491607648,
+   "cv_held_out_ratio_jackknife_se": 0.10626851586183236,
+   "full_data_ratio_by_lambda": {
+    "0.072": 0.7045867098682487,
+    "0.15": 0.5949867098824584,
+    "0.25": 0.4312588125970759,
+    "0.4": 0.3326708491607648
+   },
+   "hindsight_best_lambda": 0.4,
+   "hindsight_best_ratio": 0.3326708491607648,
+   "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+   "original_ratio": 0.7045867098682487
+  }
+ },
+ "lambdas": [
+  0.072,
+  0.15,
+  0.25,
+  0.4
+ ],
+ "leave_one_generator_out": {
+  "glm32b": {
+   "held_out_ratio": 0.5423756980251588,
+   "original_ratio": 1.783104773750951,
+   "selected_lambda": 0.4
+  },
+  "granite8b": {
+   "held_out_ratio": 0.08368109843966431,
+   "original_ratio": 0.0896941706531333,
+   "selected_lambda": 0.4
+  },
+  "mistral24b": {
+   "held_out_ratio": 0.17045632696677923,
+   "original_ratio": 0.20884642915445575,
+   "selected_lambda": 0.4
+  },
+  "phi4mini": {
+   "held_out_ratio": 0.12004446448011984,
+   "original_ratio": 0.3472048002164868,
+   "selected_lambda": 0.4
+  },
+  "qwen32b": {
+   "held_out_ratio": 0.18796132449112715,
+   "original_ratio": 0.49222888203441895,
+   "selected_lambda": 0.4
+  },
+  "qwen4b": {
+   "held_out_ratio": 0.3326708491607648,
+   "original_ratio": 0.7045867098682487,
+   "selected_lambda": 0.4
+  }
+ },
+ "original_lambda": 0.072
+}

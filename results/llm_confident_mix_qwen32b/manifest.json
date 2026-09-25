@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "e92dd18e42383bec",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "010d304ccb8d46c6af0fae78385f41ba8bfe0b652d6e37ab49e33f2eb8085b15",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 22979371,
+      "sha256": "0a7149919c08b9dbd82de497a4fd83700b0ba57bccfb63f2f05303da41655ea8"
+    },
+    "config.json": {
+      "bytes": 685,
+      "sha256": "0d133bfb920866b7a57c23c23f0532968c9fdf00952d210a19ffdadeab8f5525"
+    },
+    "diagnostics.json": {
+      "bytes": 18668,
+      "sha256": "92751ec9e0a555b2976760f46a155153d42ba2ace247c501aa3cc93ba0f7621b"
+    },
+    "paired_panel.csv": {
+      "bytes": 2718,
+      "sha256": "50aa0825cca1c68ce624cd0e3720a36c4c3505b8b07a51c7bc7b20b3053fdf5a"
+    },
+    "panel_replications.csv": {
+      "bytes": 529208,
+      "sha256": "703684c00fdc9606588d77a1711c63d7100b8a2d3ccb9cc743f5cc95f7fd583a"
+    },
+    "panel_summary.csv": {
+      "bytes": 3314,
+      "sha256": "5c94af4989710eeb612800f647afe9030e4ec9d51976c4338a9467dd2d1c6942"
+    },
+    "question_summary.csv": {
+      "bytes": 189999,
+      "sha256": "51e336fd7d3a9d07c0d80ef7c7c5f7e1b4b56f1708b1e7126eef0587f3cc61ef"
+    },
+    "raw.csv": {
+      "bytes": 110149072,
+      "sha256": "1bb082f0105bf2582aefbae21645de5303aabc0738712f6ffc378c597de94b6b"
+    }
+  },
+  "kernel_artifact_sha256": "a7529268c42b050fd9b7053712bf43d1963b9a0ae86b90675472169fafe23d1e",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-32B",
+  "kernel_model_key": "scale_model_2",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 1041.941704750061,
+  "schema_version": 1,
+  "utility": "confident_error",
+  "worker_processes": 31
+}

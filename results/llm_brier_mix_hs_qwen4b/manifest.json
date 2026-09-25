@@ -1,0 +1,63 @@
+{
+  "cell_cache_signature": "482b8cdfe12bf1f9",
+  "cells_from_cache": 0,
+  "closed_grid": true,
+  "configuration_sha256": "30025757374e51fc9832e604a1f87b2d8128bfa9cf20672f34a3dd76ce8b808b",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 16033348,
+      "sha256": "e8156c3175ca72deda7becec7577a84f47153c157d198de277940673dcd37ed9"
+    },
+    "config.json": {
+      "bytes": 642,
+      "sha256": "6b69b206145383f09e5d7b4a6e0d34665f51a3920703b92805ab075dbc1ab827"
+    },
+    "diagnostics.json": {
+      "bytes": 18836,
+      "sha256": "5d099c9201f3b58178809e7e3d9a3c0c2db4e5a380adf73646e329371531e3d8"
+    },
+    "paired_panel.csv": {
+      "bytes": 2086,
+      "sha256": "04dc3b1c1085e88193a38f0bfe7acc5bcaf1358c17dad736e2b46a9a08a18b19"
+    },
+    "panel_replications.csv": {
+      "bytes": 401454,
+      "sha256": "5a976262d8222cd6e5c1a9bbd5ce00146ee2ebb5de6ea74fd6158c87fce3ff78"
+    },
+    "panel_summary.csv": {
+      "bytes": 2529,
+      "sha256": "ef6118841cf14ed25ede1fcf47102bc2063b94d4d9965fe4dc571dee5dfcdc55"
+    },
+    "question_summary.csv": {
+      "bytes": 153912,
+      "sha256": "6bde408a48cdcdbb08c7875ee40b34b44de37b63d783a0129eb36ee001cb5328"
+    },
+    "raw.csv": {
+      "bytes": 87443129,
+      "sha256": "0a1ce2e15d5b7cc1c9013721128e5f2c830622647f783b8516273fddc2216dee"
+    }
+  },
+  "kernel_artifact_sha256": "fbd2fb62fea7c44d0f957f91fd51ab0854ef66d1bb29e83e8744e9f825ae9633",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "kernel_model_key": "model",
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "policy": "default",
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 769.630375623703,
+  "schema_version": 1,
+  "utility": "brier",
+  "worker_processes": 31
+}

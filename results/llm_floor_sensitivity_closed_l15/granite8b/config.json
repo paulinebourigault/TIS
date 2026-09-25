@@ -1,0 +1,25 @@
+{
+  "alphas": [
+    0.1
+  ],
+  "budgets_per_shared_group": [
+    400
+  ],
+  "closed_grid": true,
+  "exploration_exponent": 0.18064,
+  "horizons": [
+    6
+  ],
+  "master_seed": 20260725,
+  "methods": [
+    "uniform",
+    "tis"
+  ],
+  "minimum_main_per_group": 2,
+  "minimum_pilot_per_group": 8,
+  "output_directory": "results/llm_floor_sensitivity_closed_l15/granite8b",
+  "pilot_multiplier": 4.0,
+  "protocol": "configs/llm_study_protocol.json",
+  "replications": 300,
+  "schema_version": 1
+}

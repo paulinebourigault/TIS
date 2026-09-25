@@ -1,0 +1,53 @@
+{
+  "cell_cache_signature": "2189b37fadc69201",
+  "cells_from_cache": 0,
+  "configuration_sha256": "45b0a5b4eac606533a325523c3eff9b09b322f101a8489668b7fb9272c401b9f",
+  "files": {
+    "allocation_summary.csv": {
+      "bytes": 1177211,
+      "sha256": "0a0ac65d39f78596287d8e0d1576bd1a4e6be4aed0c51d240459a2b219a9d330"
+    },
+    "config.json": {
+      "bytes": 464,
+      "sha256": "3799c80ee9a718713676728e1979d84e643c7c2e8501326b4aec6e96fce8ba10"
+    },
+    "diagnostics.json": {
+      "bytes": 19087,
+      "sha256": "57152196b56b2eff0cfc8c7eaf1b920df196097ca10dd2c04c009911ccc8f7fb"
+    },
+    "paired_panel.csv": {
+      "bytes": 160,
+      "sha256": "9e632d88fc4e7b59ed501fe37fabb7ff904b03645779d94ca4b96c053f5db8de"
+    },
+    "panel_replications.csv": {
+      "bytes": 25435,
+      "sha256": "b162e86a2e3a4ca425e76fd1e8baae0604a20e862aa52ab167c69b261dbce50b"
+    },
+    "panel_summary.csv": {
+      "bytes": 248,
+      "sha256": "0284a2f218757d4e51900224613798aea4e0e30055218d2ae3566b811307c257"
+    },
+    "question_summary.csv": {
+      "bytes": 10322,
+      "sha256": "ed98e8fb42d18c713c59f43ae7eebd8801c267050c3d1929ce1c9ab0f74ff61f"
+    },
+    "raw.csv": {
+      "bytes": 6434158,
+      "sha256": "51e8133d83602c971f8f085830f4cc564dee1694c62c2722d7bd32040d7dea98"
+    }
+  },
+  "kernel_artifact_sha256": "07e5799ce8bfb7a56536eb28ac5e76a47d52adebdb44075c118a3c9765acecb2",
+  "kernel_evidence_status": "paper_eligible",
+  "kernel_model_identifier": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "kernel_model_key": "scale_model_1",
+  "methods": [
+    "uniform",
+    "tis"
+  ],
+  "questions": 50,
+  "replications": 300,
+  "result_evidence_status": "execution_or_partial_only",
+  "runtime_seconds": 799.3550152778625,
+  "schema_version": 1,
+  "worker_processes": 10
+}

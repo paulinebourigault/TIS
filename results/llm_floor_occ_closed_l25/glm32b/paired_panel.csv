@@ -1,0 +1,3 @@
+horizon,alpha,budget_per_shared_group,comparison,replications,mean_difference,se
+6,0.1,400,learned_occupancy-minus-tis,300,-0.007753433773690589,0.000418001264954627
+6,0.1,400,uniform-minus-tis,300,0.0020231620028006094,0.0005141845405583178

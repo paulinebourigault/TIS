@@ -1,0 +1,14 @@
+{
+  "audited_cells": 1080,
+  "family_alpha": 0.0001,
+  "kernel_artifact_sha256": "9d71a9779136dd5777303ba1995702fa42b87d66ff77feac4f26d17d42f113bf",
+  "passed": true,
+  "per_cell_alpha": 9.259259259259259e-08,
+  "records": [],
+  "samples_per_prompt": 2048,
+  "schema_version": 1,
+  "smallest_p_value": 0.008884455886902265,
+  "study": "finqa_terminal_risk",
+  "wall_seconds": 5.010785739868879,
+  "workflow": "skeptical"
+}

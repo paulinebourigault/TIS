@@ -1,0 +1,3 @@
+horizon,alpha,budget_per_shared_group,method,replications,panel_mse,mcse,normalized_to_uniform
+6,0.1,400,tis,300,0.0001960653114169305,9.649282882112207e-06,0.12364660850761933
+6,0.1,400,uniform,300,0.0015856909767553277,3.7464183866314344e-05,1.0

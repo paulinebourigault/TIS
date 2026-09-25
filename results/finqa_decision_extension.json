@@ -1,0 +1,38 @@
+{
+ "phi": {
+  "400": {
+   "uniform": 0.25666666666666665,
+   "tis": 0.21333333333333335,
+   "learned_occupancy": 0.07666666666666666,
+   "complete_rollout": 0.056666666666666664,
+   "tis_anchored": 0.043333333333333335,
+   "oracle_tail": 0.016666666666666666
+  },
+  "800": {
+   "uniform": 0.15333333333333332,
+   "tis": 0.07333333333333333,
+   "learned_occupancy": 0.013333333333333334,
+   "complete_rollout": 0.03666666666666667,
+   "tis_anchored": 0.0033333333333333335,
+   "oracle_tail": 0.0
+  }
+ },
+ "qwen": {
+  "400": {
+   "uniform": 0.0,
+   "tis": 0.0033333333333333335,
+   "learned_occupancy": 0.0,
+   "complete_rollout": 0.0,
+   "tis_anchored": 0.0,
+   "oracle_tail": 0.0
+  },
+  "800": {
+   "uniform": 0.0,
+   "tis": 0.0,
+   "learned_occupancy": 0.0,
+   "complete_rollout": 0.0,
+   "tis_anchored": 0.0,
+   "oracle_tail": 0.0
+  }
+ }
+}

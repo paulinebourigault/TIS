@@ -1,0 +1,35 @@
+{
+  "alphas": [
+    0.1
+  ],
+  "budgets_per_shared_group": [
+    100,
+    200,
+    400
+  ],
+  "closed_grid": true,
+  "exploration_exponent": 0.25,
+  "horizons": [
+    6
+  ],
+  "master_seed": 20260725,
+  "methods": [
+    "uniform",
+    "learned_occupancy",
+    "learned_mean",
+    "tis",
+    "tis_anchored",
+    "occ_plus_uniform",
+    "occ_plus_mean",
+    "oracle_tail",
+    "complete_rollout"
+  ],
+  "minimum_main_per_group": 2,
+  "minimum_pilot_per_group": 8,
+  "output_directory": "results/llm_divpred_hs_qwen4b",
+  "pilot_multiplier": 4.0,
+  "protocol": "configs/llm_study_protocol.json",
+  "replications": 300,
+  "schema_version": 1,
+  "utility": "confident_error"
+}
