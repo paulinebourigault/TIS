@@ -3,6 +3,13 @@
 Code, frozen artifacts, and results for
 *Tail-Influence Sampling for CVaR Policy Evaluation*.
 
+> **Supplementary archive.** This is the size-limited version submitted with
+> the paper. It contains all code, configurations, declarations, frozen
+> kernels, and summary results. Per-replication and per-question result files
+> (`panel_replications.csv`, `question_summary.csv`, `raw*.csv`) are omitted:
+> they are in the full anonymized repository linked in the paper, and each
+> regenerates on CPU from the configurations and frozen kernels included here.
+
 <p align="center">
   <img src="assets/tis_overview.png" width="760" alt="Tail-Influence Sampling overview">
 </p>
