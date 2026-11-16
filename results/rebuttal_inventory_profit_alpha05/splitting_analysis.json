@@ -1,0 +1,1501 @@
+{
+ "alpha": 0.05,
+ "fitted_model_rollouts_from": "fitted_rollouts.csv (scripts/rebuttal_fitted_rollouts_alpha.py)",
+ "mean_total_mass": {
+  "profit|0.0": 1.0,
+  "profit|0.5": 1.0000206413580246,
+  "profit|1.0": 1.0000777640740741,
+  "profit|1.5": 0.9999672877777778,
+  "profit|2.0": 1.0014734365432099,
+  "profit|3.0": 0.9932948470987655,
+  "profit_value|0.5": 0.9999804819753086,
+  "profit_value|1.0": 1.0002851254938272,
+  "profit_value|1.5": 0.9997264147530864,
+  "profit_value|2.0": 1.0002253596296298,
+  "profit_value|3.0": 1.0017318879012345
+ },
+ "budgets": {
+  "300": {
+   "family_mse": {
+    "complete_rollout": 0.3550471196883531,
+    "rollout_model": 0.09707712966387837,
+    "tis": 0.08265470549704416,
+    "tis_anchored": 0.09047769268664377,
+    "learned_mean": 0.11233548505410267
+   },
+   "variants": {
+    "profit|0.0|weighted": {
+     "family_mse": 0.353637932229616,
+     "ratio_to_complete_rollouts": 0.9960309846761352
+    },
+    "profit|0.0|selfnorm": {
+     "family_mse": 0.353637932229616,
+     "ratio_to_complete_rollouts": 0.9960309846761352
+    },
+    "profit|0.0|fitted": {
+     "family_mse": 0.09514288221237309,
+     "ratio_to_complete_rollouts": 0.2679725505050876
+    },
+    "profit|0.5|weighted": {
+     "family_mse": 0.20699478418148662,
+     "ratio_to_complete_rollouts": 0.5830065157638197
+    },
+    "profit|0.5|selfnorm": {
+     "family_mse": 0.21770426442164514,
+     "ratio_to_complete_rollouts": 0.6131700620828516
+    },
+    "profit|0.5|fitted": {
+     "family_mse": 0.08011492577550382,
+     "ratio_to_complete_rollouts": 0.22564589693285123
+    },
+    "profit|1.0|weighted": {
+     "family_mse": 0.13213912045406728,
+     "ratio_to_complete_rollouts": 0.3721734753687172
+    },
+    "profit|1.0|selfnorm": {
+     "family_mse": 0.16313190723530605,
+     "ratio_to_complete_rollouts": 0.45946551369997607
+    },
+    "profit|1.0|fitted": {
+     "family_mse": 0.0705542027161572,
+     "ratio_to_complete_rollouts": 0.19871785688076277
+    },
+    "profit|1.5|weighted": {
+     "family_mse": 0.09957810062046328,
+     "ratio_to_complete_rollouts": 0.28046446541481357
+    },
+    "profit|1.5|selfnorm": {
+     "family_mse": 0.2200772348804637,
+     "ratio_to_complete_rollouts": 0.6198535987945464
+    },
+    "profit|1.5|fitted": {
+     "family_mse": 0.06352818327050708,
+     "ratio_to_complete_rollouts": 0.17892887942949573
+    },
+    "profit|2.0|weighted": {
+     "family_mse": 0.08921210966915365,
+     "ratio_to_complete_rollouts": 0.2512683661466136
+    },
+    "profit|2.0|selfnorm": {
+     "family_mse": 0.6676951752729945,
+     "ratio_to_complete_rollouts": 1.8805818671591308
+    },
+    "profit|2.0|fitted": {
+     "family_mse": 0.06669206776482547,
+     "ratio_to_complete_rollouts": 0.18784004732488815
+    },
+    "profit|3.0|weighted": {
+     "family_mse": 0.11706339524736532,
+     "ratio_to_complete_rollouts": 0.32971227973943046
+    },
+    "profit|3.0|selfnorm": {
+     "family_mse": 4.452363815158177,
+     "ratio_to_complete_rollouts": 12.540205421371374
+    },
+    "profit|3.0|fitted": {
+     "family_mse": 0.08455834235933724,
+     "ratio_to_complete_rollouts": 0.23816090223055278
+    },
+    "profit_value|0.5|weighted": {
+     "family_mse": 0.22113263483217013,
+     "ratio_to_complete_rollouts": 0.6228261618521844
+    },
+    "profit_value|0.5|selfnorm": {
+     "family_mse": 0.23087943134810837,
+     "ratio_to_complete_rollouts": 0.6502782829241527
+    },
+    "profit_value|0.5|fitted": {
+     "family_mse": 0.08378546889737429,
+     "ratio_to_complete_rollouts": 0.23598408281953673
+    },
+    "profit_value|1.0|weighted": {
+     "family_mse": 0.1334777745926783,
+     "ratio_to_complete_rollouts": 0.3759438316520917
+    },
+    "profit_value|1.0|selfnorm": {
+     "family_mse": 0.15669093439771659,
+     "ratio_to_complete_rollouts": 0.44132433614798494
+    },
+    "profit_value|1.0|fitted": {
+     "family_mse": 0.0712027670528644,
+     "ratio_to_complete_rollouts": 0.20054455621373152
+    },
+    "profit_value|1.5|weighted": {
+     "family_mse": 0.10159851467165093,
+     "ratio_to_complete_rollouts": 0.28615501728567816
+    },
+    "profit_value|1.5|selfnorm": {
+     "family_mse": 0.17031157374319805,
+     "ratio_to_complete_rollouts": 0.47968724233755533
+    },
+    "profit_value|1.5|fitted": {
+     "family_mse": 0.07031299319802325,
+     "ratio_to_complete_rollouts": 0.1980384836236422
+    },
+    "profit_value|2.0|weighted": {
+     "family_mse": 0.08492738512396134,
+     "ratio_to_complete_rollouts": 0.2392003213503249
+    },
+    "profit_value|2.0|selfnorm": {
+     "family_mse": 0.36647865461283674,
+     "ratio_to_complete_rollouts": 1.0321972332419365
+    },
+    "profit_value|2.0|fitted": {
+     "family_mse": 0.0656170310998177,
+     "ratio_to_complete_rollouts": 0.1848121769229218
+    },
+    "profit_value|3.0|weighted": {
+     "family_mse": 0.08887017447444048,
+     "ratio_to_complete_rollouts": 0.2503052962447558
+    },
+    "profit_value|3.0|selfnorm": {
+     "family_mse": 3.007828199150251,
+     "ratio_to_complete_rollouts": 8.471631038129273
+    },
+    "profit_value|3.0|fitted": {
+     "family_mse": 0.06727658431370538,
+     "ratio_to_complete_rollouts": 0.18948635429786956
+    }
+   },
+   "best": {
+    "profit|own": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.08921210966915365,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.2512683661466136,
+      "ci95": [
+       0.23797278866037858,
+       0.2651692195939068
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.9264964790494491,
+      "ci95": [
+       0.8766014225809919,
+       0.9793176742180768
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.0141862245179896,
+      "ci95": [
+       0.9593775306012087,
+       1.0727669907785276
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.0881609012934728,
+      "ci95": [
+       1.029471552617786,
+       1.1484331949770388
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.2591954777294574,
+      "ci95": [
+       1.1916138298107477,
+       1.3311670235903006
+      ]
+     },
+     "tis_lower_in_cases": 12,
+     "tis_resolved_better": 1,
+     "tis_resolved_worse": 0
+    },
+    "profit|fitted": {
+     "variant": {
+      "parameter": 1.5,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.06352818327050708,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.17892887942949573,
+      "ci95": [
+       0.16960272335882762,
+       0.1889437949000822
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.3010714495815996,
+      "ci95": [
+       1.2311488860438657,
+       1.3761671170955279
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.4242134439982952,
+      "ci95": [
+       1.3474343482897382,
+       1.5060268520624582
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.5280954793011745,
+      "ci95": [
+       1.444420459918999,
+       1.616653637660242
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.7682779401351834,
+      "ci95": [
+       1.674885135167787,
+       1.8685958257927253
+      ]
+     },
+     "tis_lower_in_cases": 0,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 9
+    },
+    "profit|fitted_same_run_over_own": {
+     "family_ratio": 0.7475674324052579,
+     "ci95": [
+      0.7073091932828852,
+      0.7907183417921531
+     ]
+    },
+    "profit_value|own": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.08492738512396134,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.2392003213503249,
+      "ci95": [
+       0.22702661436544366,
+       0.252308334262498
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.9732397315235841,
+      "ci95": [
+       0.921991834619962,
+       1.0279850203851222
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.0653535671041927,
+      "ci95": [
+       1.0093153783979778,
+       1.124787987645056
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.1430603864958644,
+      "ci95": [
+       1.0829179587339224,
+       1.206471354372559
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.3227239351610325,
+      "ci95": [
+       1.2542577965303248,
+       1.3959311333983133
+      ]
+     },
+     "tis_lower_in_cases": 14,
+     "tis_resolved_better": 1,
+     "tis_resolved_worse": 0
+    },
+    "profit_value|fitted": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.0656170310998177,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.1848121769229218,
+      "ci95": [
+       0.17537502042602035,
+       0.19505761872897065
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.2596532350162029,
+      "ci95": [
+       1.194223394851933,
+       1.3299734938987455
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.3788751360756877,
+      "ci95": [
+       1.3053347692643942,
+       1.4565863142745572
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.4794501981688726,
+      "ci95": [
+       1.401309389207929,
+       1.5606971475627585
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.7119867078901525,
+      "ci95": [
+       1.6224158255471242,
+       1.8040224134817866
+      ]
+     },
+     "tis_lower_in_cases": 0,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 5
+    },
+    "profit_value|fitted_same_run_over_own": {
+     "family_ratio": 0.7726251197307212,
+     "ci95": [
+      0.732149480092484,
+      0.8157396205786486
+     ]
+    },
+    "per_case_hindsight|model_free_levels": {
+     "variants_in_pool": 10,
+     "tis_over_per_case_best": 0.9443663850066008,
+     "tis_anchored_over_per_case_best": 1.0337474563898787,
+     "rollout_model_over_per_case_best": 1.109148928136612,
+     "tis_lower_in_cases": 12
+    },
+    "per_case_hindsight|all_levels": {
+     "variants_in_pool": 20,
+     "tis_over_per_case_best": 1.0234802270021182,
+     "tis_anchored_over_per_case_best": 1.120349154868934,
+     "rollout_model_over_per_case_best": 1.2020673488293223,
+     "tis_lower_in_cases": 11
+    }
+   },
+   "check_c0_over_complete_rollouts": {
+    "family_ratio": 0.9960309846761352,
+    "ci95": [
+     0.9448950104360104,
+     1.0509614284705473
+    ]
+   }
+  },
+  "1200": {
+   "family_mse": {
+    "complete_rollout": 0.08745171527346068,
+    "rollout_model": 0.024461145589213893,
+    "tis": 0.018333404548309964,
+    "tis_anchored": 0.020047753972285212,
+    "learned_mean": 0.025589062609176094
+   },
+   "variants": {
+    "profit|0.0|weighted": {
+     "family_mse": 0.08686646785660855,
+     "ratio_to_complete_rollouts": 0.9933077651476352
+    },
+    "profit|0.0|selfnorm": {
+     "family_mse": 0.08686646785660855,
+     "ratio_to_complete_rollouts": 0.9933077651476352
+    },
+    "profit|0.0|fitted": {
+     "family_mse": 0.02418352393715853,
+     "ratio_to_complete_rollouts": 0.2765357301630606
+    },
+    "profit|0.5|weighted": {
+     "family_mse": 0.0510448601070988,
+     "ratio_to_complete_rollouts": 0.5836919258528207
+    },
+    "profit|0.5|selfnorm": {
+     "family_mse": 0.053622735276638495,
+     "ratio_to_complete_rollouts": 0.6131696229051735
+    },
+    "profit|0.5|fitted": {
+     "family_mse": 0.01858746885211195,
+     "ratio_to_complete_rollouts": 0.2125455034699904
+    },
+    "profit|1.0|weighted": {
+     "family_mse": 0.03219649207475187,
+     "ratio_to_complete_rollouts": 0.36816307117674874
+    },
+    "profit|1.0|selfnorm": {
+     "family_mse": 0.03977511149534106,
+     "ratio_to_complete_rollouts": 0.4548236860873988
+    },
+    "profit|1.0|fitted": {
+     "family_mse": 0.017332254896369928,
+     "ratio_to_complete_rollouts": 0.19819228064506375
+    },
+    "profit|1.5|weighted": {
+     "family_mse": 0.0235637738003411,
+     "ratio_to_complete_rollouts": 0.26944896079690833
+    },
+    "profit|1.5|selfnorm": {
+     "family_mse": 0.0527861378954882,
+     "ratio_to_complete_rollouts": 0.6036032309992599
+    },
+    "profit|1.5|fitted": {
+     "family_mse": 0.01595339276027886,
+     "ratio_to_complete_rollouts": 0.18242515553174404
+    },
+    "profit|2.0|weighted": {
+     "family_mse": 0.02168506532872115,
+     "ratio_to_complete_rollouts": 0.24796615207502973
+    },
+    "profit|2.0|selfnorm": {
+     "family_mse": 0.15235084414336045,
+     "ratio_to_complete_rollouts": 1.7421138472465727
+    },
+    "profit|2.0|fitted": {
+     "family_mse": 0.016365025397650605,
+     "ratio_to_complete_rollouts": 0.18713212595633288
+    },
+    "profit|3.0|weighted": {
+     "family_mse": 0.02919972863443686,
+     "ratio_to_complete_rollouts": 0.333895436391723
+    },
+    "profit|3.0|selfnorm": {
+     "family_mse": 2.3115832981053157,
+     "ratio_to_complete_rollouts": 26.432681061509392
+    },
+    "profit|3.0|fitted": {
+     "family_mse": 0.020731755114478414,
+     "ratio_to_complete_rollouts": 0.23706516275467454
+    },
+    "profit_value|0.5|weighted": {
+     "family_mse": 0.05287146865384485,
+     "ratio_to_complete_rollouts": 0.6045789781082769
+    },
+    "profit_value|0.5|selfnorm": {
+     "family_mse": 0.05492740299519791,
+     "ratio_to_complete_rollouts": 0.6280883436470107
+    },
+    "profit_value|0.5|fitted": {
+     "family_mse": 0.020462613803591233,
+     "ratio_to_complete_rollouts": 0.23398756376138344
+    },
+    "profit_value|1.0|weighted": {
+     "family_mse": 0.03419672172097291,
+     "ratio_to_complete_rollouts": 0.39103546012837015
+    },
+    "profit_value|1.0|selfnorm": {
+     "family_mse": 0.03956120205788752,
+     "ratio_to_complete_rollouts": 0.45237765702113464
+    },
+    "profit_value|1.0|fitted": {
+     "family_mse": 0.018273955470037566,
+     "ratio_to_complete_rollouts": 0.20896051510133426
+    },
+    "profit_value|1.5|weighted": {
+     "family_mse": 0.023883511673926775,
+     "ratio_to_complete_rollouts": 0.2731051254883139
+    },
+    "profit_value|1.5|selfnorm": {
+     "family_mse": 0.0417918171672875,
+     "ratio_to_complete_rollouts": 0.4778844764405693
+    },
+    "profit_value|1.5|fitted": {
+     "family_mse": 0.01616537298083278,
+     "ratio_to_complete_rollouts": 0.18484912423139802
+    },
+    "profit_value|2.0|weighted": {
+     "family_mse": 0.021006541993781946,
+     "ratio_to_complete_rollouts": 0.2402073181537342
+    },
+    "profit_value|2.0|selfnorm": {
+     "family_mse": 0.0929298033387977,
+     "ratio_to_complete_rollouts": 1.0626412878032991
+    },
+    "profit_value|2.0|fitted": {
+     "family_mse": 0.016650714701622746,
+     "ratio_to_complete_rollouts": 0.19039894928940065
+    },
+    "profit_value|3.0|weighted": {
+     "family_mse": 0.022590225777861534,
+     "ratio_to_complete_rollouts": 0.2583165545378054
+    },
+    "profit_value|3.0|selfnorm": {
+     "family_mse": 1.1324212231562585,
+     "ratio_to_complete_rollouts": 12.949102480325148
+    },
+    "profit_value|3.0|fitted": {
+     "family_mse": 0.016923955057074776,
+     "ratio_to_complete_rollouts": 0.19352342037150133
+    },
+    "ams_time|0.33|fitted": {
+     "family_mse": 0.026912367399503118,
+     "ratio_to_complete_rollouts": 0.3077397317519548
+    },
+    "ams_time|0.33|selfnorm": {
+     "family_mse": 0.050976977595427374,
+     "ratio_to_complete_rollouts": 0.5829156973768078
+    },
+    "ams_time|0.33|weighted": {
+     "family_mse": 0.05097697759542489,
+     "ratio_to_complete_rollouts": 0.5829156973767795
+    },
+    "ams_time|0.36|fitted": {
+     "family_mse": 0.02501197606094664,
+     "ratio_to_complete_rollouts": 0.2860089820163553
+    },
+    "ams_time|0.36|selfnorm": {
+     "family_mse": 0.04586941347437108,
+     "ratio_to_complete_rollouts": 0.5245113069645102
+    },
+    "ams_time|0.36|weighted": {
+     "family_mse": 0.04586941347445792,
+     "ratio_to_complete_rollouts": 0.5245113069655032
+    },
+    "ams_time|0.39|fitted": {
+     "family_mse": 0.023094828763075285,
+     "ratio_to_complete_rollouts": 0.26408662987178666
+    },
+    "ams_time|0.39|selfnorm": {
+     "family_mse": 0.04188582784031483,
+     "ratio_to_complete_rollouts": 0.4789594773451641
+    },
+    "ams_time|0.39|weighted": {
+     "family_mse": 0.0418858278403148,
+     "ratio_to_complete_rollouts": 0.4789594773451637
+    },
+    "ams_time|0.42|fitted": {
+     "family_mse": 0.022346176904894235,
+     "ratio_to_complete_rollouts": 0.2555258845983518
+    },
+    "ams_time|0.42|selfnorm": {
+     "family_mse": 0.03917343501879528,
+     "ratio_to_complete_rollouts": 0.4479435868844918
+    },
+    "ams_time|0.42|weighted": {
+     "family_mse": 0.039173435018792654,
+     "ratio_to_complete_rollouts": 0.44794358688446184
+    },
+    "ams_time|0.45|fitted": {
+     "family_mse": 0.021410809951594157,
+     "ratio_to_complete_rollouts": 0.24483007434036894
+    },
+    "ams_time|0.45|selfnorm": {
+     "family_mse": 0.03896325802415545,
+     "ratio_to_complete_rollouts": 0.44554023785946006
+    },
+    "ams_time|0.45|weighted": {
+     "family_mse": 0.03896325802415458,
+     "ratio_to_complete_rollouts": 0.44554023785945013
+    },
+    "ams_time|0.5|fitted": {
+     "family_mse": 0.020747251441474428,
+     "ratio_to_complete_rollouts": 0.23724236141736008
+    },
+    "ams_time|0.5|selfnorm": {
+     "family_mse": 0.04050108923119191,
+     "ratio_to_complete_rollouts": 0.46312515545916266
+    },
+    "ams_time|0.5|weighted": {
+     "family_mse": 0.04050108923119145,
+     "ratio_to_complete_rollouts": 0.46312515545915744
+    },
+    "ams_time|0.55|fitted": {
+     "family_mse": 0.020559243385873668,
+     "ratio_to_complete_rollouts": 0.2350925115829359
+    },
+    "ams_time|0.55|selfnorm": {
+     "family_mse": 0.045603698843738855,
+     "ratio_to_complete_rollouts": 0.5214728916538288
+    },
+    "ams_time|0.55|weighted": {
+     "family_mse": 0.04560369884367864,
+     "ratio_to_complete_rollouts": 0.5214728916531403
+    },
+    "ams_time|0.7|fitted": {
+     "family_mse": 0.020802055569076924,
+     "ratio_to_complete_rollouts": 0.23786904012150126
+    },
+    "ams_time|0.7|selfnorm": {
+     "family_mse": 0.06509451146348529,
+     "ratio_to_complete_rollouts": 0.744348024048875
+    },
+    "ams_time|0.7|weighted": {
+     "family_mse": 0.06509451146348529,
+     "ratio_to_complete_rollouts": 0.744348024048875
+    },
+    "ams_value|0.33|fitted": {
+     "family_mse": 0.02910579405725671,
+     "ratio_to_complete_rollouts": 0.33282130563412243
+    },
+    "ams_value|0.33|selfnorm": {
+     "family_mse": 0.053292095444040934,
+     "ratio_to_complete_rollouts": 0.6093887956044893
+    },
+    "ams_value|0.33|weighted": {
+     "family_mse": 0.05329209544404306,
+     "ratio_to_complete_rollouts": 0.6093887956045136
+    },
+    "ams_value|0.36|fitted": {
+     "family_mse": 0.02617138936573791,
+     "ratio_to_complete_rollouts": 0.2992667357512683
+    },
+    "ams_value|0.36|selfnorm": {
+     "family_mse": 0.04831233610805679,
+     "ratio_to_complete_rollouts": 0.5524458377629824
+    },
+    "ams_value|0.36|weighted": {
+     "family_mse": 0.04831233610805679,
+     "ratio_to_complete_rollouts": 0.5524458377629824
+    },
+    "ams_value|0.39|fitted": {
+     "family_mse": 0.02460971434461118,
+     "ratio_to_complete_rollouts": 0.2814091669632418
+    },
+    "ams_value|0.39|selfnorm": {
+     "family_mse": 0.04295293760312624,
+     "ratio_to_complete_rollouts": 0.4911617510166932
+    },
+    "ams_value|0.39|weighted": {
+     "family_mse": 0.042952937603121896,
+     "ratio_to_complete_rollouts": 0.4911617510166435
+    },
+    "ams_value|0.42|fitted": {
+     "family_mse": 0.023402224485719172,
+     "ratio_to_complete_rollouts": 0.26760166352987635
+    },
+    "ams_value|0.42|selfnorm": {
+     "family_mse": 0.041952579889287606,
+     "ratio_to_complete_rollouts": 0.4797227791141922
+    },
+    "ams_value|0.42|weighted": {
+     "family_mse": 0.041952579889286926,
+     "ratio_to_complete_rollouts": 0.47972277911418437
+    },
+    "ams_value|0.45|fitted": {
+     "family_mse": 0.020982184622175902,
+     "ratio_to_complete_rollouts": 0.2399287944960806
+    },
+    "ams_value|0.45|selfnorm": {
+     "family_mse": 0.03684340970785915,
+     "ratio_to_complete_rollouts": 0.42130002359187757
+    },
+    "ams_value|0.45|weighted": {
+     "family_mse": 0.03684340970786168,
+     "ratio_to_complete_rollouts": 0.42130002359190655
+    },
+    "ams_value|0.5|fitted": {
+     "family_mse": 0.021880716913320344,
+     "ratio_to_complete_rollouts": 0.2502034047576946
+    },
+    "ams_value|0.5|selfnorm": {
+     "family_mse": 0.04009557955364981,
+     "ratio_to_complete_rollouts": 0.45848820035457644
+    },
+    "ams_value|0.5|weighted": {
+     "family_mse": 0.040095579553639404,
+     "ratio_to_complete_rollouts": 0.4584882003544574
+    },
+    "ams_value|0.55|fitted": {
+     "family_mse": 0.01942837524427372,
+     "ratio_to_complete_rollouts": 0.22216116840614705
+    },
+    "ams_value|0.55|selfnorm": {
+     "family_mse": 0.04187714877598161,
+     "ratio_to_complete_rollouts": 0.4788602332730943
+    },
+    "ams_value|0.55|weighted": {
+     "family_mse": 0.04187714877603427,
+     "ratio_to_complete_rollouts": 0.4788602332736965
+    },
+    "ams_value|0.7|fitted": {
+     "family_mse": 0.021151997897094328,
+     "ratio_to_complete_rollouts": 0.24187058916971763
+    },
+    "ams_value|0.7|selfnorm": {
+     "family_mse": 0.06944018059316587,
+     "ratio_to_complete_rollouts": 0.7940402355291384
+    },
+    "ams_value|0.7|weighted": {
+     "family_mse": 0.06944018059316588,
+     "ratio_to_complete_rollouts": 0.7940402355291385
+    }
+   },
+   "best": {
+    "ams_time|own": {
+     "variant": {
+      "parameter": 0.45,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.03896325802415458,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.44554023785945013,
+      "ci95": [
+       0.41890435354736444,
+       0.47363378368668374
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.4705305838886598,
+      "ci95": [
+       0.44314950684527893,
+       0.5002968949689729
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.5145297130916763,
+      "ci95": [
+       0.4838023359917988,
+       0.5466819085261023
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 0.627800313157838,
+      "ci95": [
+       0.5910521513776572,
+       0.6677069635191614
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 0.6567485345633214,
+      "ci95": [
+       0.6186006506198609,
+       0.6988506953976829
+      ]
+     },
+     "tis_lower_in_cases": 18,
+     "tis_resolved_better": 18,
+     "tis_resolved_worse": 0
+    },
+    "ams_time|fitted": {
+     "variant": {
+      "parameter": 0.55,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.020559243385873668,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.2350925115829359,
+      "ci95": [
+       0.2207776861955947,
+       0.2502510664746296
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.8917353719790542,
+      "ci95": [
+       0.83936616242148,
+       0.9494869331931758
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.9751211946865758,
+      "ci95": [
+       0.917128300787776,
+       1.0392274119508271
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.1897882198340644,
+      "ci95": [
+       1.118234004003905,
+       1.2655286954611207
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.2446500160000262,
+      "ci95": [
+       1.1700717152143445,
+       1.325305768395349
+      ]
+     },
+     "tis_lower_in_cases": 15,
+     "tis_resolved_better": 2,
+     "tis_resolved_worse": 0
+    },
+    "ams_time|fitted_same_run_over_own": {
+     "family_ratio": 0.549512824064171,
+     "ci95": [
+      0.514016826657562,
+      0.5881875121915441
+     ]
+    },
+    "ams_value|own": {
+     "variant": {
+      "parameter": 0.45,
+      "estimator": "selfnorm"
+     },
+     "family_mse": 0.03684340970785915,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.42130002359187757,
+      "ci95": [
+       0.39615471853444933,
+       0.4479824256042051
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.49760336227510527,
+      "ci95": [
+       0.4682236599827607,
+       0.5290585388920361
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.544134056300679,
+      "ci95": [
+       0.5126036227904672,
+       0.5788289084905206
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 0.6639218732243458,
+      "ci95": [
+       0.6241919731842548,
+       0.7067733504093475
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 0.6945356798428359,
+      "ci95": [
+       0.6523761620381896,
+       0.7384009656949051
+      ]
+     },
+     "tis_lower_in_cases": 18,
+     "tis_resolved_better": 18,
+     "tis_resolved_worse": 0
+    },
+    "ams_value|fitted": {
+     "variant": {
+      "parameter": 0.55,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.01942837524427372,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.22216116840614705,
+      "ci95": [
+       0.2087026161346495,
+       0.23612023681509064
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.9436406450772827,
+      "ci95": [
+       0.8875749179445239,
+       1.0036499596708437
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.0318801093876364,
+      "ci95": [
+       0.9705286915016349,
+       1.0967536708328014
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.2590422658437956,
+      "ci95": [
+       1.1850615733476761,
+       1.3387206217397187
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.3170974045664556,
+      "ci95": [
+       1.2404857570791,
+       1.400463572712463
+      ]
+     },
+     "tis_lower_in_cases": 12,
+     "tis_resolved_better": 1,
+     "tis_resolved_worse": 0
+    },
+    "ams_value|fitted_same_run_over_own": {
+     "family_ratio": 0.5694962759567865,
+     "ci95": [
+      0.5319802986527877,
+      0.6083059042299312
+     ]
+    },
+    "profit|own": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.02168506532872115,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.24796615207502973,
+      "ci95": [
+       0.23484320834178846,
+       0.2615831313448817
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.8454392122133927,
+      "ci95": [
+       0.8008194892316576,
+       0.8920611207339069
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.9244958992921559,
+      "ci95": [
+       0.8761945142875222,
+       0.9757731788583949
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.128018072272806,
+      "ci95": [
+       1.0688046844435295,
+       1.189535614780749
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.1800316125994894,
+      "ci95": [
+       1.1181883036640368,
+       1.2448176219214182
+      ]
+     },
+     "tis_lower_in_cases": 16,
+     "tis_resolved_better": 5,
+     "tis_resolved_worse": 0
+    },
+    "profit|fitted": {
+     "variant": {
+      "parameter": 1.5,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.01595339276027886,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.18242515553174404,
+      "ci95": [
+       0.17276986915090953,
+       0.1926085127553264
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.149185306460762,
+      "ci95": [
+       1.0878299785752934,
+       1.2129995016363704
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.2566451709382214,
+      "ci95": [
+       1.190436728681253,
+       1.3268574725295046
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.5332879943956397,
+      "ci95": [
+       1.4530832319568425,
+       1.6186753543116499
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.6039887561026112,
+      "ci95": [
+       1.518648233559409,
+       1.6953579269163754
+      ]
+     },
+     "tis_lower_in_cases": 3,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 5
+    },
+    "profit|fitted_same_run_over_own": {
+     "family_ratio": 0.7546680238023388,
+     "ci95": [
+      0.7154934126057744,
+      0.7968595321949477
+     ]
+    },
+    "profit_value|own": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.021006541993781946,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.2402073181537342,
+      "ci95": [
+       0.22787302472139442,
+       0.25378352451406755
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.8727473828741901,
+      "ci95": [
+       0.8273619249903664,
+       0.9208056651894756
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.954357646214187,
+      "ci95": [
+       0.9046748894808557,
+       1.0069397736064911
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.1644537019207888,
+      "ci95": [
+       1.103714794659914,
+       1.230157329324238
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.2181473093834578,
+      "ci95": [
+       1.154559826567903,
+       1.2862257893251328
+      ]
+     },
+     "tis_lower_in_cases": 15,
+     "tis_resolved_better": 4,
+     "tis_resolved_worse": 0
+    },
+    "profit_value|fitted": {
+     "variant": {
+      "parameter": 1.5,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.01616537298083278,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.18484912423139802,
+      "ci95": [
+       0.17497744333393087,
+       0.1952449231136441
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.1341157775974493,
+      "ci95": [
+       1.0734290459902454,
+       1.199144623733798
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.2401664963781385,
+      "ci95": [
+       1.1747625520766005,
+       1.3084061079772178
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.513181639434944,
+      "ci95": [
+       1.4299615313364076,
+       1.5994099561433506
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.5829552859384652,
+      "ci95": [
+       1.4996802128651496,
+       1.672456288253773
+      ]
+     },
+     "tis_lower_in_cases": 3,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 4
+    },
+    "profit_value|fitted_same_run_over_own": {
+     "family_ratio": 0.7926442489464212,
+     "ci95": [
+      0.7507684281534471,
+      0.8354842874702533
+     ]
+    },
+    "per_case_hindsight|model_free_levels": {
+     "variants_in_pool": 26,
+     "tis_over_per_case_best": 0.870939604609879,
+     "tis_anchored_over_per_case_best": 0.9523808233178256,
+     "rollout_model_over_per_case_best": 1.162041693436505,
+     "tis_lower_in_cases": 16
+    },
+    "per_case_hindsight|all_levels": {
+     "variants_in_pool": 52,
+     "tis_over_per_case_best": 0.9171236134291486,
+     "tis_anchored_over_per_case_best": 1.0028834805751172,
+     "rollout_model_over_per_case_best": 1.2236622048175094,
+     "tis_lower_in_cases": 14
+    }
+   },
+   "check_c0_over_complete_rollouts": {
+    "family_ratio": 0.9933077651476352,
+    "ci95": [
+     0.9398607343513693,
+     1.049190260341436
+    ]
+   }
+  },
+  "2400": {
+   "family_mse": {
+    "complete_rollout": 0.04317013362093647,
+    "rollout_model": 0.011236909072861083,
+    "tis": 0.008263001149962389,
+    "tis_anchored": 0.009211190926238419,
+    "learned_mean": 0.011970966835847242
+   },
+   "variants": {
+    "profit|0.0|weighted": {
+     "family_mse": 0.04258573020343785,
+     "ratio_to_complete_rollouts": 0.9864627841407655
+    },
+    "profit|0.0|selfnorm": {
+     "family_mse": 0.04258573020343785,
+     "ratio_to_complete_rollouts": 0.9864627841407655
+    },
+    "profit|0.0|fitted": {
+     "family_mse": 0.012126307371939907,
+     "ratio_to_complete_rollouts": 0.28089575720143106
+    },
+    "profit|0.5|weighted": {
+     "family_mse": 0.02507735514804664,
+     "ratio_to_complete_rollouts": 0.5808959353298071
+    },
+    "profit|0.5|selfnorm": {
+     "family_mse": 0.02634347072167494,
+     "ratio_to_complete_rollouts": 0.6102244425043659
+    },
+    "profit|0.5|fitted": {
+     "family_mse": 0.00952729790240501,
+     "ratio_to_complete_rollouts": 0.22069187892864206
+    },
+    "profit|1.0|weighted": {
+     "family_mse": 0.015914458957866508,
+     "ratio_to_complete_rollouts": 0.36864511695994334
+    },
+    "profit|1.0|selfnorm": {
+     "family_mse": 0.019696373630632966,
+     "ratio_to_complete_rollouts": 0.4562500038471204
+    },
+    "profit|1.0|fitted": {
+     "family_mse": 0.008410015573819912,
+     "ratio_to_complete_rollouts": 0.1948109692609628
+    },
+    "profit|1.5|weighted": {
+     "family_mse": 0.011422492126771386,
+     "ratio_to_complete_rollouts": 0.26459246633491434
+    },
+    "profit|1.5|selfnorm": {
+     "family_mse": 0.026764482821363664,
+     "ratio_to_complete_rollouts": 0.6199768352902095
+    },
+    "profit|1.5|fitted": {
+     "family_mse": 0.007822009181097591,
+     "ratio_to_complete_rollouts": 0.18119029349735685
+    },
+    "profit|2.0|weighted": {
+     "family_mse": 0.010696791327437831,
+     "ratio_to_complete_rollouts": 0.24778221493042002
+    },
+    "profit|2.0|selfnorm": {
+     "family_mse": 0.08012960259259577,
+     "ratio_to_complete_rollouts": 1.8561351534417039
+    },
+    "profit|2.0|fitted": {
+     "family_mse": 0.00804856104894926,
+     "ratio_to_complete_rollouts": 0.18643817782963507
+    },
+    "profit|3.0|weighted": {
+     "family_mse": 0.014651537578025224,
+     "ratio_to_complete_rollouts": 0.33939060061003806
+    },
+    "profit|3.0|selfnorm": {
+     "family_mse": 1.3710985858601716,
+     "ratio_to_complete_rollouts": 31.760350753123962
+    },
+    "profit|3.0|fitted": {
+     "family_mse": 0.010466260130108828,
+     "ratio_to_complete_rollouts": 0.24244215276259756
+    },
+    "profit_value|0.5|weighted": {
+     "family_mse": 0.025580297737527347,
+     "ratio_to_complete_rollouts": 0.592546179313226
+    },
+    "profit_value|0.5|selfnorm": {
+     "family_mse": 0.02657329866755132,
+     "ratio_to_complete_rollouts": 0.6155482144411041
+    },
+    "profit_value|0.5|fitted": {
+     "family_mse": 0.009748994104962765,
+     "ratio_to_complete_rollouts": 0.2258272858399201
+    },
+    "profit_value|1.0|weighted": {
+     "family_mse": 0.016600550190251293,
+     "ratio_to_complete_rollouts": 0.3845378459102204
+    },
+    "profit_value|1.0|selfnorm": {
+     "family_mse": 0.019163328282832563,
+     "ratio_to_complete_rollouts": 0.4439024546715513
+    },
+    "profit_value|1.0|fitted": {
+     "family_mse": 0.0090270707262893,
+     "ratio_to_complete_rollouts": 0.20910453522227201
+    },
+    "profit_value|1.5|weighted": {
+     "family_mse": 0.011763694034124486,
+     "ratio_to_complete_rollouts": 0.27249612283848434
+    },
+    "profit_value|1.5|selfnorm": {
+     "family_mse": 0.020251120020521665,
+     "ratio_to_complete_rollouts": 0.4691002394928971
+    },
+    "profit_value|1.5|fitted": {
+     "family_mse": 0.008029841968103064,
+     "ratio_to_complete_rollouts": 0.18600456599487533
+    },
+    "profit_value|2.0|weighted": {
+     "family_mse": 0.010556198869204732,
+     "ratio_to_complete_rollouts": 0.24452550835018105
+    },
+    "profit_value|2.0|selfnorm": {
+     "family_mse": 0.04944309195260788,
+     "ratio_to_complete_rollouts": 1.1453078275539361
+    },
+    "profit_value|2.0|fitted": {
+     "family_mse": 0.008109905126018798,
+     "ratio_to_complete_rollouts": 0.1878591620130101
+    },
+    "profit_value|3.0|weighted": {
+     "family_mse": 0.010543515877838906,
+     "ratio_to_complete_rollouts": 0.24423171747435954
+    },
+    "profit_value|3.0|selfnorm": {
+     "family_mse": 0.6923344767808831,
+     "ratio_to_complete_rollouts": 16.03734847939219
+    },
+    "profit_value|3.0|fitted": {
+     "family_mse": 0.008179316884894558,
+     "ratio_to_complete_rollouts": 0.18946702729054762
+    }
+   },
+   "best": {
+    "profit|own": {
+     "variant": {
+      "parameter": 2.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.010696791327437831,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.24778221493042002,
+      "ci95": [
+       0.23454749892870255,
+       0.2616187095798168
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.7724747447178255,
+      "ci95": [
+       0.7310552350677154,
+       0.8161532829524596
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.8611171933971667,
+      "ci95": [
+       0.8154713291913495,
+       0.9095570383204881
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.0504934357313134,
+      "ci95": [
+       0.9945509952342667,
+       1.111059090156869
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.119117543701267,
+      "ci95": [
+       1.0572826763381311,
+       1.1831286404955639
+      ]
+     },
+     "tis_lower_in_cases": 18,
+     "tis_resolved_better": 9,
+     "tis_resolved_worse": 0
+    },
+    "profit|fitted": {
+     "variant": {
+      "parameter": 1.5,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.007822009181097591,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.18119029349735685,
+      "ci95": [
+       0.17116870712166934,
+       0.19142821439915633
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.0563783496867383,
+      "ci95": [
+       1.0002784692096545,
+       1.1171002525600542
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.1775990941685262,
+      "ci95": [
+       1.1142603579662853,
+       1.2452196204215658
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.4365757969213109,
+      "ci95": [
+       1.3573045852986096,
+       1.518999496181346
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.5304209645746625,
+      "ci95": [
+       1.4449220929505602,
+       1.6203435496989589
+      ]
+     },
+     "tis_lower_in_cases": 6,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 0
+    },
+    "profit|fitted_same_run_over_own": {
+     "family_ratio": 0.7524276021262825,
+     "ci95": [
+      0.711641268054094,
+      0.7950827775149313
+     ]
+    },
+    "profit_value|own": {
+     "variant": {
+      "parameter": 3.0,
+      "estimator": "weighted"
+     },
+     "family_mse": 0.010543515877838906,
+     "parameter_at_edge_of_grid": true,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.24423171747435954,
+      "ci95": [
+       0.23126727295214167,
+       0.2578978565729221
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 0.7837045294663176,
+      "ci95": [
+       0.7416478278177315,
+       0.8283172058025274
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 0.873635610071887,
+      "ci95": [
+       0.8262213917609819,
+       0.9244953688735156
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.0657648931396404,
+      "ci95": [
+       1.0089580145573902,
+       1.1267362874411448
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.1353866181402212,
+      "ci95": [
+       1.0748281839879563,
+       1.1987344966988798
+      ]
+     },
+     "tis_lower_in_cases": 17,
+     "tis_resolved_better": 8,
+     "tis_resolved_worse": 0
+    },
+    "profit_value|fitted": {
+     "variant": {
+      "parameter": 1.5,
+      "estimator": "fitted"
+     },
+     "family_mse": 0.008029841968103064,
+     "parameter_at_edge_of_grid": false,
+     "vs_complete_rollouts": {
+      "family_ratio": 0.18600456599487533,
+      "ci95": [
+       0.17608998756040153,
+       0.19631173033654606
+      ]
+     },
+     "tis_over_best": {
+      "family_ratio": 1.029036584130236,
+      "ci95": [
+       0.9739856143333754,
+       1.0869563897654961
+      ]
+     },
+     "tis_anchored_over_best": {
+      "family_ratio": 1.1471198266202531,
+      "ci95": [
+       1.0882546689071197,
+       1.2116214879736762
+      ]
+     },
+     "rollout_model_over_best": {
+      "family_ratio": 1.3993935518902427,
+      "ci95": [
+       1.3256601711296474,
+       1.4780045031214504
+      ]
+     },
+     "learned_mean_over_best": {
+      "family_ratio": 1.4908097672905027,
+      "ci95": [
+       1.4121829073076424,
+       1.574862001474645
+      ]
+     },
+     "tis_lower_in_cases": 6,
+     "tis_resolved_better": 0,
+     "tis_resolved_worse": 0
+    },
+    "profit_value|fitted_same_run_over_own": {
+     "family_ratio": 0.7757674934683234,
+     "ci95": [
+      0.735549101341401,
+      0.8185314443469379
+     ]
+    },
+    "per_case_hindsight|model_free_levels": {
+     "variants_in_pool": 10,
+     "tis_over_per_case_best": 0.7960165819089245,
+     "tis_anchored_over_per_case_best": 0.8873604860200438,
+     "rollout_model_over_per_case_best": 1.082508133432969,
+     "tis_lower_in_cases": 18
+    },
+    "per_case_hindsight|all_levels": {
+     "variants_in_pool": 20,
+     "tis_over_per_case_best": 0.8383266015558587,
+     "tis_anchored_over_per_case_best": 0.9345256336447157,
+     "rollout_model_over_per_case_best": 1.1400458046755453,
+     "tis_lower_in_cases": 17
+    }
+   },
+   "check_c0_over_complete_rollouts": {
+    "family_ratio": 0.9864627841407655,
+    "ci95": [
+     0.9346000606962719,
+     1.043242686032562
+    ]
+   }
+  }
+ }
+}

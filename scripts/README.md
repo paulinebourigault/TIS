@@ -38,6 +38,19 @@ artifacts, and states its protocol in its module docstring. Grouped by role.
 | `finqa_toolfault_analysis.py` | Calculator-fault contrasts and population diagnostics (`TF_WORKFLOW=unitcheck` for the unit-check workflow) | `results/finqa_toolfault_*analysis.json` |
 | `long_horizon_analysis.py` | Longer review loops: contrasts and scoring of the declared predictions | `results/long_horizon_analysis.json` |
 | `pilot_divergence_analysis.py` | Pilot-estimated divergence and the declared selection rule | `results/pilot_divergence_analysis.json` |
+| `rebuttal_cliffwalking_attribution.py` | CliffWalking: complete rollouts, fitted-model rollouts on the same transitions, and the conditional designs (`run [processes]`, `analyze`) | `results/rebuttal_cliffwalking_attribution/` |
+| `rebuttal_inventory_profit.py` | Inventory family with raw profit: solver check (`gate`), simulation (`run [processes]`), analysis (`analyze`); `REBUTTAL_PROFIT_CONFIG` selects the tail level | `results/rebuttal_inventory_profit*/` |
+| `rebuttal_fitted_rollouts_alpha.py` | Fitted-model rollouts on the complete rollouts' own trajectories at α = .05 and .01 | `results/rebuttal_inventory_profit_alpha0*/fitted_rollouts*` |
+| `rebuttal_checkpoint_access.py` | Designs that may restart only from states visited by their own pilot rollouts (`check`, `run [processes]`, `analyze`) | `results/rebuttal_checkpoint_access/` |
+| `rebuttal_holm.py` | Holm adjustment of the checkpoint-access and α = .01 comparisons | `results/rebuttal_holm_followup.json` |
+| `rebuttal_splitting_baseline.py` | Fixed-time and adaptive multilevel splitting against TIS (`check`, `run`, `extend`, `analyze`, `ams_check`, `ams`) | `results/rebuttal_inventory_profit*/splitting_*`, `results/rebuttal_splitting_ams/` |
+| `oracle_cutoff_diagnostic.py` | Two-call MMLU-Pro replay: full, fixed-cutoff, and first-order MSE for uniform, oracle+floor, learned occupancy, and anchored TIS; optional budget argument | `results/oracle_cutoff_diagnostic*.json` |
+| `oracle_cutoff_swap_check.py` | Two-call replay with only the under-sampled high-reach kernel replaced by its true law; optional budget argument | `results/oracle_cutoff_swap_check*.json` |
+| `rebuttal_live_finqa.py` | FinQA review workflows with a typed state; `simulate` gives the fitted-model control | `results/rebuttal_live_finqa_planning/` |
+| `rebuttal_live_loop.py`, `rebuttal_live_loop_hwmatched.py`, `run_live_loop_gpu.sh`, `run_rare_live_gpu.sh` | Live three-call review loop with restarts from stored conversations (GPU) | `results/rebuttal_live_loop*/`, `results/rebuttal_rare_live/`, `results/rebuttal_late_live/` |
+| `rebuttal_llm_inventory.py` | A language model as the ordering policy of the inventory simulator: exact decision laws, prediction, exact simulation, live run | `results/rebuttal_llm_inventory*/` |
+| `rebuttal_followup_contrasts.py` | Contrasts quoted in the paper that no study script prints | `results/rebuttal_followup_contrasts.json` |
+| `rebuttal_batch_summary.py` | Per-batch MSE of every design in the tabular and inventory studies | `results/rebuttal_*/batch_summary.csv` |
 | `make_source_manifest.py` | SHA-256 hashes of the tracked source files | `SOURCE_MANIFEST.json` |
 
 ## Figures

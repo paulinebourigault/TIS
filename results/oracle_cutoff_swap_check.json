@@ -1,0 +1,28 @@
+[
+ {
+  "item_id": "4225",
+  "kernel_index": 86,
+  "oracle_draws": 58,
+  "reach": 0.8595305939043667,
+  "tail_scale": 3.1379477964825655e-06,
+  "margin": 0.001029248031215707,
+  "quantile_moved": 131,
+  "quantile_moved_after_swap": 21,
+  "replications": 300,
+  "mse": 0.002296033831970827,
+  "mse_after_swap": 2.7084053368260175e-09
+ },
+ {
+  "item_id": "9558",
+  "kernel_index": 5,
+  "oracle_draws": 30,
+  "reach": 0.9724829950515754,
+  "tail_scale": 0.0,
+  "margin": 0.006360180292413864,
+  "quantile_moved": 176,
+  "quantile_moved_after_swap": 0,
+  "replications": 300,
+  "mse": 0.005421665586843532,
+  "mse_after_swap": 1.6106379637528352e-09
+ }
+]

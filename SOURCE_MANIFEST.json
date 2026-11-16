@@ -18,8 +18,8 @@
       "sha256": "2cdce6099cf4e0f4742271113e83cde605d247c0e7845ddc46a9be09e97b62fd"
     },
     "README.md": {
-      "bytes": 6744,
-      "sha256": "5cab6e4136bed13b6df6ea3df2fe0872e9ac909900a6426fd8ac4f479d0b98ca"
+      "bytes": 9624,
+      "sha256": "7428a66f2984540a33b592909d975f7c55b56fdd06f22673de65c75cb851f24c"
     },
     "assets/tis_overview.png": {
       "bytes": 109433,
@@ -741,6 +741,78 @@
       "bytes": 541,
       "sha256": "d06fb44e62f0c83be02c598f53171f88550ab5a63c4373188e9b73876f1ec044"
     },
+    "configs/rebuttal_checkpoint_access.json": {
+      "bytes": 1191,
+      "sha256": "dddc613017282c96fb7ba7b48fa80e4b471a4ba67e80e44f92eef9bdf6f3aa87"
+    },
+    "configs/rebuttal_cliffwalking_attribution.json": {
+      "bytes": 791,
+      "sha256": "63f2580d479f2e7e1ec5e5c107a78e187ac1f1fd40e3e63e268af9b72e58fe54"
+    },
+    "configs/rebuttal_h2_budget.json": {
+      "bytes": 234,
+      "sha256": "f42bf91d66e5c9c9c6e5552c69e04dd878f578489c60c11839ecc6b78cd52e5d"
+    },
+    "configs/rebuttal_inventory_profit.json": {
+      "bytes": 1048,
+      "sha256": "877e946c46e29a88e6ca1dd8abedf58e20705717c07f633fd177d7a6f3a39b3b"
+    },
+    "configs/rebuttal_inventory_profit_alpha0001.json": {
+      "bytes": 1137,
+      "sha256": "d3c084c593c876d5e7b6283f06742a6cae888a34ad40eaf1175d76dbbac6de11"
+    },
+    "configs/rebuttal_inventory_profit_alpha001.json": {
+      "bytes": 1134,
+      "sha256": "ddf9c69c5b810d18091de3b2b41032db1783fd165ec53a67b2c4e0fa6235c68a"
+    },
+    "configs/rebuttal_inventory_profit_alpha01.json": {
+      "bytes": 1119,
+      "sha256": "bfe570b538a1b1492f6d2710520be50227ee036a62bd0e491a91c029096c3a3e"
+    },
+    "configs/rebuttal_inventory_profit_alpha05.json": {
+      "bytes": 1126,
+      "sha256": "a6a2bb67267ce8476de31938443a19e2a7acea790b1f4af1a69687d374748532"
+    },
+    "configs/rebuttal_late_live.json": {
+      "bytes": 7503,
+      "sha256": "befbabdc24b1f1d9a7cb4dfa58bf4314dc1a7496642e491b187560ba7e0393f0"
+    },
+    "configs/rebuttal_live_finqa_planning.json": {
+      "bytes": 939,
+      "sha256": "5c112085ea6bdc1b7bb8a31ff271913c099b9941f18306c83dabbb3ef42b4f60"
+    },
+    "configs/rebuttal_live_finqa_planning_h3.json": {
+      "bytes": 960,
+      "sha256": "b680f23f868962311202fbad95141a173a1172b7c23c01344290315ab0786567"
+    },
+    "configs/rebuttal_live_loop.json": {
+      "bytes": 4471,
+      "sha256": "31a1353c78234de9138327eb8ac9aef41b36e68b863234f72eeb0ebdfe0b32ef"
+    },
+    "configs/rebuttal_llm_inventory.json": {
+      "bytes": 2139,
+      "sha256": "7ea8043b2c3324fec834ef7398f7da1e8daabecb7d151859cde1c741404b0232"
+    },
+    "configs/rebuttal_llm_inventory_budget150.json": {
+      "bytes": 2148,
+      "sha256": "056785ac7ede429f6f14be98ec49cd0ff608c9d92ff345f2b0ea564a7b41a809"
+    },
+    "configs/rebuttal_llm_inventory_budget2400.json": {
+      "bytes": 2150,
+      "sha256": "b8027d6c73299c84057dfec46b5b2e04d3f63da38242e65acc2c60e1730e08a5"
+    },
+    "configs/rebuttal_llm_inventory_budget300.json": {
+      "bytes": 2148,
+      "sha256": "41ee05d180e142279ec550b749e8e1bf92af4cc0b3ef02d25c6b098faf682e2d"
+    },
+    "configs/rebuttal_llm_inventory_budget600.json": {
+      "bytes": 2148,
+      "sha256": "2435eea36b8547c615f4f540f88a0fc9402d28394d7cc06b90d4af1115b757a2"
+    },
+    "configs/rebuttal_rare_live.json": {
+      "bytes": 5194,
+      "sha256": "e2e5fcf2f08f93f777227ac19f609d37e1f1f909e9a49ef2f0cb4ceaffd65337"
+    },
     "configs/replacement_anchored.json": {
       "bytes": 713,
       "sha256": "e38d7f1aaee33ecb5015d94a68ffb53f48c03ad0a7a955e15d7444449d60450b"
@@ -770,8 +842,8 @@
       "sha256": "28037e846b54f6eabc7db0a16291e520f03f58017d4171f117ff761269dc8139"
     },
     "scripts/README.md": {
-      "bytes": 5470,
-      "sha256": "287e6ba93879461e5bcf197a943a31d415df28e84a721a3d77274824888aafe7"
+      "bytes": 8043,
+      "sha256": "faf7c1892fe7f2116ab213a930e23f541172d0595f69f5f20e8050d430e19f6d"
     },
     "scripts/build_tabular_reconciled.py": {
       "bytes": 3312,
@@ -874,8 +946,8 @@
       "sha256": "21d0d3b97a5453f87febc343c6b215e74766f0065964d500982e40bbcf659842"
     },
     "scripts/make_figures.py": {
-      "bytes": 15712,
-      "sha256": "07cdfa2f249cdcdfaeeab126dec391a0d9cbb3920fe0fc6eca70636bfe9b32b7"
+      "bytes": 15713,
+      "sha256": "65496879c90aa890cf8dc974c64b9dfb3b5b838e9ef209633efe52a1f215bff7"
     },
     "scripts/make_finqa_figure.py": {
       "bytes": 6062,
@@ -886,8 +958,8 @@
       "sha256": "6a00c209abf8c2bc0c959cdd5b834e6f74320eb53e67f4ce696e9afcdb66c711"
     },
     "scripts/mechanism_analysis.py": {
-      "bytes": 16597,
-      "sha256": "bdca174c9f81051507498c43e49c9ddb515921fc5b5a8b9f3aa23cc9f041fe52"
+      "bytes": 16598,
+      "sha256": "bfa444be56a4c029198fb1557fa8acd5d53a14ee78559ac5f672c11956231d84"
     },
     "scripts/merge_budget_shards.py": {
       "bytes": 1765,
@@ -897,9 +969,65 @@
       "bytes": 8572,
       "sha256": "12c940012b7e1758259efbb5b107ef75bef0a78e8aa7ba8dbd7342ebded42050"
     },
+    "scripts/oracle_cutoff_diagnostic.py": {
+      "bytes": 8473,
+      "sha256": "9efbfe8dd2f62c61432c8b5864acea866ea812630ec5df4e2d93ce615f87d313"
+    },
+    "scripts/oracle_cutoff_swap_check.py": {
+      "bytes": 5720,
+      "sha256": "056c9fa14bf6e70c5448244bddf1b290192a40676cd3ab19eaa4fb6fc5f10316"
+    },
     "scripts/pilot_divergence_analysis.py": {
       "bytes": 10939,
       "sha256": "4be0cd5800efc2934797214bb1ed40b425c85faf69d35bb42c9c69667c222182"
+    },
+    "scripts/rebuttal_batch_summary.py": {
+      "bytes": 2951,
+      "sha256": "25115615e90c8a5530f5ad61614c24d57a64ddefdf96747fbfdbd2daee7f2778"
+    },
+    "scripts/rebuttal_checkpoint_access.py": {
+      "bytes": 21326,
+      "sha256": "8d7a1e04defba49a2e6f05fb064c5d6d09dc6a57eb7d3475bd4b8ab42fc5b94d"
+    },
+    "scripts/rebuttal_cliffwalking_attribution.py": {
+      "bytes": 13962,
+      "sha256": "6a9528f36f0568ade7c938564a43bc2d65ded72a2238a403f6cce188870a3e2d"
+    },
+    "scripts/rebuttal_fitted_rollouts_alpha.py": {
+      "bytes": 7168,
+      "sha256": "3f208e5f7acca5884aa547ee495e6452c5718394b5e0e07ace21264a98479909"
+    },
+    "scripts/rebuttal_followup_contrasts.py": {
+      "bytes": 5703,
+      "sha256": "770119cefb841cc67462f4eb0125241d810ff6007de253ca57321c1033e82727"
+    },
+    "scripts/rebuttal_holm.py": {
+      "bytes": 1647,
+      "sha256": "dbd010986d30f3532347efd9cd1a15b92cfe125f7963e0dc78f7ac79062f583c"
+    },
+    "scripts/rebuttal_inventory_profit.py": {
+      "bytes": 20574,
+      "sha256": "da2027d02d68c3016cf38add541fced21f4c604a2626b64764d5e5d63a63f6ae"
+    },
+    "scripts/rebuttal_live_finqa.py": {
+      "bytes": 35526,
+      "sha256": "20dc9f65e01ac603c1d47cb784dead72356c42f72c8c8f160191b6660359b470"
+    },
+    "scripts/rebuttal_live_loop.py": {
+      "bytes": 41085,
+      "sha256": "8a125f6c0c97861a3dc15a48b9ad2b37d935e7eb28d79ccf3f19787ef0e78b8f"
+    },
+    "scripts/rebuttal_live_loop_hwmatched.py": {
+      "bytes": 3657,
+      "sha256": "5088f40aaa09f88196030affc2b35cda3ccfc31cb8e49a390319fe72d40f9655"
+    },
+    "scripts/rebuttal_llm_inventory.py": {
+      "bytes": 37217,
+      "sha256": "1d17f1301c547a36fce1fdcddc1ddeb884be12a1e3e44fc5b417d308636d9343"
+    },
+    "scripts/rebuttal_splitting_baseline.py": {
+      "bytes": 31793,
+      "sha256": "fab12219d5b1764f2025a1e290f099108579e12b64cedde7894ded728a3ca778"
     },
     "scripts/reproduce_llm_mock.sh": {
       "bytes": 351,
@@ -949,6 +1077,10 @@
       "bytes": 571,
       "sha256": "1fa40b0b9e3235acdde47ef4e8ac6363fd32d783270759bfc1686ec9541b5246"
     },
+    "scripts/run_live_loop_gpu.sh": {
+      "bytes": 1969,
+      "sha256": "08aa744f6b4ce8302d3583563e26016a269d452c8a0a4d8745b9daf449be2548"
+    },
     "scripts/run_llm_breadth.sh": {
       "bytes": 1862,
       "sha256": "7c6adae0fcf37b2705a9ae1cfa398b4f0a0441fd9634a7488ad01311f3fdb10b"
@@ -980,6 +1112,10 @@
     "scripts/run_llm_rollout.sh": {
       "bytes": 1950,
       "sha256": "a1e1cd472cfd6eb5a8a4badff36e592c870d913543d6ccfe717b3ce2ca93e2c8"
+    },
+    "scripts/run_rare_live_gpu.sh": {
+      "bytes": 1278,
+      "sha256": "3ce61f433c69fba2f8c92c15382f0cda0ffcc0b521255bfe2886105df62a36f6"
     },
     "scripts/strongest_baseline_table.py": {
       "bytes": 5137,

@@ -1,0 +1,545 @@
+{
+ "candidates_screened": [
+  {
+   "position": 174,
+   "item_id": "10606",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 175,
+   "item_id": "3949",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 176,
+   "item_id": "5844",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 177,
+   "item_id": "6799",
+   "subject": "biology",
+   "error_rate": 0.735,
+   "minimum_utility_share": 0.0275,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 178,
+   "item_id": "1436",
+   "subject": "business",
+   "error_rate": 0.06,
+   "minimum_utility_share": 0.0425,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 179,
+   "item_id": "479",
+   "subject": "business",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 180,
+   "item_id": "9046",
+   "subject": "business",
+   "error_rate": 0.9775,
+   "minimum_utility_share": 0.9775,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 181,
+   "item_id": "9071",
+   "subject": "business",
+   "error_rate": 0.1675,
+   "minimum_utility_share": 0.0125,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 182,
+   "item_id": "11073",
+   "subject": "chemistry",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 183,
+   "item_id": "1466",
+   "subject": "chemistry",
+   "error_rate": 0.88,
+   "minimum_utility_share": 0.82,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 184,
+   "item_id": "2458",
+   "subject": "chemistry",
+   "error_rate": 0.7975,
+   "minimum_utility_share": 0.3825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 185,
+   "item_id": "3415",
+   "subject": "chemistry",
+   "error_rate": 0.3725,
+   "minimum_utility_share": 0.3425,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 186,
+   "item_id": "2542",
+   "subject": "computer science",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 187,
+   "item_id": "5346",
+   "subject": "computer science",
+   "error_rate": 0.61,
+   "minimum_utility_share": 0.355,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 188,
+   "item_id": "6297",
+   "subject": "computer science",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 189,
+   "item_id": "9198",
+   "subject": "computer science",
+   "error_rate": 0.675,
+   "minimum_utility_share": 0.165,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 190,
+   "item_id": "12111",
+   "subject": "economics",
+   "error_rate": 0.925,
+   "minimum_utility_share": 0.1425,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 191,
+   "item_id": "397",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 192,
+   "item_id": "6109",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 193,
+   "item_id": "9980",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 214,
+   "item_id": "7813",
+   "subject": "other",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.93,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 215,
+   "item_id": "11172",
+   "subject": "philosophy",
+   "error_rate": 0.425,
+   "minimum_utility_share": 0.15,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 216,
+   "item_id": "609",
+   "subject": "philosophy",
+   "error_rate": 0.0025,
+   "minimum_utility_share": 0.0025,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 217,
+   "item_id": "8277",
+   "subject": "philosophy",
+   "error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 218,
+   "item_id": "5426",
+   "subject": "physics",
+   "error_rate": 0.965,
+   "minimum_utility_share": 0.9025,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 219,
+   "item_id": "7335",
+   "subject": "physics",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 220,
+   "item_id": "757",
+   "subject": "physics",
+   "error_rate": 0.05,
+   "minimum_utility_share": 0.0075,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 221,
+   "item_id": "3106",
+   "subject": "psychology",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.9525,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 222,
+   "item_id": "4973",
+   "subject": "psychology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 223,
+   "item_id": "9820",
+   "subject": "psychology",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 224,
+   "item_id": "1060",
+   "subject": "biology",
+   "error_rate": 0.46,
+   "minimum_utility_share": 0.43,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 225,
+   "item_id": "1082",
+   "subject": "biology",
+   "error_rate": 0.9975,
+   "minimum_utility_share": 0.825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 226,
+   "item_id": "2993",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 227,
+   "item_id": "7756",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 228,
+   "item_id": "3320",
+   "subject": "business",
+   "error_rate": 0.3,
+   "minimum_utility_share": 0.3,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 229,
+   "item_id": "5234",
+   "subject": "business",
+   "error_rate": 0.88,
+   "minimum_utility_share": 0.7825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 230,
+   "item_id": "6133",
+   "subject": "business",
+   "error_rate": 0.9825,
+   "minimum_utility_share": 0.3675,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 231,
+   "item_id": "7096",
+   "subject": "business",
+   "error_rate": 0.295,
+   "minimum_utility_share": 0.29,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 232,
+   "item_id": "11066",
+   "subject": "chemistry",
+   "error_rate": 0.16,
+   "minimum_utility_share": 0.0475,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 233,
+   "item_id": "2499",
+   "subject": "chemistry",
+   "error_rate": 0.315,
+   "minimum_utility_share": 0.2825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 254,
+   "item_id": "4669",
+   "subject": "history",
+   "error_rate": 0.975,
+   "minimum_utility_share": 0.83,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 255,
+   "item_id": "9430",
+   "subject": "history",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 256,
+   "item_id": "10507",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.72,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 257,
+   "item_id": "12072",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.5,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 258,
+   "item_id": "6592",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.4225,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 259,
+   "item_id": "1226",
+   "subject": "math",
+   "error_rate": 0.05,
+   "minimum_utility_share": 0.045,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 260,
+   "item_id": "7939",
+   "subject": "math",
+   "error_rate": 0.0825,
+   "minimum_utility_share": 0.03,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 261,
+   "item_id": "8878",
+   "subject": "math",
+   "error_rate": 0.9975,
+   "minimum_utility_share": 0.9575,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 262,
+   "item_id": "10690",
+   "subject": "other",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.15,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 263,
+   "item_id": "4019",
+   "subject": "other",
+   "error_rate": 0.0325,
+   "minimum_utility_share": 0.0275,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 264,
+   "item_id": "7799",
+   "subject": "other",
+   "error_rate": 0.0275,
+   "minimum_utility_share": 0.005,
+   "invalid": 0,
+   "qualifies": true
+  },
+  {
+   "position": 265,
+   "item_id": "11153",
+   "subject": "philosophy",
+   "error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 266,
+   "item_id": "3515",
+   "subject": "philosophy",
+   "error_rate": 0.4875,
+   "minimum_utility_share": 0.4775,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 267,
+   "item_id": "7292",
+   "subject": "philosophy",
+   "error_rate": 0.01,
+   "minimum_utility_share": 0.01,
+   "invalid": 0,
+   "qualifies": true
+  },
+  {
+   "position": 268,
+   "item_id": "2666",
+   "subject": "physics",
+   "error_rate": 0.1725,
+   "minimum_utility_share": 0.0475,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 269,
+   "item_id": "3521",
+   "subject": "physics",
+   "error_rate": 0.9975,
+   "minimum_utility_share": 0.8975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 270,
+   "item_id": "9302",
+   "subject": "physics",
+   "error_rate": 0.155,
+   "minimum_utility_share": 0.145,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 271,
+   "item_id": "1163",
+   "subject": "psychology",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.9725,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 272,
+   "item_id": "259",
+   "subject": "psychology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 273,
+   "item_id": "9751",
+   "subject": "psychology",
+   "error_rate": 0.955,
+   "minimum_utility_share": 0.915,
+   "invalid": 0,
+   "qualifies": false
+  }
+ ],
+ "calls": 72000
+}

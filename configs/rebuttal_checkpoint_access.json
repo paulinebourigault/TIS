@@ -1,0 +1,75 @@
+{
+ "schema_version": 1,
+ "master_seed": 20261109,
+ "bootstrap_resamples": 10000,
+ "designs": [
+  "ckpt_uniform",
+  "ckpt_occupancy",
+  "ckpt_mean",
+  "ckpt_tis",
+  "ckpt_anchored",
+  "ckpt_occ_plus_mean"
+ ],
+ "cliffwalking": {
+  "config": "configs/rebuttal_cliffwalking_attribution.json",
+  "budgets_per_kernel": [
+   100,
+   200,
+   400
+  ],
+  "replications": 500,
+  "batches": [
+   [
+    0,
+    250
+   ],
+   [
+    250,
+    500
+   ]
+  ],
+  "reference_results": "results/rebuttal_cliffwalking_attribution/raw.csv"
+ },
+ "inventory": {
+  "config": "configs/rebuttal_inventory_profit.json",
+  "budgets_per_block": [
+   150,
+   300,
+   600,
+   1200,
+   2400
+  ],
+  "replications": 300,
+  "batches": [
+   [
+    0,
+    150
+   ],
+   [
+    150,
+    300
+   ]
+  ],
+  "reference_results": "results/rebuttal_inventory_profit/raw.csv"
+ },
+ "primary": {
+  "P3": {
+   "setting": "cliffwalking",
+   "method": "ckpt_tis",
+   "reference": "rollout_model",
+   "budget": 400
+  },
+  "P4": {
+   "setting": "inventory",
+   "method": "ckpt_anchored",
+   "reference": "rollout_model",
+   "budget": 1200
+  }
+ },
+ "holm_family": [
+  "P3",
+  "P4",
+  "P5"
+ ],
+ "output_directory": "results/rebuttal_checkpoint_access"
+}

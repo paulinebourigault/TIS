@@ -95,7 +95,7 @@ def fig_main() -> None:
     fig, axes = plt.subplots(1, 2, figsize=(12.5, 5.2))
     tasks = [
         (axes[0], "cliffwalking", "(a)", "queries per kernel", [50, 100, 200, 400]),
-        (axes[1], "inventory", "(b)", "queries per block", [150, 300, 600, 1200]),
+        (axes[1], "inventory", "(b)", "queries per kernel", [150, 300, 600, 1200]),
     ]
     for ax, env, letter, xlab, ticks in tasks:
         cells = data[env]

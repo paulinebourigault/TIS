@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "model": {
+  "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "dtype": "bfloat16",
+  "library": "vllm",
+  "max_model_len": 8192,
+  "gpu_memory_utilization": 0.9,
+  "max_num_seqs": 1024,
+  "chunk": 1024
+ },
+ "decoder": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "reasoning_max_tokens": 150,
+  "reasoning_stop": [
+   "Final:"
+  ],
+  "label_regex": "[A-J][1-9]",
+  "guided_backend": "xgrammar",
+  "format": "two-stage: free reasoning stopped at 'Final:' or 150 tokens, then 'Final: ' completed by one answer and one confidence label under the label regex"
+ },
+ "prompts": {
+  "system": "You are a careful multiple-choice reasoner. Follow the requested review mode. Reply in exactly two lines, a 'Reasoning:' line and a 'Final:' line.",
+  "prior_template": "Previous output: answer {answer}; confidence label {confidence} (meaning {confidence_decimal}).",
+  "solve_template": "{item}\n\nSolve the item from scratch. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "reconsider_template": "{prior}\nReconsider the previous output carefully for a possible error. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "challenge_template": "{prior}\nChallenge the previous answer with the strongest plausible objection, then reassess it. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "verify_template": "{prior}\nIndependently verify the previous answer and confidence before reassessing them. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9."
+ },
+ "prompt_origin": "configs/llm_study_protocol.json templates; output instruction replaced by the two-line format; review turns carry the full conversation, so the item text appears once in the first user turn",
+ "policy": "default",
+ "horizon": 3,
+ "alpha": 0.1,
+ "utility": "brier",
+ "utility_timing": "final call only",
+ "screening": {
+  "sources": [
+   "frozen/llm_panel.jsonl",
+   "frozen/llm_panel_highstakes.jsonl"
+  ],
+  "runs": 100,
+  "retain": 20,
+  "error_rate_band": [
+   0.05,
+   0.95
+  ]
+ },
+ "reference": {
+  "runs": 10000,
+  "bootstrap_resamples": 2000
+ },
+ "budgets_calls_per_question": [
+  5400
+ ],
+ "replications": 100,
+ "checkpoint": {
+  "pilot_runs": "floor(N/9)",
+  "exploration_exponent": 0.25,
+  "minimum_restarts_per_visited_group": 2,
+  "restart": "a restart at stage-state (h, s) continues a stored conversation to the end of the loop (h calls)",
+  "estimate": "categorical estimator on all transitions of the pilot and the restarts"
+ },
+ "designs": [
+  "complete_rollout",
+  "rollout_model",
+  "ckpt_anchored",
+  "ckpt_tis",
+  "ckpt_occ_plus_mean",
+  "ckpt_uniform"
+ ],
+ "primary": {
+  "P6": {
+   "method": "ckpt_anchored",
+   "reference": "complete_rollout",
+   "budget": 5400,
+   "paired": false
+  },
+  "P7": {
+   "method": "ckpt_anchored",
+   "reference": "ckpt_uniform",
+   "budget": 5400,
+   "paired": true
+  }
+ },
+ "bootstrap_resamples": 10000,
+ "master_seed": 20261112,
+ "output_directory": "results/rebuttal_live_loop",
+ "scale_rule": {
+  "wall_clock_limit_hours": 12,
+  "options_in_order": [
+   {
+    "questions": 20,
+    "replications": 60
+   },
+   {
+    "questions": 20,
+    "replications": 40
+   },
+   {
+    "questions": 12,
+    "replications": 40
+   }
+  ],
+  "rule": "first option whose projected calls / (smoke-test calls per second x GPUs) fits the limit; the smallest option otherwise",
+  "smoke_runs": 1000,
+  "throughput_source": "calls per second on the first reference question (full histories)"
+ }
+}

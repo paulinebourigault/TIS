@@ -1,0 +1,41 @@
+{
+ "protocol": "configs/finqa_protocol_phi.json",
+ "panel": "frozen/finqa_panel_heldout2.jsonl",
+ "banks": "frozen/finqa_banks_heldout2.json",
+ "kernels": {
+  "ordinary": "frozen/finqa_kernels_heldout2_phi_ordinary.json",
+  "unitcheck": "frozen/finqa_kernels_heldout2_phi_unitcheck.json"
+ },
+ "workflows": [
+  "ordinary",
+  "unitcheck"
+ ],
+ "horizon": 3,
+ "alpha": 0.1,
+ "budget_per_group": 400,
+ "replications": 300,
+ "stream_methods": [
+  "tis_anchored",
+  "learned_occupancy",
+  "occ_plus_mean"
+ ],
+ "pilot_multiplier": 4.0,
+ "minimum_pilot_per_group": 8,
+ "minimum_main_per_group": 2,
+ "exploration_exponent": 0.25,
+ "master_seed": 20261119,
+ "bootstrap_resamples": 2000,
+ "primary": {
+  "P12": {
+   "workflow": "ordinary",
+   "method": "tis_anchored",
+   "reference": "complete_rollout"
+  },
+  "P13": {
+   "workflow": "unitcheck",
+   "method": "tis_anchored",
+   "reference": "complete_rollout"
+  }
+ },
+ "output_directory": "results/rebuttal_live_finqa"
+}

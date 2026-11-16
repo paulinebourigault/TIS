@@ -298,7 +298,7 @@ def make_figure(out, scatter, calib_all) -> None:
     ax.axvline(1.0, color="black", ls=":", lw=1.2)
     ax.text(1.07, 0.55, "oracle", color="black", fontsize=LEGEND - 2, ha="left",
             rotation=90, va="bottom")
-    ax.annotate("unlucky pilots:\none starved group",
+    ax.annotate("unlucky pilots:\none starved kernel",
                 xy=(150, 0.80), xytext=(7, 0.38), fontsize=LEGEND - 2,
                 arrowprops=dict(arrowstyle="->", color="black", lw=1.4),
                 color="black")

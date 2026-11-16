@@ -1,0 +1,61 @@
+{
+ "items": {
+  "7143": {
+   "cvar": 0.10555555555555557,
+   "bootstrap_variance": 1.7342040519744996e-33,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.1566
+  },
+  "12029": {
+   "cvar": 0.10555555555555557,
+   "bootstrap_variance": 1.7342040519744996e-33,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.1705
+  },
+  "4611": {
+   "cvar": 0.11150555555555557,
+   "bootstrap_variance": 7.225943744680992e-06,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.4761
+  },
+  "771": {
+   "cvar": 0.20817777777777774,
+   "bootstrap_variance": 0.0006452913070686494,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.0887
+  },
+  "12071": {
+   "cvar": 0.18533333333333335,
+   "bootstrap_variance": 0.0001866793133679109,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.1005
+  },
+  "6643": {
+   "cvar": 0.10555555555555557,
+   "bootstrap_variance": 1.7342040519744996e-33,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.9192
+  },
+  "911": {
+   "cvar": 0.10555555555555557,
+   "bootstrap_variance": 1.7342040519744996e-33,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.9641
+  },
+  "9525": {
+   "cvar": 0.12331111111111114,
+   "bootstrap_variance": 6.810507677017527e-06,
+   "runs": 10000,
+   "invalid": 0,
+   "error_rate": 0.2265
+  }
+ },
+ "calls": 240000
+}

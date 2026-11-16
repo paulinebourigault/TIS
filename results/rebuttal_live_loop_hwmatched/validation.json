@@ -1,0 +1,202 @@
+[
+ {
+  "question": 1,
+  "item_id": "1090",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.135
+ },
+ {
+  "question": 2,
+  "item_id": "2416",
+  "hardware": "H100",
+  "reference_cvar": 0.31055,
+  "h100_reference_cvar": 0.31055,
+  "rollout_mean": 0.34218981481481475,
+  "z": 1.3298573053432565,
+  "error_rate_reference": 0.0854
+ },
+ {
+  "question": 3,
+  "item_id": "6201",
+  "hardware": "H100",
+  "reference_cvar": 0.1442777777777778,
+  "h100_reference_cvar": 0.1442777777777778,
+  "rollout_mean": 0.14456635802469134,
+  "z": 0.12059308676093743,
+  "error_rate_reference": 0.3848
+ },
+ {
+  "question": 4,
+  "item_id": "10932",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.2631
+ },
+ {
+  "question": 5,
+  "item_id": "11505",
+  "hardware": "H100",
+  "reference_cvar": 0.4988222222222221,
+  "h100_reference_cvar": 0.4988222222222221,
+  "rollout_mean": 0.5192199074074073,
+  "z": 0.963545887460897,
+  "error_rate_reference": 0.0548
+ },
+ {
+  "question": 6,
+  "item_id": "6723",
+  "hardware": "H100",
+  "reference_cvar": 0.13842222222222225,
+  "h100_reference_cvar": 0.13842222222222225,
+  "rollout_mean": 0.1346759259259259,
+  "z": -1.5446402611421628,
+  "error_rate_reference": 0.8121
+ },
+ {
+  "question": 7,
+  "item_id": "6736",
+  "hardware": "H100",
+  "reference_cvar": 0.3385444444444445,
+  "h100_reference_cvar": 0.3385444444444445,
+  "rollout_mean": 0.33948070987654316,
+  "z": 0.1793016553077652,
+  "error_rate_reference": 0.1287
+ },
+ {
+  "question": 8,
+  "item_id": "4093",
+  "hardware": "H100",
+  "reference_cvar": 0.1709388888888889,
+  "h100_reference_cvar": 0.1709388888888889,
+  "rollout_mean": 0.17535956790123453,
+  "z": 0.6667925688013185,
+  "error_rate_reference": 0.1154
+ },
+ {
+  "question": 9,
+  "item_id": "9558",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.1567
+ },
+ {
+  "question": 10,
+  "item_id": "10940",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.8455
+ },
+ {
+  "question": 11,
+  "item_id": "11818",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.3593
+ },
+ {
+  "question": 12,
+  "item_id": "2388",
+  "hardware": "H100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.7815
+ },
+ {
+  "question": 13,
+  "item_id": "7143",
+  "hardware": "A100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.11402222222222223,
+  "rollout_mean": 0.10579552469135804,
+  "z": 1.0000000000000187,
+  "error_rate_reference": 0.1566
+ },
+ {
+  "question": 14,
+  "item_id": "12029",
+  "hardware": "A100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.1705
+ },
+ {
+  "question": 15,
+  "item_id": "4611",
+  "hardware": "A100",
+  "reference_cvar": 0.11150555555555557,
+  "h100_reference_cvar": 0.1060277777777778,
+  "rollout_mean": 0.11549845679012342,
+  "z": 1.3755293891415425,
+  "error_rate_reference": 0.4761
+ },
+ {
+  "question": 16,
+  "item_id": "771",
+  "hardware": "A100",
+  "reference_cvar": 0.20817777777777774,
+  "h100_reference_cvar": 0.24427777777777773,
+  "rollout_mean": 0.2599135802469136,
+  "z": 1.861710634984742,
+  "error_rate_reference": 0.0887
+ },
+ {
+  "question": 17,
+  "item_id": "12071",
+  "hardware": "A100",
+  "reference_cvar": 0.18533333333333335,
+  "h100_reference_cvar": 0.19106666666666666,
+  "rollout_mean": 0.3552777777777777,
+  "z": 9.859814115426213,
+  "error_rate_reference": 0.1005
+ },
+ {
+  "question": 18,
+  "item_id": "6643",
+  "hardware": "A100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.9192
+ },
+ {
+  "question": 19,
+  "item_id": "911",
+  "hardware": "A100",
+  "reference_cvar": 0.10555555555555557,
+  "h100_reference_cvar": 0.10555555555555557,
+  "rollout_mean": 0.10555555555555556,
+  "z": 0.0,
+  "error_rate_reference": 0.9641
+ },
+ {
+  "question": 20,
+  "item_id": "9525",
+  "hardware": "A100",
+  "reference_cvar": 0.12331111111111114,
+  "h100_reference_cvar": 0.1453166666666667,
+  "rollout_mean": 0.13419058641975307,
+  "z": 3.7639555621980154,
+  "error_rate_reference": 0.2265
+ }
+]

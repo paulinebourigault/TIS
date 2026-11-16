@@ -1,0 +1,365 @@
+{
+ "candidates_screened": [
+  {
+   "position": 60,
+   "item_id": "5561",
+   "subject": "health",
+   "error_rate": 0.995,
+   "minimum_utility_share": 0.23,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 61,
+   "item_id": "8419",
+   "subject": "health",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 62,
+   "item_id": "9469",
+   "subject": "health",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 63,
+   "item_id": "11411",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.7675,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 64,
+   "item_id": "12178",
+   "subject": "law",
+   "error_rate": 0.0025,
+   "minimum_utility_share": 0.0025,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 65,
+   "item_id": "1887",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.985,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 66,
+   "item_id": "3773",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 67,
+   "item_id": "3790",
+   "subject": "law",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 68,
+   "item_id": "5659",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.2425,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 69,
+   "item_id": "5703",
+   "subject": "law",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 70,
+   "item_id": "7601",
+   "subject": "law",
+   "error_rate": 0.9875,
+   "minimum_utility_share": 0.965,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 71,
+   "item_id": "826",
+   "subject": "law",
+   "error_rate": 0.9825,
+   "minimum_utility_share": 0.725,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 72,
+   "item_id": "9495",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.595,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 73,
+   "item_id": "952",
+   "subject": "law",
+   "error_rate": 0.9975,
+   "minimum_utility_share": 0.855,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 74,
+   "item_id": "2983",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 75,
+   "item_id": "4893",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 76,
+   "item_id": "4902",
+   "subject": "biology",
+   "error_rate": 0.795,
+   "minimum_utility_share": 0.0425,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 77,
+   "item_id": "7745",
+   "subject": "biology",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 78,
+   "item_id": "1413",
+   "subject": "business",
+   "error_rate": 0.435,
+   "minimum_utility_share": 0.0825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 79,
+   "item_id": "2399",
+   "subject": "business",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 140,
+   "item_id": "1384",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 141,
+   "item_id": "2318",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.205,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 142,
+   "item_id": "377",
+   "subject": "economics",
+   "error_rate": 0.9975,
+   "minimum_utility_share": 0.06,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 143,
+   "item_id": "6123",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 144,
+   "item_id": "10572",
+   "subject": "engineering",
+   "error_rate": 0.5475,
+   "minimum_utility_share": 0.305,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 145,
+   "item_id": "30",
+   "subject": "engineering",
+   "error_rate": 0.985,
+   "minimum_utility_share": 0.975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 146,
+   "item_id": "3895",
+   "subject": "engineering",
+   "error_rate": 0.535,
+   "minimum_utility_share": 0.43,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 147,
+   "item_id": "7716",
+   "subject": "engineering",
+   "error_rate": 0.0475,
+   "minimum_utility_share": 0.0175,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 148,
+   "item_id": "3673",
+   "subject": "health",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 149,
+   "item_id": "3750",
+   "subject": "health",
+   "error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 150,
+   "item_id": "6460",
+   "subject": "health",
+   "error_rate": 0.9725,
+   "minimum_utility_share": 0.5825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 151,
+   "item_id": "6511",
+   "subject": "health",
+   "error_rate": 0.8625,
+   "minimum_utility_share": 0.8625,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 152,
+   "item_id": "12084",
+   "subject": "history",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.995,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 153,
+   "item_id": "1795",
+   "subject": "history",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.9525,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 154,
+   "item_id": "2781",
+   "subject": "history",
+   "error_rate": 0.88,
+   "minimum_utility_share": 0.8725,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 155,
+   "item_id": "4657",
+   "subject": "history",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.9275,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 156,
+   "item_id": "1869",
+   "subject": "law",
+   "error_rate": 0.975,
+   "minimum_utility_share": 0.8475,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 157,
+   "item_id": "6614",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 0.175,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 158,
+   "item_id": "9490",
+   "subject": "law",
+   "error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 159,
+   "item_id": "1254",
+   "subject": "math",
+   "error_rate": 0.005,
+   "minimum_utility_share": 0.005,
+   "invalid": 0,
+   "qualifies": true
+  }
+ ],
+ "calls": 48000
+}

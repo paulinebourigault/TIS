@@ -1,0 +1,727 @@
+{
+ "retained_item_ids": [
+  "1090",
+  "2416",
+  "6201",
+  "10932",
+  "11505",
+  "6723",
+  "6736",
+  "4093",
+  "9558",
+  "10940",
+  "11818",
+  "2388",
+  "7143",
+  "12029",
+  "4611",
+  "771",
+  "12071",
+  "6643",
+  "911",
+  "9525"
+ ],
+ "candidates_screened": [
+  {
+   "item_id": "10619",
+   "subject": "biology",
+   "error_rate": 0.02,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1090",
+   "subject": "biology",
+   "error_rate": 0.06,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "5864",
+   "subject": "biology",
+   "error_rate": 0.96,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "8755",
+   "subject": "biology",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10009",
+   "subject": "business",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10948",
+   "subject": "business",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "11799",
+   "subject": "business",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2416",
+   "subject": "business",
+   "error_rate": 0.08,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "11017",
+   "subject": "chemistry",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "568",
+   "subject": "chemistry",
+   "error_rate": 0.98,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "6201",
+   "subject": "chemistry",
+   "error_rate": 0.46,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "8221",
+   "subject": "chemistry",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "11106",
+   "subject": "computer science",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "11107",
+   "subject": "computer science",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3454",
+   "subject": "computer science",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "6295",
+   "subject": "computer science",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10932",
+   "subject": "economics",
+   "error_rate": 0.21,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "372",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "4225",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9955",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "11505",
+   "subject": "engineering",
+   "error_rate": 0.07,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "6723",
+   "subject": "engineering",
+   "error_rate": 0.79,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "6736",
+   "subject": "engineering",
+   "error_rate": 0.16,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "988",
+   "subject": "engineering",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1767",
+   "subject": "health",
+   "error_rate": 0.99,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3690",
+   "subject": "health",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "7459",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9394",
+   "subject": "health",
+   "error_rate": 0.02,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10399",
+   "subject": "history",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2769",
+   "subject": "history",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "8506",
+   "subject": "history",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "854",
+   "subject": "history",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10376",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3697",
+   "subject": "law",
+   "error_rate": 0.97,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5674",
+   "subject": "law",
+   "error_rate": 0.96,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "4093",
+   "subject": "math",
+   "error_rate": 0.11,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "4109",
+   "subject": "math",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "8931",
+   "subject": "math",
+   "error_rate": 0.01,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2104",
+   "subject": "other",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5870",
+   "subject": "other",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9558",
+   "subject": "other",
+   "error_rate": 0.17,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "1597",
+   "subject": "philosophy",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3497",
+   "subject": "philosophy",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "7327",
+   "subject": "philosophy",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "12025",
+   "subject": "physics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2635",
+   "subject": "physics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5476",
+   "subject": "physics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "4949",
+   "subject": "psychology",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5927",
+   "subject": "psychology",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9800",
+   "subject": "psychology",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10940",
+   "subject": "business",
+   "error_rate": 0.85,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "11818",
+   "subject": "business",
+   "error_rate": 0.36,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "1418",
+   "subject": "business",
+   "error_rate": 0.96,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2388",
+   "subject": "business",
+   "error_rate": 0.73,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "477",
+   "subject": "business",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5219",
+   "subject": "business",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "7120",
+   "subject": "business",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "7129",
+   "subject": "business",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "7143",
+   "subject": "business",
+   "error_rate": 0.13,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "8129",
+   "subject": "business",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "12106",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1330",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1385",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1831",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2337",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3251",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "6101",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "6102",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9938",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9963",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10316",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10319",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10331",
+   "subject": "health",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "10366",
+   "subject": "health",
+   "error_rate": 0.02,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "12029",
+   "subject": "health",
+   "error_rate": 0.09,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "1738",
+   "subject": "health",
+   "error_rate": 0.97,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1744",
+   "subject": "health",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "2748",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3749",
+   "subject": "health",
+   "error_rate": 0.99,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "4611",
+   "subject": "health",
+   "error_rate": 0.53,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "5541",
+   "subject": "health",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5561",
+   "subject": "health",
+   "error_rate": 0.96,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "771",
+   "subject": "health",
+   "error_rate": 0.09,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "8419",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9469",
+   "subject": "health",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "11411",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "12071",
+   "subject": "law",
+   "error_rate": 0.12,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "12178",
+   "subject": "law",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "1887",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3773",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "3790",
+   "subject": "law",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5659",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "5703",
+   "subject": "law",
+   "error_rate": 0.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "6643",
+   "subject": "law",
+   "error_rate": 0.92,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "7601",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "826",
+   "subject": "law",
+   "error_rate": 0.99,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "911",
+   "subject": "law",
+   "error_rate": 0.95,
+   "invalid": 0,
+   "retained": true
+  },
+  {
+   "item_id": "9495",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "952",
+   "subject": "law",
+   "error_rate": 1.0,
+   "invalid": 0,
+   "retained": false
+  },
+  {
+   "item_id": "9525",
+   "subject": "law",
+   "error_rate": 0.19,
+   "invalid": 0,
+   "retained": true
+  }
+ ],
+ "calls": 30000
+}

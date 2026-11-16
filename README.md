@@ -76,6 +76,27 @@ python -m tis.finqa.cli run --config configs/finqa_longh_phi_ordinary.json \
 
 All scripts live in `scripts/` and read only committed inputs.
 
+### Studies added in the revision
+
+Files of these studies carry the prefix `rebuttal_`. Appendix letters refer to the revised paper.
+
+| Paper result | Script | Configuration and results |
+|---|---|---|
+| Estimator versus allocation on CliffWalking (Appendix F.2) | `rebuttal_cliffwalking_attribution.py run`, `... analyze` | `configs/rebuttal_cliffwalking_attribution.json`, `results/rebuttal_cliffwalking_attribution/` |
+| Inventory family with raw profit (F.3) | `rebuttal_inventory_profit.py gate`, `run`, `analyze` | `configs/rebuttal_inventory_profit.json`, `results/rebuttal_inventory_profit/` |
+| Rarer tails, α = .05 and .01 (F.4) | the same script with `REBUTTAL_PROFIT_CONFIG=configs/rebuttal_inventory_profit_alpha05.json` (or `_alpha01`); `rebuttal_fitted_rollouts_alpha.py run`, `analyze` | `results/rebuttal_inventory_profit_alpha05/`, `results/rebuttal_inventory_profit_alpha01/` |
+| Restarting only from visited states (F.5) | `rebuttal_checkpoint_access.py check`, `run`, `analyze`; `rebuttal_holm.py` | `configs/rebuttal_checkpoint_access.json`, `results/rebuttal_checkpoint_access/`, `results/rebuttal_holm_followup.json` |
+| Comparison with splitting (F.6) | `rebuttal_splitting_baseline.py check`, `run`, `extend`, `analyze` (one tail level per `REBUTTAL_PROFIT_CONFIG`); `ams_check`, `ams` | `configs/rebuttal_inventory_profit*.json`, `results/rebuttal_inventory_profit*/splitting_*`, `results/rebuttal_splitting_ams/` |
+| Oracle+floor with two calls (G.2) | `oracle_cutoff_diagnostic.py [processes] [budget]`, `oracle_cutoff_swap_check.py [budget]` | `results/oracle_cutoff_*.json` |
+| FinQA estimator control (G.6) | `rebuttal_live_finqa.py simulate`, `analyze --simulated` (`LIVE_FINQA_CONFIG` selects six or three calls) | `configs/rebuttal_live_finqa_planning*.json`, `results/rebuttal_live_finqa_planning/` |
+| Live review loop, three studies (H) | `run_live_loop_gpu.sh`, `run_rare_live_gpu.sh`, `rebuttal_live_loop.py` (`LIVE_LOOP_CONFIG` selects the study), `rebuttal_live_loop_hwmatched.py`; GPU | `configs/rebuttal_live_loop.json`, `configs/rebuttal_rare_live.json`, `configs/rebuttal_late_live.json`, `results/rebuttal_live_loop*/`, `results/rebuttal_rare_live/`, `results/rebuttal_late_live/` |
+| A language model as the ordering policy (I) | `rebuttal_llm_inventory.py policy` (GPU), `predict`, `simulate`, `analyze --simulated`; live run: `run` (GPU), `analyze` | `configs/rebuttal_llm_inventory*.json`, `results/rebuttal_llm_inventory*/` |
+| Other numbers quoted in the paper | `rebuttal_followup_contrasts.py`, `rebuttal_batch_summary.py` | `results/rebuttal_followup_contrasts.json`, `results/rebuttal_*/batch_summary.csv` |
+
+The tabular, inventory, splitting and FinQA studies run on CPU. The live
+language-model studies need a GPU; their sampled outputs and exact decision
+laws are included, and every analysis reruns on CPU from them.
+
 ## Declared experiments
 
 Each later study was declared, with its settings, predictions, and

@@ -1,0 +1,68 @@
+{
+ "schema_version": 1,
+ "family": "configs/inventory_family.json",
+ "profit": {
+  "sale": 4.0,
+  "order": -1.5,
+  "holding": -0.5,
+  "unmet_demand": -2.0,
+  "disruption_penalty": 0.0,
+  "lower_bound": -12.0,
+  "upper_bound": 24.0,
+  "grid_denominator": 72
+ },
+ "alpha": 0.01,
+ "budgets_per_block": [
+  150,
+  300,
+  600,
+  1200,
+  2400
+ ],
+ "replications": 300,
+ "batches": [
+  [
+   0,
+   150
+  ],
+  [
+   150,
+   300
+  ]
+ ],
+ "master_seed": 20261111,
+ "pilot": {
+  "multiplier": 4.0,
+  "minimum_pilot_per_group": 1,
+  "minimum_main_per_group": 2,
+  "exploration_exponent": 0.25
+ },
+ "methods": [
+  "uniform",
+  "learned_occupancy",
+  "learned_mean",
+  "tis",
+  "tis_anchored",
+  "occ_plus_mean",
+  "model_accuracy",
+  "complete_rollout",
+  "oracle_tail"
+ ],
+ "primary": {
+  "P5": {
+   "method": "tis_anchored",
+   "reference": "occ_plus_mean",
+   "budget": 1200
+  }
+ },
+ "rmse_tolerances_profit": {
+  "primary": 0.5,
+  "secondary": [
+   0.25,
+   1.0
+  ]
+ },
+ "bootstrap_resamples": 10000,
+ "output_directory": "results/rebuttal_inventory_profit_alpha01",
+ "holm": "external: P3, P4, P5 via scripts/rebuttal_holm.py"
+}

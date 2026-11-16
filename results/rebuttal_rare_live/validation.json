@@ -1,0 +1,142 @@
+[
+ {
+  "item_id": "10111",
+  "reference_cvar": 0.27329166666666665,
+  "rollout_mean": 0.2527121913580247,
+  "z": -0.7733014024314816,
+  "reference_error_rate": 0.0199
+ },
+ {
+  "item_id": "1016",
+  "reference_cvar": 0.7213749999999999,
+  "rollout_mean": 0.7092013888888887,
+  "z": -0.4089340905231509,
+  "reference_error_rate": 0.00605
+ },
+ {
+  "item_id": "10316",
+  "reference_cvar": 0.9040694444444444,
+  "rollout_mean": 0.914988425925926,
+  "z": 0.9548031844201207,
+  "reference_error_rate": 0.00345
+ },
+ {
+  "item_id": "10366",
+  "reference_cvar": 0.43381944444444437,
+  "rollout_mean": 0.4065239197530864,
+  "z": -0.7786466502062056,
+  "reference_error_rate": 0.0123
+ },
+ {
+  "item_id": "10865",
+  "reference_cvar": 0.8135833333333332,
+  "rollout_mean": 0.8103973765432098,
+  "z": -0.14916050610280038,
+  "reference_error_rate": 0.0038
+ },
+ {
+  "item_id": "12025",
+  "reference_cvar": 0.8994305555555553,
+  "rollout_mean": 0.8909490740740742,
+  "z": -0.5984369624556066,
+  "reference_error_rate": 0.00285
+ },
+ {
+  "item_id": "12034",
+  "reference_cvar": 0.9568194444444441,
+  "rollout_mean": 0.9561805555555557,
+  "z": -0.07524091859554556,
+  "reference_error_rate": 0.00065
+ },
+ {
+  "item_id": "1254",
+  "reference_cvar": 0.948222222222222,
+  "rollout_mean": 0.9513001543209878,
+  "z": 0.28310193321572014,
+  "reference_error_rate": 0.00105
+ },
+ {
+  "item_id": "2543",
+  "reference_cvar": 0.5303333333333332,
+  "rollout_mean": 0.5291628086419754,
+  "z": -0.22688476880925784,
+  "reference_error_rate": 0.0056
+ },
+ {
+  "item_id": "2547",
+  "reference_cvar": 0.17976388888888883,
+  "rollout_mean": 0.1736111111111111,
+  "z": -0.8523522546870796,
+  "reference_error_rate": 0.0374
+ },
+ {
+  "item_id": "2635",
+  "reference_cvar": 0.20933333333333334,
+  "rollout_mean": 0.32535493827160494,
+  "z": 2.9817646599110135,
+  "reference_error_rate": 0.018
+ },
+ {
+  "item_id": "2748",
+  "reference_cvar": 0.3506388888888889,
+  "rollout_mean": 0.37415509259259255,
+  "z": 0.5929323122092662,
+  "reference_error_rate": 0.01445
+ },
+ {
+  "item_id": "4225",
+  "reference_cvar": 0.6299999999999999,
+  "rollout_mean": 0.6637770061728394,
+  "z": 1.0712650408451354,
+  "reference_error_rate": 0.0082
+ },
+ {
+  "item_id": "5352",
+  "reference_cvar": 0.2638333333333333,
+  "rollout_mean": 0.20678626543209874,
+  "z": -1.5071581587612959,
+  "reference_error_rate": 0.01615
+ },
+ {
+  "item_id": "6268",
+  "reference_cvar": 0.4959166666666667,
+  "rollout_mean": 0.4775347222222222,
+  "z": -0.5543019864260226,
+  "reference_error_rate": 0.0109
+ },
+ {
+  "item_id": "7163",
+  "reference_cvar": 0.18448611111111105,
+  "rollout_mean": 0.20429783950617283,
+  "z": 2.7292281481895495,
+  "reference_error_rate": 0.03655
+ },
+ {
+  "item_id": "7292",
+  "reference_cvar": 0.3736527777777778,
+  "rollout_mean": 0.370625,
+  "z": -0.0734766300014347,
+  "reference_error_rate": 0.01385
+ },
+ {
+  "item_id": "778",
+  "reference_cvar": 0.6857916666666667,
+  "rollout_mean": 0.6343364197530864,
+  "z": -2.2242233645973934,
+  "reference_error_rate": 0.0109
+ },
+ {
+  "item_id": "7799",
+  "reference_cvar": 0.24518055555555548,
+  "rollout_mean": 0.2436882716049383,
+  "z": -0.364316678002651,
+  "reference_error_rate": 0.0283
+ },
+ {
+  "item_id": "8931",
+  "reference_cvar": 0.8470833333333332,
+  "rollout_mean": 0.846651234567901,
+  "z": -0.031146623228751762,
+  "reference_error_rate": 0.0058
+ }
+]

@@ -1,0 +1,134 @@
+{
+ "schema_version": 1,
+ "model": {
+  "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "dtype": "bfloat16",
+  "library": "vllm",
+  "max_model_len": 8192,
+  "gpu_memory_utilization": 0.9,
+  "max_num_seqs": 1024,
+  "chunk": 1024
+ },
+ "decoder": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "reasoning_max_tokens": 150,
+  "reasoning_stop": [
+   "Final:"
+  ],
+  "label_regex": "[A-J][1-9]",
+  "guided_backend": "xgrammar",
+  "format": "two-stage: free reasoning stopped at 'Final:' or 150 tokens, then 'Final: ' completed by one answer and one confidence label under the label regex"
+ },
+ "prompts": {
+  "system": "You are a careful multiple-choice reasoner. Follow the requested review mode. Reply in exactly two lines, a 'Reasoning:' line and a 'Final:' line.",
+  "prior_template": "Previous output: answer {answer}; confidence label {confidence} (meaning {confidence_decimal}).",
+  "solve_template": "{item}\n\nSolve the item from scratch. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "reconsider_template": "{prior}\nReconsider the previous output carefully for a possible error. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "challenge_template": "{prior}\nChallenge the previous answer with the strongest plausible objection, then reassess it. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9.",
+  "verify_template": "{prior}\nIndependently verify the previous answer and confidence before reassessing them. Reply in exactly two lines: 'Reasoning: ' followed by brief reasoning of at most 60 words, then 'Final: ' followed by one answer label from {answer_labels} and then one confidence label from {confidence_labels}, with no separator. Confidence labels 1 through 9 mean probabilities 0.1 through 0.9."
+ },
+ "prompt_origin": "configs/llm_study_protocol.json templates; output instruction replaced by the two-line format; review turns carry the full conversation, so the item text appears once in the first user turn",
+ "policy": "default",
+ "horizon": 3,
+ "alpha": 0.02,
+ "utility": "brier",
+ "utility_timing": "final call only",
+ "screening": {
+  "sources": [
+   "frozen/llm_panel.jsonl",
+   "frozen/llm_panel_highstakes.jsonl",
+   "frozen/llm_panel_rare_a.jsonl",
+   "frozen/llm_panel_rare_b.jsonl",
+   "frozen/llm_panel_rare_c.jsonl",
+   "frozen/llm_panel_rare_d.jsonl",
+   "frozen/llm_panel_rare_e.jsonl",
+   "frozen/llm_panel_rare_f.jsonl",
+   "frozen/llm_panel_rare_g.jsonl",
+   "frozen/llm_panel_rare_h.jsonl"
+  ],
+  "runs": 400,
+  "retain": 20,
+  "error_rate_band": [
+   0.005,
+   0.04
+  ],
+  "minimum_utility_share_below": 0.02,
+  "exclude_item_ids": [
+   "1090",
+   "2416",
+   "6201",
+   "10932",
+   "11505",
+   "6723",
+   "6736",
+   "4093",
+   "9558",
+   "10940",
+   "11818",
+   "2388",
+   "7143",
+   "12029",
+   "4611",
+   "771",
+   "12071",
+   "6643",
+   "911",
+   "9525",
+   "10619",
+   "8755",
+   "11799",
+   "11017",
+   "11107",
+   "3690"
+  ],
+  "exclusion_reason": "the 20 questions of study 1 and the 6 questions of an earlier calibration run",
+  "sources_note": "the two panels of the paper, then two fresh 50-question panels frozen for this experiment with the paper's panel code (seeds 20261110 and 20261111, same subject counts, excluding the paper's panels)",
+  "sharding": "batches of 20 candidates split across GPUs; every candidate is screened; the first 20 qualifying in candidate order are retained"
+ },
+ "scale": {
+  "questions": 20,
+  "replications": 40
+ },
+ "reference": {
+  "mode": "in_waves",
+  "runs_per_replication": 500,
+  "bootstrap_resamples": 2000
+ },
+ "budgets_calls_per_question": [
+  5400
+ ],
+ "checkpoint": {
+  "pilot_runs": "floor(N/9)",
+  "exploration_exponent": 0.25,
+  "minimum_restarts_per_visited_group": 2,
+  "restart": "a restart at stage-state (h, s) continues a stored conversation to the end of the loop (h calls)",
+  "estimate": "categorical estimator on all transitions of the pilot and the restarts"
+ },
+ "designs": [
+  "complete_rollout",
+  "rollout_model",
+  "ckpt_anchored",
+  "ckpt_tis",
+  "ckpt_occ_plus_mean"
+ ],
+ "primary": {
+  "P8": {
+   "method": "ckpt_anchored",
+   "reference": "complete_rollout",
+   "budget": 5400,
+   "paired": false
+  },
+  "P9": {
+   "method": "ckpt_anchored",
+   "reference": "ckpt_occ_plus_mean",
+   "budget": 5400,
+   "paired": true
+  }
+ },
+ "bootstrap_resamples": 10000,
+ "wave_replications_per_process": 2,
+ "master_seed": 20261110,
+ "output_directory": "results/rebuttal_rare_live"
+}

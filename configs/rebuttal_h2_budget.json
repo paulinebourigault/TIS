@@ -1,0 +1,21 @@
+{
+ "schema_version": 1,
+ "budgets_per_kernel": [
+  1600,
+  6400
+ ],
+ "replications": 300,
+ "swap_items": [
+  [
+   "qwen_kernels",
+   "4225",
+   86
+  ],
+  [
+   "scale2_kernels",
+   "9558",
+   5
+  ]
+ ],
+ "output_directory": "results"
+}

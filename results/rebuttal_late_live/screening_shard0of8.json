@@ -1,0 +1,605 @@
+{
+ "candidates_screened": [
+  {
+   "position": 0,
+   "item_id": "9394",
+   "subject": "health",
+   "error_rate": 0.1925,
+   "first_call_error_rate": 0.205,
+   "minimum_utility_share": 0.16,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 1,
+   "item_id": "10071",
+   "subject": "chemistry",
+   "error_rate": 0.07,
+   "first_call_error_rate": 0.0125,
+   "minimum_utility_share": 0.02,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 2,
+   "item_id": "3382",
+   "subject": "chemistry",
+   "error_rate": 0.0325,
+   "first_call_error_rate": 0.005,
+   "minimum_utility_share": 0.0275,
+   "invalid": 0,
+   "qualifies": true
+  },
+  {
+   "position": 3,
+   "item_id": "2540",
+   "subject": "computer science",
+   "error_rate": 0.2225,
+   "first_call_error_rate": 0.3175,
+   "minimum_utility_share": 0.035,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 4,
+   "item_id": "5537",
+   "subject": "health",
+   "error_rate": 0.0525,
+   "first_call_error_rate": 0.43,
+   "minimum_utility_share": 0.0525,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 5,
+   "item_id": "7222",
+   "subject": "chemistry",
+   "error_rate": 0.035,
+   "first_call_error_rate": 0.2875,
+   "minimum_utility_share": 0.0125,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 6,
+   "item_id": "7716",
+   "subject": "engineering",
+   "error_rate": 0.0275,
+   "first_call_error_rate": 0.015,
+   "minimum_utility_share": 0.0125,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 7,
+   "item_id": "5934",
+   "subject": "psychology",
+   "error_rate": 0.135,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.1025,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 8,
+   "item_id": "1436",
+   "subject": "business",
+   "error_rate": 0.03,
+   "first_call_error_rate": 0.3,
+   "minimum_utility_share": 0.0175,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 9,
+   "item_id": "9071",
+   "subject": "business",
+   "error_rate": 0.2075,
+   "first_call_error_rate": 0.675,
+   "minimum_utility_share": 0.0175,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 10,
+   "item_id": "2932",
+   "subject": "engineering",
+   "error_rate": 0.0725,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.005,
+   "invalid": 0,
+   "qualifies": true
+  },
+  {
+   "position": 11,
+   "item_id": "8622",
+   "subject": "engineering",
+   "error_rate": 0.225,
+   "first_call_error_rate": 0.35,
+   "minimum_utility_share": 0.0075,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 12,
+   "item_id": "11362",
+   "subject": "history",
+   "error_rate": 0.1775,
+   "first_call_error_rate": 0.2275,
+   "minimum_utility_share": 0.075,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 13,
+   "item_id": "2227",
+   "subject": "math",
+   "error_rate": 0.1875,
+   "first_call_error_rate": 0.0975,
+   "minimum_utility_share": 0.02,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 14,
+   "item_id": "757",
+   "subject": "physics",
+   "error_rate": 0.07,
+   "first_call_error_rate": 0.035,
+   "minimum_utility_share": 0.01,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 15,
+   "item_id": "3320",
+   "subject": "business",
+   "error_rate": 0.2775,
+   "first_call_error_rate": 0.8,
+   "minimum_utility_share": 0.2725,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 16,
+   "item_id": "7096",
+   "subject": "business",
+   "error_rate": 0.375,
+   "first_call_error_rate": 0.2875,
+   "minimum_utility_share": 0.3675,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 17,
+   "item_id": "11066",
+   "subject": "chemistry",
+   "error_rate": 0.17,
+   "first_call_error_rate": 0.0875,
+   "minimum_utility_share": 0.05,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 18,
+   "item_id": "1226",
+   "subject": "math",
+   "error_rate": 0.05,
+   "first_call_error_rate": 0.055,
+   "minimum_utility_share": 0.05,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 19,
+   "item_id": "7939",
+   "subject": "math",
+   "error_rate": 0.115,
+   "first_call_error_rate": 0.095,
+   "minimum_utility_share": 0.0575,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 160,
+   "item_id": "5202",
+   "subject": "business",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 161,
+   "item_id": "7127",
+   "subject": "business",
+   "error_rate": 0.3825,
+   "first_call_error_rate": 0.3825,
+   "minimum_utility_share": 0.375,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 162,
+   "item_id": "10123",
+   "subject": "chemistry",
+   "error_rate": 0.9225,
+   "first_call_error_rate": 0.905,
+   "minimum_utility_share": 0.0975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 163,
+   "item_id": "1547",
+   "subject": "chemistry",
+   "error_rate": 0.495,
+   "first_call_error_rate": 0.395,
+   "minimum_utility_share": 0.26,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 164,
+   "item_id": "2476",
+   "subject": "chemistry",
+   "error_rate": 0.0025,
+   "first_call_error_rate": 0.005,
+   "minimum_utility_share": 0.0025,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 165,
+   "item_id": "8173",
+   "subject": "chemistry",
+   "error_rate": 0.9625,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.7975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 166,
+   "item_id": "11934",
+   "subject": "computer science",
+   "error_rate": 0.9325,
+   "first_call_error_rate": 0.9075,
+   "minimum_utility_share": 0.9,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 167,
+   "item_id": "1560",
+   "subject": "computer science",
+   "error_rate": 1.0,
+   "first_call_error_rate": 0.995,
+   "minimum_utility_share": 0.9825,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 168,
+   "item_id": "2520",
+   "subject": "computer science",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 169,
+   "item_id": "5353",
+   "subject": "computer science",
+   "error_rate": 0.0725,
+   "first_call_error_rate": 0.42,
+   "minimum_utility_share": 0.06,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 170,
+   "item_id": "408",
+   "subject": "economics",
+   "error_rate": 0.995,
+   "first_call_error_rate": 0.9975,
+   "minimum_utility_share": 0.9225,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 171,
+   "item_id": "5114",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 172,
+   "item_id": "6558",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 173,
+   "item_id": "8019",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.9325,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 174,
+   "item_id": "1927",
+   "subject": "engineering",
+   "error_rate": 0.985,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.6175,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 175,
+   "item_id": "28",
+   "subject": "engineering",
+   "error_rate": 0.4775,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.055,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 176,
+   "item_id": "2944",
+   "subject": "engineering",
+   "error_rate": 0.425,
+   "first_call_error_rate": 0.3975,
+   "minimum_utility_share": 0.1675,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 177,
+   "item_id": "3908",
+   "subject": "engineering",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 178,
+   "item_id": "10330",
+   "subject": "health",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.5375,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 179,
+   "item_id": "3680",
+   "subject": "health",
+   "error_rate": 0.425,
+   "first_call_error_rate": 0.3525,
+   "minimum_utility_share": 0.295,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 320,
+   "item_id": "10919",
+   "subject": "economics",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 1.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 321,
+   "item_id": "1386",
+   "subject": "economics",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 322,
+   "item_id": "7067",
+   "subject": "economics",
+   "error_rate": 0.975,
+   "first_call_error_rate": 0.985,
+   "minimum_utility_share": 0.96,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 323,
+   "item_id": "7079",
+   "subject": "economics",
+   "error_rate": 0.7625,
+   "first_call_error_rate": 0.8475,
+   "minimum_utility_share": 0.325,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 324,
+   "item_id": "1020",
+   "subject": "engineering",
+   "error_rate": 0.0075,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 325,
+   "item_id": "5745",
+   "subject": "engineering",
+   "error_rate": 0.9975,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.9725,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 326,
+   "item_id": "7711",
+   "subject": "engineering",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.35,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 327,
+   "item_id": "8664",
+   "subject": "engineering",
+   "error_rate": 0.4,
+   "first_call_error_rate": 0.2625,
+   "minimum_utility_share": 0.305,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 328,
+   "item_id": "10338",
+   "subject": "health",
+   "error_rate": 0.02,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0075,
+   "invalid": 0,
+   "qualifies": true
+  },
+  {
+   "position": 329,
+   "item_id": "11318",
+   "subject": "health",
+   "error_rate": 0.9625,
+   "first_call_error_rate": 0.9625,
+   "minimum_utility_share": 0.9625,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 330,
+   "item_id": "6469",
+   "subject": "health",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.9975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 331,
+   "item_id": "6488",
+   "subject": "health",
+   "error_rate": 0.715,
+   "first_call_error_rate": 0.9575,
+   "minimum_utility_share": 0.4975,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 332,
+   "item_id": "11346",
+   "subject": "history",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 333,
+   "item_id": "6532",
+   "subject": "history",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 334,
+   "item_id": "8499",
+   "subject": "history",
+   "error_rate": 0.9925,
+   "first_call_error_rate": 0.9925,
+   "minimum_utility_share": 0.8625,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 335,
+   "item_id": "8512",
+   "subject": "history",
+   "error_rate": 0.4375,
+   "first_call_error_rate": 0.095,
+   "minimum_utility_share": 0.01,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 336,
+   "item_id": "10467",
+   "subject": "law",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 337,
+   "item_id": "12148",
+   "subject": "law",
+   "error_rate": 1.0,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.99,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 338,
+   "item_id": "1886",
+   "subject": "law",
+   "error_rate": 0.645,
+   "first_call_error_rate": 1.0,
+   "minimum_utility_share": 0.285,
+   "invalid": 0,
+   "qualifies": false
+  },
+  {
+   "position": 339,
+   "item_id": "11697",
+   "subject": "math",
+   "error_rate": 0.0,
+   "first_call_error_rate": 0.0,
+   "minimum_utility_share": 0.0,
+   "invalid": 0,
+   "qualifies": false
+  }
+ ],
+ "calls": 72000
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "item_id": "4225",
+  "kernel_index": 86,
+  "budget_per_kernel": 6400,
+  "oracle_draws": 697,
+  "reach": 0.8595305939043667,
+  "tail_scale": 3.1379477964825655e-06,
+  "margin": 0.001029248031215707,
+  "quantile_moved": 130,
+  "quantile_moved_after_swap": 0,
+  "replications": 300,
+  "mse": 0.00010379136429726977,
+  "mse_after_swap": 2.7311219511741745e-11
+ },
+ {
+  "item_id": "9558",
+  "kernel_index": 5,
+  "budget_per_kernel": 6400,
+  "oracle_draws": 233,
+  "reach": 0.9724829950515754,
+  "tail_scale": 0.0,
+  "margin": 0.006360180292413864,
+  "quantile_moved": 121,
+  "quantile_moved_after_swap": 0,
+  "replications": 300,
+  "mse": 0.00028420163367725757,
+  "mse_after_swap": 1.0346617559557386e-10
+ }
+]

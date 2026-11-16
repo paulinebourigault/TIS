@@ -1,0 +1,120 @@
+{
+ "schema_version": 1,
+ "models": {
+  "qwen": {
+   "identifier": "Qwen/Qwen3-4B-Instruct-2507",
+   "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+   "temperature": 0.7,
+   "dtype": "float32",
+   "top_logprobs": 100,
+   "max_model_len": 512,
+   "max_num_seqs": 512,
+   "gpu_memory_utilization": 0.9,
+   "samples_per_request": 2048,
+   "engine_kwargs": {
+    "max_num_batched_tokens": 4096
+   }
+  },
+  "phi": {
+   "identifier": "microsoft/Phi-4-mini-instruct",
+   "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+   "temperature": 0.7,
+   "dtype": "float32",
+   "top_logprobs": 100,
+   "max_model_len": 512,
+   "max_num_seqs": 256,
+   "gpu_memory_utilization": 0.86,
+   "samples_per_request": 2048,
+   "engine_kwargs": {
+    "max_num_batched_tokens": 4096,
+    "disable_sliding_window": true
+   }
+  }
+ },
+ "alphas": [
+  0.05,
+  0.01
+ ],
+ "budget_per_group": 150,
+ "replications": 20,
+ "simulated_replications": 300,
+ "stream_methods": [
+  "tis",
+  "tis_anchored",
+  "occ_plus_mean",
+  "learned_occupancy"
+ ],
+ "pilot": {
+  "multiplier": 4.0,
+  "minimum_pilot_per_group": 1,
+  "minimum_main_per_group": 2,
+  "exploration_exponent": 0.25
+ },
+ "master_seed": 20261120,
+ "bootstrap_resamples": 10000,
+ "primary": {
+  "P14": {
+   "model": "qwen",
+   "alpha": 0.01,
+   "method": "tis",
+   "reference": "rollout_model"
+  },
+  "P15": {
+   "model": "qwen",
+   "alpha": 0.05,
+   "method": "tis",
+   "reference": "rollout_model"
+  },
+  "P16": {
+   "model": "phi",
+   "alpha": 0.01,
+   "method": "tis",
+   "reference": "rollout_model"
+  },
+  "P17": {
+   "model": "phi",
+   "alpha": 0.05,
+   "method": "tis",
+   "reference": "rollout_model"
+  }
+ },
+ "secondary": [
+  [
+   "tis",
+   "rollout_model"
+  ],
+  [
+   "tis_anchored",
+   "rollout_model"
+  ],
+  [
+   "occ_plus_mean",
+   "rollout_model"
+  ],
+  [
+   "learned_occupancy",
+   "rollout_model"
+  ],
+  [
+   "tis_anchored",
+   "occ_plus_mean"
+  ],
+  [
+   "tis",
+   "occ_plus_mean"
+  ],
+  [
+   "rollout_model",
+   "complete_rollout"
+  ],
+  [
+   "tis",
+   "complete_rollout"
+  ],
+  [
+   "tis_anchored",
+   "complete_rollout"
+  ]
+ ],
+ "output_directory": "results/rebuttal_llm_inventory_budget150"
+}

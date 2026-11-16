@@ -1,0 +1,24 @@
+{
+ "gpus": 1,
+ "options": [
+  {
+   "questions": 20,
+   "replications": 60,
+   "projected_hours": 43.390702629232976
+  },
+  {
+   "questions": 20,
+   "replications": 40,
+   "projected_hours": 29.52199391577661
+  },
+  {
+   "questions": 12,
+   "replications": 40,
+   "projected_hours": 17.74718828258718
+  }
+ ],
+ "chosen": {
+  "questions": 12,
+  "replications": 40
+ }
+}

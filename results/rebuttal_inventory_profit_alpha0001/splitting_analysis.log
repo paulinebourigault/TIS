@@ -1,0 +1,34 @@
+alpha 0.0001; fitted-model rollouts from this experiment's runs without resampling
+ budget 300: c=0 / complete rollouts 0.989; family MSE {'complete_rollout': 31.16484, 'rollout_model': 0.34727, 'tis': 0.10975, 'tis_anchored': 0.11912, 'learned_mean': 0.26678}
+   best profit|own: {'parameter': 4.0, 'estimator': 'weighted'} / complete 0.005; TIS/best 0.667 [0.63, 0.706]; anchor/best 0.724; fitted rollouts/best 2.110; TIS lower in 18/18 (resolved 17 better, 0 worse)
+   best profit|fitted: {'parameter': 3.0, 'estimator': 'fitted'} / complete 0.003; TIS/best 1.144 [1.081, 1.214]; anchor/best 1.242; fitted rollouts/best 3.621; TIS lower in 1/18 (resolved 0 better, 2 worse)
+   profit|fitted_same_run_over_own: 0.608 [0.572, 0.646]
+   best profit_value|own: {'parameter': 5.0, 'estimator': 'weighted'} / complete 0.003; TIS/best 1.074 [1.016, 1.138]; anchor/best 1.166; fitted rollouts/best 3.400; TIS lower in 8/18 (resolved 0 better, 2 worse)
+   best profit_value|fitted: {'parameter': 5.0, 'estimator': 'fitted'} / complete 0.002; TIS/best 1.442 [1.363, 1.526]; anchor/best 1.565; fitted rollouts/best 4.562; TIS lower in 0/18 (resolved 0 better, 13 worse)
+   profit_value|fitted_same_run_over_own: 0.745 [0.705, 0.789]
+   per_case_hindsight|model_free_levels: TIS/per-case-best 0.724, anchor 0.786, fitted rollouts 2.290; TIS lower in 17/18 (16 variants)
+   per_case_hindsight|all_levels: TIS/per-case-best 1.148, anchor 1.246, fitted rollouts 3.634; TIS lower in 2/18 (32 variants)
+ budget 1200: c=0 / complete rollouts 0.986; family MSE {'complete_rollout': 9.23975, 'rollout_model': 0.08838, 'tis': 0.02275, 'tis_anchored': 0.0277, 'learned_mean': 0.06795}
+   best ams_time|own: {'parameter': 0.33, 'estimator': 'selfnorm'} / complete 0.027; TIS/best 0.090 [0.085, 0.096]; anchor/best 0.110; fitted rollouts/best 0.351; TIS lower in 18/18 (resolved 18 better, 0 worse)
+   best ams_time|fitted: {'parameter': 0.39, 'estimator': 'fitted'} / complete 0.004; TIS/best 0.564 [0.53, 0.602]; anchor/best 0.687; fitted rollouts/best 2.192; TIS lower in 18/18 (resolved 16 better, 0 worse)
+   ams_time|fitted_same_run_over_own: 0.172 [0.16, 0.185]
+   best ams_value|own: {'parameter': 0.39, 'estimator': 'selfnorm'} / complete 0.028; TIS/best 0.089 [0.083, 0.095]; anchor/best 0.108; fitted rollouts/best 0.346; TIS lower in 18/18 (resolved 18 better, 0 worse)
+   best ams_value|fitted: {'parameter': 0.45, 'estimator': 'fitted'} / complete 0.005; TIS/best 0.514 [0.483, 0.548]; anchor/best 0.626; fitted rollouts/best 1.998; TIS lower in 18/18 (resolved 16 better, 0 worse)
+   ams_value|fitted_same_run_over_own: 0.179 [0.167, 0.191]
+   best profit|own: {'parameter': 5.0, 'estimator': 'weighted'} / complete 0.004; TIS/best 0.557 [0.524, 0.592]; anchor/best 0.678; fitted rollouts/best 2.162; TIS lower in 18/18 (resolved 17 better, 0 worse)
+   best profit|fitted: {'parameter': 3.0, 'estimator': 'fitted'} / complete 0.003; TIS/best 0.917 [0.866, 0.973]; anchor/best 1.117; fitted rollouts/best 3.563; TIS lower in 10/18 (resolved 3 better, 1 worse)
+   profit|fitted_same_run_over_own: 0.711 [0.668, 0.758]
+   best profit_value|own: {'parameter': 5.0, 'estimator': 'weighted'} / complete 0.003; TIS/best 0.837 [0.791, 0.886]; anchor/best 1.019; fitted rollouts/best 3.251; TIS lower in 18/18 (resolved 5 better, 0 worse)
+   best profit_value|fitted: {'parameter': 6.0, 'estimator': 'fitted'} / complete 0.002; TIS/best 1.136 [1.073, 1.201]; anchor/best 1.382; fitted rollouts/best 4.411; TIS lower in 3/18 (resolved 0 better, 3 worse)
+   profit_value|fitted_same_run_over_own: 0.742 [0.7, 0.784]
+   per_case_hindsight|model_free_levels: TIS/per-case-best 0.579, anchor 0.705, fitted rollouts 2.249; TIS lower in 18/18 (32 variants)
+   per_case_hindsight|all_levels: TIS/per-case-best 0.917, anchor 1.117, fitted rollouts 3.562; TIS lower in 15/18 (64 variants)
+ budget 2400: c=0 / complete rollouts 1.048; family MSE {'complete_rollout': 4.8378, 'rollout_model': 0.04821, 'tis': 0.01085, 'tis_anchored': 0.01323, 'learned_mean': 0.03361}
+   best profit|own: {'parameter': 4.0, 'estimator': 'weighted'} / complete 0.004; TIS/best 0.528 [0.498, 0.559]; anchor/best 0.644; fitted rollouts/best 2.345; TIS lower in 18/18 (resolved 18 better, 0 worse)
+   best profit|fitted: {'parameter': 3.0, 'estimator': 'fitted'} / complete 0.003; TIS/best 0.894 [0.844, 0.948]; anchor/best 1.091; fitted rollouts/best 3.975; TIS lower in 12/18 (resolved 2 better, 0 worse)
+   profit|fitted_same_run_over_own: 0.622 [0.586, 0.661]
+   best profit_value|own: {'parameter': 5.0, 'estimator': 'weighted'} / complete 0.003; TIS/best 0.828 [0.781, 0.877]; anchor/best 1.010; fitted rollouts/best 3.681; TIS lower in 16/18 (resolved 9 better, 0 worse)
+   best profit_value|fitted: {'parameter': 6.0, 'estimator': 'fitted'} / complete 0.002; TIS/best 1.112 [1.052, 1.175]; anchor/best 1.356; fitted rollouts/best 4.941; TIS lower in 3/18 (resolved 0 better, 1 worse)
+   profit_value|fitted_same_run_over_own: 0.755 [0.711, 0.801]
+   per_case_hindsight|model_free_levels: TIS/per-case-best 0.566, anchor 0.691, fitted rollouts 2.517; TIS lower in 18/18 (16 variants)
+   per_case_hindsight|all_levels: TIS/per-case-best 0.896, anchor 1.093, fitted rollouts 3.982; TIS lower in 13/18 (32 variants)
